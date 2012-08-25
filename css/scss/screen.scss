@@ -1,7 +1,7 @@
 @import "base";
 
 
-$homeWidth: 1000px;
+$fullWidth: 1000px;
 $postWidth: 750px;
 
 // Page structure
@@ -26,13 +26,19 @@ body {
   margin: 0 auto;
   position: relative;
 
-  .home & {
-    width: $homeWidth;
-  }
+  width: $postWidth;
 
-  .post & {
-    width: $postWidth;
-  }
+  .home &, .about & { width: $fullWidth }
+  .post & { width: $postWidth; }
+}
+
+.left {
+  width: 60%;
+  float: left;
+}
+.right {
+  width: 35%;
+  float: right;
 }
 
 
@@ -69,6 +75,21 @@ h4 { font-size: 1.2em; margin: 1em 0 0.6em 0; color: $lightGray; }
 // Color
 
 .light { color: $lighterGray; }
+
+
+// Content
+
+img, iframe, object, embed, audio, video {
+  display: block;
+  margin: 20px auto;
+  max-width: $postWidth;
+}
+
+img {
+  padding: 3px;
+  border: 1px solid $lightestGray;
+  max-width: 100%;
+}
 
 
 // Header
@@ -111,14 +132,6 @@ header[role="banner"] {
 // Homepage layout
 
 .home {
-  .left {
-    width: 60%;
-    float: left;
-  }
-  .right {
-    width: 35%;
-    float: right;
-  }
   h2 {
     margin-top: 1.2em;
   }
@@ -131,17 +144,6 @@ header[role="banner"] {
   time {
     color: $lightGray;
     font-size: 0.9em;
-  }
-  img, iframe, object, embed, audio, video {
-    display: block;
-    margin: 20px auto;
-    max-width: $postWidth;
-  }
-
-  img {
-    padding: 3px;
-    border: 1px solid $lightestGray;
-    max-width: 100%;
   }
 }
 
