@@ -1,7 +1,11 @@
 require 'rubygems'
 require 'rake'
 
-desc "Compile CoffeeScript, SCSS, and all of the above."
+#
+# Compile
+#
+
+desc "Compile everything"
 task :compile do
   sh "jekyll"
   sh "coffee -o js/compiled -c js/coffeescript/*.coffee"
@@ -11,17 +15,31 @@ end
 
 
 #
-# Watch tasks
+# Watch & continuously compile
 #
 
+desc "Watch-compile jekyll site"
 task :jekyll do
   sh "jekyll --auto --server"
 end
 
+desc "Watch-compile coffeescript"
 task :coffee do
   sh "coffee -o js/compiled -cw js/coffeescript/*.coffee"
 end
 
+desc "Watch-compile SCSS with Compass"
 task :compass do
   sh "compass watch"
+end
+
+
+#
+# Deploy
+#
+
+desc "Deploy site"
+task :deploy do
+  sh "rsync -r -a -v -e \"ssh -l feross -p 44444\" --delete _site future:/home/feross/www/dev.feross.org/"
+  sh "rsync -r -a -v -e \"ssh -l feross -p 44444\" --delete nginx.conf future:/home/feross/www/dev.feross.org/"
 end
