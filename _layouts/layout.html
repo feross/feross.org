@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <!--
+
+  Feross Aboukhadijeh
+  http://feross.org
+
+  Far better is it to dare mighty things, to win glorius triumphs,
+  even though checkered by failure... than to rank with those poor spirits
+  who neither enjoy nor suffer much, because they live in a gray twilight
+  that knows not victory nor defeat.
+                                                  — Theodore Roosevelt
+  
+  -->
+
+  <title>{{ page.title }} &raquo; Feross.org</title>
+  <meta name="description" content="Feross Aboukhadijeh is a computer security researcher, teacher, web developer, designer, long distance runner, gamer, music lover, and builder of websites that (sometimes) go viral.">
+  <meta name="author" content="Feross Aboukhadijeh">
+  <link href="https://plus.google.com/108080265905114949970" rel="author" />
+
+  <link rel="stylesheet" href="/css/compiled/screen.css" />
+
+  <!-- Typekit -->
+  <script type="text/javascript" src="//use.typekit.net/lvb8hht.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body class="{{ page.class }}">
+  <div id="container">
+
+    <header role="banner">
+      <h1><a href="http://feross.org" title="Feross Aboukhadijeh">Feross<span>.org</span></a></h1>
+      <!-- <h2>About - Projects - Contact</h2> -->
+    </header>
+
+    {{ content }}
+
+  </div>
+
+  <!-- TODO: host jquery locally -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="/js/compiled/script.js"></script>
+
+  {% if page.script %}
+    <!-- Page-specific script -->
+    <script>
+      $(function() {
+        {{ page.script }}
+      });
+    </script>
+  {% endif %}
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-3898076-5'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+  <!-- StatCounter Code -->
+  <script type="text/javascript">
+      var sc_project=4429957;
+      var sc_invisible=1;
+      var sc_security="eb342ceb";
+  </script>
+  <script type="text/javascript" src="//www.statcounter.com/counter/counter.js"></script><noscript><div class="statcounter"><img class="statcounter" src="http://c.statcounter.com/4429957/0/eb342ceb/1/"></div></noscript>
+
+</body>
+</html>

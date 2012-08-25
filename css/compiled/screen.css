@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "CenturyOldStyleFS";
+  src: url('fonts/CenturyOldStyle-Regular-webfont.eot');
+  src: url('fonts/CenturyOldStyle-Regular-webfont.eot?#iefix') format('eot'), url('fonts/CenturyOldStyle-Regular-webfont.woff') format('woff'), url('fonts/CenturyOldStyle-Regular-webfont.ttf') format('truetype'), url('fonts/CenturyOldStyle-Regular-webfont.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CenturyOldStyleFS";
+  src: url('fonts/CenturyOldStyle-Bold-webfont.eot');
+  src: url('fonts/CenturyOldStyle-Bold-webfont.eot?#iefix') format('eot'), url('fonts/CenturyOldStyle-Bold-webfont.woff') format('woff'), url('fonts/CenturyOldStyle-Bold-webfont.ttf') format('truetype'), url('fonts/CenturyOldStyle-Bold-webfont.svg#webfont') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CenturyOldStyleFS";
+  src: url('fonts/CenturyOldStyle-Italic-webfont.eot');
+  src: url('fonts/CenturyOldStyle-Italic-webfont.eot?#iefix') format('eot'), url('fonts/CenturyOldStyle-Italic-webfont.woff') format('woff'), url('fonts/CenturyOldStyle-Italic-webfont.ttf') format('truetype'), url('fonts/CenturyOldStyle-Italic-webfont.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CenturyOldStyleFSCaps";
+  src: url('fonts/CenturyOldStyleCaps-Regular-webfont.eot');
+  src: url('fonts/CenturyOldStyleCaps-Regular-webfont.eot?#iefix') format('eot'), url('fonts/CenturyOldStyleCaps-Regular-webfont.woff') format('woff'), url('fonts/CenturyOldStyleCaps-Regular-webfont.ttf') format('truetype'), url('fonts/CenturyOldStyleCaps-Regular-webfont.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 77, ../scss/_base.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 78, ../scss/_base.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 79, ../scss/_base.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 6, ../scss/screen.scss */
+html {
+  background-color: #fefcf6;
+  color: #222222;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  overflow-y: scroll;
+}
+
+/* line 13, ../scss/screen.scss */
+body {
+  border-top: 3px solid #dc322f;
+  margin: 0 0 100px 0;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+/* line 21, ../scss/screen.scss */
+#container {
+  margin: 0 auto;
+  position: relative;
+}
+/* line 25, ../scss/screen.scss */
+.home #container {
+  width: 1000px;
+}
+/* line 29, ../scss/screen.scss */
+.post #container {
+  width: 650px;
+}
+
+/* line 38, ../scss/screen.scss */
+a:link, a:visited {
+  color: #dc322f;
+  text-decoration: underline;
+}
+
+/* line 48, ../scss/screen.scss */
+h2 {
+  font-size: 1.6em;
+  margin: 25px 0 5px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+/* line 58, ../scss/screen.scss */
+.light {
+  color: #bbbbbb;
+}
+
+/* line 63, ../scss/screen.scss */
+header[role="banner"] {
+  text-align: center;
+}
+/* line 66, ../scss/screen.scss */
+header[role="banner"] h1 {
+  font-family: "CenturyOldStyleFSCaps", "Adobe Caslon Pro", Caslon, Baskerville, Palatino, "Palatino Linotype", "Hoefler Text", Garamond, "URW Palladio L", "Book Antiqua", Georgia, serif;
+  font-size: 5em;
+  line-height: 1em;
+  margin: 35px 0 0 0;
+}
+/* line 81, ../scss/screen.scss */
+header[role="banner"] span {
+  font-size: 0.5em;
+}
+/* line 86, ../scss/screen.scss */
+header[role="banner"] a:link, header[role="banner"] a:visited {
+  opacity: 0.85;
+  text-decoration: none;
+}
+/* line 90, ../scss/screen.scss */
+header[role="banner"] a:hover, header[role="banner"] a:focus, header[role="banner"] a:active {
+  opacity: 1;
+}
+/* line 94, ../scss/screen.scss */
+header[role="banner"] a:before {
+  content: "{ ";
+}
+/* line 98, ../scss/screen.scss */
+header[role="banner"] a:after {
+  content: " }";
+}
+
+/* line 125, ../scss/screen.scss */
+.home .left {
+  width: 60%;
+  float: left;
+}
+/* line 129, ../scss/screen.scss */
+.home .right {
+  width: 35%;
+  float: right;
+}
+/* line 133, ../scss/screen.scss */
+.home h2 {
+  color: #444444;
+}
+
+/* line 141, ../scss/screen.scss */
+ul.listing {
+  margin: 20px 0 30px 0;
+  padding: 0;
+}
+/* line 146, ../scss/screen.scss */
+ul.listing li {
+  list-style: none;
+  margin: 20px 0;
+}
+/* line 153, ../scss/screen.scss */
+ul.listing a:link, ul.listing a:visited {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 158, ../scss/screen.scss */
+ul.listing a:hover, ul.listing a:focus, ul.listing a:active {
+  text-decoration: underline;
+}
+/* line 163, ../scss/screen.scss */
+ul.listing span, ul.listing time {
+  display: block;
+}
+/* line 167, ../scss/screen.scss */
+ul.listing span {
+  color: #999999;
+}
+/* line 171, ../scss/screen.scss */
+ul.listing time {
+  color: #bbbbbb;
+}

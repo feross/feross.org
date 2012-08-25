@@ -1,0 +1,14 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "folder_exclude_patterns": ["_site", ".sass-cache", "css/compiled", "js/compiled"],
+            "file_exclude_patterns": ["*.sublime-workspace"]
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 2
+    }
+}
