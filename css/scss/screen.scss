@@ -196,3 +196,28 @@ ul.listing {
   overflow: auto;
 }
 
+
+// Misc
+
+#github {
+  position: absolute;
+  top: 45px;
+  right: -75px;
+
+  @include rotate(45deg);
+
+  background: darken($red, 10%);
+  color: #fff;
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 2px 80px;
+  text-align: center;
+  text-decoration: none;
+  @include text-shadow(10px, 10px, 10px, $darkerGray);
+  @include single-box-shadow;
+
+  #{$focus} {
+    background: $red;
+  }
+}
