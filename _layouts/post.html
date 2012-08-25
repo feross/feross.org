@@ -11,6 +11,7 @@ class: post
   <section class="byline">
     {{ page.date | date: "%B %e, %Y" }}
   </section>
+  <time>{{ page.date | date: "%B %e, %Y" }}</time>
 
   <section class="tags">
     {% for tag in page.tags %}
