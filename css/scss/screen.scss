@@ -1,21 +1,25 @@
 @import "base";
 
 
+$homeWidth: 1000px;
+$postWidth: 750px;
+
 // Page structure
 
 html {
-  background-color: $bgColor;
-  color: $darkerGray;
-  font-family: $sans-serif;
   overflow-y: scroll;
 }
 
 body {
   border-top: 3px solid $red;
+  background-color: $bgColor;
+  color: $darkGray;
+  font-family: $sans-serif;
   margin: 0 0 100px 0;
-  font-size: 17px;
-  line-height: 24px;
-  // -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+
+  font-size: 18px;
+  line-height: 27px;
 }
 
 #container {
@@ -23,11 +27,11 @@ body {
   position: relative;
 
   .home & {
-    width: 1000px;
+    width: $homeWidth;
   }
 
   .post & {
-    width: 650px;
+    width: $postWidth;
   }
 }
 
@@ -39,18 +43,27 @@ a {
     color: $red;
     text-decoration: underline;
   }
+  #{$focus} {
+    text-decoration: none;
+  }
 }
 
-h1 {
-
-}
-
-h2 {
-  font-size: 1.6em;
-  margin: 25px 0 5px 0;
-  padding-bottom: 5px;
+h1, h2, h3, h4 {
+  color: $darkGray;
+  line-height: 1em;
+  padding-bottom: 0.2em;
   border-bottom: 1px solid $lighterGray;
+
+  // Links in h1 should not affect style
+  .post .content & a {
+    color: $darkerGray;
+    text-decoration: none;
+  }
 }
+h1 { font-size: 2.0em; margin: 1em 0 0.2em 0; }
+h2 { font-size: 1.6em; margin: 1em 0 0.6em 0; }
+h3 { font-size: 1.4em; margin: 1em 0 0.6em 0; color: $lightGray; }
+h4 { font-size: 1.2em; margin: 1em 0 0.6em 0; color: $lightGray; }
 
 
 // Color
@@ -64,24 +77,13 @@ header[role="banner"] {
   text-align: center;
 
   h1 {
+    border-bottom: none;
     font-family: $serif-caps;
     font-size: 5em;
+    font-weight: normal;
     line-height: 1em;
     margin: 35px 0 0 0;
   }
-
-  // h2 {
-  //   // font-family: $serif;
-  //   font-size: 1.5em;
-  //   font-weight: normal;
-  //   line-height: 3em;
-  //   margin: 0;
-  // }
-
-  span {
-    font-size: 0.5em;
-  }
-
   a {
     #{$link} {
       opacity: 0.85;
@@ -90,32 +92,14 @@ header[role="banner"] {
     #{$focus} {
       opacity: 1;
     }
-
     &:before {
       content: "{ ";
     }
-
     &:after {
       content: " }";
     }
   }
 
-  // &:after {
-  //   content: "";
-  //   position: absolute;
-  //   height: 1px;
-  //   left: 0;
-  //   right: 0;
-
-  //   @include background-image(linear-gradient(
-  //     left,
-  //     rgba($red, 0) 0%,
-  //     rgba($red, 1) 30%,
-  //     rgba($red, 1) 70%,
-  //     rgba($red, 0) 100%
-  //   ));
-
-  // }
 }
 
 
@@ -131,7 +115,28 @@ header[role="banner"] {
     float: right;
   }
   h2 {
-    color: $darkGray;
+    margin-top: 1.2em;
+  }
+}
+
+
+// Post layout
+
+.post {
+  time {
+    color: $lightGray;
+    font-size: 0.9em;
+  }
+  img, iframe, object, embed, audio, video {
+    display: block;
+    margin: 20px auto;
+    max-width: $postWidth;
+  }
+
+  img {
+    padding: 3px;
+    border: 1px solid $lightestGray;
+    max-width: 100%;
   }
 }
 
@@ -139,7 +144,6 @@ header[role="banner"] {
 // Listing
 
 ul.listing {
-
   margin: 20px 0 30px 0;
   padding: 0;
 
@@ -147,9 +151,7 @@ ul.listing {
     list-style: none;
     margin: 20px 0;
   }
-
   a {
-
     #{$link} {
       font-size: 1.1em;
       font-weight: bold;
@@ -165,13 +167,32 @@ ul.listing {
   }
 
   span {
-    color: $lightGray;
+    color: $gray;
   }
 
   time {
-    color: $lighterGray;
+    color: $lightGray;
   }
 
 }
 
+
+// Pygments syntax highlighting
+
+.highlight {
+  margin: 0 0 1.2em 0;
+  background-color: #eee;
+  font-size: 13px;
+  line-height: 1.4em;
+  padding: 0px 15px;
+  @include border-radius(10px);
+  overflow: hidden;
+  color: #111;
+}
+.hightlight code{
+  float: left;
+}
+.highlight:hover {
+  overflow: auto;
+}
 
