@@ -18,7 +18,7 @@ Today, I discovered just ***how little talent*** it requires to make a modern po
           <source src="/images/Amazing-Kanye-West-cover.ogg" type="audio/ogg">
         </audio>
         <a href="/images/Amazing-Kanye-West-cover.mp3" title="Amazing by Feross">
-          <img alt="Feross Aboukhadijeh = Tall" src="/images/feross-tall.jpg">
+          <img alt="Feross Aboukhadijeh = Tall" src="/images/feross-tall.jpg" />
         </a>
       </td>
       <td style="font-size:40px;font-weight:bold;text-align:center;padding:0 20px;">
@@ -30,7 +30,7 @@ Today, I discovered just ***how little talent*** it requires to make a modern po
           <source src="/images/Amazing-Kayne-West.ogg" type="audio/ogg">
         </audio>
         <a href="/images/Amazing-Kanye-West.mp3" title="Amazing by Kanye West">
-          <img alt="Kanye West = Short" src="/images/kanye-short.jpg">
+          <img alt="Kanye West = Short" src="/images/kanye-short.jpg" />
         </a>
       </td>
     </tr>
