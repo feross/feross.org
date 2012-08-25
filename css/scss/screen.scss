@@ -202,27 +202,41 @@ ul.listing {
 }
 
 
-// Misc
+// About
 
-#github {
+.about img {
+  // float: right;
+  // width: 300px;
+}
+
+#ageInDays { font-style: italic; }
+
+
+// Nav
+
+nav {
   position: absolute;
-  top: 50px;
-  right: -75px;
+  top: 5px;
+  right: 0;
 
-  @include rotate(45deg);
+  a {
+    #{$link} {
+      background: rgba($red, 0.8);
+      @include border-radius(15px);
+      color: #fff;
+      display: inline-block;
+      font-size: 0.8em;
+      font-weight: bold;
+      height: 30px;
+      line-height: 2.1em;
+      margin-left: 10px;
+      padding: 0 15px;
+      text-align: center;
+      text-decoration: none;
+    }
 
-  background: darken($red, 10%);
-  color: #fff;
-  display: block;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 2px 80px;
-  text-align: center;
-  text-decoration: none;
-  @include text-shadow(10px, 10px, 10px, $darkerGray);
-  @include single-box-shadow;
-
-  #{$focus} {
-    background: $red;
+    #{$focus} {
+      background: rgba($red, 1);
+    }
   }
 }

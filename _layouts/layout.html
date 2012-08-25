@@ -38,11 +38,20 @@
       <!-- <h2>About - Projects - Contact</h2> -->
     </header>
 
-    {{ content }}
+    {% if page.class != "post" %}
+      <nav>
+        <a href="/about/">About</a>
+        <a href="/portfolio/">Projects</a>
+        <!-- <a href="/quotes/">Quotes</a> -->
+        <!-- <a href="https://github.com/feross">GitHub</a> -->
+      </nav>
+    {% endif %}
+
+    <section class="content">
+      {{ content }}
+    </section>
 
   </div>
-
-  <a href="https://github.com/feross/feross.org" id="github">Fork me on GitHub!</a>
 
   <!-- TODO: host jquery locally -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
