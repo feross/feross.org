@@ -3,9 +3,9 @@ layout: post
 title: Thoughts on free will
 ---
 
-You cannot control the next thought that will pop into your head. In fact, using [functional magnetic resonance imaging](http://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging) (fMRI) it is possible to see your decisions before you realize that you've made them.
+You cannot control the next thought that will pop into your head. Seriously!
 
-Researchers asked people to press a button using their left or right index fingers while monitoring their real time brain activity using fMRI. [The results](http://www.nature.com/news/2011/110831/full/477023a.html) were surprising:
+In fact, using [functional magnetic resonance imaging](http://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging) (fMRI) it is possible to see your decisions before you realize that you've made them. Researchers asked people to press a button using their left or right index fingers while monitoring their real time brain activity using fMRI. [The results](http://www.nature.com/news/2011/110831/full/477023a.html) were surprising:
 
 > The conscious decision to push the button was made about a second before the actual act, but the team discovered that **a pattern of brain activity seemed to predict that decision by as many as seven seconds. Long before the subjects were even aware of making a choice, it seems, their brains had already decided.** (from [Nature](http://www.nature.com/news/2011/110831/full/477023a.html))
 
