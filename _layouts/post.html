@@ -24,8 +24,8 @@ class: post
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'feross-org'; // required: replace example with your forum shortname
-        var disqus_developer = 1;
+        var disqus_shortname = 'feross-org';
+        var disqus_developer = (window.location.hostname == 'localhost') ? 1 : 0;
         var disqus_url = 'http://feross.org{{ page.url }}/';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
