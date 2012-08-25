@@ -9,15 +9,14 @@ Today, I discovered just ***how little talent*** it requires to make a modern po
 
 **MacBook Pro + Built-in Mic + GarageBand + AutoTune + 1 hour =**
 
-<table border="0">
+<table border="0" style="margin: 0 auto;">
   <tbody>
     <tr>
       <td>
-        <audio controls style="width: 100%;">
+        <audio controls style="width: 100%;" preload="auto">
           <source src="/images/Amazing-Kanye-West-cover.mp3" type="audio/mpeg">
           <source src="/images/Amazing-Kanye-West-cover.ogg" type="audio/ogg">
         </audio>
-        <br><br>
         <a href="/images/Amazing-Kanye-West-cover.mp3" title="Amazing by Feross">
           <img alt="Feross Aboukhadijeh = Tall" src="/images/feross-tall.jpg">
         </a>
@@ -26,11 +25,10 @@ Today, I discovered just ***how little talent*** it requires to make a modern po
         VS.
       </td>
       <td>
-        <audio controls style="width: 100%;">
+        <audio controls style="width: 100%;" preload="auto">
           <source src="/images/Amazing-Kayne-West.mp3" type="audio/mpeg">
           <source src="/images/Amazing-Kayne-West.ogg" type="audio/ogg">
         </audio>
-        <br><br>
         <a href="/images/Amazing-Kanye-West.mp3" title="Amazing by Kanye West">
           <img alt="Kanye West = Short" src="/images/kanye-short.jpg">
         </a>

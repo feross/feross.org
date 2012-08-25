@@ -15,7 +15,7 @@ At the end of the concert, Uematsu got a **4-minute standing ovation** (no exagg
 
 My favorite song from FF.
 
-<audio controls style="width: 100%;">
+<audio controls preload="auto">
   <source src="/images/Zanarkand-Final-Fantasy-X.mp3" type="audio/mpeg">
   <source src="/images/Zanarkand-Final-Fantasy-X.ogg" type="audio/ogg">
 </audio>

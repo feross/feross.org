@@ -57,7 +57,7 @@ Check it out: I'm in a Chinese newspaper (Oriental Morning Post) (click for full
 
 I even did a couple interviews with some foreign TV and Radio stations. Here's the bumper for Chennai Live 104.8 FM in Chennai, India.
 
-<audio controls style="width: 100%;">
+<audio controls preload="auto">
   <source src="/images/live-cafe-feross.mp3" type="audio/mpeg">
   <source src="/images/live-cafe-feross.ogg" type="audio/ogg">
 </audio>
