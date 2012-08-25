@@ -206,7 +206,7 @@ ul.listing {
 
 #github {
   position: absolute;
-  top: 45px;
+  top: 50px;
   right: -75px;
 
   @include rotate(45deg);
@@ -214,7 +214,7 @@ ul.listing {
   background: darken($red, 10%);
   color: #fff;
   display: block;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   padding: 2px 80px;
   text-align: center;
