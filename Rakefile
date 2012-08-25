@@ -39,7 +39,7 @@ end
 #
 
 desc "Deploy site"
-task :deploy do
+task :publish do
   sh "rsync -r -a -v -e \"ssh -l feross -p 44444\" --delete _site future:/home/feross/www/dev.feross.org/"
   sh "rsync -r -a -v -e \"ssh -l feross -p 44444\" --delete nginx.conf future:/home/feross/www/dev.feross.org/"
 end
