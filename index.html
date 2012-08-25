@@ -2,98 +2,93 @@
 layout: layout
 title: "Home of Feross Aboukhadijeh"
 class: home
----
+---  
+<div class="left">
+  <h2>Blog of Pure Concentrated Awesome</span></h2>
+  <ul class="listing">
+    {% for post in site.posts %}
+    <li class="clearfix">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <time>{{ post.date | date: "%B %e, %Y" }}</time>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 
-<section id="content">
-  
-  <div class="left">
-    <h2>My Blog <span class="light">(Pure Concentrated Awesome)</span></h2>
-    <ul class="listing">
-      {% for post in site.posts %}
-      <li class="clearfix">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <time>{{ post.date | date: "%B %e, %Y" }}</time>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+<div class="right">
+  <h2>Current Project</h2>
+  <ul class="listing">
+    <li>
+      <a href="http://studynotes.org">Study Notes</a>
+      <span>Free study materials for high school students.</span>
+    </li>
+  </ul>
+  <h2>Past Projects</h2>
+  <ul class="listing">
+    <li>
+      <a href="http://instant.fm">Instant.fm</a>
+      <span>Share music playlists with your friends.</span>
+    </li>
+    <li>
+      <a href="http://ytinstant.com">YouTube Instant</a>
+      <span>Fast search for YouTube videos.</span>
+    </li>
+    <li>
+      <a href="/webcam-spy/">Webcam Spy</a>
+      <span>Vulnerability in Flash that lets you spy on the webcams of your website visitors.</span>
+    </li>
+    <li>
+      <a href="/cmsploit/">CMSploit</a>
+      <span>Security scanner to find CMS (Wordpress, Joomla, etc.) database passwords on the web.</span>
+    </li>
+  </ul>
 
-  <div class="right">
-    <h2>Current Project</h2>
-    <ul class="listing">
-      <li>
-        <a href="http://studynotes.org">Study Notes</a>
-        <span>Free study materials for high school students.</span>
-      </li>
-    </ul>
-    <h2>Past Projects</h2>
-    <ul class="listing">
-      <li>
-        <a href="http://instant.fm">Instant.fm</a>
-        <span>Share music playlists with your friends.</span>
-      </li>
-      <li>
-        <a href="http://ytinstant.com">YouTube Instant</a>
-        <span>Fast search for YouTube videos.</span>
-      </li>
-      <li>
-        <a href="/webcam-spy/">Webcam Spy</a>
-        <span>Vulnerability in Flash that lets you spy on the webcams of your website visitors.</span>
-      </li>
-      <li>
-        <a href="/cmsploit/">CMSploit</a>
-        <span>Security scanner to find CMS (Wordpress, Joomla, etc.) database passwords on the web.</span>
-      </li>
-    </ul>
+  <h2>In the News</h2>
+  <ul class="listing">
+    <li>
+      <a href="http://nymag.com/news/features/silicon-valley-2011-9">New York Magazine</a>
+      <span>"Bubble Boys". September 2011.</span>
+    </li>
+    <li>
+      <a href="http://www.youtube.com/watch?v=dECfaTxJ9Yo">CNN</a>
+      <span>"Hiring Spree in Silicon Valley". May 2011.</span>
+    </li>
+    <li>
+      <a href="http://allthingsd.com/20110422/early-adopter-from-the-hacker-who-brought-you-youtube-instant-instant-fm-launches-today/">All Things Digital</a>
+      <span>"Instant.fm Launches Today". April 2011.</span>
+    </li>
+    <li>
+      <a href="http://www.sacmag.com/Sacramento-Magazine/January-2011/People-of-the-Year/">Sacramento Magazine</a>
+      <span>"2010 People of the Year". January 2011.</span>
+    </li>
+  </ul>
 
-    <h2>In the News</h2>
-    <ul class="listing">
-      <li>
-        <a href="http://nymag.com/news/features/silicon-valley-2011-9">New York Magazine</a>
-        <span>"Bubble Boys". September 2011.</span>
-      </li>
-      <li>
-        <a href="http://www.youtube.com/watch?v=dECfaTxJ9Yo">CNN</a>
-        <span>"Hiring Spree in Silicon Valley". May 2011.</span>
-      </li>
-      <li>
-        <a href="http://allthingsd.com/20110422/early-adopter-from-the-hacker-who-brought-you-youtube-instant-instant-fm-launches-today/">All Things Digital</a>
-        <span>"Instant.fm Launches Today". April 2011.</span>
-      </li>
-      <li>
-        <a href="http://www.sacmag.com/Sacramento-Magazine/January-2011/People-of-the-Year/">Sacramento Magazine</a>
-        <span>"2010 People of the Year". January 2011.</span>
-      </li>
-    </ul>
-
-    <h2>More Hacks</h2>
-    <ul class="listing">
-      <li>
-        <a href="http://braingrinder.com">Brain Grinder</a>
-        <span>Foreign language flashcards, with pronunciation.</span>
-      </li>
-      <li>
-        <a href="http://instant.io">Instant.io</a>
-        <span>Hear a word pronounced in every language.</span>
-      </li>
-      <li>
-        <a href="https://github.com/feross/Fling">Fling</a>
-        <span>Fling shit from your phone to your desktop.</span>
-      </li>
-      <li>
-        <a href="https://github.com/feross/WireSheep">WireSheep</a>
-        <span>Spy on your network's HTTP traffic, with a pretty News Feed.</span>
-      </li>
-      <li>
-        <a href="https://github.com/feross/SpoofMAC">SpoofMAC</a>
-        <span>Easily spoof your MAC address in OS X.</span>
-      </li>
-      <li>
-        <a href="http://emuspin.com">Emu Spin</a>
-        <span>LSD and emus.</span>
-      </li>
-    </ul>
-
-  </div>
+  <h2>More Hacks</h2>
+  <ul class="listing">
+    <li>
+      <a href="http://braingrinder.com">Brain Grinder</a>
+      <span>Foreign language flashcards, with pronunciation.</span>
+    </li>
+    <li>
+      <a href="http://instant.io">Instant.io</a>
+      <span>Hear a word pronounced in every language.</span>
+    </li>
+    <li>
+      <a href="https://github.com/feross/Fling">Fling</a>
+      <span>Fling shit from your phone to your desktop.</span>
+    </li>
+    <li>
+      <a href="https://github.com/feross/WireSheep">WireSheep</a>
+      <span>Spy on your network's HTTP traffic, with a pretty News Feed.</span>
+    </li>
+    <li>
+      <a href="https://github.com/feross/SpoofMAC">SpoofMAC</a>
+      <span>Easily spoof your MAC address in OS X.</span>
+    </li>
+    <li>
+      <a href="http://emuspin.com">Emu Spin</a>
+      <span>LSD and emus.</span>
+    </li>
+  </ul>
 
 </div>
