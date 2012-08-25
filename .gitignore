@@ -1,5 +1,8 @@
-.sass-cache
+.DS_Store
+
 _site
 _drafts
 
-.DS_Store
+.sass-cache
+css/compiled/*.css
+js/compiled/*.js
