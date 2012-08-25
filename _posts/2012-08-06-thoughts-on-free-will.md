@@ -17,7 +17,7 @@ I spent a lot of time thinking about this (always [a dangerous pastime](http://w
 
 ## The human mind is a self-modifying function
 
-**Every human mind is a [function](http://en.wikipedia.org/wiki/Function_(computer_science)).** We take as input the sensory experience of the world around us. And we produce as output the electric signals that control our body and let us take action.
+**Every human mind is a [function](http://en.wikipedia.org/wiki/Function_(computer_science\)).** We take as input the sensory experience of the world around us. And we produce as output the electric signals that control our body and let us take action.
 
 Of course, we don't control the parameters that we are invoked with. The world outside, the people we meet, the problems we face are all inputs that we (as functions) must consume; they are things that we must make decisions about -- how do I react when my friend says hi? how do I react when I see a car driving directly at me? etc...
 
