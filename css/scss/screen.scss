@@ -24,7 +24,6 @@ body {
 
 #container {
   margin: 0 auto;
-  position: relative;
 
   width: $postWidth;
 
@@ -249,12 +248,12 @@ ul.listing {
 
 nav {
   position: absolute;
-  top: 5px;
-  right: 0;
+  top: 25px;
+  right: 25px;
 
   a {
     #{$link} {
-      background: rgba($red, 0.8);
+      background: lighten($red, 6%);
       @include border-radius(15px);
       color: #fff;
       display: inline-block;
@@ -269,7 +268,33 @@ nav {
     }
 
     #{$focus} {
-      background: rgba($red, 1);
+      background: $red;
     }
+  }
+}
+
+
+// Misc
+
+#github {
+  position: absolute;
+  top: 50px;
+  left: -75px;
+
+  @include rotate(-45deg);
+
+  background: lighten($red, 6%);
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px 80px;
+  text-align: center;
+  text-decoration: none;
+  @include text-shadow(10px, 10px, 10px, $darkerGray);
+  @include single-box-shadow;
+
+  #{$focus} {
+    background: $red;
   }
 }
