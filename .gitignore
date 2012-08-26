@@ -7,3 +7,5 @@ _drafts
 .sass-cache
 css/compiled/*.css
 js/compiled/*.js
+
+_server/config.coffee

@@ -3,7 +3,7 @@
     [
         {
             "path": ".",
-            "folder_exclude_patterns": ["_site", ".sass-cache", "css/compiled", "js/compiled"],
+            "folder_exclude_patterns": ["_site", ".sass-cache", "css/compiled", "js/compiled", "_server/node_modules"],
             "file_exclude_patterns": ["*.sublime-workspace"]
         }
     ],

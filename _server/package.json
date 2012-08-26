@@ -1,0 +1,13 @@
+{
+  "name": "feross.org-view-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "coffee server"
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "mysql": "2.0.0-alpha3",
+    "express": "*"
+  }
+}
