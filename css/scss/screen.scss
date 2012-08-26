@@ -60,16 +60,30 @@ h1, h2, h3, h4 {
   padding-bottom: 0.2em;
   border-bottom: 1px solid $lighterGray;
 
-  // Links in h1 should not affect style
-  .post .content & a {
-    color: $darkerGray;
-    text-decoration: none;
+  a {
+    #{$link} {
+      text-decoration: none;
+    }
+    #{$focus} {
+      text-decoration: underline;
+    }
   }
 }
 h1 { font-size: 1.8em; margin: 1em 0 0.2em 0; }
 h2 { font-size: 1.5em; margin: 1em 0 0.6em 0; }
 h3 { font-size: 1.3em; margin: 1em 0 0.6em 0; color: $lightGray; }
 h4 { font-size: 1.1em; margin: 1em 0 0.6em 0; color: $lightGray; }
+
+// Links in h1 should not affect style
+.content h1 a {
+  #{$link} {
+    color: $darkerGray;
+    text-decoration: none;
+  }
+  #{$focus} {
+    text-decoration: underline;
+  }
+}
 
 p {
   font-size: 1em;
