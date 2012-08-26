@@ -2,6 +2,13 @@ express = require('express')
 mysql = require('mysql')
 config = require('./config')
 
+port = process.argv[2]
+if port
+  console.log "Using port #{port}"
+else
+  console.log "Using default port 3000"
+  port = 3000
+
 app = express()
 app.use(express.bodyParser())
 
@@ -23,7 +30,7 @@ createConnection = ->
     console.log err
 
 
-app.post '/view', (req, res) ->
+app.post '/views', (req, res) ->
 
   slug = req.param('slug')
 
@@ -67,4 +74,4 @@ app.post '/view', (req, res) ->
 
 
 # Start server
-app.listen 3000
+app.listen port
