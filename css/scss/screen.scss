@@ -66,11 +66,24 @@ h1, h2, h3, h4 {
     text-decoration: none;
   }
 }
-h1 { font-size: 2.0em; margin: 1em 0 0.2em 0; }
-h2 { font-size: 1.6em; margin: 1em 0 0.6em 0; }
-h3 { font-size: 1.4em; margin: 1em 0 0.6em 0; color: $lightGray; }
-h4 { font-size: 1.2em; margin: 1em 0 0.6em 0; color: $lightGray; }
+h1 { font-size: 1.8em; margin: 1em 0 0.2em 0; }
+h2 { font-size: 1.5em; margin: 1em 0 0.6em 0; }
+h3 { font-size: 1.3em; margin: 1em 0 0.6em 0; color: $lightGray; }
+h4 { font-size: 1.1em; margin: 1em 0 0.6em 0; color: $lightGray; }
 
+p {
+  font-size: 1em;
+  margin: 1em 0;
+  line-height: 1.6em;
+
+  code {
+    font-size: 12px;
+    background-color: $lightestGray;
+    border: 1px solid $lightGray;
+    border-radius: 3px;
+    padding: 2px 4px;
+  }
+}
 
 // Color
 
@@ -192,13 +205,13 @@ ul.listing {
 
 .highlight {
   margin: 0 0 1.2em 0;
-  background-color: #eee;
+  background-color: $lightestGray;
   font-size: 13px;
   line-height: 1.4em;
   padding: 0px 15px;
   @include border-radius(10px);
   overflow: hidden;
-  color: #111;
+  color: $darkerGray;
 }
 .hightlight code{
   float: left;

@@ -10,7 +10,7 @@ script: >
 ---
 
 <div class="left">
-  <h2>Who's this Feross dude?</h2>
+  <h2>Who is this Feross dude?</h2>
   <p>
     Hey, nice to meet you!
   </p>
