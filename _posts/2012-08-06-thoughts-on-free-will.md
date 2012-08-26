@@ -36,12 +36,14 @@ So, continuing with the analogy of humans as self-modifying functions, we have, 
 **Thus, the tools you currently have in your brain are inherently limiting.** You can turn inputs into permanent knowledge, but only using the tools and knowledge you have available to you now. So, the pseudo-code for your brain would be an event loop that looks like this:
 
 {% highlight javascript %}
+var brain = function() { /* Your genes define your initial brain state */ };
+
 while (true) {
-  brain = brain(get_sensory_input());
+  brain = brain( get_sensory_input() ); // Returns a new function that is different from before
+  brain.act(); // Act based on your current brain state
 }
 {% endhighlight %}
 
-...where `brain` continues to return new versions of itself.
 
 ## You have no free will
 
