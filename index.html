@@ -8,7 +8,7 @@ class: home
   <ul class="listing">
     {% for post in site.posts %}
     <li class="clearfix">
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}/">{{ post.title }}</a>
       <time>{{ post.date | date: "%B %e, %Y" }}</time>
     </li>
     {% endfor %}
@@ -16,7 +16,7 @@ class: home
 </div>
 
 <div class="right">
-  <h2>Past Projects</h2>
+  <h2>Projects</h2>
   <ul class="listing">
     <li>
       <a href="http://instant.fm">Instant.fm</a>
