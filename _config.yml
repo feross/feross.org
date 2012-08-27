@@ -1,3 +1,4 @@
+exclude: [config.rb, feross.org.sublime-project, feross.org.sublime-workspace, nginx.conf, Rakefile, README.md]
 markdown: rdiscount
 pygments: true
 permalink: /:title
