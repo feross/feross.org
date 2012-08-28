@@ -10,6 +10,11 @@ class: home
     <li class="clearfix">
       <a href="{{ post.url }}/">{{ post.title }}</a>
       <time>{{ post.date | date: "%B %e, %Y" }}</time>
+      <time datetime="{{post.date | date: "%Y-%m-%d"}}">
+        {{ post.date | date: "%B %e, %Y" }}{% if post.github %}.
+        Code on <a href="{{ post.github }}">GitHub</a>.
+        {% endif %}
+      </time>
     </li>
     {% endfor %}
   </ul>
