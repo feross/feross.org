@@ -98,7 +98,14 @@ p {
   }
 }
 
-// Color
+blockquote {
+  padding: 0.7em 2em;
+  border: 1px solid $lighterGray;
+  border-left: 8px solid $red;
+  background-color: #F7F7F7;
+  font-style: italic;
+  color: $darkGray;
+}
 
 .light { color: $lighterGray; }
 
