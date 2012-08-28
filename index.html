@@ -4,12 +4,15 @@ title: "Home of Feross Aboukhadijeh"
 class: home
 ---  
 <div class="left">
-  <h2>Blog of Pure Concentrated Awesome</span></h2>
+  <h2>Blog
+    <a class="rss" href="http://feeds.feedburner.com/feross" title="Subscribe to the Feross.org Feed">
+      <img src="/images/rss.png" alt="RSS Feed" />
+    </a>
+  </h2>
   <ul class="listing">
     {% for post in site.posts %}
     <li class="clearfix">
       <a href="{{ post.url }}/">{{ post.title }}</a>
-      <time>{{ post.date | date: "%B %e, %Y" }}</time>
       <time datetime="{{post.date | date: "%Y-%m-%d"}}">
         {{ post.date | date: "%B %e, %Y" }}{% if post.github %}.
         Code on <a href="{{ post.github }}">GitHub</a>.
@@ -21,6 +24,9 @@ class: home
 </div>
 
 <div class="right">
+<!--   <div class="bio">
+    <a class="avatar" href="/" title="Feross Aboukhadijeh"></a>
+  </div> -->
   <h2>Projects</h2>
   <ul class="listing">
     <li>
