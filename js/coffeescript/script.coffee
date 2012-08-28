@@ -11,9 +11,16 @@ $ ->
   # If this is a post, get view count
   if $('body').hasClass('post')
     slug = $('.views').data('slug')
-    $.post('/views', slug: slug)
-      .success (data) ->
+    $.ajax
+      type: 'POST'
+      url: '/views'
+      data:
+        slug: slug
+      dataType: 'json'
+      success: (data) ->
         views = addCommasToInteger(data.views)
+        console.log views
         $('.views').text("#{views} views")
-      .error (data) ->
+      error: (data) ->
+        console.log 'error'
         $('.views').text('Lots of views')
