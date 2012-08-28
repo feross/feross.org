@@ -6,7 +6,8 @@ class: post
   <a href="{{ page.url }}/">{{ page.title }}</a>
 </h1>
 <div class="byline">
-  <time>{{ page.date | date: "%B %e, %Y" }}</time>
+  <span>By <a href="/about/" title="Feross Aboukhadijeh">Feross Aboukhadijeh</a></span>
+  <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{ page.date | date: "%B %e, %Y" }}</time>
   <span class="views" data-slug="{{ page.url }}"></span>
   <ul class="tags">
     Tagged with 
