@@ -1,6 +1,9 @@
 ---
 layout: post
 title: YouTube Instant. The last two days…
+tags:
+- my-code
+- youtube-instant
 ---
 
 The last two days of my life have been **amazing, insane, sleepless, and humbling!**
@@ -95,7 +98,7 @@ Here's a list of the media outlets that have covered YouTube Instant so far:
 - [TechMeme](http://www.techmeme.com/100910/p50#a100910p50), [2](http://www.techmeme.com/100912/p9#a100912p9)
 - [TechVibes](http://www.techvibes.com/blog/the-new-way-to-get-hired-student-creates-youtube-instant-it-goes-viral-youtube-ceo-offers-job-via-twitter)
 - [The Examiner](http://www.examiner.com/social-media-in-long-island/youtube-instant-is-an-instant-success), [2](http://www.examiner.com/online-media-in-oakland/youtube-instant-creator-receives-job-offer-from-youtube-ceo)
-- **[Venture Beat](http://venturebeat.com/2010/09/10/youtube-instant-job/) ([front page pic](/images/venturebeat_frontpage.png))**
+- **[Venture Beat](http://venturebeat.com/2010/09/10/youtube-instant-job/) ([front page pic](/images/venturebeat-frontpage.png))**
 - [Veja](http://veja.abril.com.br/blog/vida-em-rede/google/brincadeira-de-estudante-rende-oferta-de-emprego-do-youtube/) (Brazil)
 - **[Washington Post](http://voices.washingtonpost.com/blog-post/2010/09/youtube_instant_trumps_google.html)**
 - **[WebProNews](http://www.webpronews.com/topnews/2010/09/11/youtube-instant-creator-may-soon-be-working-for-google), [2](http://www.webpronews.com/topnews/2010/09/13/the-viral-whirlwind-of-youtube-instant), [3](http://www.webpronews.com/topnews/2010/09/14/the-youtube-instant-whirlwind-continues), [4](http://www.webpronews.com/topnews/2010/09/14/worried-about-google-instant-maybe-youre-worrying-too-much-about-search), [5](http://www.webpronews.com/topnews/2010/09/17/youtube-gets-new-content-tvfilm-leaders-snags-netflix-acquisitions-vp)**

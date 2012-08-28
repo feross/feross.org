@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Is Google an Open Redirector?
+tags:
+- security
 ---
 
 I think I just discovered a security flaw in the way Google handles clicks on the `I'm Feeling Lucky` button. They allow what essentially amounts to an **open redirect**, which is bad, bad, bad.

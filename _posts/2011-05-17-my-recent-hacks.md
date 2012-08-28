@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Announcing Instant.fm, Instant.io, and EmuSpin.com
+tags:
+- my-code
+- music
 ---
 
 I launched 3 sites recently ([Instant.fm](http://instant.fm), [Instant.IO](http://instant.io/), and [EmuSpin](http://emuspin.com)) and haven't written about them yet. I know you noticed.
@@ -31,7 +34,7 @@ Now, since we launched the site we've learned that many of our core assumptions 
 
 Sheesh, I think I'm definitely obsessed with the word *instant*. I admit, the name "Instant.IO" doesn't tell you much about this site's purpose, but I had the domain name and I didn't want to let the $100 registration go to waste (yeah non-standard TLDs are pretty expensive).
 
-Anyway, you have to [try Instant.IO](http://instant.io) for yourself. Trust me, it's worth doing once (and maybe *only* once). I built the site in 8 hours during the [Stanford Hack Competition](http://stanfordacm.com/2011/05/hack-competition-results/) which I helped to organize. This was the first hack competition that my club, the [Stanford ACM](http://www.stanfordacm.com), organized.
+Anyway, you have to [try Instant.IO](http://instant.io) for yourself. Trust me, it's worth doing once (and maybe *only* once). I built the site in 8 hours during the [Stanford Hack Competition](http://stanfordacm.com/hack-competition-results/) which I helped to organize. This was the first hack competition that my club, the [Stanford ACM](http://www.stanfordacm.com), organized.
 
 We had [Adam D'Angelo](http://en.wikipedia.org/wiki/Adam_D'Angelo) (founder of [Quora](http://www.quora.com/)), [Andrew Bosworth](http://www.crunchbase.com/person/andrew-bosworth) (creator of Facebook News Feed), [Steve Bourne](http://en.wikipedia.org/wiki/Stephen_R._Bourne) (creator of [sh](http://en.wikipedia.org/wiki/Bourne_shell)), and [Steven Schlansker](http://www.facebook.com/stevenschlansker) (founder of [Trumpet Technologies](http://trumpet.io/)) judge the hacks. See the [results](http://stanfordacm.com/2011/05/hack-competition-results/).
 

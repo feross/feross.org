@@ -2,6 +2,9 @@
 layout: post
 title: >
   Essay: How I Learned to Program Computers
+tags:
+- essay
+- programming
 ---
 
 I've been asked this question a lot lately, especially after I built [YouTube Instant](http://ytinstant.com). So, here's the answer, once and for all, for those who are interested.
@@ -64,7 +67,7 @@ In high school, I took pretty good notes for a few of my AP classes. So, in 11th
 
 ![AP Study Notes](/images/ap-study-notes.png)
 
-That same year, I also made a website for my school's Key Club chapter. It's archived [here](/orhskeyclub.com/).
+That same year, I also made a website for my school's Key Club chapter. It's archived [here](http://feross.net/orhskeyclub.com/).
 
 During this period, I spent a large amount of my free time reading [WebmasterWorld](http://www.webmasterworld.com/), a forum for website publishers and SEO experts to speculate about the Google algorithm, discuss AdSense tricks, and debug website design issues.
 

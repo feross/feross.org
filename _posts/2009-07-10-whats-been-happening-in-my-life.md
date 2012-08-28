@@ -1,6 +1,8 @@
 ---
 layout: post
 title: What’s been happening in my life
+tags:
+- me
 ---
 
 Lots has happened since my last blog post. So much has been happening, in fact, that I haven't had time to update my blog! If you've been following my updates on [Twitter](http://www.twitter.com/FreeTheFeross), then you might have heard that:

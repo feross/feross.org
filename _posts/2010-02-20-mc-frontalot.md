@@ -1,6 +1,10 @@
 ---
 layout: post
 title: MC Frontalot comes to Stanford!
+tags:
+- music
+- stanford
+- famous-people
 ---
 
 Nerdcore! Aww yeah!

@@ -2,6 +2,10 @@
 layout: post
 title: >
   Essay: Freedom of Speech on the Internet
+tags:
+- freedom
+- copyright
+- essay
 ---
 
 The Internet is awesome.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How Many Feross's Can Fit in One URL?
+tags:
+- my-code
 ---
 
 I decided to figure out how many times I could fit my name "Feross" in one URL, with each "Feross" serving a different function. Here is my result:

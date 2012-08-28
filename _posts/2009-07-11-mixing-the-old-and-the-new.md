@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Mixing the Old and the New
+tags:
+- random
 ---
 
 What is it about old stuff that makes us get nostalgic when we look at it?

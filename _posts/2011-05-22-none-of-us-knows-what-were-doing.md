@@ -1,6 +1,10 @@
 ---
 layout: post
-title: None of Us Knows What We're Doing
+title: >
+  Essay: None of Us Knows What We're Doing
+tags:
+- essay
+- inspiration
 ---
 
 I've noticed a disturbing trend among a few of the young programmers, designers, and entrepreneurs who I know at Stanford. I've learned that **many of them share the same mistaken belief about success** and how it works.

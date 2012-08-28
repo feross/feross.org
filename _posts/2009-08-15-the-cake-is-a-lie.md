@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The Cake Is A Lie
+tags:
+- games
 ---
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/Y6ljFaKRTrI" frameborder="0" allowfullscreen></iframe>

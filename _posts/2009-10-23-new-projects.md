@@ -1,6 +1,8 @@
 ---
 layout: post
 title: New projects
+tags:
+- my-code
 ---
 
 Hey everyone. I'm working on a couple of cool new projects that I want to let you know about!
@@ -13,7 +15,7 @@ The site is still in development, and I've got a lot of work to do on it, but it
 
 My *goal* was to keep adding new notes (my own or purchased/donated notes from other students), and over time, slowly build up a **huge database** of quality notes. At some point in this process, I realized that this method simply ***doesn't scale very well***. There are simply *too many classes, too many textbooks, and too many types of notes* (outlines, vocabulary, unit summaries, practice quizzes, etc.) for me to create and format all by myself. So, I stopped updating the site for a while.
 
-My goal in re-hauling the site is to allow users to ***add their own notes to the site***, and let the community decide what the good stuff is. My hope is that *** *****the good stuff will float to the top**.
+My goal in re-hauling the site is to allow users to ***add their own notes to the site***, and let the community decide what the good stuff is. My hope is that **the good stuff will float to the top**.
 
 I have a a bunch of really neat ideas (I think!) that will make this*** the best AP notes site on the net***. I don't want to divulge too much here, but I believe that when it's finished, it will be an invaluable resource to high school students taking AP classes.
 

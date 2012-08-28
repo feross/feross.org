@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Cult of Done
+tags:
+- inspiration
 ---
 
 This is so good, I have to post it here.

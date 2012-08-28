@@ -1,6 +1,9 @@
 ---
 layout: post
 title: YouTube Instant Shortlisted for Best API Use in .Net Magazine Awards
+tags:
+- me
+- youtube-instant
 ---
 
 [![YouTube Instant Logo](/images/youtube-instant-logo.png)](http://ytinstant.com)
@@ -15,4 +18,4 @@ Also, I want to thank the good people at [.Net Magazine](http://www.netmagazine.
 
 ## Update
 
-It appears that Instagram [won the award](http://www.netmagazine.com/features/net-awards-2011-winners). Congrats to the Instagram team and all the other participants!
+Instagram [won the award](http://www.netmagazine.com/features/net-awards-2011-winners). Congrats to the Instagram team and all the other participants!

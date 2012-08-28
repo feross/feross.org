@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Using CSS3 to add reflection to an iframe
+tags:
+- my-code
+- web-dev
 ---
 
 Mozilla just landed a really cool new extension to the CSS `background-image` property in the [Firefox 4 nightlies](http://nightly.mozilla.org/). The new extension allows you to use arbitrary DOM elements as background images. The syntax looks like this:
@@ -20,38 +23,38 @@ I know that lots of my readers aren't running the latest Firefox nightly, so her
 
 ![-moz-element  Reflection on iframe](/images/moz-element-reflection-on-iframe.png)
 
-## Here’s the code I wrote
+## Here’s the code I wrote.
+
+CSS:
 
 {% highlight css %}
-<style type="text/css" media="screen">
+body {
+    background: #000;
+}
 
-    body {
-        background: #000;
-    }
+#main {
+    margin: 30px auto 0 auto;
+    width: 800px;
+}
 
-    #main {
-        margin: 30px auto 0 auto;
-        width: 800px;
-    }
+#source {
+    display: block;
+    width: 800px;
+    height: 480px;
+    border: 0;
+}
 
-    #source {
-        display: block;
-        width: 800px;
-        height: 480px;
-        border: 0;
-    }
-
-    #reflection {
-        margin-top: 5px;
-        background: -moz-element(#source) bottom left no-repeat;
-        -moz-transform: scaleY(-1);
-        height: 200px;
-        border: 0;
-        mask: url(#reflection-mask);
-    }
-
-</style>
+#reflection {
+    margin-top: 5px;
+    background: -moz-element(#source) bottom left no-repeat;
+    -moz-transform: scaleY(-1);
+    height: 200px;
+    border: 0;
+    mask: url(#reflection-mask);
+}
 {% endhighlight %}
+
+HTML:
 
 {% highlight html %}
 <div id="main">

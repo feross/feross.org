@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Stanford Open Source Workshop
+tags:
+- programming
+- stanford
 ---
 
 Here's an awesome video from the open source hacking event that my club, the [Stanford ACM](http://www.stanfordacm.com), organized this quarter.

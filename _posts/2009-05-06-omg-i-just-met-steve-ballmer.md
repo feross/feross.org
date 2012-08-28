@@ -1,6 +1,9 @@
 ---
 layout: post
 title: OMG, I just met Steve Ballmer!
+tags:
+- famous-people
+- stanford
 ---
 
 In a really cool turn of events, I just got to shake hands with Steve Ballmer!

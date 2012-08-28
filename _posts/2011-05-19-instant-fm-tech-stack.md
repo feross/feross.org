@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Instant.fm Tech Stack
+github: https://github.com/feross/Instant.fm
+tags:
+- my-code
+- music
 ---
 
 I've received a lot of emails asking about the technology stack of [Instant.fm](http://instant.fm), so I thought I'd share this publicly.

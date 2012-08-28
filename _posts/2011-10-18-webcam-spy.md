@@ -1,7 +1,11 @@
 ---
 layout: post
-title: "HOW TO: Spy on the Webcams of Your Website Visitors"
-github: http://url.com
+title: >
+  HOW TO: Spy on the Webcams of Your Website Visitors
+github: https://github.com/feross/webcam-spy
+tags:
+- my-code
+- security
 ---
 
 I discovered a vulnerability in Adobe Flash that allows any website to turn on your webcam and microphone **without your knowledge or consent** to spy on you.
@@ -71,9 +75,9 @@ This is a screenshot of what the Settings Manager .SWF file looks like:
 
 I built a [quick proof-of-concept demo](/hacks/webcam-spy/) to show how it works.
 
-<strong style="color: red;">Important point:</strong> The demo is only guaranteed to work in **Firefox and Safari for Mac**. Right now, it doesn't work in most other browsers since you can't change the opacity or the z-index of an iframed swf file. However, I discovered a workaround that involves multiple iframes, but haven't implemented it yet since it's a bit complicated. But, I'm pretty sure that it's possible to make it work everywhere, given enough time.
+<strong class="red">Important point:</strong> The demo is only guaranteed to work in **Firefox and Safari for Mac**. Right now, it doesn't work in most other browsers since you can't change the opacity or the z-index of an iframed swf file. However, I discovered a workaround that involves multiple iframes, but haven't implemented it yet since it's a bit complicated. But, I'm pretty sure that it's possible to make it work everywhere, given enough time.
 
-<strong style="color: red;">Important point 2:</strong> The vulnerability has been fixed by Adobe, so the demo does not work anymore.
+<strong class="red">Important point 2:</strong> The vulnerability has been fixed by Adobe, so the demo does not work anymore.
 
 [View the demo](/hacks/webcam-spy/). The code is also available on [Github](https://github.com/feross/webcam-spy).
 

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Feross vs. Kanye West
+tags:
+- music
+- my-code
 ---
 
 I've long believed that modern hip-hop and R&B suffers from too much post-production. Average singers can wail away in front of the  microphone yet sound ***amazing*** on the radio, after the post-production techs have fixed all the mistakes. This is why all the music on the radio sounds so similar -- it's all pitch-perfect.
@@ -26,8 +29,8 @@ Today, I discovered just ***how little talent*** it requires to make a modern po
       </td>
       <td>
         <audio controls style="width: 100%;" preload="auto">
-          <source src="/images/Amazing-Kayne-West.mp3" type="audio/mpeg">
-          <source src="/images/Amazing-Kayne-West.ogg" type="audio/ogg">
+          <source src="/images/Amazing-Kanye-West.mp3" type="audio/mpeg">
+          <source src="/images/Amazing-Kanye-West.mp3" type="audio/ogg">
         </audio>
         <a href="/images/Amazing-Kanye-West.mp3" title="Amazing by Kanye West">
           <img alt="Kanye West = Short" src="/images/kanye-short.jpg" />

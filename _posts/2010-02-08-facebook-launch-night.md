@@ -1,6 +1,9 @@
 ---
 layout: post
-title: I just met Mark Zuckerberg at Facebook Launch Night!
+title: I just met Mark Zuckerberg at Facebook Launch Night
+tags:
+- facebook
+- famous-people
 ---
 
 Last Thursday, I got to visit Facebook and hack with some awesome engineers. Facebook Launch Night was actually an internal company Hack-A-Thon — an event that Facebook puts on every two months where employees stay up all night to work on cool projects in areas where they usually don’t work.

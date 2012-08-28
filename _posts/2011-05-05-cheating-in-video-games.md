@@ -2,6 +2,9 @@
 layout: post
 title: >
   Essay: Cheating in Video Games
+tags:
+- essay
+- games
 ---
 
 I recently received an out-of-the-blue email from the owner of [GameHacking.org](http://gamehacking.org/). He said that he enjoyed [an article I wrote](http://www.stanford.edu/group/ccr/blog/2009/04/cheating_and_hacking_in_video.html) about hacking video games for [Christine Alfano](http://www.stanford.edu/~steener/)'s "Rhetoric of Gaming class" at Stanford.
@@ -27,7 +30,7 @@ However, despite the obvious negative effects of cheating, this paper will argue
 
 God-like immortality. Infinite ammunition. Really large heads.
 
-What do all these things have in common? They are all features that can be accessed -- or "unlocked" -- by using [cheat codes](http://en.wikipedia.org/wiki/Cheat_codes#Cheat_codes), [cheat devices](http://en.wikipedia.org/wiki/Cheat_cartridge), or [software hacks](http://en.wikipedia.org/wiki/Hack_(computer_security)) in video games. Most players wouldn’t consider using a cheat code in a single player game to be cheating, but what about using a hardware add-on like a [Game Genie](http://en.wikipedia.org/wiki/Game_Genie) to make a game easier to beat?
+What do all these things have in common? They are all features that can be accessed -- or "unlocked" -- by using [cheat codes](http://en.wikipedia.org/wiki/Cheat_codes#Cheat_codes), [cheat devices](http://en.wikipedia.org/wiki/Cheat_cartridge), or [software hacks](http://en.wikipedia.org/wiki/Hack_\(computer_security)) in video games. Most players wouldn’t consider using a cheat code in a single player game to be cheating, but what about using a hardware add-on like a [Game Genie](http://en.wikipedia.org/wiki/Game_Genie) to make a game easier to beat?
 
 ![Cheat devices such as this Game Genie cheat cartridge allow NES players to alter the state of the game world from what the game developers intended](/images/game-genie.png)
 
@@ -115,7 +118,7 @@ In fact, they argued that playing with a game's technical features marks the dev
 
 ### Games that Require Cheating
 
-The phenomenon of cheating in video games is not new. Some of the earliest games, like *[Contra](http://en.wikipedia.org/wiki/Contra_(video_game))* for the [NES](http://en.wikipedia.org/wiki/NES), actually *required* cheating to beat, because the game was so difficult. The game designers recognized this, and programmed cheat codes into the game to assist players with the difficult task of making it through the entire game.
+The phenomenon of cheating in video games is not new. Some of the earliest games, like *[Contra](http://en.wikipedia.org/wiki/Contra_\(video_game))* for the [NES](http://en.wikipedia.org/wiki/NES), actually *required* cheating to beat, because the game was so difficult. The game designers recognized this, and programmed cheat codes into the game to assist players with the difficult task of making it through the entire game.
 
 Cheat codes are unique because unlike other methods of cheating they are knowingly created and inserted into games by the developers themselves. Developers use these cheat codes to [playtest](http://en.wikipedia.org/wiki/Playtest) certain aspects of games more easily, but often "forget" to take the cheat codes out of the final game, much to the delight of video game fans.
 
@@ -139,7 +142,7 @@ Cheating has been ingrained in gaming culture since the very beginning -- gamers
 
 ### Will Wright
 
-Will Wright, creator of [SimCity](http://en.wikipedia.org/wiki/SimCity), [The Sims](http://en.wikipedia.org/wiki/The_Sims_(series)), and [Spore](http://en.wikipedia.org/wiki/Spore_(2008_video_game)) -- more than any other game producer in the industry today -- recognizes that cheating and hacking can be positive outlets for creativity and self-expression.
+Will Wright, creator of [SimCity](http://en.wikipedia.org/wiki/SimCity), [The Sims](http://en.wikipedia.org/wiki/The_Sims_\(series)), and [Spore](http://en.wikipedia.org/wiki/Spore_\(2008_video_game)) -- more than any other game producer in the industry today -- recognizes that cheating and hacking can be positive outlets for creativity and self-expression.
 
 Wright recently visited Stanford University on May 22, 2009, to discuss [Human-Computer Interaction](http://hci.stanford.edu/) and the design process of Spore. During his presentation, Wright discussed the importance of user-generated content to the Spore universe -- a universe populated by over 100 million unique, user-generated creatures.
 
@@ -181,13 +184,13 @@ Since the test was launched in 1996, over 570,000 players have taken the test an
 
 ### Explorers = Cheaters?
 
-Explorers like to dig around and explore the details of a game, searching for game glitches and hidden surprises left by developers, known as "[easter eggs](http://en.wikipedia.org/wiki/Easter_egg_(media)#Software-based)." In especially restrictive games, Explorers like to see if they can "get the game to do something its programmers probably didn’t intend for it to do".
+Explorers like to dig around and explore the details of a game, searching for game glitches and hidden surprises left by developers, known as "[easter eggs](http://en.wikipedia.org/wiki/Easter_egg_\(media)#Software-based)." In especially restrictive games, Explorers like to see if they can "get the game to do something its programmers probably didn’t intend for it to do".
 
 Explorers are looking for free exploration and creative play from their game experience.  If developers don’t provide positive creative outlets and opportunities for free exploration within their games -- and sometimes even if they do -- uber fans will still manage to express their latent creativity, often through cheats, exploits, and hacks.
 
 ## Anti-cheat efforts
 
-Some gaming companies like [Valve](http://www.valvesoftware.com/), creator of [Counter-Strike](http://en.wikipedia.org/wiki/Counter-Strike), [Half-Life](http://en.wikipedia.org/wiki/Half-Life_(video_game)), and [Portal](http://en.wikipedia.org/wiki/Portal_(video_game)), spend millions of dollars each year to combating cheating -- resources that would certainly be better spent developing new games.
+Some gaming companies like [Valve](http://www.valvesoftware.com/), creator of [Counter-Strike](http://en.wikipedia.org/wiki/Counter-Strike), [Half-Life](http://en.wikipedia.org/wiki/Half-Life_\(video_game)), and [Portal](http://en.wikipedia.org/wiki/Portal_\(video_game)), spend millions of dollars each year to combating cheating -- resources that would certainly be better spent developing new games.
 
 ### Since When Were Rules Fun?
 

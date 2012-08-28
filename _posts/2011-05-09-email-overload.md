@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Email Overload
+tags:
+- me
 ---
 
 The amount of email I receive everyday is just **ridiculous**. Between the support emails from users of my websites, normal college emails, people who want to "grab coffee", and high school / college students asking for advice, I find myself spending **hours in my inbox** every day.
 
 I always reply to every email I receive (directly addressed to me). My thinking is: If someone took the time to send me a message, I owe them a response. It's a matter of *courtesy.*
 
-I've kept this policy for the last 6 months -- *even during the height of the [YouTube Instant charade](/youtube-instant-media-frenzy/)*.
+I've kept this policy for the last 6 months -- *even during the height of the [YouTube Instant shenanigans](/youtube-instant-media-frenzy/)*.
 
 But I'm beginning to re-think the merits of this decision.
 

@@ -1,6 +1,10 @@
 ---
 layout: post
 title: I just met Richard Stallman
+tags:
+- famous-people
+- programming
+- freedom
 ---
 
 A few weeks ago, I had the amazing opportunity to meet [Richard Stallman](http://stallman.org) -- founder of the [GNU Project](http://www.gnu.org/) and [Free Software Foundation](http://www.fsf.org), and developer of the amazingly popular [GNU Emacs](http://www.gnu.org/software/emacs/emacs.html), [GNU compiler](http://gcc.gnu.org/) `gcc`, and [GNU debugger](http://www.gnu.org/software/gdb/) `gdb`.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Have We Entered a Post-Literate Technological Age?
+tags:
+- philosophy
 ---
 
 I just read an **[interesting opinion column](http://db.tidbits.com/article/10493)** about  technology illiteracy over at [TidBITS](http://db.tidbits.com/). The author, Adam Engst, argues that as technology becomes easier to use and hence more transparent, **society has lost the ability to converse about technology**.
@@ -19,7 +21,7 @@ Here are some highlights from the article, but I recommend [reading it for yours
 >
 > . . . **Being fluid with technology doesn't mean you understand how it works** or can fix it when it breaks. Being able to dash off text messages on a mobile phone demonstrates fluidity; being able to troubleshoot a dead Internet connection down to a corrupted preference file or flaky cable demonstrates understanding.
 >
-> Before Apple, before the IBM PC, we had mainframes and minicomputers that we interacted with via dumb terminals. You couldn't do all that much, and you were sharing resources with many other people, but you also didn't have to worry about things going wrong as much, because when they did, the computer operators would fix them.They were the gatekeepers, the wizards who controlled access and could say who was allowed to do what. Personal computers were supposed to democratize computing so anyone and everyone could do their own work. While that's come to pass in some ways, it seems to me that we've returned to the days when you need a wizard to solve problems or do anything beyond the norm. It's a somewhat uncomfortable situation, since **those of us who grew up with personal computers are finding that we're the new wizards**.
+> Before Apple, before the IBM PC, we had mainframes and minicomputers that we interacted with via dumb terminals. You couldn't do all that much, and you were sharing resources with many other people, but you also didn't have to worry about things going wrong as much, because when they did, the computer operators would fix them. They were the gatekeepers, the wizards who controlled access and could say who was allowed to do what. Personal computers were supposed to democratize computing so anyone and everyone could do their own work. While that's come to pass in some ways, it seems to me that we've returned to the days when you need a wizard to solve problems or do anything beyond the norm. It's a somewhat uncomfortable situation, since **those of us who grew up with personal computers are finding that we're the new wizards**.
 >
 > via [TidBITS Opinion: Have We Entered a Post-Literate Technological Age?](http://db.tidbits.com/article/10493)
 

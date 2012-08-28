@@ -1,6 +1,8 @@
 ---
 layout: post
 title: It's time I updated my blog
+tags:
+- me
 ---
 
 ![The computer demands a blog](/images/the-computer-demands-a-blog.gif)

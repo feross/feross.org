@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Open sourcing several projects
+tags:
+- my-code
+- security
 ---
 
 ![The computer demands a blog](/images/the-computer-demands-a-blog.gif)

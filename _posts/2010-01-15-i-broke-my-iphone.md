@@ -1,6 +1,8 @@
 ---
 layout: post
 title: I broke my iPhone
+tags:
+- random
 ---
 
 I broke my iPhone 3G when I accidentally **dropped a metal keyboard on it** from a high distance.

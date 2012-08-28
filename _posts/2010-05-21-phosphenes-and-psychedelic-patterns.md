@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Phosphenes and Psychedelic Patterns
+tags:
+- random
 ---
 
 ![Phosphene Artistic Depiction](/images/phosphene-artistic-depiction.gif)

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Post to Tweetie from Google Reader
+tags:
+- my-code
 ---
 
 ![Google Reader Logo](/images/reader_logo.gif)
@@ -19,11 +21,15 @@ I already use an amazing Twitter client for Mac, called [**Tweetie**](http://www
 
 Well, the company behind Tweetie, [AteBits](javascript:window.location='tweetie:'+window.location), offers up a handy bookmarklet to help users easily tweet stuff while surfing the web. You just create a new bookmark and set the URL to be:
 
-[javascript]javascript:window.location='tweetie:'+window.location[/javascript]
+{% highlight javascript %}
+javascript:window.location='tweetie:'+window.location
+{% endhighlight %}
 
 But, we can improve this by adding the title of the website to the Javscript code, which looks like this:
 
-[javascript]javascript:window.location='tweetie:'+document.title+'%20'+window.location[/javascript]
+{% highlight javascript %}
+javascript:window.location='tweetie:'+document.title+'%20'+window.location
+{% endhighlight %}
 
 Then when you click on this bookmark, a new tweet pops up that looks likes this:
 

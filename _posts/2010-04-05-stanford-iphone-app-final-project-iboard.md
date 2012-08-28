@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Stanford iPhone App Final Project - iBoard
+tags:
+- my-code
+- stanford
 ---
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/JQGtbX9pBbI" frameborder="0" allowfullscreen></iframe>

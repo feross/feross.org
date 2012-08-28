@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Ridin' Dirty with Chamillionare & Quincy Jones III at Stanford
+title: Ridin' Dirty with Chamillionare at Stanford
+tags:
+- music
+- stanford
+- famous-people
 ---
 
 Photobomb!

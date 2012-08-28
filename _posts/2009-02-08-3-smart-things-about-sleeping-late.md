@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 3 Smart Things About Sleeping Late
+tags:
+- science
 ---
 
 Throughout high school, I routinely stayed up past midnight to work on my homework and websites, or to read articles and listen to podcasts.

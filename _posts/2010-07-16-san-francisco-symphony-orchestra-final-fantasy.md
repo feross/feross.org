@@ -1,6 +1,9 @@
 ---
 layout: post
 title: San Francisco Symphony Orchestra plays Final Fantasy
+tags:
+- music
+- games
 ---
 
 Tonight, I listened to the San Francisco Symphony Orchestra play, and *wow*. What an amazing concert!

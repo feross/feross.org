@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Babies Learn Differently
+title: How Babies Learn Differently
+tags:
+- science
 ---
 
 I found [this](http://www.nytimes.com/2009/08/16/opinion/16gopnik.html) **New York Times** article about the different types of intelligence in babies and adults very interesting...

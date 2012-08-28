@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Shame on You, Comcast!
+tags:
+- freedom
 ---
 
 ![Comcast is evil!](/images/evil-comcast-logo.jpg)

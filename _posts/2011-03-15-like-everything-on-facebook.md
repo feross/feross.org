@@ -2,6 +2,9 @@
 layout: post
 title: Like Everything on Facebook with this JavaScript Bookmarklet
 github: https://github.com/feross/Facebook-Like-Everything
+tags:
+- my-code
+- facebook
 ---
 
 Do you want to **like every post and comment** that you see on Facebook all at once? Well, it's your lucky day.

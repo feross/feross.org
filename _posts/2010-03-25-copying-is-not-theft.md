@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Copying Is Not Theft
+tags:
+- copyright
+- essay
+- freedom
 ---
 
 **When artists do work, they should be paid -- no one is debating that.** Musicians are paid when they perform at concerts, when they sell discs, and when they compose for someone. Artists are paid when they sell their artwork, when they are commissioned to make art, and when their art appears in art museums.

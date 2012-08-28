@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Search Engine Rap Battle
+tags:
+- random
 ---
 
 I remember checking the search engine rank for my first website **[FreeTheFlash.com](http://www.freetheflash.com/)** in a whole bunch of now-dead search engines like [Altavista](http://www.altavista.com/), [Excite](http://www.excite.com/), [Gigablast](http://www.gigablast.com/), [Hotbot](http://www.hotbot.com/), [Lycos](http://www.lycos.com/), and a whole bunch of others I've probably forgotten. Today, of course, I only bother to check my sites' rankings in [Google](http://www.google.com), [Yahoo](http://search.yahoo.com), and [MSN/Live Search/Bing](http://www.bing.com) (I wonder what Microsoft will call their search engine next?).

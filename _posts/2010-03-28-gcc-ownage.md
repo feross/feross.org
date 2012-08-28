@@ -2,6 +2,9 @@
 layout: post
 title: >
   GCC Easter Egg: C++ Undefined Defined Behavior
+tags:
+- programming
+- random
 ---
 
 Check out this little [GCC](http://en.wikipedia.org/wiki/GNU_Compiler_Collection) gem that I just <s>discovered</s> [read about](http://www.microsoft.com/downloads/details.aspx?familyid=A436B63B-8EB4-4914-8041-B914B6E0992C&amp;displaylang=en).

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Net Neutrality – Adventures in Calling Congress
+tags:
+- freedom
 ---
 
 I just called Congress.

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Applied Philosophy a.k.a. "Hacking"
+tags:
+- philosophy
+- programming
 ---
 
 From: [Paul Buchheit's blog](http://paulbuchheit.blogspot.com/2009/10/applied-philosophy-aka-hacking.html):

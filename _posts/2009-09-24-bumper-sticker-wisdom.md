@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Bumper Sticker Wisdom
+tags:
+- random
+- philosophy
 ---
 
 <div style="font-size: 75px;color:#FFF;border:#FFF solid 5px;text-align:center;background-color:#000;line-height:75px;font-weight:bold;padding:20px;margin:5px 0;">CONTRADICT AUTHORITY</div>

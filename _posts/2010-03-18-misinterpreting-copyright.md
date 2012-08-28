@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Misinterpreting Copyright
+tags:
+- copyright
+- freedom
 ---
 
 I just read a [great article](http://www.gnu.org/philosophy/misinterpreting-copyright.html) about copyright that articulates the **free software** position extremely well. It's written by Richard Stallman, the guy who started it all (where "it all" is the free software movement).

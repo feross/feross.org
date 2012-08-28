@@ -1,6 +1,9 @@
 ---
 layout: post
 title: How To Get Accepted Into Stanford
+tags:
+- essay
+- stanford
 ---
 
 ![Stanford University](/images/stanford.jpg)

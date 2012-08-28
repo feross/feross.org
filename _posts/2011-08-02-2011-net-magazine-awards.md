@@ -1,6 +1,9 @@
 ---
 layout: post
 title: 2011 .Net Magazine Awards
+tags:
+- youtube-instant
+- me
 ---
 
 I'm really elated to find myself nominated for this year's [.Net Magazine Awards](http://www.thenetawards.com/).

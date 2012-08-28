@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Stanford Entrepreneurs Nike T-Shirt (Just Start Up)
+tags:
+- me
+- stanford
 ---
 
 The Stanford [Entrepreneurial Thought Leaders](http://etl.stanford.edu/) (ETL) seminar that I attend every week at Stanford is having a T-Shirt contest. This is the rough design that I submitted:

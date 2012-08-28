@@ -2,6 +2,9 @@
 layout: post
 title: Detect Proxy Usage in Firefox
 github: https://github.com/feross/detect-proxy
+tags:
+- security
+- my-code
 ---
 
 I recently read about an interesting browser information leak on [ha.ckers.org](http://ha.ckers.org/) and decided to code up a proof-of-concept.

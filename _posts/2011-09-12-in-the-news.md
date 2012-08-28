@@ -1,6 +1,9 @@
 ---
 layout: post
 title: In the news again...
+tags:
+- me
+- youtube-instant
 ---
 
 Over one year after I built [YouTube Instant](http://ytinstant.com), my little [3 hour project](/youtube-instant-media-frenzy/) is still getting talked about in the national press.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Think Different
+tags:
+- inspiration
 ---
 
 One of my favorite quotes:

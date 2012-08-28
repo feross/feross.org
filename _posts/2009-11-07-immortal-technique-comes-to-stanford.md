@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Immortal Technique Comes to Stanford
+tags:
+- music
+- stanford
+- famous-people
 ---
 
 Second famous rapper I've met this week: [Immortal Technique](http://en.wikipedia.org/wiki/Immortal_Technique) -- most famous for his political activism and political rap music. This guys's a ***real*** [rapper](http://en.wikipedia.org/wiki/Rapper) (unlike [Chamillionaire](/ridin-dirty-at-stanford/), who is a commercial hip-hop <s>artist</s> sellout).

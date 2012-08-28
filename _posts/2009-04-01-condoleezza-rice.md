@@ -1,6 +1,9 @@
 ---
 layout: post
 title: I met Condoleezza Rice Today
+tags:
+- famous-people
+- stanford
 ---
 
 I met Condi today.

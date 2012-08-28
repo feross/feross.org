@@ -1,6 +1,11 @@
 ---
 layout: post
-title: Web Security and Privacy
+title: >
+  Essay: Web Security and Privacy
+tags:
+- essay
+- security
+- web-dev
 ---
 
 [This](/images/Web-Security-and-Privacy.pdf) is a research paper I wrote about **Web Security and Privacy**. It's quite an interesting read, if you've got 20 minutes to spare.

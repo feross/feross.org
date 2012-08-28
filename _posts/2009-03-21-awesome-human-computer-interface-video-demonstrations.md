@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Awesome Human-Computer Interface Video Demonstrations
+tags:
+- inspiration
 ---
 
 I was recently perusing the [Interweb](http://en.wikipedia.org/wiki/Interweb) when I stumbled upon a goldmine of awesome tech videos. The site is called [Technology, Entertainment and Design (TED)](http://www.ted.com). If you haven't heard of this site before, I highly recommend checking it out if you're interested in awe-inspiring talks by some of the brightest people in their respective tech fields.

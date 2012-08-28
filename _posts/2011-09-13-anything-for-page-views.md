@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Learning a lesson the hard way
+tags:
+- famous-people
 ---
 
-The media has been [good to me](/youtube-instant-media-frenzy/#media) for the most part. But these stories are just stupid:
+The media has been [good to me](/youtube-instant-media-frenzy/) for the most part. But these stories are just stupid:
 
 * [Business Insider](http://www.businessinsider.com/mark-zuckerbergs-coding-skills-2011-9)
 * [Gizmodo](http://gizmodo.com/5839340/mark-zuckerberg-sucks-at-writing-code-now)
