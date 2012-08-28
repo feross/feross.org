@@ -13,13 +13,13 @@ html {
 body {
   border-top: 3px solid $red;
   background-color: $bgColor;
-  color: $darkGray;
+  color: $darkerGray;
   font-family: $sans-serif;
   margin: 0 0 100px 0;
   -webkit-font-smoothing: antialiased;
 
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 17px;
+  line-height: 1.5em;
 }
 
 #container {
@@ -68,19 +68,16 @@ h1, h2, h3, h4 {
     }
   }
 }
-h1 { font-size: 1.8em; margin: 1em 0 0.2em 0; }
-h2 { font-size: 1.5em; margin: 1em 0 0.6em 0; }
-h3 { font-size: 1.3em; margin: 1em 0 0.6em 0; color: $lightGray; }
-h4 { font-size: 1.1em; margin: 1em 0 0.6em 0; color: $lightGray; }
+h1 { font-size: 1.8em; margin: 1.2em 0 0.2em 0; }
+h2 { font-size: 1.5em; margin: 1.2em 0 0.6em 0; }
+h3 { font-size: 1.3em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
+h4 { font-size: 1.1em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
 
 // Links in h1 should not affect style
 .content h1 a {
   #{$link} {
     color: $darkerGray;
     text-decoration: none;
-  }
-  #{$focus} {
-    text-decoration: underline;
   }
 }
 
@@ -107,7 +104,7 @@ blockquote {
   color: $darkGray;
 }
 
-.light { color: $lighterGray; }
+.red { color: $red; }
 
 
 // Content
@@ -129,34 +126,27 @@ img {
 
 header[role="banner"] {
   text-align: center;
-
   h1 {
     border-bottom: none;
     font-family: $serif-caps;
-    font-size: 5em;
-    font-weight: bold;
-    line-height: 1em;
-    margin: 35px 0 0 0;
+    font-size: 4em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 40px 0 0 0;
+    // text-shadow: -1px 1px 2px #DDD;
   }
-
-  span {
-    font-size: 0.5em;
-  }
-
   a {
     #{$link} {
       text-decoration: none;
     }
-
     #{$focus} {
       &:before {
-        content: "{ ";
+        content: "[ ";
       }
       &:after {
-        content: " }";
+        content: " ]";
       }
     }
- 
   }
   
 }
@@ -189,26 +179,95 @@ header[role="banner"] {
 
 .home {
   h2 {
+    position: relative;
     margin-top: 1.2em;
   }
+}
+.rss {
+  opacity: 0.15;
+  float: right;
+  height: 23px;
+  width: 23px;
+  img { margin: 0; border: 0; padding: 1px; }
+  &:hover { opacity: 1; }
+}
+nav {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+
+  a {
+    #{$link} {
+      background: lighten($red, 6%);
+      @include border-radius(15px);
+      color: #fff;
+      display: inline-block;
+      font-size: 0.8em;
+      font-weight: bold;
+      height: 30px;
+      line-height: 2.1em;
+      margin-left: 10px;
+      padding: 0 15px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    #{$focus} {
+      background: $red;
+    }
+  }
+}
+
+.avatar {
+  @include background(image-url('my-pretty-face.jpg'));
 }
 
 
 // Post layout
 
 .post {
-  time, .views {
+  .byline {
     color: $lightGray;
-    font-size: 0.9em;
+    font-size: 0.75em;
   }
-  time:after {
+
+  // Add bullets between byline items
+  .byline > *:not(:last-child):after {
     content: " \2022 ";
     padding: 0 0.4em;
+  }
+
+  // Inline the tag list
+  .tags {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+  }
+  .tags li {
+    display: inline;
+  }
+
+  // Add commas between tags
+  .tags li:not(:last-child):after {
+    content: ", ";
+  }
+
+  // Make tag links subtle gray
+  .byline a {
+    #{$link} {
+      color: $lightGray;
+      text-decoration: underline;
+    }
+    #{$focus} {
+      color: $red;
+      text-decoration: underline;
+    }
   }
 }
 
 
-// Listing
+// Post / link listing
 
 ul.listing {
   margin: 20px 0 30px 0;
@@ -218,7 +277,7 @@ ul.listing {
     list-style: none;
     margin: 20px 0;
   }
-  a {
+  li > a {
     #{$link} {
       font-size: 1.1em;
       font-weight: bold;
@@ -228,19 +287,21 @@ ul.listing {
       text-decoration: underline;
     }
   }
-
   span, time {
     display: block;
-  }
-
-  span {
     color: $gray;
   }
-
   time {
-    color: $lightGray;
+    a {
+      #{$link} {
+        color: $gray;
+        text-decoration: underline;
+      }
+      #{$focus} {
+        color: $red;
+      }
+      }
   }
-
 }
 
 
@@ -324,67 +385,6 @@ ul.listing {
 .highlight .il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
 
 
-// About
-
-.about img {
-  // float: right;
-  // width: 300px;
-}
-
-#ageInDays { font-style: italic; }
 
 
-// Nav
 
-nav {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-
-  a {
-    #{$link} {
-      background: lighten($red, 6%);
-      @include border-radius(15px);
-      color: #fff;
-      display: inline-block;
-      font-size: 0.8em;
-      font-weight: bold;
-      height: 30px;
-      line-height: 2.1em;
-      margin-left: 10px;
-      padding: 0 15px;
-      text-align: center;
-      text-decoration: none;
-    }
-
-    #{$focus} {
-      background: $red;
-    }
-  }
-}
-
-
-// Misc
-
-#github {
-  position: absolute;
-  top: 50px;
-  left: -75px;
-
-  @include rotate(-45deg);
-
-  background: lighten($red, 6%);
-  color: #fff;
-  display: block;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 2px 80px;
-  text-align: center;
-  text-decoration: none;
-  @include text-shadow(10px, 10px, 10px, $darkerGray);
-  @include single-box-shadow;
-
-  #{$focus} {
-    background: $red;
-  }
-}
