@@ -158,7 +158,30 @@ header[role="banner"] {
     }
  
   }
+  
+}
 
+#github {
+  position: absolute;
+  top: 50px;
+  left: -75px;
+
+  @include rotate(-45deg);
+
+  background: lighten($red, 6%);
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px 80px;
+  text-align: center;
+  text-decoration: none;
+  @include text-shadow(10px, 10px, 10px, $darkerGray);
+  @include box-shadow(#999 1px 1px 4px);
+
+  #{$focus} {
+    background: $red;
+  }
 }
 
 
