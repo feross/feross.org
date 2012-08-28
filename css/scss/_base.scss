@@ -1,45 +1,26 @@
-$experimental-support-for-opera: false;
 $experimental-support-for-khtml: false;
 @import "compass";
 
 
 // Variables
 
-$serif-fallback: "Adobe Caslon Pro",Caslon,Baskerville,Palatino,"Palatino Linotype","Hoefler Text",Garamond,"URW Palladio L","Book Antiqua",Georgia,serif;
-$serif: "CenturyOldStyleFS", $serif-fallback;
-$serif-caps: "CenturyOldStyleFSCaps", $serif-fallback;
+$serif: "Adobe Caslon Pro", Caslon,Baskerville, Palatino, "Palatino Linotype", "Hoefler Text", Garamond, "URW Palladio L", "Book Antiqua", Georgia, serif;
+$serif-caps: "silkscreen", $serif;
 $sans-serif: "proxima-nova", Helvetica, sans-serif;
 
 
 // Colors
 
 $red: #E22C29;
-// $red: rgb(248, 0, 7);
 
 $lightestGray: #EEE;
-$lighterGray: #BBB;
+$lighterGray: #CCC;
 $lightGray: #999;
 $gray: #666;
 $darkGray: #444;
 $darkerGray: #222;
 
 $bgColor: #FEFCF6;
-
-
-// Fonts
-
-@include font-face (
-  'CenturyOldStyleFSCaps',
-  font-files(
-    'CenturyOldStyleCaps-Regular-webfont.woff', 'woff',
-    'CenturyOldStyleCaps-Regular-webfont.ttf', 'truetype',
-    'CenturyOldStyleCaps-Regular-webfont.svg#webfont', 'svg'
-  ),
-  'CenturyOldStyleCaps-Regular-webfont.eot',
-  normal,
-  normal
-);
-
 
 // Clearfix
 
