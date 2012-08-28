@@ -19,7 +19,7 @@ layout: nil
   
   {% for post in site.posts %}
   <entry>
-    <title>{{ post.title }}</title>
+    <title>{{ post.title | xml_escape }}</title>
     <author>
       <name>Feross Aboukhadijeh</name>
       <uri>http://feross.org</uri>
