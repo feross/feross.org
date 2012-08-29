@@ -1,0 +1,18 @@
+[submodule "hacks/detect-proxy"]
+	path = hacks/detect-proxy
+	url = git@github.com:feross/detect-proxy.git
+[submodule "hacks/fullscreen-api-attack"]
+	path = hacks/fullscreen-api-attack
+	url = git@github.com:feross/Fullscreen-API-Attack.git
+[submodule "hacks/nim.js"]
+	path = hacks/nim.js
+	url = git@github.com:feross/Nim.js.git
+[submodule "hacks/facebook-like-everything"]
+	path = hacks/facebook-like-everything
+	url = git@github.com:feross/Facebook-Like-Everything.git
+[submodule "hacks/selective-attention-test"]
+	path = hacks/selective-attention-test
+	url = git@github.com:feross/Selective-Attention-Test.git
+[submodule "hacks/webcam-spy"]
+	path = hacks/webcam-spy
+	url = git@github.com:feross/webcam-spy.git

@@ -11,7 +11,7 @@ Do you want to **like every post and comment** that you see on Facebook all at o
 
 Drag the link below to your Bookmarks Bar and click it to **automatically like all the posts and comments** on the page you're on.
 
-<strong><a href="javascript:var s=document.getElementById('happyScript');if(s){s.parentNode.removeChild(s);} s=document.createElement('script');s.setAttribute('src','http://feross.org/hacks/like_everything/like_everything.js');s.setAttribute('type','text/javascript');s.setAttribute('id','happyScript');document.body.appendChild(s);void(0);">I Like Everything</a></strong> <-- drag me to your bookmarks bar, go to Facebook, then click me!
+<strong><a href="javascript:var s=document.getElementById('happyScript');if(s){s.parentNode.removeChild(s);} s=document.createElement('script');s.setAttribute('src','http://feross.org/hacks/facebook-like-everything/script.js');s.setAttribute('type','text/javascript');s.setAttribute('id','happyScript');document.body.appendChild(s);void(0);">I Like Everything</a></strong> <-- drag me to your bookmarks bar, go to Facebook, then click me!
 
 ## Why'd I do this?
 
@@ -54,7 +54,7 @@ happyFn(happy);
 
 ## Bookmarklet Source
 
-And here is the source of the bookmarklet, perfect for copy-pasting into a convenient bookmark. Or just, <a title="I Like Everything" href="javascript:var s=document.getElementById('happyScript');if(s){s.parentNode.removeChild(s);} s=document.createElement('script');s.setAttribute('src','http://feross.org/hacks/like_everything/like_everything.js'); s.setAttribute('type','text/javascript');s.setAttribute('id','happyScript');document.body.appendChild(s);void(0);">drag this link</a> to your bookmarks bar.
+And here is the source of the bookmarklet, perfect for copy-pasting into a convenient bookmark. Or just, <a title="I Like Everything" href="javascript:var s=document.getElementById('happyScript');if(s){s.parentNode.removeChild(s);} s=document.createElement('script');s.setAttribute('src','http://feross.org/hacks/facebook-like-everything/script.js'); s.setAttribute('type','text/javascript');s.setAttribute('id','happyScript');document.body.appendChild(s);void(0);">drag this link</a> to your bookmarks bar.
 
 {% highlight javascript %}
 javascript:var s = document.getElementById('happyScript');
@@ -62,7 +62,7 @@ if (s) {
     s.parentNode.removeChild(s);
 }
 s = document.createElement('script');
-s.setAttribute('src', 'http://feross.org/hacks/like_everything/like_everything.js');
+s.setAttribute('src', 'http://feross.org/hacks/facebook-like-everything/script.js');
 s.setAttribute('type', 'text/javascript');
 s.setAttribute('id', 'happyScript');
 document.body.appendChild(s);
@@ -71,7 +71,7 @@ void(0); // don't redirect
 
 ## Update
 
-I just updated the bookmarklet to show some UI about the progress of your "like bomb", as well as a button to stop the liking if you suddenly have a change of heart. Everyone's bookmarklets should be updated automatically. [Go here](http://feross.org/hacks/like_everything/like_everything.js) if you want to read the updated source code.
+I just updated the bookmarklet to show some UI about the progress of your "like bomb", as well as a button to stop the liking if you suddenly have a change of heart. Everyone's bookmarklets should be updated automatically. [Go here](http://feross.org/hacks/facebook-like-everything/script.js) if you want to read the updated source code.
 
 ## Update 2
 
