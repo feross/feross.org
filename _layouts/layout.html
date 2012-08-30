@@ -18,6 +18,15 @@
 
   <title>{{ page.title }} &raquo; Feross.org</title>
   <meta name="description" content="Feross Aboukhadijeh is a computer security researcher, teacher, web developer, designer, long distance runner, gamer, music lover, and builder of websites that (sometimes) go viral.">
+  <meta property="og:title" content="{{ page.title }} &raquo; Feross.org" />
+  <meta property="og:type" content="article" />
+  {% if page.tags %}
+  {% for tag in page.tags %}
+  <meta property="article:tag" content="{{ tag | replace: '-', ' ' }}" />
+  {% endfor %}
+  {% endif %}
+  <meta property="og:image" content="http://feross.org/images/F.png" />
+
   <meta name="author" content="Feross Aboukhadijeh">
   <link href="https://plus.google.com/108080265905114949970" rel="author" />
 
