@@ -9,7 +9,7 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
       self.data['tag'] = tag
       prettyTag = tag.gsub('-', ' ')
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Posts Tagged &ldquo;'
+      tag_title_prefix = site.config['tag_title_prefix'] || 'Posts Tagged with &ldquo;'
       tag_title_suffix = site.config['tag_title_suffix'] || '&rdquo;'
       self.data['title'] = "#{tag_title_prefix}#{prettyTag}#{tag_title_suffix}"
     end

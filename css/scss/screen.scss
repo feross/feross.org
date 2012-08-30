@@ -273,19 +273,19 @@ ul.listing {
   margin: 20px 0 30px 0;
   padding: 0;
 
-  li {
+  > li {
     list-style: none;
     margin: 20px 0;
-  }
-  li > a {
-    #{$link} {
-      font-size: 1.1em;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    #{$focus} {
-      text-decoration: underline;
-    }
+    > a {
+        #{$link} {
+          font-size: 1.1em;
+          font-weight: bold;
+          text-decoration: none;
+        }
+        #{$focus} {
+          text-decoration: underline;
+        }
+      }
   }
   span, time {
     display: block;
