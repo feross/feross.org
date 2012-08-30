@@ -1,4 +1,5 @@
 ---
+old: true
 layout: post
 title: Post to Tweetie from Google Reader
 tags:

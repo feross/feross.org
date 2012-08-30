@@ -38,6 +38,6 @@ end
 
 desc "Deploy site"
 task :publish do
-  Rake::Task["compile"].execute
+  # Rake::Task["compile"].execute
   sh "rsync -r -a -v -e \"ssh -l feross -p 44444\" --delete _site nginx.conf _server future:/home/feross/www/feross.org/"
 end

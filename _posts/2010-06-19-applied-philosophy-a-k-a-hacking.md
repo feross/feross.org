@@ -1,4 +1,5 @@
 ---
+old: true
 layout: post
 title: Applied Philosophy a.k.a. "Hacking"
 tags:

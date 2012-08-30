@@ -1,4 +1,5 @@
 ---
+old: true
 layout: post
 title: Like Everything on Facebook with this JavaScript Bookmarklet
 github: https://github.com/feross/Facebook-Like-Everything

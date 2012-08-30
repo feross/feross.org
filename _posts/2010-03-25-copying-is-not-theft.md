@@ -1,4 +1,5 @@
 ---
+old: true
 layout: post
 title: Copying Is Not Theft
 tags:

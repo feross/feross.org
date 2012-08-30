@@ -1,4 +1,5 @@
 ---
+old: true
 layout: post
 title: Ridin' Dirty with Chamillionare at Stanford
 tags:

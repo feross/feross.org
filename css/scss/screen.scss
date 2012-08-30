@@ -141,10 +141,10 @@ header[role="banner"] {
     }
     #{$focus} {
       &:before {
-        content: "[ ";
+        content: "OMG ";
       }
       &:after {
-        content: " ]";
+        content: " OMG";
       }
     }
   }
@@ -225,49 +225,67 @@ nav {
 
 // Post layout
 
-.post {
-  .byline {
+.byline {
+  color: $lightGray;
+  font-size: 0.75em;
+}
+
+// Add bullets between byline items
+.byline > *:not(:last-child):after {
+  content: " \2022 ";
+  padding: 0 0.4em;
+}
+
+// Inline the tag list
+.tags {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+.tags li {
+  display: inline;
+}
+
+// Add commas between tags
+.tags li:not(:last-child):after {
+  content: ", ";
+}
+
+// Make tag links subtle gray
+.byline a {
+  #{$link} {
     color: $lightGray;
-    font-size: 0.75em;
+    text-decoration: underline;
+  }
+  #{$focus} {
+    color: $red;
+    text-decoration: underline;
+  }
+}
+
+.meta {
+  margin-top: 75px;
+}
+
+.copy {
+  .avatar {
+    float: left;
+    img { margin: 0 15px 15px 0; }
   }
 
-  // Add bullets between byline items
-  .byline > *:not(:last-child):after {
-    content: " \2022 ";
-    padding: 0 0.4em;
-  }
+  input { display: inline; }
+  [type="email"] { margin-left: 10px; }
 
-  // Inline the tag list
-  .tags {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    list-style-type: none;
-  }
-  .tags li {
-    display: inline;
-  }
-
-  // Add commas between tags
-  .tags li:not(:last-child):after {
-    content: ", ";
-  }
-
-  // Make tag links subtle gray
-  .byline a {
-    #{$link} {
-      color: $lightGray;
-      text-decoration: underline;
-    }
-    #{$focus} {
-      color: $red;
-      text-decoration: underline;
-    }
+  .twitter-share-button, .twitter-follow-button { display: inline-block; }
+  iframe {
+    margin: 0 0 30px 0;
+    vertical-align: top;
   }
 }
 
 
-// Post / link listing
+// Blog post listing
 
 ul.listing {
   margin: 20px 0 30px 0;

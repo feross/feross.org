@@ -9,8 +9,8 @@ class: post
   <span>By <a href="/about/" title="Feross Aboukhadijeh">Feross Aboukhadijeh</a></span>
   <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{ page.date | date: "%B %e, %Y" }}</time>
   <span class="views" data-slug="{{ page.url }}"></span>
+  Tagged with 
   <ul class="tags">
-    Tagged with 
     {% for tag in page.tags %}
     <li><a href="/tag/{{ tag }}/">{{ tag | replace: '-', ' ' }}</a></li>
     {% endfor %}
@@ -21,6 +21,35 @@ class: post
 
 <section class="meta">
   <h3>Discussion, links, and tweets</h3>
+
+  <section class="copy">
+    <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=feross', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+      <p>
+        <a href="https://twitter.com/FreeTheFeross" class="avatar">
+          <img src="/images/F.png" height="50" width="50" alt="Feross Aboukhadijeh" />
+        </a>
+        Hey, thanks for reading! I'm <a href="/about/">Feross Aboukhadijeh</a>, a web developer, designer, and Stanford computer science student.
+      </p>
+      <p>
+        If you enjoyed this article, you should <a href="https://twitter.com/FreeTheFeross">follow me on Twitter</a> or sign up to get an email whenever I write something new:
+
+        <input type="email" style="width: 150px; font-size: 12px;" name="email"/>
+        <input type="hidden" value="feross" name="uri"/>
+        <input type="hidden" name="loc" value="en_US"/>
+        <input type="submit" style="font-size: 12px;" value="Subscribe" />
+        
+      </p>
+    </form>
+
+    <p>
+      Share this article with your friends:
+    </p>
+
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://{% if page.old %}www.{% endif %}feross.org{{ page.url }}/" data-via="FreeTheFeross" data-size="large" data-related="FreeTheFeross">Tweet</a>
+
+    <div class="fb-like" data-href="http://feross.org{{ page.url }}/" data-send="false" data-width="450" data-show-faces="true"></div>
+
+  </section>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">

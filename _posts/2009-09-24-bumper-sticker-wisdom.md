@@ -1,4 +1,5 @@
 ---
+old: true
 layout: post
 title: Bumper Sticker Wisdom
 tags:

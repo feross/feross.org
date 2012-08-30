@@ -1,4 +1,5 @@
 ---
+old: true
 layout: post
 title: Mixing the Old and the New
 tags:

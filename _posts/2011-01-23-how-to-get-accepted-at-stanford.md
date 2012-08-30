@@ -1,4 +1,5 @@
 ---
+old: true
 layout: post
 title: How To Get Accepted Into Stanford
 tags:

@@ -1,4 +1,5 @@
 ---
+old: true
 layout: post
 title: I just met Richard Stallman
 tags:
