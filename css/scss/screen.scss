@@ -54,7 +54,7 @@ a {
 }
 
 h1, h2, h3, h4 {
-  color: $darkGray;
+  color: $darkerGray;
   line-height: 1em;
   padding-bottom: 0.2em;
   border-bottom: 1px solid $lighterGray;
@@ -139,12 +139,7 @@ header[role="banner"] {
       text-decoration: none;
     }
     #{$focus} {
-      &:before {
-        content: "=> ";
-      }
-      &:after {
-        content: " <=";
-      }
+      border-bottom: 6px solid $red;
     }
   }
 }
@@ -273,7 +268,7 @@ nav {
   }
 
   input { display: inline; }
-  [type="email"] { margin-left: 10px; }
+  [type="email"] { margin-left: 10px; width: 150px; }
 
   .twitter-share-button, .twitter-follow-button { display: inline-block; }
   iframe {
