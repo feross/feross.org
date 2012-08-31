@@ -100,7 +100,7 @@ The point is: he did the important things right. Zuck had great product vision a
 Done is better than perfect.
 
 
-### <span style="color: #ff0000;">Bonus:</span> Lesson #6. Stop reading Hacker News.
+### <span class="red">Bonus:</span> Lesson #6. Stop reading Hacker News.
 
 Hacker News is **awesome** -- don't get me wrong. It's a great way to follow the goings-on of the hacker community. But, like everything else in life, it's subject to the [law of diminishing returns](http://en.wikipedia.org/wiki/Diminishing_returns).
 

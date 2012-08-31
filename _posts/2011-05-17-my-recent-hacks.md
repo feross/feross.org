@@ -43,7 +43,7 @@ The whole event went splendidly -- we're planning to do this every quarter from 
 
 [Instant.IO](http://instant.io) re-uses the [Google text-to-speech API](http://techcrunch.com/2009/12/14/the-unofficial-google-text-to-speech-api/) scraper I built when I made [Brain Grinder](http://braingrinder.com) last month. I'm planning to open source the code for this (and more) sometime soon.
 
-<span style="color: #ff0000;">**Update Sep 1:**</span> Source code for both [Instant.io](https://github.com/feross/Instant.io) and [BrainGrinder](https://github.com/feross/BrainGrinder.com) is now available on Github.
+<span class="red">**Update Sep 1:**</span> Source code for both [Instant.io](https://github.com/feross/Instant.io) and [BrainGrinder](https://github.com/feross/BrainGrinder.com) is now available on Github.
 
 <a id="emuspin">
 

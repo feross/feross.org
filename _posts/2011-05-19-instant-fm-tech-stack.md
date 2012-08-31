@@ -10,7 +10,7 @@ tags:
 
 I've received a lot of emails asking about the technology stack of [Instant.fm](http://instant.fm), so I thought I'd share this publicly.
 
-<span style="color:red;"><b>Update:</b></span> The source code for Instant.fm is now on [Github](https://github.com/feross/Instant.fm)!
+<span class="red"><b>Update:</b></span> The source code for Instant.fm is now on [Github](https://github.com/feross/Instant.fm)!
 
 ## First, what features did we want to build?
 
