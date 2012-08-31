@@ -77,4 +77,4 @@ A reader (titanicfreak94) sent me this message:
 
 > It's a very common misconception that Eiffel 65 used the Autotune to create the distorted vocals of Blue, and all their other songs. The actual process they did was called Vocoding. They used a device called a Vocoder, which takes one audio signal, and morphs it to give the effects of another. For example, if they had a clip of somebody singing, they could use the vocoder to mix the voice with a synthesized sound, and the result would be a robotic-sounding voice.</blockquote>
 
-I double-checked and s/he's most certainly right. The song's distorted vocals were indeed composed using a [http://en.wikipedia.org/wiki/Vocoder]. ***Thanks mysterious tipster!***
+I double-checked and s/he's most certainly right. The song's distorted vocals were indeed composed using a [http://en.wikipedia.org/wiki/Vocoder](http://en.wikipedia.org/wiki/Vocoder). ***Thanks mysterious tipster!***
