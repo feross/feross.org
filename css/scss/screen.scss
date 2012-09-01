@@ -28,7 +28,6 @@ body {
   width: $postWidth;
 
   .home &, .about & { width: $fullWidth }
-  .post & { width: $postWidth; }
 }
 
 .left {
@@ -278,6 +277,11 @@ nav {
 }
 
 
+// About
+
+
+
+
 // Prev/next posts
 
 a.prev {
@@ -293,6 +297,7 @@ a.next {
 a.prev, a.next {
   display: block;
   font-size: 1.1em;
+  opacity: 0.8;
   overflow: hidden;
   padding: 50px;
   position: fixed;
