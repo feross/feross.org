@@ -9,7 +9,7 @@ addCommasToInteger = (x) ->
 
 $(document).ready ->
   # Make external links open in new window
-  $("a[href^='http:']")
+  $("a[href^='http:'], a[href^='https:']")
     .not("[href*='feross.org']")
     .attr('target','_blank')
 
