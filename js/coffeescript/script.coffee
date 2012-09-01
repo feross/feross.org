@@ -7,7 +7,7 @@ addCommasToInteger = (x) ->
     x = x.replace(rgx, '$1' + ',' + '$2')
   x
 
-$ ->
+$(document).ready ->
   # Make external links open in new window
   $("a[href^='http:']")
     .not("[href*='feross.org']")
@@ -24,13 +24,13 @@ $ ->
       dataType: 'json'
       success: (data) ->
         views = addCommasToInteger(data.views)
-        console.log views
         $('.views').text("#{views} views")
       error: (data) ->
-        console.log 'error'
         $('.views').text('Lots of views')
 
 
+$(window).load ->
+  console.log('window load')
   # Fade prev/next post links on scroll
 
   # constants
@@ -41,7 +41,7 @@ $ ->
   $navLinks = $('.prev, .next')
   $meta = $('.meta')
   $copy = $('.copy')
-  copyOffset = 200 # start fading in a little early
+  copyOffset = 100 # start fading in a little early
   copyTop = $meta.offset().top - copyOffset # using meta, since that includes h3
   copyBottom = $copy.offset().top + $copy.height() - copyOffset
   copyHeight = copyBottom - copyTop
@@ -53,7 +53,9 @@ $ ->
     windowTop = $window.scrollTop()
     windowBottom = windowTop + windowHeight
 
-    if windowTop <= bannerBottom
+    if windowTop < 0
+      opacity = maxOpacity
+    else if windowTop <= bannerBottom
       opacity = maxOpacity - ((windowTop / bannerBottom) * (maxOpacity - minOpacity))
     else if windowBottom < copyTop 
       opacity = minOpacity
@@ -66,6 +68,7 @@ $ ->
 
   # throttle scroll events to reasonable rate
   $(window).scroll($.throttle(150, onScroll))
+  onScroll();
 
 
 
