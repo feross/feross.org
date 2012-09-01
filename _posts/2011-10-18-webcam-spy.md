@@ -6,6 +6,7 @@ github: https://github.com/feross/webcam-spy
 tags:
 - my-code
 - security
+best: true
 ---
 
 I discovered a vulnerability in Adobe Flash that allows any website to turn on your webcam and microphone **without your knowledge or consent** to spy on you.

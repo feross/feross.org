@@ -5,6 +5,7 @@ title: How I Learned to Program Computers
 tags:
 - essay
 - programming
+best: true
 ---
 
 I've been asked this question a lot lately, especially after I built [YouTube Instant](http://ytinstant.com). So, here's the answer, once and for all, for those who are interested.

@@ -6,6 +6,7 @@ tags:
 - freedom
 - copyright
 - essay
+best: true
 ---
 
 The Internet is awesome.

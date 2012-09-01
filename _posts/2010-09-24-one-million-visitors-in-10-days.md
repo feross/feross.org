@@ -5,6 +5,7 @@ title: One Million Visitors in 10 Days
 tags:
 - my-code
 - youtube-instant
+best: true
 ---
 
 [![YouTube Instant Logo](/images/youtube-instant-logo.png)](http://ytinstant.com)

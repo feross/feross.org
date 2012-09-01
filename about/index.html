@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: About Me
+title: Feross Aboukhadijeh Bio
 class: about
 script: >
   var ageInDays = Math.floor((new Date() - new Date('1990-10-31T08:00:00.000Z')) / 1000 / 60 / 60 / 24);
@@ -36,6 +36,23 @@ script: >
   <p>
     I currently live in Mountain View, CA.
   </p>
+
+  <h3>Now, go read one of my best blog posts:</h3>
+
+  <ul class="listing">
+    {% for post in site.posts %}
+    {% if post.best %} 
+    <li>
+      <a href="{{ post.url }}/">{{ post.title }}</a>
+      <time datetime="{{post.date | date: "%Y-%m-%d"}}">
+        {{ post.date | date: "%B %e, %Y" }}{% if post.github %}.
+        Code on <a href="{{ post.github }}">GitHub</a>.
+        {% endif %}
+      </time>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
 
 </div>
 
