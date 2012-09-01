@@ -49,21 +49,13 @@
       <h1><a href="http://feross.org">Feross.org</a></h1>
     </header>
 
-    {% if page.class != "post" %}
-      <nav>
-        <a href="/about/">About</a>
-        <a href="/resume/">Résumé</a>
-        <a href="/quotes/">Quotes</a>
-      </nav>
-    {% endif %}
-
     <section class="content">
       {{ content }}
     </section>
 
   </div>
 
-  {% if page.class != "post" %}
+  {% if page.class == "home" %}
     <a href="https://github.com/feross" id="github">Fork me on GitHub</a>
   {% endif %}
   

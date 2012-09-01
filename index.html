@@ -11,7 +11,7 @@ class: home
   </h2>
   <ul class="listing">
     {% for post in site.posts %}
-    <li class="clearfix">
+    <li>
       <a href="{{ post.url }}/">{{ post.title }}</a>
       <time datetime="{{post.date | date: "%Y-%m-%d"}}">
         {{ post.date | date: "%B %e, %Y" }}{% if post.github %}.
@@ -30,9 +30,9 @@ class: home
       I'm <strong>Feross Aboukhadijeh</strong> and this is my blog.
     </p>
     <p>
-      Read my <a href="/about/">bio</a>.<br>
-      Follow me on <a href="https://twitter.com/FreeTheFeross">Twitter</a>.<br>
-      Send me email at <a href="mailto:feross@feross.org">feross@feross.org</a>.
+      Read my <a href="/about/" class="strong">bio</a> and <a href="/resume/" class="strong">résumé</a>.
+      <br>Follow me on <a href="https://twitter.com/FreeTheFeross">Twitter</a>.
+      <br>Send me email at <a href="mailto:feross@feross.org">feross@feross.org</a>.
     </p>
 
     <a class="avatar" href="/about/" title="Feross Aboukhadijeh">
@@ -62,6 +62,10 @@ class: home
       <a href="/cmsploit/">CMSploit</a>
       <span>Security scanner to find CMS (Wordpress, Joomla, etc.) database passwords on the web.</span>
     </li>
+    <li>
+      <a href="/spoofmac/">SpoofMAC</a>
+      <span>Easily spoof your MAC address in OS X.</span>
+    </li>
   </ul>
 
   <h2>In the News</h2>
@@ -84,7 +88,7 @@ class: home
     </li>
   </ul>
 
-  <h2>More Hacks</h2>
+  <h2>Speed Hacks</h2>
   <ul class="listing">
     <li>
       <a href="http://braingrinder.com">Brain Grinder</a>
@@ -103,13 +107,15 @@ class: home
       <span>Spy on your network's HTTP traffic, with a pretty News Feed.</span>
     </li>
     <li>
-      <a href="https://github.com/feross/SpoofMAC">SpoofMAC</a>
-      <span>Easily spoof your MAC address in OS X.</span>
-    </li>
-    <li>
       <a href="http://emuspin.com">Emu Spin</a>
-      <span>LSD and emus.</span>
+      <span>LSD and emus. :)</span>
     </li>
   </ul>
 
+  <h2>Random</h2>
+  <ul class="listing">
+    <li>
+      <a href="/quotes/">Favorite Quotes</a>
+      <span>List of interesting &amp; inspiring quotes.</span>
+    </li>
 </div>
