@@ -2,6 +2,7 @@
 layout: layout
 class: post
 ---
+
 <h1>
   <a href="{{ page.url }}/">{{ page.title }}</a>
 </h1>
@@ -18,6 +19,8 @@ class: post
 </div>
 
 {{ content }}
+
+{% if site.related_posts %}<p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}/">{{ site.related_posts[0].title }}</a>.)</p>{% endif %}
 
 <section class="meta">
   <h3>Discussion, links, and tweets</h3>
@@ -36,8 +39,7 @@ class: post
         <input type="email" name="email"/>
         <input type="hidden" value="feross" name="uri"/>
         <input type="hidden" name="loc" value="en_US"/>
-        <input type="submit"value="Subscribe" />
-        
+        <input type="submit"value="Subscribe" /> 
       </p>
     </form>
 

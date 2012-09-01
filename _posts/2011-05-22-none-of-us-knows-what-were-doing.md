@@ -1,8 +1,7 @@
 ---
 old: true
 layout: post
-title: >
-  Essay: None of Us Knows What We're Doing
+title: None of Us Knows What We're Doing
 tags:
 - essay
 - inspiration

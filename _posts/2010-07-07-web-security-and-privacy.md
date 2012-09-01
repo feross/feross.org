@@ -1,8 +1,7 @@
 ---
 old: true
 layout: post
-title: >
-  Essay: Web Security and Privacy
+title: Web Security and Privacy
 tags:
 - essay
 - security

@@ -1,8 +1,7 @@
 ---
 old: true
 layout: post
-title: >
-  HOW TO: Spy on the Webcams of Your Website Visitors
+title: "HOW TO: Spy on the Webcams of Your Website Visitors"
 github: https://github.com/feross/webcam-spy
 tags:
 - my-code

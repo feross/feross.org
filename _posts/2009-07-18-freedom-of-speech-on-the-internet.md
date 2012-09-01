@@ -1,8 +1,7 @@
 ---
 old: true
 layout: post
-title: >
-  Essay: Freedom of Speech on the Internet
+title: Freedom of Speech on the Internet
 tags:
 - freedom
 - copyright

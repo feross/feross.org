@@ -40,6 +40,6 @@ desc "Deploy site"
 task :publish do
   sh "coffee --compile --output js/compiled/ js/coffeescript/"
   sh "compass compile --output-style compressed"
-  sh "jekyll"
+  sh "jekyll --lsi"
   sh "rsync -r -a -v -e \"ssh -l feross -p 44444\" --delete _site nginx.conf _server future:/home/feross/www/feross.org/"
 end

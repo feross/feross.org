@@ -1,8 +1,7 @@
 ---
 old: true
 layout: post
-title: >
-  GCC Easter Egg: C++ Undefined Defined Behavior
+title: "GCC Easter Egg: C++ Undefined Defined Behavior"
 tags:
 - programming
 - random

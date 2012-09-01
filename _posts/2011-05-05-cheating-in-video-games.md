@@ -1,8 +1,7 @@
 ---
 old: true
 layout: post
-title: >
-  Essay: Cheating in Video Games
+title: Cheating in Video Games
 tags:
 - essay
 - games

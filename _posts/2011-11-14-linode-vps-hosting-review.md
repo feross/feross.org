@@ -8,7 +8,7 @@ tags:
 
 People keep asking me to share how I handled the [viral traffic rush](/one-million-visitors-in-10-days/) to [YouTube Instant](http://ytinstant.com/) -- 1 million visitors in 10 days -- and which VPS hosting provider I recommend.
 
-The answer to the latter question is, without doubt, [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). This is my **review of Linode's VPS hosting service**.
+The answer to both questions is [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767), so here is my **review of Linode hosting**.
 
 ## Linode = Awesome Hosting
 
