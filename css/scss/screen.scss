@@ -278,6 +278,51 @@ nav {
 }
 
 
+// Prev/next posts
+
+a.prev {
+  left: -110px;
+  @include rotate(-90deg);
+}
+
+a.next {
+  right: -110px;
+  @include rotate(90deg);
+}
+
+a.prev, a.next {
+  display: block;
+  opacity: 0.4;
+  overflow: hidden;
+  padding: 50px;
+  position: fixed;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  top: 45%;
+  width: 250px;
+  white-space: nowrap;
+  z-index: 2;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:before {
+    content: "";
+    @include background(image-url('up.png'));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24px;
+    left: 50%;
+    margin-left: -12px;
+    position: absolute;
+    top: 25px;
+    width: 24px;
+  }
+}
+
+
 // Blog post listing
 
 ul.listing {

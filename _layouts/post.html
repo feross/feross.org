@@ -53,6 +53,15 @@ class: post
 
   </section>
 
+
+  {% if page.previous.url %}
+    <a class="prev" href="{{ page.previous.url }}/" title="Previous Post: {{ page.previous.title }}">{{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{ page.next.url }}/" title="Next Post: {{ page.next.title }}">{{ page.next.title }}</a>
+  {% endif %}
+
+
   <div id="disqus_thread"></div>
   <script type="text/javascript">
       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
