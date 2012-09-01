@@ -1,4 +1,4 @@
-# omg, coffeescript
+# omg, coffeescript, so tasty
 
 addCommasToInteger = (x) ->
   x += ''
@@ -29,3 +29,43 @@ $ ->
       error: (data) ->
         console.log 'error'
         $('.views').text('Lots of views')
+
+
+  # Fade prev/next post links on scroll
+
+  # constants
+  maxOpacity = 0.8
+  minOpacity = 0.15
+  $banner = $('[role="banner"]')
+  bannerBottom = $banner.offset().top + $banner.height()
+  $navLinks = $('.prev, .next')
+  $meta = $('.meta')
+  $copy = $('.copy')
+  copyOffset = 200 # start fading in a little early
+  copyTop = $meta.offset().top - copyOffset # using meta, since that includes h3
+  copyBottom = $copy.offset().top + $copy.height() - copyOffset
+  copyHeight = copyBottom - copyTop
+
+  # scroll handler
+  onScroll = (event) ->
+    $window = $(window)
+    windowHeight = $window.height()
+    windowTop = $window.scrollTop()
+    windowBottom = windowTop + windowHeight
+
+    if windowTop <= bannerBottom
+      opacity = maxOpacity - ((windowTop / bannerBottom) * (maxOpacity - minOpacity))
+    else if windowBottom < copyTop 
+      opacity = minOpacity
+    else if windowBottom < copyBottom 
+      opacity = minOpacity + ((windowBottom - copyTop) / copyHeight * (maxOpacity - minOpacity))
+    else
+      opacity = maxOpacity
+
+    $navLinks.css(opacity: opacity)
+
+  # throttle scroll events to reasonable rate
+  $(window).scroll($.throttle(150, onScroll))
+
+
+

@@ -292,7 +292,7 @@ a.next {
 
 a.prev, a.next {
   display: block;
-  opacity: 0.4;
+  font-size: 1.1em;
   overflow: hidden;
   padding: 50px;
   position: fixed;
@@ -305,7 +305,7 @@ a.prev, a.next {
   z-index: 2;
 
   &:hover {
-    opacity: 1;
+    opacity: 1 !important;
   }
 
   &:before {
