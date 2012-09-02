@@ -29,5 +29,5 @@ That's pretty much it.
 
 ## The blog design
 
-If you decided to fork, please create your own blog design. I'm happy for people to use my design as inspiration, but I don't want to see fifty other blogs that look the same. For that reason, I'm keeping the copyright on this code.
+If you decided to fork, please create your own blog design, don't use mine. I don't want to see fifty other blogs that look the same as mine. Thanks for understanding!
 

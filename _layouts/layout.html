@@ -47,10 +47,10 @@
   <div id="container">
 
     <header role="banner">
-      <h1><a href="http://feross.org">Feross.org</a></h1>
+      <h1><a href="http://feross.org">{% if page.class == "resume" %}Feross Aboukhadijeh{% else %}Feross.org{% endif %}</a></h1>
     </header>
 
-    <section class="content">
+    <section class="content clearfix">
       {{ content }}
     </section>
 

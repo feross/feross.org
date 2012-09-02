@@ -3,7 +3,7 @@ layout: layout
 title: Quotes
 ---
 
-Here are <strong>my favorite quotes</strong> from rockstar programmers, athletes, and revolutionary figures that inspire me or make me laugh. I hope you enjoy them!
+Here are <strong>my favorite quotes</strong> from programmers, athletes, and revolutionary figures that inspire me or make me laugh. I hope you enjoy them!
 
 <h2>Computers</h2>
 <blockquote>The only legitimate use of a computer is to play games.
@@ -24,8 +24,7 @@ Here are <strong>my favorite quotes</strong> from rockstar programmers, athletes
 -- <a href="http://paulgraham.com/lies.html">Paul Graham</a></blockquote>
 <blockquote>Public schools don’t fail to educate students. They succeed at dumbing them down. The true purpose of compulsory education is to make people childish, docile, conformist, obedient, and predictable – and to squash qualities like dissent, originality, leadership, and independence.
 -- <a href="http://www.lewrockwell.com/orig11/finnigan-t1.1.1.html">Tom Finnigan</a></blockquote>
-<blockquote>The midterm is <em>closed computer</em>, but you <strong>are</strong> allowed to use your brain.
--- Mehran Sahami, <a href="http://cs109.stanford.edu">Stanford CS109</a> Professor</blockquote>
+
 <h2>Freedom</h2>
 <blockquote>If you are not free to choose wrongly and irresponsibly, you are not free at all.
 -- Jacob Hornberger</blockquote>
@@ -50,9 +49,7 @@ Here are <strong>my favorite quotes</strong> from rockstar programmers, athletes
 -- Richard Stallman</blockquote>
 <blockquote>On the one hand, information wants to be expensive, because it’s so valuable. On the other hand, information wants to be free, because the cost of getting it out is getting lower and lower all the time. So you have these two fighting against each other.
 -- Stewart Brand</blockquote>
-<h2>Nerds</h2>
-<blockquote>My youngest daughter is 13 months old, and in her limited vocabulary alongside essentials like 'mom-mom', 'da-da', and 'meow' she knows to say 'zhooom' and wave her arm around when she wants me to get a lightsaber down off a shelf for her to play with. As far as I'm concerned that's Parent of the Year Award material right there.
--- Aurich Lawson</blockquote>
+
 <h2>Programming</h2>
 <blockquote>Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?
 -- Brian Kernighan</blockquote>

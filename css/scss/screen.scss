@@ -15,19 +15,19 @@ body {
   background-color: $bgColor;
   color: $darkerGray;
   font-family: $sans-serif;
-  margin: 0 0 100px 0;
   -webkit-font-smoothing: antialiased;
 
   font-size: 17px;
   line-height: 1.5em;
+  margin: 0;
+  padding: 0;
 }
 
 #container {
-  margin: 0 auto;
-
+  margin: 0 auto 60px auto;
   width: $postWidth;
 
-  .home &, .about & { width: $fullWidth }
+  .home &, .about, .resume & { width: $fullWidth }
 }
 
 .left {
@@ -54,8 +54,7 @@ a {
 
 h1, h2, h3, h4 {
   color: $darkerGray;
-  line-height: 1em;
-  padding-bottom: 0.2em;
+  line-height: 1.2em;
   border-bottom: 1px solid $lighterGray;
 
   a {
@@ -103,6 +102,17 @@ blockquote {
   color: $darkGray;
 }
 
+ul {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+li {
+  margin: 0.3em 0;
+}
+
+abbr[title] { border-bottom: 1px dotted $lightGray; }
+
 
 // Non-semantic helper classes
 
@@ -135,7 +145,7 @@ header[role="banner"] {
     font-size: 4em;
     font-weight: normal;
     line-height: 1.5em;
-    margin: 40px 0 0 0;
+    margin: 40px 0 10px 0;
   }
   a {
     #{$link} {
@@ -187,6 +197,7 @@ header[role="banner"] {
   img { margin: 0; border: 0; padding: 1px; }
   &:hover { opacity: 1; }
 }
+
 
 // Post layout
 
@@ -250,7 +261,48 @@ header[role="banner"] {
 }
 
 
-// Prev/next posts
+// Resume layout
+
+.resume {
+  h1 {
+    border-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  h3 {
+    border-bottom: 0;
+    color: $darkerGray;
+    font-size: 1.05em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    vertical-align: top;
+
+  }
+
+  // Dates
+  li, h3 {
+    span { 
+      color: $gray;
+      font-size: 0.8em;
+      font-weight: normal;
+      margin-left: 5px;
+      &:before { content: " ["; }
+      &:after { content: "]"; }
+    }
+  }
+
+  .right {
+    h3 { margin-bottom: 0.3em; }
+    h3 + p { margin: 0.3em 0; }
+    ul { margin-top: 0.3em; }
+  }
+
+}
+
+
+// Prev/next post links
 
 a.prev {
   left: -110px;
