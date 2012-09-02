@@ -27,7 +27,7 @@ body {
   margin: 0 auto 60px auto;
   width: $postWidth;
 
-  .home &, .about, .resume & { width: $fullWidth }
+  .home &, .about &, .resume & { width: $fullWidth }
 }
 
 .left {
