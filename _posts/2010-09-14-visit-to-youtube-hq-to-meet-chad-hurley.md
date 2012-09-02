@@ -5,6 +5,7 @@ title: I just met Chad Hurley at YouTube HQ
 tags:
 - famous-people
 - youtube-instant
+best: true
 ---
 
 <del datetime="2010-09-16T07:08:16+00:00">430,000 visitors in four days!</del>
