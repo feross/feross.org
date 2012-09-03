@@ -38,6 +38,7 @@ end
 
 desc "Deploy site"
 task :publish do
+  sh "rm -rf _site js/compiled css/compiled"
   sh "coffee --compile --output js/compiled/ js/coffeescript/"
   sh "compass compile --output-style compressed"
   sh "jekyll --lsi"
