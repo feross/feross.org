@@ -1,8 +1,6 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-
   <!--
 
   Feross Aboukhadijeh
@@ -20,11 +18,7 @@
   <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}Feross Aboukhadijeh is a computer security researcher, teacher, web developer, designer, long distance runner, gamer, music lover, and builder of websites that (sometimes) go viral.{% endif %}">
   <meta property="og:title" content="{{ page.title }} &raquo; Feross.org" />
   <meta property="og:type" content="article" />
-  {% if page.tags %}
-  {% for tag in page.tags %}
-  <meta property="article:tag" content="{{ tag | replace: '-', ' ' }}" />
-  {% endfor %}
-  {% endif %}
+  {% if page.tags %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag | replace: '-', ' ' }}" />{% endfor %}{% endif %}
   <meta property="og:image" content="http://feross.org/images/F.png" />
 
   {% if page.class == "post" %}<link rel="canonical" href="http://feross.org{{ page.url }}/"/>{% endif %}
@@ -36,11 +30,28 @@
   <link rel="alternate" type="application/atom+xml" title="Feross.org" href="http://feeds.feedburner.com/feross" />
 
   <link rel="stylesheet" href="/css/compiled/screen.css" />
-
-  <!-- Typekit -->
-  <script src="//use.typekit.net/lvb8hht.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-  
+ 
+  <!-- Async Typekit loader, modified to add "wf-active" class on successful load. -->
+  <style>
+    .wf-loading{
+      opacity: 0;
+    }
+    .wf-active, .wf-inactive {
+      opacity: 1 !important;
+      -moz-transition: 0.2s opacity ease-in;
+      -webkit-transition: 0.2s opacity ease-in;
+      transition: 0.2s opacity ease-in;
+    }
+  </style>
+  <script type="text/javascript">
+    (function() {
+      var config = {
+        kitId: 'lvb8hht',
+        scriptTimeout: 1000
+      };
+      var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config);h.className+="wf-active"}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+    })();
+  </script>
 
 </head>
 <body class="{{ page.class }}">
