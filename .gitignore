@@ -2,7 +2,7 @@
 *.sublime-workspace
 
 _site
-_drafts
+_posts_drafts
 
 .sass-cache
 css/compiled/*.css
