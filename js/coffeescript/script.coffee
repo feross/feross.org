@@ -25,7 +25,6 @@ $(document).ready ->
 
 
 $(window).load ->
-  console.log('window load')
   # Fade prev/next post links on scroll
 
   # constants
