@@ -2,10 +2,14 @@ express = require('express')
 mysql = require('mysql')
 config = require('./config')
 
+isProduction = false
+
 port = process.argv[2]
 if port
+  isProduction = true
   console.log "Using port #{port}"
 else
+  isProduction = false
   console.log "Using default port 3000"
   port = 3000
 
@@ -15,10 +19,10 @@ app.use(express.bodyParser())
 createConnection = ->
   # Set up a connection for each request
   connection = mysql.createConnection
-    host: config.db.host
-    user: config.db.user
-    password: config.db.password
-    database: config.db.database
+    host: if isProduction then config.db.prod.host else config.db.dev.host
+    user: if isProduction then config.db.prod.user else config.db.dev.user
+    password: if isProduction then config.db.prod.password else config.db.dev.password
+    database: if isProduction then config.db.prod.database else config.db.dev.database
 
   # If there's an error, just print it out. Views aren't that important.
   connection.connect (err) ->
@@ -29,7 +33,8 @@ createConnection = ->
     console.log 'Database error: Well, this was really random.'
     console.log err
 
-
+# Increment the view count for a particular post and return
+# the current view count.
 app.post '/views', (req, res) ->
 
   slug = req.param('slug')
@@ -71,6 +76,22 @@ app.post '/views', (req, res) ->
 
     else
       connection.end()
+
+
+# Get the total view count for all posts
+app.get '/views/total', (req, res) ->
+  
+  connection = createConnection()
+
+  connection.query 'SELECT sum(views) AS views FROM views', (err, results) ->
+    if err
+      console.log err
+      res.send err: 'Error: db error while getting total view count'
+    else
+      if results.length > 0
+        res.send results[0]
+      else
+        res.send err: 'Error: slug not found'
 
 
 # Start server
