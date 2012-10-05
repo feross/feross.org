@@ -69,7 +69,7 @@ hostname -F /etc/hostname
 Let's verify that it was set correctly:
 
 {% highlight bash %}
-echo /etc/hostname
+hostname
 {% endhighlight %}
 
 
