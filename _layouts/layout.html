@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+  
   <!--
 
   Feross Aboukhadijeh
@@ -13,16 +14,30 @@
                                                   — Theodore Roosevelt
   -->
 
+  {% capture meta_desc %}{% if page.summary %}{{ page.summary }}{% else %}Feross Aboukhadijeh is a computer security researcher, teacher, web developer, designer, long distance runner, gamer, music lover, and builder of websites that (sometimes) go viral.{% endif %}{% endcapture %}
+
   <title>{{ page.title }} &raquo; Feross.org</title>
-  <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}Feross Aboukhadijeh is a computer security researcher, teacher, web developer, designer, long distance runner, gamer, music lover, and builder of websites that (sometimes) go viral.{% endif %}">
   <meta property="og:title" content="{{ page.title }} &raquo; Feross.org" />
+
+  <meta name="description" content="{{ meta_desc }}">
+  <meta property="og:description" content="{{ meta_desc }}" />
+
   <meta property="og:type" content="article" />
   {% if page.tags %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag | replace: '-', ' ' }}" />{% endfor %}{% endif %}
   <meta property="og:image" content="http://feross.org/images/F.png" />
+  
+  <meta property="article:author" content="http://feross.org/about/" />
+  <meta property="fb:admins" content="1347524341" />
+  <meta property="fb:app_id" content="515587071790188" />
+  <link rel="author" href="https://plus.google.com/108080265905114949970" />
 
-  {% if page.class == "post" %}<link rel="canonical" href="http://feross.org{{ page.url }}/"/>{% endif %}
-  <meta name="author" content="Feross Aboukhadijeh">
-  <link href="https://plus.google.com/108080265905114949970" rel="author" />
+  {% if page.class == "post" %}
+  <link rel="canonical" href="http://feross.org{{ page.url }}/" />
+  <meta property="og:url" content="http://feross.org{{ page.url }}/" />
+  {% elsif page.class == "home" %}
+  <link rel="canonical" href="http://feross.org/" />
+  <meta property="og:url" content="http://feross.org/" />
+  {% endif %}
 
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
