@@ -21,22 +21,39 @@ body {
   line-height: 1.5em;
   margin: 0;
   padding: 0;
+
+  @media only screen and (max-width: 750px) {
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 480px) {
+    font-size: 15px;
+  }
 }
 
 #container {
   margin: 0 auto 60px auto;
-  width: $postWidth;
+  max-width: $postWidth;
+  padding: 0 2%;
+  width: 92%;
 
-  .home &, .about &, .resume & { width: $fullWidth }
+  .home &, .about &, .resume & {
+    max-width: $fullWidth;
+  }
 }
 
 .left {
-  width: 60%;
   float: left;
+  width: 60%;
 }
 .right {
-  width: 35%;
   float: right;
+  width: 35%;
+}
+.left, .right {
+  @media only screen and (max-width: 750px) {
+    float: none;
+    width: 100%;
+  }
 }
 
 
@@ -66,7 +83,7 @@ h1, h2, h3, h4 {
     }
   }
 }
-h1 { font-size: 1.8em; margin: 1.2em 0 0.2em 0; }
+h1 { font-size: 1.8em; margin: 0.8em 0 0.2em 0; }
 h2 { font-size: 1.5em; margin: 1.2em 0 0.6em 0; }
 h3 { font-size: 1.3em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
 h4 { font-size: 1.1em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
@@ -126,13 +143,12 @@ abbr[title] { border-bottom: 1px dotted $lightGray; }
 img, iframe, object, embed, audio, video {
   display: block;
   margin: 20px auto;
-  max-width: $postWidth;
+  max-width: 100%;
 }
 
 img {
   padding: 3px;
   border: 1px solid $lightestGray;
-  max-width: 100%;
 }
 
 
@@ -147,6 +163,11 @@ header[role="banner"] {
     font-weight: normal;
     line-height: 1.5em;
     margin: 40px 0 10px 0;
+
+    @media only screen and (max-width: 480px) {
+      font-size: 3em;
+      margin: 30px 0 0 0;
+    }
   }
   a {
     #{$link} {
@@ -179,6 +200,11 @@ header[role="banner"] {
   #{$focus} {
     background: $red;
   }
+
+  @media only screen and (max-width: 750px) {
+    display: none;
+  }
+
 }
 
 
@@ -345,6 +371,10 @@ a.prev, a.next {
     position: absolute;
     top: 25px;
     width: 24px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    display: none;
   }
 }
 
