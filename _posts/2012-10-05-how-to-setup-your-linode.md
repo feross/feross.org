@@ -187,7 +187,7 @@ chmod 600 .ssh/authorized_keys
 {% endhighlight %}
 
 
-### Disable root login
+### Disable remote root login and change the SSH port
 
 Since all Ubuntu servers have a `root` user and most servers run SSH on port 22 (the default), criminals often try to guess the `root` password using automated attacks that try many thousands of passwords in a very short time. This is a common attack that nearly all servers will face.
 
@@ -207,6 +207,10 @@ In this example, we changed the port to 44444. So, now to connect to the server,
 {% highlight bash %}
 ssh <your username>@future.<your domain>.net -p 44444
 {% endhighlight %}
+
+Update: Someone posted this useful note about choosing an SSH port on Hacker News:
+
+> Make sure your SSH port is below 1024 (but still not 22). Reason being if your Linode is ever compromised a bad user may be able to crash sshd and run their own rogue sshd as a non root user since your original port is configured >1024. (More info [here](http://unix.stackexchange.com/questions/16564/why-are-the-first-1024-ports-restricted-to-the-root-user-only))
 
 
 ## Advanced Security Setup
@@ -385,10 +389,17 @@ The vm.panic_on_oom=1 line enables panic on OOM; the kernel.panic=10 line tells 
 [Read more](http://www.linode.com/wiki/index.php/Rebooting_on_OOM) about rebooting when out of memory on Linode's wiki.
 
 
-At this point, you have a pretty nice server setup. Congrats! But, your server still doesn't do anything useful. Let's install some software.
+### Set up reverse DNS
+
+The reverse <abbr title="domain name system">DNS</abbr> system allows one to determine the domain name that lives at a given IP address. This is useful for network troubleshooting &mdash; (ping, traceroute, etc.), as well as email anti-spam measures ([read more](http://en.wikipedia.org/wiki/Reverse_DNS_lookup#Uses) on Wikipedia).
+
+It's pretty easy to set up. From the Linode Manager, select your Linode, click on "Remote Access", then click on "Reverse DNS" (under "Public IPs"). Type in your domain and that's it!
 
 
 ## Install Useful Server Software
+
+At this point, you have a pretty nice server setup. Congrats! But, your server still doesn't do anything useful. Let's install some software.
+
 
 ### Install a compiler
 
@@ -416,6 +427,14 @@ sudo netstat -tap | grep mysql
 {% endhighlight %}
 
 For connecting to MySQL, instead of the usual PHPMyAdmin, I now use [Sequel Pro](http://www.sequelpro.com/), a free app for Mac.
+
+Before using MySQL in production, you'll want to improve your MySQL installation security. Run:
+
+{% highlight bash %}
+mysql_secure_installation
+{% endhighlight %}
+
+This will help you set a password for the root account, remove anonymous-user accounts, and remove the test database.
 
 
 ### Install Python
