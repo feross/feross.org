@@ -3,6 +3,7 @@ layout: post
 title: "How To Set Up Your Linode For Maximum Awesomeness"
 tags:
 - web-dev
+hn: "http://news.ycombinator.com/item?id=4618808"
 ---
 
 So, you followed the advice in my [Linode Hosting Review](/linode-vps-hosting-review/) and decided to host your website with [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Excellent choice!

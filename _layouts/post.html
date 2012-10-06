@@ -33,6 +33,7 @@ class: post
         </a>
         Hey, thanks for reading! I'm <a href="/about/">Feross Aboukhadijeh</a>, a web developer, designer, and Stanford computer science student.
       </p>
+      {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
       <p>
         If you enjoyed this article, you should <a href="https://twitter.com/FreeTheFeross">follow me on Twitter</a> or sign up to get an email whenever I write something new:
 
