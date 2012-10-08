@@ -22,7 +22,7 @@ Setting up a new server can be confusing, so using a tutorial like this one is a
 
 ## Tutorial: How To Set Up Your Linode
 
-In this guide, I will demonstrate how to set up a fresh Ubuntu server from scratch, update everything, install essential software, lock down the server to make it more resilient against basic attacks and denial-of-service, improve server stability, and finally install common software like Nginx, MySQL, Python, Node, etc.
+In this guide, I will demonstrate how to set up a fresh Ubuntu server from scratch, update everything, install essential software, lock down the server to make it more resilient against basic attacks and denial-of-service, improve server stability, setup automatic backups to another server, and finally install common software like Nginx, MySQL, Python, Node, etc.
 
 
 ### A Note About This Guide
@@ -84,7 +84,7 @@ Set the <abbr title="Fully-qualified domain name">FQDN</abbr> of the server by m
     <your server ip>   future.<your domain>.net       future
 {% endhighlight %}
 
-It is useful if you add an A record that points from some domain you control (in this case I used "future.<your domain>.net") to your server IP address. This way, you can easily reference the IP address of your server when you SSH into it, like so:
+It is useful if you add an A record that points from some domain you control (in this case I used "future.&lt;your domain&gt;.net") to your server IP address. This way, you can easily reference the IP address of your server when you SSH into it, like so:
 
 {% highlight bash %}
 ssh future.<your domain>.net
@@ -428,6 +428,8 @@ sudo netstat -tap | grep mysql
 
 For connecting to MySQL, instead of the usual PHPMyAdmin, I now use [Sequel Pro](http://www.sequelpro.com/), a free app for Mac.
 
+#### Improve MySQL security
+
 Before using MySQL in production, you'll want to improve your MySQL installation security. Run:
 
 {% highlight bash %}
@@ -435,6 +437,48 @@ mysql_secure_installation
 {% endhighlight %}
 
 This will help you set a password for the root account, remove anonymous-user accounts, and remove the test database.
+
+
+#### Keep your MySQL tables in tip-top shape
+
+Over time your MySQL tables will get fragmented and queries will take longer to complete. You can keep your tables in top shape by regularly running [OPTIMIZE TABLE](http://dev.mysql.com/doc/refman/5.1/en/optimize-table.html) on all your tables. But, since you'll never remember to do this regularly, we should set up a cron job to do this.
+
+Open up your crontab file:
+
+{% highlight bash %}
+crontab -e
+{% endhighlight %}
+
+Then, add the following line:
+
+{% highlight bash %}
+@weekly mysqlcheck -o --user=root --password=<your password here> -A
+{% endhighlight %}
+
+Also, you can try manually running the above command to verify that it works correctly.
+
+
+#### Backup your MySQL databases
+
+The excellent `automysqlbackup` utility can automatically make daily, weekly, and monthly backups of your MySQL database.
+
+Install it:
+
+{% highlight bash %}
+sudo aptitude install automysqlbackup
+{% endhighlight %}
+
+Now, let's configure it. Open the configuration file:
+
+{% highlight bash %}
+sudo nano /etc/default/automysqlbackup
+{% endhighlight %}
+
+By default, your database backups get stored in `/var/lib/automysqlbackup` which isn't very intuitive. I recommend changing it to a folder within your home directory. To do this, find the line that begins with `BACKUPDIR=` and change it to `BACKUPDIR="/home/<your username>/backups/"`
+
+You also want to get an email if an error occurs, so you'll know if automatic backups stop working for some reason. Find the line that begins with `MAILADDR=` and change it to `MAILADDR="<your email address>"`.
+
+Close and save the file. That's it!
 
 
 ### Install Python
@@ -491,7 +535,7 @@ sudo aptitude install apache2
 
 {% highlight bash %}
 sudo aptitude install php5 libapache2-mod-php5 php5-mysql
-sudo service apache2 restartq
+sudo service apache2 restart
 {% endhighlight %}
 
 
@@ -504,6 +548,32 @@ sudo apt-get update
 sudo apt-get install nodejs npm nodejs-dev
 {% endhighlight %}
 
+
+## Setup Automatic Backups
+
+Backups are really important. [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767) offers a paid backup service that's really convenient if you accidentally destroy something and need to restore your Linode quickly. It's $5 per month for the smallest Linode. I enable it on all my Linodes.
+
+If you want even more peace of mind (or don't want to pay for Linode's backup service) you can roll your own simple backup solution using `rsync`.
+
+You will need access to another Linux server (maybe another Linode?) or a home server. I just installed Ubuntu on an old desktop computer to use as a backup server.
+
+We're going to create a weekly cronjob that backs up our Linode's home directory to a backup server. I keep all the files that I would want to backup in my home folder, so this works for me.
+
+Open your crontab:
+
+{% highlight bash %}
+crontab -e
+{% endhighlight %}
+
+Add this line to the file:
+
+{% highlight bash %}
+@weekly rsync -r -a -e "ssh -l <your username on backup server> -p <ssh port number of backup server>" --delete /home/<your username> <hostname or ip address of backup server>:/path/to/some/directory/on/backup/server
+{% endhighlight %}
+
+I recommend running the above command manually to make sure you have it right before adding it to your crontab file.
+
+That's it!
 
 ## Linode rocks!
 
