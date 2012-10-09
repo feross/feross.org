@@ -165,7 +165,7 @@ If this attack were used in the wild, I bet at least 10% of web users would get 
 
 Links are the bread and butter of the web. People click links all day long -- people are pretty trained to think that clicking a link on the web is safe. Saavy users may check the link's destination in the status bar before clicking, however, in this case it won't do them any good.
 
-**Most browsers don't do a good job of making it clear that the browser just entered fullscreen mode.** Safari show a quick half-second animation, then *no indication at all* that the browser is in fullscreen mode, making users susceptible to all kinds of phsishing attacks involving fake OS and browser UI.
+**Most browsers don't do a good job of making it clear that the browser just entered fullscreen mode.** Safari shows a quick half-second animation, then *no indication at all* that the browser is in fullscreen mode, making users susceptible to all kinds of phsishing attacks involving fake OS and browser UI.
 
 Chrome and Firefox (especially recent versions) do a better job of putting their own UI on top of the fullscreened content, but in Chrome especially, it's pretty subtle and easily missed.
 
