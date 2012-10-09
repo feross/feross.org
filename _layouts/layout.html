@@ -97,6 +97,11 @@
     </script>
   {% endif %}
 
+  {% if page.demo %}
+    <!-- Page-specific demo code -->
+    {{ page.demo }}
+  {% endif %}
+
   {% if page.class == "post" %}
   
     <!-- Facebook -->
