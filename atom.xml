@@ -28,7 +28,7 @@ layout: nil
     <id>http://feross.org{{ post.id }}</id>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <summary type="html"><![CDATA[{{ post.content | strip_html | truncatewords: 55 }}]]></summary>
-    <content type="html" xml:base="http://feross.org{{ post.url }}/"><![CDATA[{{ post.content }}]]></content>
+    <content type="html" xml:base="http://feross.org{{ post.url }}/"><![CDATA[{% if post.dynamic %}<p><em>This blog post contains JavaScript and other dynamic content that will not display correctly in most RSS readers. I recommend <a href="http://feross.org{{ post.url }}/">reading this post</a> directly in your web browser.</em></p>{% endif %}{{ post.content }}]]></content>
   </entry>
   {% endfor %}
 
