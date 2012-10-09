@@ -8,8 +8,8 @@ tags:
 dynamic: true
 github: https://github.com/feross/fullscreen-api-attack
 hn: http://news.ycombinator.com/item?id=4629906
+
 demo: >
-  <!-- Demo code -->
 
   <link rel="stylesheet" href="/hacks/fullscreen-api-attack/css/style.css">
   <link rel="stylesheet" href="/hacks/fullscreen-api-attack/css/facebox.css">
@@ -49,7 +49,7 @@ There is only one way to find out if I'm telling the truth -- *just <a class="sp
 
 Ok, I lied -- the link was pretty fishy afterall. When you click on the link, you don't actually navigate to `https://www.bankofamerica.com`. Instead, your browser automatically enters fullscreen mode and I load a fake version of Bank of America's website (my demo uses a screenshot, but attackers would use a working website).
 
-The fake Bank of America site is adorned with OS and browser UI that indicates you are actually on `https://www.bankofamerica.com`. Of course, these UI components are just screenshots too! However, they're pretty convincing because they actually take into account the OS and browser you are using!
+The fake Bank of America site is adorned with OS and browser UI that indicates you are actually on `https://www.bankofamerica.com`. Of course, these UI components are just screenshots too! However, they're pretty convincing because they actually *take into account the OS and browser you are using!*
 
 Also, **note the green lock** in the location bar, which indicates that TLS (i.e. HTTPS) is enabled.
 
@@ -150,7 +150,7 @@ On OS X, Chrome plays an annoying 1-second animation any time you go fullscreen,
 
 Despite all these apparent shortcomings, this remains a very serious attack because of the phenomenon of change blindness.
 
-> [Change blindness] is the phenomenon where seemingly striking or obvious changes are not noticed. -- Milan Verma on [BBC](http://www.bbc.co.uk/news/10284925)
+> [Change blindness] is the phenomenon where **seemingly striking or obvious changes are not noticed**. -- Milan Verma on [BBC](http://www.bbc.co.uk/news/10284925)
 
 Read more about [change blindness](http://en.wikipedia.org/wiki/Change_blindness) on Wikipedia.
 
@@ -161,18 +161,18 @@ If this attack were used in the wild, I bet at least 10% of web users would get 
 
 Links are the bread and butter of the web. People click links all day long -- people are pretty trained to think that clicking a link on the web is safe. Saavy users may check the link's destination in the status bar before clicking, however, in this case it won't do them any good.
 
-Most browsers don't do a good job of making it clear that the browser just entered fullscreen mode. Safari show a quick half-second animation, then *no indication at all* that the browser is in fullscreen mode, making users susceptible to all kinds of phsishing attacks involving fake OS and browser UI.
+**Most browsers don't do a good job of making it clear that the browser just entered fullscreen mode.** Safari show a quick half-second animation, then *no indication at all* that the browser is in fullscreen mode, making users susceptible to all kinds of phsishing attacks involving fake OS and browser UI.
 
 Chrome and Firefox (especially recent versions) do a better job of putting their own UI on top of the fullscreened content, but in Chrome especially, it's pretty subtle and easily missed.
 
-I'm sure we can all think of friends or family that would be fooled by a trick like this. After all, enough people still respond to nigerian scam emails that it's still profitible to keep sending them.
+I'm sure we can all think of friends or family that would be fooled by a trick like this. After all, enough people still respond to Nigerian scam emails that it's profitible to continue sending them!
 
 
 ## A quick note about "features vs. security" in software
 
-In software engineering, functionality and security are at odds with each other. When you add a new feature to a complex system, it's impossible to predict how the new feature will interact with each of the thousands of existing features, in all their myriad combinations.
+In software engineering, **functionality and security are at odds with each other**. When you add a new feature to a complex system, it's impossible to predict how the new feature will interact with each of the thousands of existing features, in all their myriad combinations.
 
-When the fullscreen API was first drafted by Mozilla, they predicted attacks like this.
+When the fullscreen API was first drafted by Mozilla, they predicted attacks like this:
 
 > Browser vendors are well aware of the potential security issues with fullscreen. For example, a malicious site could show a full screen Windows or Mac login window and steal a password. That’s why they are disabling keyboard support by default and only enabling by explicitly asking. -- [John Dyer](http://johndyer.name/native-fullscreen-javascript-api-plus-jquery-plugin/)
 

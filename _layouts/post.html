@@ -48,7 +48,7 @@ class: post
       Share this article with your friends:
     </p>
 
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://{% if page.old %}www.{% endif %}feross.org{{ page.url }}/" data-via="FreeTheFeross" data-size="large" data-related="FreeTheFeross">Tweet</a>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://{% if page.old %}www.{% endif %}feross.org{{ page.url }}/" data-text="{{ page.title | xml_escape }}" data-via="FreeTheFeross" data-size="large" data-related="FreeTheFeross">Tweet</a>
 
     <div class="fb-like" data-href="http://feross.org{{ page.url }}/" data-send="false" data-width="450" data-show-faces="true"></div>
 
