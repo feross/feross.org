@@ -152,10 +152,13 @@ Despite all these apparent shortcomings, this remains a very serious attack beca
 
 > [Change blindness] is the phenomenon where **seemingly striking or obvious changes are not noticed**. -- Milan Verma on [BBC](http://www.bbc.co.uk/news/10284925)
 
+Check out this excellent video from the psychology study where "change blindness" was first proven outside the lab:
+
+<iframe width="640" height="480" src="http://www.youtube.com/embed/FWSxSQsspiQ#t=11s" frameborder="0" allowfullscreen></iframe>
+
 Read more about [change blindness](http://en.wikipedia.org/wiki/Change_blindness) on Wikipedia.
 
-
-## Human are terrible at spotting subtle changes
+## Humans are terrible at spotting subtle changes
 
 If this attack were used in the wild, I bet at least 10% of web users would get phished (probably many more).
 
@@ -181,7 +184,6 @@ At some point, Mozilla (as well as the other browser vendors) must have decided 
 I'm not convinced that this was the right tradeoff to make. What do you think?
 
 
-
-
+*Shoutout to [Neal Wu](https://twitter.com/WuNeal)!*
 
 
