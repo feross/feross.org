@@ -53,10 +53,11 @@ The fake Bank of America site is adorned with OS and browser UI that indicates y
 
 Also, **note the green lock** in the location bar, which indicates that TLS (i.e. HTTPS) is enabled.
 
+**[NOTE: The demo only works with a normal click on the link. No "Open in New Tab" or middle-click.]**
 
 ## The "Fullscreen API" explained
 
-The **Fullscreen API** (see [W3C docs](https://developer.mozilla.org/en-US/docs/DOM/Using_full-screen_mode) and [MDN docs](https://developer.mozilla.org/en-US/docs/DOM/Using_full-screen_mode)) allows web developers show web content that fills up the user's screen completely. You've seen this functionality in action whenever you watch a fullscreen video on YouTube (if you use their [new HTML5 player](http://www.youtube.com/html5), which you should do!) or look at a fullscreen photo on Facebook.
+The **Fullscreen API** (see [W3C docs](http://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html) and [MDN docs](https://developer.mozilla.org/en-US/docs/DOM/Using_full-screen_mode)) allows web developers show web content that fills up the user's screen completely. You've seen this functionality in action whenever you watch a fullscreen video on YouTube (if you use their [new HTML5 player](http://www.youtube.com/html5), which you should do!) or look at a fullscreen photo on Facebook.
 
 <div style="text-align: center;">
   <img style="display: inline; padding-right: 20px;" alt="YouTube Video Fullscreen Button" src="/images/fullscreen-yt-video.png" />
@@ -182,6 +183,14 @@ When the fullscreen API was first drafted by Mozilla, they predicted attacks lik
 At some point, Mozilla (as well as the other browser vendors) must have decided that keyboard support in fullscreen mode is useful enough to legit web developers that it's worth taking a hit to security.
 
 I'm not convinced that this was the right tradeoff to make. What do you think?
+
+**UPDATE (Oct 9 12:00 AM):** The Mozilla developer documentation says this:
+
+> Also, any alphanumeric keyboard input while in full-screen mode causes a warning message to appear; this is done to help guard against phishing attacks. The following keys are the only ones that don't cause this warning message to appear (...) -- [MDN](https://developer.mozilla.org/en-US/docs/DOM/Using_full-screen_mode)
+
+However, this documentation is out-of-date. There were no warnings on keyboard input in Firefox or Chrome. I went fullscreen on a Facebook photo and was able to leave a comment without any issues. Safari, on the other hand, appears to prevent keyboard input.
+
+**UPDATE (Oct 12:22 AM):** [Someone](http://news.ycombinator.com/item?id=4630261) on Hacker News pointed out that Internet Explorer used to allow the creation of [chromeless popup windows](http://www.kb.cert.org/vuls/id/490708) which could be augmented with fake OS or browser UI to create phishing attacks. This feature was removed in Internet Explorer in 2004.
 
 
 *Shoutout to [Neal Wu](https://twitter.com/WuNeal)!*
