@@ -128,7 +128,7 @@ $('html').on('click keypress', 'a', function(event) {
 It's important that the fake OS and browser UI match the user's system. So, if Chrome user on OS X clicks the link, we show a fake OS X menu bar and fake Chrome UI with a green padlock for HTTPS on Bank of America.
 
 
-## How I built the demo
+## How I built this
 
 I built a <a class="spoofLink" href="https://www.bankofamerica.com">working demo</a>, which I encourage you to check out. You activate it by simply clicking the link in the previous sentence. You'll want to use Chrome, Firefox, or Safari for the demo to work.
 
@@ -154,7 +154,7 @@ Despite all these apparent shortcomings, this remains a very serious attack beca
 Read more about [change blindness](http://en.wikipedia.org/wiki/Change_blindness) on Wikipedia.
 
 
-### Human are terrible at spotting subtle changes
+## Human are terrible at spotting subtle changes
 
 If this attack were used in the wild, I bet at least 10% of web users would get phished (probably many more).
 
@@ -175,7 +175,7 @@ When the fullscreen API was first drafted by Mozilla, they predicted attacks lik
 
 > Browser vendors are well aware of the potential security issues with fullscreen. For example, a malicious site could show a full screen Windows or Mac login window and steal a password. That’s why they are disabling keyboard support by default and only enabling by explicitly asking. -- [John Dyer](http://johndyer.name/native-fullscreen-javascript-api-plus-jquery-plugin/)
 
-At some point, they (along with the other browser vendors) must have decided that keyboard support in fullscreen mode is useful enough to legit web developers that it's worth taking a hit to security.
+At some point, Mozilla (as well as the other browser vendors) must have decided that keyboard support in fullscreen mode is useful enough to legit web developers that it's worth taking a hit to security.
 
 I'm not convinced that this was the right tradeoff to make. What do you think?
 
