@@ -7,6 +7,7 @@ tags:
 - security
 dynamic: true
 github: https://github.com/feross/fullscreen-api-attack
+hn: http://news.ycombinator.com/item?id=4629906
 demo: >
   <!-- Demo code -->
 
