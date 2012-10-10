@@ -109,8 +109,8 @@ $('html').on('click keypress', 'a', function(event) {
   event.stopPropagation();
 
   // Trigger fullscreen
-  if (elementPrototype.requestFullScreen) {
-    document.documentElement.requestFullScreen();
+  if (elementPrototype.requestFullscreen) {
+    document.documentElement.requestFullscreen();
   } else if (elementPrototype.webkitRequestFullScreen) {
     document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
   } else if (elementPrototype.mozRequestFullScreen) {
