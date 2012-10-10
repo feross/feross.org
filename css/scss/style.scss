@@ -138,17 +138,32 @@ abbr[title] { border-bottom: 1px dotted $lightGray; }
 .strong { font-weight: bold; }
 
 
-// Content
+// Post content
 
-img, iframe, object, embed, audio, video {
-  display: block;
-  margin: 20px auto;
-  max-width: 100%;
-}
-
-img {
+.postContent {
+  img, iframe, object, embed, audio, video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  img {
   padding: 3px;
   border: 1px solid $lightestGray;
+  }
+}
+
+
+// Ads
+
+#carbonads-container {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+
+  @media only screen and (max-width: 750px) {
+    position: static;
+  }
+
 }
 
 
@@ -332,12 +347,12 @@ header[role="banner"] {
 // Prev/next post links
 
 a.prev {
-  left: -110px;
+  left: -120px;
   @include rotate(-90deg);
 }
 
 a.next {
-  right: -110px;
+  right: -120px;
   @include rotate(90deg);
 }
 

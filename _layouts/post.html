@@ -18,63 +18,67 @@ class: post
   </ul>
 </div>
 
-{{ content }}
+<div class="postContent">
 
-{% if site.related_posts %}<p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}/">{{ site.related_posts[0].title }}</a>.)</p>{% endif %}
+  {{ content }}
 
-<section class="meta">
-  <h3>Discussion, links, and tweets</h3>
+  {% if site.related_posts %}<p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}/">{{ site.related_posts[0].title }}</a>.)</p>{% endif %}
 
-  <section class="copy">
-    <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=feross', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+
+    <section class="copy">
+      <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=feross', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+        <p>
+          <a href="https://twitter.com/FreeTheFeross" class="avatar">
+            <img src="/images/F.png" height="50" width="50" alt="Feross Aboukhadijeh" />
+          </a>
+          Hey, thanks for reading! I'm <a href="/about/">Feross Aboukhadijeh</a>, a web developer, designer, and Stanford computer science student.
+        </p>
+        {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
+        <p>
+          If you enjoyed this article, you should <a href="https://twitter.com/FreeTheFeross">follow me on Twitter</a> or sign up to get an email whenever I write something new:
+
+          <input type="email" name="email" placeholder="email@email.com"/>
+          <input type="hidden" value="feross" name="uri"/>
+          <input type="hidden" name="loc" value="en_US"/>
+          <input type="submit"value="Subscribe" /> 
+        </p>
+      </form>
+
       <p>
-        <a href="https://twitter.com/FreeTheFeross" class="avatar">
-          <img src="/images/F.png" height="50" width="50" alt="Feross Aboukhadijeh" />
-        </a>
-        Hey, thanks for reading! I'm <a href="/about/">Feross Aboukhadijeh</a>, a web developer, designer, and Stanford computer science student.
+        Share this article with your friends:
       </p>
-      {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
-      <p>
-        If you enjoyed this article, you should <a href="https://twitter.com/FreeTheFeross">follow me on Twitter</a> or sign up to get an email whenever I write something new:
 
-        <input type="email" name="email" placeholder="email@email.com"/>
-        <input type="hidden" value="feross" name="uri"/>
-        <input type="hidden" name="loc" value="en_US"/>
-        <input type="submit"value="Subscribe" /> 
-      </p>
-    </form>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://{% if page.old %}www.{% endif %}feross.org{{ page.url }}/" data-text="{{ page.title | xml_escape }}" data-via="FreeTheFeross" data-size="large" data-related="FreeTheFeross">Tweet</a>
 
-    <p>
-      Share this article with your friends:
-    </p>
+      <div class="fb-like" data-href="http://feross.org{{ page.url }}/" data-send="false" data-width="450" data-show-faces="true"></div>
 
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://{% if page.old %}www.{% endif %}feross.org{{ page.url }}/" data-text="{{ page.title | xml_escape }}" data-via="FreeTheFeross" data-size="large" data-related="FreeTheFeross">Tweet</a>
+    </section>
 
-    <div class="fb-like" data-href="http://feross.org{{ page.url }}/" data-send="false" data-width="450" data-show-faces="true"></div>
 
+    {% if page.previous.url %}
+      <a class="prev" href="{{ page.previous.url }}/" title="Previous Post: {{ page.previous.title }}">{{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="next" href="{{ page.next.url }}/" title="Next Post: {{ page.next.title }}">{{ page.next.title }}</a>
+    {% endif %}
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'feross-org';
+        var disqus_developer = (window.location.hostname == 'localhost') ? 1 : 0;
+        var disqus_url = 'http://feross.org{{ page.url }}/';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </section>
 
-
-  {% if page.previous.url %}
-    <a class="prev" href="{{ page.previous.url }}/" title="Previous Post: {{ page.previous.title }}">{{ page.previous.title }}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{ page.next.url }}/" title="Next Post: {{ page.next.title }}">{{ page.next.title }}</a>
-  {% endif %}
-
-
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-      var disqus_shortname = 'feross-org';
-      var disqus_developer = (window.location.hostname == 'localhost') ? 1 : 0;
-      var disqus_url = 'http://feross.org{{ page.url }}/';
-
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
+</div>
