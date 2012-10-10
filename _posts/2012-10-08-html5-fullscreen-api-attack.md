@@ -80,8 +80,8 @@ The main restriction that the API places on developers is that fullscreen must b
 // Fullscreen the HTML document on click
 $('#fullscreen-button').on('click', function() {
   var doc = document.documentElement;
-  if (doc.requestFullScreen) {
-    doc.requestFullScreen();
+  if (doc.requestFullscreen) {
+    doc.requestFullscreen();
   }
 });
 {% endhighlight %}
