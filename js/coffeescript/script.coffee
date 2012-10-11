@@ -85,7 +85,7 @@ $(window).load ->
       # if next link is overlapping with ad, hide it
       if (950 < windowWidth < 1225)
         nextLinkTop = $nextLink.offset().top
-        adBottom = $ad.offset().top + $ad.height()
+        adBottom = $ad.offset().top + $ad.height() - 50 # no idea why it's 50px off...
         
         console.log(nextLinkTop, adBottom)
 
