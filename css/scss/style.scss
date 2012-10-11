@@ -325,11 +325,12 @@ header[role="banner"] {
   }
 }
 .rss {
-  opacity: 0.15;
+  opacity: 0.30;
   float: right;
   height: 23px;
   width: 23px;
   img { margin: 0; border: 0; padding: 1px; }
+  .meta & { margin-top: -3px; }
   &:hover { opacity: 1; }
 }
 
