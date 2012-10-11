@@ -13,7 +13,8 @@ $sans-serif: "proxima-nova", Helvetica, sans-serif;
 
 $fullWidth: 1000px;
 $postWidth: 700px;
-
+$postWidthSmall: 650px;
+$postWidthSmaller: 600px;
 
 // Colors
 
@@ -34,8 +35,9 @@ $adColor: desaturate(darken($bgColor, 3%), 40%);
 
 $break1: 480px;
 $break2: 750px;
-$break3: 1100px;
-$break4: 1300px;
+$break3: 1020px;
+$break4: 1100px;
+$break5: 1300px;
 
 
 // Clearfix

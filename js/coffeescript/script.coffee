@@ -40,22 +40,27 @@ $(window).load ->
 
   # Fade prev/next post links on scroll
   if $('body').hasClass('post')
+
+    #constants
     maxOpacity = 0.8
-    minOpacity = 0.15
+    minOpacity = 0.3
     $banner = $('[role="banner"]')
     bannerBottom = $banner.offset().top + $banner.height()
     $navLinks = $('.prev, .next')
+    $nextLink = $('.next')
     $meta = $('.meta')
     $copy = $('.copy')
     copyOffset = 100 # start fading in a little early
     copyTop = $meta.offset().top - copyOffset # using meta, since that includes h3
     copyBottom = $copy.offset().top + $copy.height() - copyOffset
     copyHeight = copyBottom - copyTop
+    $window = $(window)
 
     # scroll handler
-    onScroll = (event) ->
-      $window = $(window)
+    onScrollOrResize = (event) ->
       windowHeight = $window.height()
+      windowWidth = $window.width()
+
       windowTop = $window.scrollTop()
       windowBottom = windowTop + windowHeight
 
@@ -72,9 +77,18 @@ $(window).load ->
 
       $navLinks.css(opacity: opacity)
 
+      # if next link is overlapping with ad, hide it
+      console.log(windowWidth, windowTop)
+      if (750 < windowWidth < 1225) && (windowTop < 250)
+        $nextLink.addClass('hidden')
+      else
+        $nextLink.removeClass('hidden')
+
+
     # throttle scroll events to reasonable rate
-    $(window).scroll($.throttle(150, onScroll))
-    onScroll();
+    $(window).scroll($.throttle(150, onScrollOrResize))
+    $(window).resize($.throttle(150, onScrollOrResize))
+    onScrollOrResize();
 
 
 
