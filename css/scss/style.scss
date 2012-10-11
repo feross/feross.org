@@ -144,17 +144,15 @@ abbr[title] { border-bottom: 1px dotted $lightGray; }
 
 // Content
 
-article, .meta, .avatar, .rss {
-  img, iframe, object, embed, audio, video {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-  }
+img, iframe, object, embed, audio, video {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
 
-  img {
-    padding: 3px;
-    border: 1px solid $lightestGray;
-  }
+img {
+  padding: 3px;
+  border: 1px solid $lightestGray;
 }
 
 
@@ -165,22 +163,31 @@ article, .meta, .avatar, .rss {
    a media query)
 */
 
-@mixin horiz() {
-  height: 100px !important;
-  padding: 10px !important;
-  position: static !important;
-  margin: 15px auto !important;
-  width: 260px !important;
-}
-
 .carbonad {
   background: $adColor !important;
   border: 1px solid $adBorderColor !important;
   
-  .home & {
-    @include horiz();
+  img {
+    margin: 0;
+    max-width: none;
+    padding: 11px 0 0 11px;
+    border: 0;
   }
 
+  @mixin horiz() {
+    height: 100px !important;
+    padding: 10px !important;
+    position: static !important;
+    margin: 15px auto !important;
+    width: 260px !important;
+    & img {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .home, .about & {
+    @include horiz();
+  }
   .post & {
     position: absolute !important;
     margin-top: -30px !important;
@@ -190,7 +197,7 @@ article, .meta, .avatar, .rss {
     @media only screen and (max-width: $break4) {
       margin-left: ($postWidthSmall + 25px) !important;
     }
-    // at break3
+
     @media only screen and (max-width: $break3) {
       @include horiz();
     }
@@ -202,7 +209,7 @@ article, .meta, .avatar, .rss {
     margin: 0 10px 0 0 !important;
     padding: 0 !important;
   }
-  .home & {
+  .home &, .about & {
     @include horiz();
   }
   .post & {
@@ -217,7 +224,7 @@ article, .meta, .avatar, .rss {
     margin: 2px 0 0 0 !important;
     padding: 0 !important;
   }
-  .home & {
+  .home &, .about & {
     @include horiz();
   }
   .post & {
@@ -239,7 +246,7 @@ article, .meta, .avatar, .rss {
   @mixin horiz() {
     margin-top: 15px !important;
   }
-  .home & {
+  .home &, .about & {
     @include horiz();
   }
   .post & {
