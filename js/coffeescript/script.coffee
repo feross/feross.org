@@ -44,30 +44,35 @@ $(window).load ->
     #constants
     maxOpacity = 0.8
     minOpacity = 0.3
+    
     $banner = $('[role="banner"]')
     bannerBottom = $banner.offset().top + $banner.height()
-    $navLinks = $('.prev, .next')
-    $nextLink = $('.next')
+
     $meta = $('.meta')
     $copy = $('.copy')
     copyOffset = 100 # start fading in a little early
     copyTop = $meta.offset().top - copyOffset # using meta, since that includes h3
     copyBottom = $copy.offset().top + $copy.height() - copyOffset
     copyHeight = copyBottom - copyTop
+
     $window = $(window)
+    $navLinks = $('.prev, .next')
+    $nextLink = $('.next')
+    $ad = $('.carbonad')
 
     # scroll handler
     onScrollOrResize = (event) ->
       windowHeight = $window.height()
       windowWidth = $window.width()
+      windowScrollTop = $window.scrollTop()
+      windowBottom = windowScrollTop + windowHeight
 
-      windowTop = $window.scrollTop()
-      windowBottom = windowTop + windowHeight
+      $nextLink.removeClass('hidden')
 
-      if windowTop < 0
+      if windowScrollTop < 0
         opacity = maxOpacity
-      else if windowTop <= bannerBottom
-        opacity = maxOpacity - ((windowTop / bannerBottom) * (maxOpacity - minOpacity))
+      else if windowScrollTop <= bannerBottom
+        opacity = maxOpacity - ((windowScrollTop / bannerBottom) * (maxOpacity - minOpacity))
       else if windowBottom < copyTop 
         opacity = minOpacity
       else if windowBottom < copyBottom 
@@ -78,11 +83,15 @@ $(window).load ->
       $navLinks.css(opacity: opacity)
 
       # if next link is overlapping with ad, hide it
-      console.log(windowWidth, windowTop)
-      if (750 < windowWidth < 1225) && (windowTop < 250)
-        $nextLink.addClass('hidden')
-      else
-        $nextLink.removeClass('hidden')
+      if (950 < windowWidth < 1225)
+        nextLinkTop = $nextLink.offset().top
+        adBottom = $ad.offset().top + $ad.height()
+        
+        console.log(nextLinkTop, adBottom)
+
+        if (nextLinkTop < adBottom)
+          $nextLink.addClass('hidden')
+        
 
 
     # throttle scroll events to reasonable rate

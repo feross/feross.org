@@ -36,10 +36,6 @@ body {
     max-width: $postWidthSmall;
   }
 
-  @media only screen and (max-width: $break3) {
-    max-width: $postWidthSmaller;
-  }
-
   .home &, .about &, .resume & {
     max-width: $fullWidth;
   }
@@ -160,11 +156,11 @@ article, .meta, .avatar, .rss {
 
 // Ads
 
-#carbonads-container {
+.carbonad {
+  background: $adColor !important;
+  border: 1px solid $adBorderColor !important;
   position: absolute !important;
-  // top: 25px !important;
-  // right: 25px !important;
-  margin-top: -6px !important;
+  margin-top: -30px !important;
   margin-left: ($postWidth + 30px) !important;
   z-index: 5;
 
@@ -173,40 +169,27 @@ article, .meta, .avatar, .rss {
   }
 
   @media only screen and (max-width: $break3) {
-    margin-left: ($postWidthSmaller + 15px) !important;
+    height: 100px !important;
+    padding: 10px !important;
+    position: static !important;
+    margin: 15px auto !important;
+    width: 260px !important;
   }
 }
 
-.carbonad {
-  background: $adColor !important;
-  border: 2px solid $adColor !important;
-
-  // @media only screen and (min-width: $break4) {
-  //   padding: 10px !important;
-  //   height: 100px !important;
-  //   width: 260px !important;
-  // }
-
-  // @media only screen and (max-width: $break4) {
-  //   top: 3px !important;
-  //   right: 0 !important;
-  // }
-}
-
 .carbonad-image {
-  // @media only screen and (min-width: $break4) {
-  //   float: right !important;
-  //   margin: 0 !important;
-  //   padding: 0 !important;
-  // }
+  @media only screen and (max-width: $break3) {
+    margin: 0 10px 0 0 !important;
+    padding: 0 !important;
+  }
 }
 
 .carbonad-text, .carbonad-tag {
-  // @media only screen and (min-width: $break4) {
-  //   float: left !important;
-  //   margin: 2px 0 0 0 !important;
-  //   padding: 0 !important;
-  // }
+  @media only screen and (max-width: $break3) {
+    // float: left !important;
+    margin: 2px 0 0 0 !important;
+    padding: 0 !important;
+  }
 }
 
 .carbonad-text {
@@ -218,9 +201,9 @@ article, .meta, .avatar, .rss {
   color: $lightGray !important;
   a { color: $lightGray !important; }
 
-  // @media only screen and (min-width: $break4) {
-  //   margin-top: 15px !important;
-  // }
+  @media only screen and (max-width: $break3) {
+    margin-top: 15px !important;
+  }
 }
 
 
@@ -450,7 +433,7 @@ a.prev, a.next {
     font-size: 1.0em;
   }
 
-  @media only screen and (max-width: $postWidth + 200px) {
+  @media only screen and (max-width: $postWidthSmall + 200px) {
     display: none;
   }
 }

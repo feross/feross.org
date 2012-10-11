@@ -9,8 +9,6 @@ class: post
     <a href="{{ page.url }}/">{{ page.title }}</a>
   </h1>
 
-  {% include ad.html %}
-
   <div class="byline">
     <span>By <a href="/about/" title="Feross Aboukhadijeh">Feross Aboukhadijeh</a></span>
     <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{ page.date | date: "%B %e, %Y" }}</time>
@@ -22,6 +20,8 @@ class: post
       {% endfor %}
     </ul>
   </div>
+
+  {% include ad.html %}
 
 </div>
 
