@@ -9,6 +9,12 @@ $serif-caps: "gothic-open-shaded" $serif;
 $sans-serif: "proxima-nova", Helvetica, sans-serif;
 
 
+// Post width
+
+$fullWidth: 1000px;
+$postWidth: 700px;
+
+
 // Colors
 
 $red: #E22C29;
@@ -21,6 +27,16 @@ $darkGray: #555;
 $darkerGray: #333;
 
 $bgColor: #FFFEFB;
+$adColor: desaturate(darken($bgColor, 3%), 40%);
+
+
+// Media query break points
+
+$break1: 480px;
+$break2: 750px;
+$break3: 1100px;
+$break4: 1300px;
+
 
 // Clearfix
 

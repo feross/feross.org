@@ -1,9 +1,5 @@
 @import "base";
 
-
-$fullWidth: 1000px;
-$postWidth: 750px;
-
 // Page structure
 
 html {
@@ -22,10 +18,10 @@ body {
   margin: 0;
   padding: 0;
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: $break2) {
     font-size: 16px;
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: $break1) {
     font-size: 15px;
   }
 }
@@ -50,7 +46,7 @@ body {
   width: 35%;
 }
 .left, .right {
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: $break2) {
     float: none;
     width: 100%;
   }
@@ -138,17 +134,18 @@ abbr[title] { border-bottom: 1px dotted $lightGray; }
 .strong { font-weight: bold; }
 
 
-// Post content
+// Content
 
-.postContent {
+article, .meta, .avatar, .rss {
   img, iframe, object, embed, audio, video {
     display: block;
     margin: 20px auto;
     max-width: 100%;
   }
+
   img {
-  padding: 3px;
-  border: 1px solid $lightestGray;
+    padding: 3px;
+    border: 1px solid $lightestGray;
   }
 }
 
@@ -156,14 +153,56 @@ abbr[title] { border-bottom: 1px dotted $lightGray; }
 // Ads
 
 #carbonads-container {
-  position: absolute;
-  top: 30px;
-  right: 30px;
+  position: absolute !important;
+  top: 25px !important;
+  right: 25px !important;
+  z-index: 5;
+}
 
-  @media only screen and (max-width: 750px) {
-    position: static;
+.carbonad {
+  background: $adColor !important;
+  border: 2px solid $adColor !important;
+
+  @media only screen and (min-width: $break3) {
+    padding: 10px !important;
+    height: 100px !important;
+    width: 260px !important;
   }
 
+  @media only screen and (max-width: $break3) {
+    top: 3px !important;
+    right: 0 !important;
+  }
+}
+
+.carbonad-image {
+  @media only screen and (min-width: $break3) {
+    float: right !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+.carbonad-text, .carbonad-tag {
+  @media only screen and (min-width: $break3) {
+    float: left !important;
+    margin: 2px 0 0 0 !important;
+    padding: 0 !important;
+  }
+}
+
+.carbonad-text {
+  color: $lightGray !important;
+  a { color: $gray !important; }
+}
+
+.carbonad-tag {
+  color: $lightGray !important;
+  a { color: $lightGray !important; }
+
+  @media only screen and (min-width: $break3) {
+    margin-top: 15px !important;
+  }
 }
 
 
@@ -179,7 +218,7 @@ header[role="banner"] {
     line-height: 1.5em;
     margin: 40px 0 10px 0;
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: $break1) {
       font-size: 3em;
       margin: 30px 0 0 0;
     }
@@ -216,7 +255,7 @@ header[role="banner"] {
     background: $red;
   }
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: $break2) {
     display: none;
   }
 
@@ -388,7 +427,12 @@ a.prev, a.next {
     width: 24px;
   }
 
-  @media only screen and (max-width: 950px) {
+
+  @media only screen and (max-width: $break3) {
+    font-size: 1.0em;
+  }
+
+  @media only screen and (max-width: $postWidth + 200px) {
     display: none;
   }
 }

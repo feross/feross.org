@@ -77,16 +77,16 @@
 
     <section class="content clearfix">
       {{ content }}
-    
-      <!-- Carbon Ad -->
-      <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/19591/azcarbon_2_1_0_VERT"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
     </section>
 
-  </div>
+    {% if page.class == "home" %}
+      <a href="https://github.com/feross" id="github">Fork me on GitHub</a>
+    {% endif %}
 
-  {% if page.class == "home" %}
-    <a href="https://github.com/feross" id="github">Fork me on GitHub</a>
-  {% endif %}
+    <!-- Carbon Ads -->
+    <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/19591/azcarbon_2_1_0_VERT"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+
+  </div>
   
   <script src="/js/libraries.js"></script>
   <script src="/js/compiled/script.js"></script>
