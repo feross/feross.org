@@ -185,7 +185,7 @@ img {
       padding: 0;
     }
   }
-  .home, .about & {
+  .home &, .about & {
     @include horiz();
   }
   .post & {
@@ -320,7 +320,7 @@ header[role="banner"] {
     position: relative;
     margin-top: 1.2em;
   }
-  .avatar {
+  .avatar img {
     max-width: 400px;
   }
 }
