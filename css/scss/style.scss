@@ -21,7 +21,7 @@ body {
   @media only screen and (max-width: $break4) {
     font-size: 16px;
   }
-  @media only screen and (max-width: $break2) {
+  @media only screen and (max-width: $break1) {
     font-size: 15px;
   }
 }
@@ -34,6 +34,10 @@ body {
 
   @media only screen and (max-width: $break4) {
     max-width: $postWidthSmall;
+  }
+
+  @media only screen and (max-width: $break2) {
+    max-width: $postWidth;
   }
 
   .home &, .about &, .resume & {
@@ -156,39 +160,70 @@ article, .meta, .avatar, .rss {
 
 // Ads
 
+/* Code that changes the ad to horizontal orientation are defined as mixins so that we
+   can use them multiple times (i.e. on the home page, as well on the post page with
+   a media query)
+*/
+
+@mixin horiz() {
+  height: 100px !important;
+  padding: 10px !important;
+  position: static !important;
+  margin: 15px auto !important;
+  width: 260px !important;
+}
+
 .carbonad {
   background: $adColor !important;
   border: 1px solid $adBorderColor !important;
-  position: absolute !important;
-  margin-top: -30px !important;
-  margin-left: ($postWidth + 30px) !important;
-  z-index: 5;
-
-  @media only screen and (max-width: $break4) {
-    margin-left: ($postWidthSmall + 15px) !important;
+  
+  .home & {
+    @include horiz();
   }
 
-  @media only screen and (max-width: $break3) {
-    height: 100px !important;
-    padding: 10px !important;
-    position: static !important;
-    margin: 15px auto !important;
-    width: 260px !important;
+  .post & {
+    position: absolute !important;
+    margin-top: -30px !important;
+    margin-left: ($postWidth + 30px) !important;
+    z-index: 5;
+
+    @media only screen and (max-width: $break4) {
+      margin-left: ($postWidthSmall + 25px) !important;
+    }
+    // at break3
+    @media only screen and (max-width: $break3) {
+      @include horiz();
+    }
   }
 }
 
 .carbonad-image {
-  @media only screen and (max-width: $break3) {
+  @mixin horiz() {
     margin: 0 10px 0 0 !important;
     padding: 0 !important;
+  }
+  .home & {
+    @include horiz();
+  }
+  .post & {
+    @media only screen and (max-width: $break3) {
+      @include horiz();
+    }
   }
 }
 
 .carbonad-text, .carbonad-tag {
-  @media only screen and (max-width: $break3) {
-    // float: left !important;
+  @mixin horiz() {
     margin: 2px 0 0 0 !important;
     padding: 0 !important;
+  }
+  .home & {
+    @include horiz();
+  }
+  .post & {
+    @media only screen and (max-width: $break3) {
+      @include horiz();
+    }
   }
 }
 
@@ -201,8 +236,16 @@ article, .meta, .avatar, .rss {
   color: $lightGray !important;
   a { color: $lightGray !important; }
 
-  @media only screen and (max-width: $break3) {
+  @mixin horiz() {
     margin-top: 15px !important;
+  }
+  .home & {
+    @include horiz();
+  }
+  .post & {
+    @media only screen and (max-width: $break3) {
+      @include horiz();
+    }
   }
 }
 
@@ -269,6 +312,9 @@ header[role="banner"] {
   h2 {
     position: relative;
     margin-top: 1.2em;
+  }
+  .avatar {
+    max-width: 400px;
   }
 }
 .rss {
@@ -433,7 +479,7 @@ a.prev, a.next {
     font-size: 1.0em;
   }
 
-  @media only screen and (max-width: $postWidthSmall + 200px) {
+  @media only screen and (max-width: $break2) {
     display: none;
   }
 }
