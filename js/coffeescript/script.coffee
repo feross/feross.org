@@ -83,7 +83,7 @@ $(window).load ->
       $navLinks.css(opacity: opacity)
 
       # if next link is overlapping with ad, hide it
-      if (950 < windowWidth < 1225)
+      if ($nextLink.length && 950 < windowWidth < 1225)
         nextLinkTop = $nextLink.offset().top
         adBottom = $ad.offset().top + $ad.height() - 50 # no idea why it's 50px off...
         
