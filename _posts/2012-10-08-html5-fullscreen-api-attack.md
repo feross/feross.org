@@ -184,13 +184,15 @@ At some point, Mozilla (as well as the other browser vendors) must have decided 
 
 I'm not convinced that this was the right tradeoff to make. What do you think?
 
-**UPDATE (Oct 9 12:00 AM):** The Mozilla developer documentation says this:
+**UPDATE (Oct 9, 2012, 12:00 AM):** The Mozilla developer documentation says this:
 
 > Also, any alphanumeric keyboard input while in full-screen mode causes a warning message to appear; this is done to help guard against phishing attacks. The following keys are the only ones that don't cause this warning message to appear (...) -- [MDN](https://developer.mozilla.org/en-US/docs/DOM/Using_full-screen_mode)
 
 However, this documentation is out-of-date. There were no warnings on keyboard input in Firefox or Chrome. I went fullscreen on a Facebook photo and was able to leave a comment without any issues. Safari, on the other hand, appears to prevent keyboard input.
 
-**UPDATE (Oct 12:22 AM):** [Someone](http://news.ycombinator.com/item?id=4630261) on Hacker News pointed out that Internet Explorer used to allow the creation of [chromeless popup windows](http://www.kb.cert.org/vuls/id/490708) which could be augmented with fake OS or browser UI to create phishing attacks. This feature was removed in Internet Explorer in 2004.
+**UPDATE (Oct 9, 2012, 12:22 AM):** [Someone](http://news.ycombinator.com/item?id=4630261) on Hacker News pointed out that Internet Explorer used to allow the creation of [chromeless popup windows](http://www.kb.cert.org/vuls/id/490708) which could be augmented with fake OS or browser UI to create phishing attacks. This feature was removed in Internet Explorer in 2004.
+
+**UPDATE (Oct 18, 2012):** Google, Mozilla, and Apple are discussing what (if anything) to do about the issue I demonstrated. I [replied](http://lists.w3.org/Archives/Public/public-webapps/2012OctDec/0251.html) on the "public webapps" W3C mailing list with my thoughts.
 
 
 *Shoutout to [Neal Wu](https://twitter.com/WuNeal)!*
