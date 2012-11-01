@@ -3,9 +3,12 @@ layout: layout
 title: Feross Aboukhadijeh Bio
 class: about
 script: >
-  var ageInDays = Math.floor((new Date() - new Date('1990-10-31T08:00:00.000Z')) / 1000 / 60 / 60 / 24);
+  var ageInDays = Math.floor((new Date() - new Date('1990-10-31T00:00:01.000Z')) / 1000 / 60 / 60 / 24);
+
+  var ageInYears = Math.floor(ageInDays / 365);
   
   $('#ageInDays').html(' &mdash; that\'s ' + ageInDays + ' days to be exact!');
+  $('#ageInYears').text(ageInYears);
 
 ---
 
@@ -16,7 +19,7 @@ script: >
     I'm <strong>Feross Aboukhadijeh</strong> &lt;<a href="mailto:feross@feross.org">feross@feross.org</a>&gt;. I'm a web developer, designer, computer security researcher, teacher, long distance runner, gamer, and music lover.
   </p>
   <p>
-    I'm 21 years old<span id="ageInDays">.</span>
+    I'm <span id="ageInYears"></span> years old<span id="ageInDays">.</span>
   </p>
   <p>
     I specialize in web development &mdash; specifically, high-level programming languages, browsers, and web framework design. I'm also fascinated by the human brain, psychology, online education, the quantified self movement, and (more recently) augmented reality, and wearable computers.
@@ -55,6 +58,7 @@ script: >
 </div>
 
 <div class="right">
+  <img src="/images/im-soo-handsome.jpg" alt="I am so handsome."/>
   <img src="/images/feross-computer.png" alt="Me as a little kid. I was obsessed with computers from the very beginning." style="border: none;"/>
   <img src="/images/feross-angel.jpg" alt="Feross Aboukhadijeh in New York Magazine. Photo by Dan Winters." />
   {% include ad.html %}
