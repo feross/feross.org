@@ -593,3 +593,5 @@ That's it!
 If, after reading this, you want to sign up for Linode, use [this link](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767) and I'll get a couple weeks of free hosting. If you prefer not to, here's the plain link: [Linode.com](http://www.linode.com)
 
 Happy hacking!
+
+(View [this post's changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md) on Github)
