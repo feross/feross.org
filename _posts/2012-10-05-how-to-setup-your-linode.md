@@ -383,7 +383,7 @@ Still, in cases where something goes awry, it is good to automatically **reboot 
 
 You can leverage a couple kernel settings and Lassie to make this happen on Linode.
 
-Adding the following two lines to your /etc/sysctl.conf will cause it to reboot after running out of memory:
+Adding the following two lines to your `/etc/sysctl.conf` will cause it to reboot after running out of memory:
 
 {% highlight bash %}
 vm.panic_on_oom=1
@@ -395,11 +395,62 @@ The vm.panic_on_oom=1 line enables panic on OOM; the kernel.panic=10 line tells 
 [Read more](http://www.linode.com/wiki/index.php/Rebooting_on_OOM) about rebooting when out of memory on Linode's wiki.
 
 
+## Miscellaneous nice-to-haves
+
+These next things are not required (in fact, nothing in this guide really is), but are nice to do.
+
 ### Set up reverse DNS
 
 The reverse <abbr title="domain name system">DNS</abbr> system allows one to determine the domain name that lives at a given IP address. This is useful for network troubleshooting &mdash; (ping, traceroute, etc.), as well as email anti-spam measures ([read more](http://en.wikipedia.org/wiki/Reverse_DNS_lookup#Uses) on Wikipedia).
 
 It's pretty easy to set up. From the Linode Manager, select your Linode, click on "Remote Access", then click on "Reverse DNS" (under "Public IPs"). Type in your domain and that's it!
+
+
+### Set up a private IP address
+
+Private IPs are useful for communicating data on the Linode network, i.e. Linode to Linode. This is handy if you have multiple Linodes (say, one for your web server and one for your database). Private network traffic is more secure (only other Linode customers can see it, vs. the whole internet), faster (the traffic never has to leave the datacenter if both Linodes are in the same datacenter), and free (doesn't count towards your monthly bandwidth quota).
+
+I currently put my database server on it's own Linode, so that I can scale it independently of my frontend servers and debug performance issues easier since the systems are isolated. This hasn't been super-handy yet, but if one of my sites gets a huge traffic rush, I bet it will be immensely useful.
+
+It's easy to set up. On the Remote Access tab, click Add a Private IP.
+
+Then, edit the file `/etc/network/interfaces` to contain:
+
+{% highlight bash %}
+# The loopback interface
+auto lo
+iface lo inet loopback
+
+# Configuration for eth0 and aliases
+
+# This line ensures that the interface will be brought up during boot.
+auto eth0 eth0:0
+
+# eth0 - This is the main IP address that will be used for most outbound connections.
+# The address, netmask and gateway are all necessary.
+iface eth0 inet static
+ address 12.34.56.78
+ netmask 255.255.255.0
+ gateway 12.34.56.1
+
+# eth0:0 - Private IPs have no gateway (they are not publicly routable) so all you need to
+# specify is the address and netmask.
+iface eth0:0 inet static
+ address 192.168.133.234
+ netmask 255.255.128.0
+{% endhighlight %}
+
+Of course, adjust the IP addresses to reflect your own addresses from the Remote acess tab.
+
+Then, restart your Linode and remove DHCP since we're using static networking now:
+
+{% highlight bash %}
+sudo aptitude remove isc-dhcp-client dhcp3-client dhcpcd
+{% endhighlight %}
+
+More info about this on Linode's website: [Linux Static IP Configuration](http://library.linode.com/networking/configuring-static-ip-interfaces#sph_static-ip-configuration)
+
+Configuring your applications and your database to route traffic over the local network is another issue, not covered here.
 
 
 ## Install Useful Server Software
@@ -412,7 +463,6 @@ At this point, you have a pretty nice server setup. Congrats! But, your server s
 A compiler is often required to install Python packages and other software, so let's just install one up-front.
 
 {% highlight bash %}
-aptitude install build-essential
 sudo aptitude install build-essential
 {% endhighlight %}
 
