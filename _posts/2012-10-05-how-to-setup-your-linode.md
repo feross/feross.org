@@ -556,6 +556,12 @@ sudo apt-get install nodejs npm nodejs-dev
 {% endhighlight %}
 
 
+### Install MongoDB
+
+Follow instructions on 10gen's site: [Install MongoDB on Ubuntu](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/).
+
+
+
 ## Setup Automatic Backups
 
 Backups are really important. [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767) offers a paid backup service that's really convenient if you accidentally destroy something and need to restore your Linode quickly. It's $5 per month for the smallest Linode. I enable it on all my Linodes.
