@@ -413,6 +413,7 @@ A compiler is often required to install Python packages and other software, so l
 
 {% highlight bash %}
 aptitude install build-essential
+sudo aptitude install build-essential
 {% endhighlight %}
 
 
