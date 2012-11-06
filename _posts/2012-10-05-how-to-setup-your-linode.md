@@ -351,6 +351,12 @@ Defaults    mail_always
 Defaults    mailto="feross@feross.org"
 {% endhighlight %}
 
+Set permissions on the file:
+
+{% highlight bash %}
+sudo chmod 0440 /etc/sudoers.d/my_sudoers
+{% endhighlight %}
+
 This is isn't mentioned anywhere on the web, as far as I know, but in order for the "mail on sudo use" feature to work, you need to install an MTA server. `sendmail` is a good choice:
 
 {% highlight bash %}
