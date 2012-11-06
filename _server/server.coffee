@@ -18,11 +18,7 @@ app.use(express.bodyParser())
 
 createConnection = ->
   # Set up a connection for each request
-  connection = mysql.createConnection
-    host: if isProduction then config.db.prod.host else config.db.dev.host
-    user: if isProduction then config.db.prod.user else config.db.dev.user
-    password: if isProduction then config.db.prod.password else config.db.dev.password
-    database: if isProduction then config.db.prod.database else config.db.dev.database
+  connection = mysql.createConnection config.db
 
   # If there's an error, just print it out. Views aren't that important.
   connection.connect (err) ->
