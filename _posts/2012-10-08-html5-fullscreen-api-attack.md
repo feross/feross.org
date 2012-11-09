@@ -45,6 +45,8 @@ Go ahead -- hover your mouse over the link to see where it goes. You'll find tha
 
 There is only one way to find out if I'm telling the truth -- *just <a class="spoofLink" href="https://www.bankofamerica.com">click the link</a> already!*
 
+**[NOTE: The demo only works with a normal click on the link. No "Open in New Tab" or middle-click.]**
+
 ## What just happened?
 
 Ok, I lied -- the link was pretty fishy afterall. When you click on the link, you don't actually navigate to `https://www.bankofamerica.com`. Instead, your browser automatically enters fullscreen mode and I load a fake version of Bank of America's website (my demo uses a screenshot, but attackers would use a working website).
@@ -52,8 +54,6 @@ Ok, I lied -- the link was pretty fishy afterall. When you click on the link, yo
 The fake Bank of America site is adorned with OS and browser UI that indicates you are actually on `https://www.bankofamerica.com`. Of course, these UI components are just screenshots too! However, they're pretty convincing because they actually *take into account the OS and browser you are using!*
 
 Also, **note the green lock** in the location bar, which indicates that TLS (i.e. HTTPS) is enabled.
-
-**[NOTE: The demo only works with a normal click on the link. No "Open in New Tab" or middle-click.]**
 
 ## The "Fullscreen API" explained
 
