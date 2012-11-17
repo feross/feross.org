@@ -67,7 +67,3 @@ Long story short, **definitely apply.**
 So that's it. Those are my Stanford admissions tips and other assorted ramblings. I wish you the best of luck in the admissions process. I know how scary this time can be, but **it all works out in the end**. Good luck!
 
 Now that I've written this up, I'll finally have a page to point people at when they ask for Stanford tips.
-
-## Do you still have questions about Stanford admissions?
-
-**Do you want a real live Stanford student to answer your questions?** As an experiment, I'm going to make myself available to answer your Stanford admissions questions. Please [send me an email](mailto:feross@feross.org) if you are interested. The cost is $80 for one hour of counseling. We can speak in person (if you're near Stanford), on the phone, or using Skype.
