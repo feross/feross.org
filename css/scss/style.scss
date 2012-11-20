@@ -52,9 +52,10 @@ body {
 .right {
   float: right;
   width: 35%;
+  overflow-x: hidden;
 }
 .left, .right {
-  @media only screen and (max-width: $break2) {
+  @media only screen and (max-width: $break1 + 200) {
     float: none;
     width: 100%;
   }
