@@ -51,6 +51,16 @@ Here are <strong>my favorite quotes</strong> from programmers, athletes, and rev
 -- Stewart Brand</blockquote>
 
 <h2>Programming</h2>
+<blockquote>The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds castles in the air, from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, so readily capable of realizing grand conceptual structures. [...]
+<br><br>
+Yet the program construct, unlike the poet’s words, is real in the sense that it moves and works, producing visible outputs separate from the construct itself. It prints results, draws pictures, produces sounds, moves arms. The magic of myth and legend has come true in our time. One types the correct incantation on a keyboard, and a display screen comes to life, showing things that never were nor could be.
+<br><br>
+[...]
+<br><br>
+Not all is delight, however […] One must perform perfectly. The computer resembles the magic of legend in this respect, too. If one character, one pause, of the incantation is not strictly in proper form, the magic doesn’t work. Human beings are not accustomed to being perfect, and few areas of human activity demand it.
+<br><br>
+-- Fred Brooks, The Mythical Man-Month
+</blockquote>
 <blockquote>Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?
 -- Brian Kernighan</blockquote>
 <blockquote>More computing sins are committed in the name of efficiency (without necessarily achieving it) than for any other single reason -- including blind stupidity.
