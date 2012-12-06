@@ -16,3 +16,6 @@
 [submodule "hacks/webcam-spy"]
 	path = hacks/webcam-spy
 	url = git@github.com:feross/webcam-spy.git
+[submodule "hacks/ahh-windows"]
+	path = hacks/ahh-windows
+	url = git@github.com:feross/ahh-windows.git
