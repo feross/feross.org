@@ -148,7 +148,7 @@ ssh <your username>@<your server ip>
 
 ### Set up SSH keys
 
-SSH keys allow you to login to your server without a password. For this reason, you'll want to set this up on your main computer. SSH keys are very convenient and don't make your server any less secure.
+SSH keys allow you to login to your server without a password. For this reason, you'll want to set this up on your primary computer (definitely not a public or shared computer!). SSH keys are very convenient and don't make your server any less secure.
 
 If you've already generated SSH keys before (maybe for your GitHub account?), then you can skip the next step.
 
@@ -156,8 +156,10 @@ If you've already generated SSH keys before (maybe for your GitHub account?), th
 
 Generate SSH keys with the following command:
 
+(NOTE: Be sure to run this on your local computer -- not your server!)
+
 {% highlight bash %}
-ssh-keygen -t rsa -C "<your username>@<your username>.org"
+ssh-keygen -t rsa -C "<your email address>"
 {% endhighlight %}
 
 When prompted, just accept the default locations for the keyfiles. Also, you'll want to choose a nice, strong password for your key. If you're on Mac, you can save the password in your keychain so you won't have to type it in repeatedly.
@@ -197,8 +199,11 @@ Disable remote root login and change SSH port:
 
 {% highlight bash %}
 sudo nano /etc/ssh/sshd_config
-Set "PermitRootLogin no"
-Set "Port 44444"
+{% endhighlight %}
+
+**Set "Port" to "44444" and "PermitRootLogin" to "no".** Save the file and restart the SSH service:
+
+{% highlight bash %}
 sudo service ssh restart
 {% endhighlight %}
 
@@ -231,11 +236,11 @@ Configure Fail2Ban:
 {% highlight bash %}
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo nano /etc/fail2ban/jail.local
-Set "enabled" to "true" in [ssh-ddos] section
-Set "port" to "44444" in [ssh] and [ssh-ddos] sections
 {% endhighlight %}
 
-Restart to put new Fail2Ban rules into effect:
+**Set "enabled" to "true" in the \[ssh-ddos\] section. Also, set "port" to "44444" in the \[ssh\] and \[ssh-ddos\] sections.** (Change the port number to match whatever you used as your SSH port).
+
+Save the file and restart Fail2Ban to put the new rules into effect:
 
 {% highlight bash %}
 sudo service fail2ban restart
