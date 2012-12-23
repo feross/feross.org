@@ -19,3 +19,6 @@
 [submodule "hacks/ahh-windows"]
 	path = hacks/ahh-windows
 	url = git@github.com:feross/ahh-windows.git
+[submodule "hacks/md5-password-cracker.js"]
+	path = hacks/md5-password-cracker.js
+	url = git@github.com:feross/md5-password-cracker.js.git
