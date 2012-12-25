@@ -3,7 +3,7 @@ $experimental-support-for-khtml: false;
 
 // Fonts
 $serif: "Adobe Caslon Pro", Caslon,Baskerville, Palatino, "Palatino Linotype", "Hoefler Text", Garamond, "URW Palladio L", "Book Antiqua", Georgia, serif;
-$serif-caps: "gothic-open-shaded" $serif;
+$serif-caps: "gothic-open-shaded", $serif;
 $sans-serif: "proxima-nova", Helvetica, sans-serif;
 
 // Post width
