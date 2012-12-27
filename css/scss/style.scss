@@ -321,6 +321,12 @@ img {
     position: relative;
     margin-top: 1.2em;
   }
+
+  small {
+    color: $lighterGray;
+    text-align: center;
+    font-size: 1em;
+  }
 }
 .rss {
   opacity: 0.30;
