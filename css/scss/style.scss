@@ -469,7 +469,7 @@ a.prev, a.next {
   white-space: nowrap;
   z-index: 2;
 
-  &:hover { opacity: 1; }
+  &:hover { opacity: 1 !important; }
 
   &.hidden, &.hidden:hover { display: none; }
 
