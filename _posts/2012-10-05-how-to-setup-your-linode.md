@@ -604,10 +604,10 @@ sudo service apache2 restart
 ### Install Node.js
 
 {% highlight bash %}
-sudo apt-get install python-software-properties
+sudo aptitude install python-software-properties
 sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
-sudo apt-get install nodejs npm nodejs-dev
+sudo aptitude update
+sudo aptitude install nodejs npm nodejs-dev
 {% endhighlight %}
 
 
@@ -615,6 +615,12 @@ sudo apt-get install nodejs npm nodejs-dev
 
 Follow instructions on 10gen's site: [Install MongoDB on Ubuntu](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/).
 
+
+### Install Redis
+
+{% highlight bash %}
+sudo aptitude install redis-server
+{% endhighlight %}
 
 
 ## Setup Automatic Backups
