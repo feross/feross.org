@@ -6,7 +6,7 @@ tags:
 - me
 ---
 
-Lots has happened since my last blog post. So much has been happening, in fact, that I haven't had time to update my blog! If you've been following my updates on [Twitter](http://www.twitter.com/FreeTheFeross), then you might have heard that:
+Lots has happened since my last blog post. So much has been happening, in fact, that I haven't had time to update my blog! If you've been following my updates on [Twitter](http://www.twitter.com/feross), then you might have heard that:
 
 - I finished Spring Quarter Finals at Stanford.
 - I went to Disneyworld with my parents for 5 days (first time I've been to the place!).

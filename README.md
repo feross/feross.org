@@ -2,7 +2,7 @@
 
 Copyright (c) 2012 Feross Aboukhadijeh
 
-Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [http://feross.org](http://feross.org). Feel free to browse the source, fork at will, and [ask me questions](http://twitter.com/FreeTheFeross). Sharing is caring!
+Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [http://feross.org](http://feross.org). Feel free to browse the source, fork at will, and [ask me questions](http://twitter.com/feross). Sharing is caring!
 
 
 ## How it's built

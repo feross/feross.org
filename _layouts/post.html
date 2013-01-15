@@ -44,14 +44,14 @@ class: post
   <section class="copy">
     <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=feross', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
       <p>
-        <a href="https://twitter.com/FreeTheFeross" class="avatar">
+        <a href="https://twitter.com/feross" class="avatar">
           <img src="/images/F.png" height="50" width="50" alt="Feross Aboukhadijeh" />
         </a>
         Hey, thanks for reading! I'm <a href="/about/">Feross Aboukhadijeh</a>, a web developer, designer, and Stanford computer science student. My current project is to <a href="http://www.apstudynotes.org" title="AP notes">help students study better</a>.
       </p>
       {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
       <p>
-        If you enjoyed this article, you should <a href="https://twitter.com/FreeTheFeross">follow me on Twitter</a> or sign up to get an email whenever I write something new:
+        If you enjoyed this article, you should <a href="https://twitter.com/feross">follow me on Twitter</a> or sign up to get an email whenever I write something new:
 
         <input type="email" name="email" placeholder="email@email.com"/>
         <input type="hidden" value="feross" name="uri"/>
@@ -64,7 +64,7 @@ class: post
       Share this article with your friends:
     </p>
 
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://{% if page.old %}www.{% endif %}feross.org{{ page.url }}/" data-text="{{ page.title | xml_escape }}" data-via="FreeTheFeross" data-size="large" data-related="FreeTheFeross">Tweet</a>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://{% if page.old %}www.{% endif %}feross.org{{ page.url }}/" data-text="{{ page.title | xml_escape }}" data-via="feross" data-size="large" data-related="feross">Tweet</a>
 
     <div class="fb-like" data-href="http://feross.org{{ page.url }}/" data-send="false" data-width="450" data-show-faces="true"></div>
 
