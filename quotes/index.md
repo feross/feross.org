@@ -50,6 +50,11 @@ Here are <strong>my favorite quotes</strong> from programmers, athletes, and rev
 <blockquote>On the one hand, information wants to be expensive, because it’s so valuable. On the other hand, information wants to be free, because the cost of getting it out is getting lower and lower all the time. So you have these two fighting against each other.
 -- Stewart Brand</blockquote>
 
+<h2>People</h2>
+
+<blockquote>The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars
+-- Jack Kerouac
+
 <h2>Programming</h2>
 <blockquote>The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds castles in the air, from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, so readily capable of realizing grand conceptual structures. [...]
 <br><br>
