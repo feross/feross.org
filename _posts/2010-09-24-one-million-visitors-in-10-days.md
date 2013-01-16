@@ -107,7 +107,7 @@ These are exciting times!
 
 ## Like YouTube Instant!
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ytinstant.com" data-text="YouTube Instant is awesome." data-via="FreeTheFeross" data-size="large" data-related="FreeTheFeross">Tweet</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ytinstant.com" data-text="YouTube Instant is awesome." data-via="feross" data-size="large" data-related="feross">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fytinstant.com&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp;appId=156297307729439" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
