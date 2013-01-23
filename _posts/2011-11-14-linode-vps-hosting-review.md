@@ -36,7 +36,7 @@ Another advantage of using the command line is that you no longer need to buy ho
 
 ## Some things that make Linode awesome:
 
-1. **About once a year, Linode upgrades the storage and RAM for all users at no extra cost.** For example: when I first joined Linode in 2009, I hosted all my sites on their cheapest plan -- 360MB ram, 16GB storage, 200GB transfer -- for $20/month. Since then, they've upgraded this so the same server now comes with 512MB ram and 20GB storage -- _neat!_
+1. **About once a year, Linode upgrades the storage and RAM for all users at no extra cost.** For example: when I first joined Linode in 2009, I hosted all my sites on their cheapest plan -- 360MB ram, 16GB storage, 200GB transfer -- for $20/month. Since then, they've upgraded this so the same server now comes with 512MB ram and 24GB storage -- _neat!_
 
 2. **Unlike most shared hosting providers, Linode does not oversell their hosting.** At a cheap shared host, if you get even close to using all the bandwidth and storage that you paid for, you'd get shut down for "misusing resources" and "unfairly affecting other users on the server". With Linode, your resources are actually yours -- Linode doesn't oversell.
 
