@@ -78,7 +78,7 @@ After I got to Stanford, I took lots of great computer science classes like [CS1
 
 I spent almost all my time outside of class reading about design, programming, browsers, and JavaScript. Like 4-5 hours a day.
 
-What did I read? Lots of different stuff. But, mostly blogs by first-class designers and programmers who I admire a lot. Real badasses. For a sampling of some of these blogs, take a look at the "Respect Rollcall" in the sidebar of this blog.
+What did I read? Lots of different stuff. But, mostly blogs by first-class designers and programmers who I admire a lot. Real badasses. For a sampling of some of these blogs, take a look at the [Respect Rollcall](https://gist.github.com/4508913) in the sidebar of this blog. NOTE: Changed blog design and removed this list. It's [on Gist](https://gist.github.com/4508913) for posterity.
 
 ## A viral hit
 
