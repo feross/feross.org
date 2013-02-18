@@ -13,7 +13,7 @@ Here are <strong>my favorite quotes</strong> from programmers, athletes, and rev
 <h2>Design</h2>
 
 
-<blockquote>When you don't create things, you become defined by your tastes rather than your ability. Your tastes only narrow & exclude people. So create.
+<blockquote>When you don't create things, you become defined by your tastes rather than your ability. Your tastes only narrow &amp; exclude people. So create.
 -- <a href="http://en.wikipedia.org/wiki/Why_the_lucky_stiff">_why</a></blockquote>
 
 
@@ -54,6 +54,7 @@ Here are <strong>my favorite quotes</strong> from programmers, athletes, and rev
 
 <blockquote>The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars
 -- Jack Kerouac
+</blockquote>
 
 <h2>Programming</h2>
 <blockquote>The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds castles in the air, from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, so readily capable of realizing grand conceptual structures. [...]
