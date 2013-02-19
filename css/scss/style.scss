@@ -615,6 +615,22 @@ ul.listing {
 .highlight .il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
 
 
+// print-specific styles
+@media print {
+  /* colors (black on white) */
+  body, h1, h2, h3, h4, .content h1 a, .highlight {
+    color:$black;
+    background-color:$white;
+  }
 
+  /* hide some sections, including comments */
+  section.meta, div#carbonads-container {
+    display:none;
+  }
 
-
+  /* show URL after links */
+  article a:link:after, article a:visited:after {
+    content: " (" attr(href) ") ";
+    font-size: 90%;
+  }
+}
