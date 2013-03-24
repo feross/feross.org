@@ -130,7 +130,7 @@ Add a new user:
 adduser <your username>
 {% endhighlight %}
 
-Add the user to the `sudoers` group:
+Add the user to the `sudo` group:
 
 {% highlight bash %}
 usermod -a -G sudo <your username>
