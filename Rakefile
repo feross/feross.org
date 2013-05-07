@@ -8,7 +8,7 @@ require 'rake'
 desc "Compile everything"
 task :compile do
   sh "compass compile"
-  sh "jekyll"
+  sh "jekyll build"
 end
 
 #
@@ -17,7 +17,7 @@ end
 
 desc "Watch-compile jekyll site"
 task :jekyll do
-  sh "jekyll --auto --server"
+  sh "jekyll serve --watch"
 end
 
 desc "Watch-compile SCSS with Compass"
@@ -34,6 +34,6 @@ desc "Deploy site"
 task :publish do
   sh "rm -rf _site js/compiled css/compiled"
   sh "compass compile --output-style compressed"
-  sh "jekyll --lsi"
+  sh "jekyll build --lsi"
   sh "rsync -r -a -v -e \"ssh -l feross -p 44444\" --delete _site nginx.conf _server future:/home/feross/www/feross.org/"
 end
