@@ -7,7 +7,7 @@ tags:
 - music
 ---
 
-I launched 3 sites recently ([Instant.fm](http://instant.fm), [Instant.IO](http://instant.io/), and [EmuSpin](http://emuspin.com)) and haven't written about them yet. I know you noticed.
+I launched 3 sites recently ([Instant.fm](http://instant.fm), [Instant.IO](/hacks/instant.io/), and [EmuSpin](http://emuspin.com)) and haven't written about them yet. I know you noticed.
 
 ## [Instant.fm](http://instant.fm) (built in 3 months)
 
@@ -29,19 +29,19 @@ We know that there are lots of sites out there that let you share playlists, but
 
 Now, since we launched the site we've learned that many of our core assumptions about how people share music weren't 100% correct, so we're planning** a revamped Instant.fm** that will be pretty different. I'll write another blog post in the future about what we've learned while building Instant.fm -- there's quite a lot we've taken away from this project.
 
-## [Instant.IO](http://instant.io) (built in 8 hours)
+## [Instant.IO](/hacks/instant.io/) (built in 8 hours)
 
 ![Stanford Hack Competition](/images/stanford-hack-competition-frosoco.jpg)
 
 Sheesh, I think I'm definitely obsessed with the word *instant*. I admit, the name "Instant.IO" doesn't tell you much about this site's purpose, but I had the domain name and I didn't want to let the $100 registration go to waste (yeah non-standard TLDs are pretty expensive).
 
-Anyway, you have to [try Instant.IO](http://instant.io) for yourself. Trust me, it's worth doing once (and maybe *only* once). I built the site in 8 hours during the [Stanford Hack Competition](http://stanfordacm.com/hack-competition-results/) which I helped to organize. This was the first hack competition that my club, the [Stanford ACM](http://www.stanfordacm.com), organized.
+Anyway, you have to [try Instant.IO](/hacks/instant.io/) for yourself. Trust me, it's worth doing once (and maybe *only* once). I built the site in 8 hours during the [Stanford Hack Competition](http://stanfordacm.com/hack-competition-results/) which I helped to organize. This was the first hack competition that my club, the [Stanford ACM](http://www.stanfordacm.com), organized.
 
 We had [Adam D'Angelo](http://en.wikipedia.org/wiki/Adam_D'Angelo) (founder of [Quora](http://www.quora.com/)), [Andrew Bosworth](http://www.crunchbase.com/person/andrew-bosworth) (creator of Facebook News Feed), [Steve Bourne](http://en.wikipedia.org/wiki/Stephen_R._Bourne) (creator of [sh](http://en.wikipedia.org/wiki/Bourne_shell)), and [Steven Schlansker](http://www.facebook.com/stevenschlansker) (founder of [Trumpet Technologies](http://trumpet.io/)) judge the hacks. See the [results](http://stanfordacm.com/2011/05/hack-competition-results/).
 
 The whole event went splendidly -- we're planning to do this every quarter from now on. Fun times.
 
-[Instant.IO](http://instant.io) re-uses the [Google text-to-speech API](http://techcrunch.com/2009/12/14/the-unofficial-google-text-to-speech-api/) scraper I built when I made [Brain Grinder](http://braingrinder.com) last month. I'm planning to open source the code for this (and more) sometime soon.
+[Instant.IO](/hacks/instant.io/) re-uses the [Google text-to-speech API](http://techcrunch.com/2009/12/14/the-unofficial-google-text-to-speech-api/) scraper I built when I made [Brain Grinder](http://braingrinder.com) last month. I'm planning to open source the code for this (and more) sometime soon.
 
 <span class="red">**Update Sep 1:**</span> Source code for both [Instant.io](https://github.com/feross/Instant.io) and [BrainGrinder](https://github.com/feross/BrainGrinder.com) is now available on Github.
 
@@ -61,7 +61,7 @@ I rotated the emu once when Jake stepped away from his computer, and I can only 
 
 ### EmuSpin on Reddit
 
-I didn't think anyone but Jake would enjoy the site, since it's an inside joke. **I suppose I should have known better.** An odd-looking animal spinning around for no reason = instant interweb lulz. 
+I didn't think anyone but Jake would enjoy the site, since it's an inside joke. **I suppose I should have known better.** An odd-looking animal spinning around for no reason = instant interweb lulz.
 
 EmuSpin.com [made it to Reddit](http://www.reddit.com/r/WTF/comments/hbw59/emu_spin/). (should've guessed it). Here are a few of my favorite comments:
 
