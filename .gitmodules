@@ -22,3 +22,6 @@
 [submodule "hacks/md5-password-cracker.js"]
 	path = hacks/md5-password-cracker.js
 	url = git@github.com:feross/md5-password-cracker.js.git
+[submodule "hacks/instant.io"]
+	path = hacks/instant.io
+	url = git@github.com:feross/Instant.io.git
