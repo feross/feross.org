@@ -20,4 +20,4 @@ publish:
 	rm -rf _site js/compiled css/compiled
 	compass compile --output-style compressed
 	jekyll build --lsi
-	rsync -r -a -v -e \"ssh -l feross -p 44444\" --delete _site nginx.conf _server future:/home/feross/www/feross.org/
+	rsync -a -v -e ssh --delete _site nginx.conf _server feross@future:/home/feross/www/feross.org/
