@@ -604,10 +604,11 @@ sudo service apache2 restart
 ### Install Node.js
 
 {% highlight bash %}
-sudo aptitude install python-software-properties
+sudo aptitude update
+sudo aptitude install python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo aptitude update
-sudo aptitude install nodejs npm nodejs-dev
+sudo aptitude install nodejs
 {% endhighlight %}
 
 
