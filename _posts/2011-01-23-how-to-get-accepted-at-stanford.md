@@ -9,7 +9,7 @@ tags:
 
 ![Stanford University](/images/stanford.jpg)
 
-**Update:** I posted my Stanford admissions essays on [StudyNotes](http://www.apstudynotes.org) so you can learn from them. Here are the links:
+**Update:** I posted my Stanford admissions essays on [StudyNotes](http://www.apstudynotes.org/colleges/) so you can learn from them. Here are the links:
 
 - [My World, My Dreams (Main Essay)](http://www.apstudynotes.org/stanford/my-world-my-dreams/)
 - [Stanford Supplement](http://www.apstudynotes.org/stanford/stanford-supplement-short-essays/)
