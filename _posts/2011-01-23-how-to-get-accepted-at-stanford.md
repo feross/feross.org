@@ -9,6 +9,12 @@ tags:
 
 ![Stanford University](/images/stanford.jpg)
 
+**Update:** I posted my admissions essays on [StudyNotes](http://www.apstudynotes.org) so you can learn from them. Here are the links:
+
+- [My World, My Dreams (Main Essay)](http://www.apstudynotes.org/stanford/my-world-my-dreams/)
+- [Supplement Essays](http://www.apstudynotes.org/stanford/stanford-supplement-short-essays/)
+- [Short Responses](http://www.apstudynotes.org/stanford/short-responses/)
+
 About once a month, I get an email from a student in high school (and sometimes middle school) who wants advice about **how to get accepted at Stanford**.
 
 They want to know what they should be doing to prepare for college applications - what clubs they should join, what sports they should play, and what activities they should get involved in. They want to learn the "secrets" that will make themselves appealing to admissions officers.
@@ -45,11 +51,12 @@ The best advice I can give you about essays is to let your voice shine through i
 
 Remember to **make it interesting**. You need to tell a story about your life. It should be **compelling** and **genuine**. The admissions officers need to feel like you are a **real person** that they would want to meet and even hang out with.
 
-In my own essay, I talked about how I've always been fascinated by technology and computers ever since I was a kid. I give a lot of credit to my parents and talk a little bit about my childhood. I also talked about my goals and dreams.
+In [my own essay](http://www.apstudynotes.org/stanford/my-world-my-dreams/), I talked about how I've always been fascinated by technology and computers ever since I was a kid. I give a lot of credit to my parents and talk a little bit about my childhood. I also talked about my goals and dreams.
 
 Be careful here, though. If you spend too much time talking about your goals and dreams without justifying how you've already started taking steps to achieve these dreams, then you'll seem like you're all talk. For example, I wouldn't say "I want to end world hunger and poverty" unless you've already done stuff in high school that **works towards achieving these goals**. If you've got the goods to back what you're saying, then you're in good shape.
 
 ## What are my chances?
+
 Lots of people I know thought that it would be impossible to get into Stanford -- that they were not good enough, or that they wouldn't be able to afford the tuition even if they got in, or lots of other excuses that they invented. So they didn't apply.
 
 It's true, Stanford is really difficult to get into (the latest stats say that 7.2% of applicants get accepted - it was 9.5% when I applied). But that's why it's worth trying for!
@@ -67,3 +74,9 @@ Long story short, **definitely apply.**
 So that's it. Those are my Stanford admissions tips and other assorted ramblings. I wish you the best of luck in the admissions process. I know how scary this time can be, but **it all works out in the end**. Good luck!
 
 Now that I've written this up, I'll finally have a page to point people at when they ask for Stanford tips.
+
+## Update!
+
+I built a database of [college admissions essays](http://www.apstudynotes.org/colleges/) for top schools like Stanford, Harvard, Princeton, MIT, and more. It has dozens of successful essays (including my own!) which I collected from my friends who go to top schools.
+
+Please check it out and let me know if you find it useful in writing your own admissions essay. I wish you the best :)
