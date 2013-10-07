@@ -9,11 +9,11 @@ tags:
 
 ![Stanford University](/images/stanford.jpg)
 
-**Update:** I posted my admissions essays on [StudyNotes](http://www.apstudynotes.org) so you can learn from them. Here are the links:
+**Update:** I posted my Stanford admissions essays on [StudyNotes](http://www.apstudynotes.org) so you can learn from them. Here are the links:
 
 - [My World, My Dreams (Main Essay)](http://www.apstudynotes.org/stanford/my-world-my-dreams/)
-- [Supplement Essays](http://www.apstudynotes.org/stanford/stanford-supplement-short-essays/)
-- [Short Responses](http://www.apstudynotes.org/stanford/short-responses/)
+- [Stanford Supplement](http://www.apstudynotes.org/stanford/stanford-supplement-short-essays/)
+- [Stanford Short Responses](http://www.apstudynotes.org/stanford/short-responses/)
 
 About once a month, I get an email from a student in high school (and sometimes middle school) who wants advice about **how to get accepted at Stanford**.
 
