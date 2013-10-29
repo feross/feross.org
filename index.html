@@ -9,6 +9,7 @@ class: home
       <img src="/images/rss.png" alt="RSS Feed Icon" />
     </a>
   </h2>
+  <iframe src="//player.vimeo.com/video/77265280?byline=0&amp;color=e22c29" width="800" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   <ul class="listing">
     {% for post in site.posts %}
     <li>
@@ -21,7 +22,6 @@ class: home
     </li>
     {% endfor %}
   </ul>
-  <small>These blog posts have been read <span class="views"></span> times.</small>
 </div>
 
 <div class="right">
@@ -41,6 +41,8 @@ class: home
     </a>
 
     {% include ad.html %}
+
+    <small>Total blog post views: <span class="views"></span></small>
   </div>
 
   <!-- Tweets -->
