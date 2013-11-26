@@ -6,7 +6,7 @@ script: >
   var ageInDays = Math.floor((new Date() - new Date('1990-10-31T00:00:01.000Z')) / 1000 / 60 / 60 / 24);
 
   var ageInYears = Math.floor(ageInDays / 365);
-  
+
   $('#ageInDays').html(' &mdash; that\'s ' + ageInDays + ' days to be exact!');
   $('#ageInYears').text(ageInYears);
 
@@ -15,35 +15,44 @@ script: >
 <h2>Hey, nice to meet you!</h2>
 
 <div class="left">
+
+
   <p>
-    I'm <strong>Feross Aboukhadijeh</strong> &lt;<a href="mailto:feross@feross.org">feross@feross.org</a>&gt;. I'm a web developer, designer, computer security researcher, teacher, long distance runner, gamer, and music lover.
+    I'm <strong>Feross Aboukhadijeh</strong> &lt;<a href="mailto:feross@feross.org">feross@feross.org</a>&gt;, a programmer, designer, teacher, and mad scientist.
   </p>
   <p>
     I'm <span id="ageInYears"></span> years old<span id="ageInDays">.</span>
   </p>
   <p>
-    I specialize in web development &mdash; specifically, high-level programming languages, browsers, and web framework design. I'm also fascinated by the human brain, psychology, online education, the quantified self movement, and (more recently) augmented reality, and wearable computers.
+    I am currently building <a href="http://webtorrent.io">WebTorrent</a>, a streaming BitTorrent client for the browser, powered by WebRTC. Before that, I built <a href="http://peercdn.com">PeerCDN</a>, a peer-to-peer content delivery network to makes sites faster and cheaper.
   </p>
   <p>
-    I have a BS in computer science from <a href="http://stanford.edu/">Stanford University</a> and I'm working towards my MS.
+    I'm a graduate of <a href="http://stanford.edu/">Stanford University</a> and I've worked at <a href="http://www.quora.com/">Quora</a>, <a href="http://www.facebook.com/">Facebook</a>, and <a href="http://www.intel.com/">Intel</a>. In the past, I did research in the Stanford <a href="http://hci.stanford.edu/">human-computer interaction</a> and <a href="http://seclab.stanford.edu/">computer security</a> labs.
   </p>
   <p>
-    In the past, I've worked at <a href="http://www.quora.com/">Quora</a>, <a href="http://www.facebook.com/">Facebook</a>, and <a href="http://www.intel.com/">Intel</a>. I've also done some research in the Stanford <a href="http://hci.stanford.edu/">human-computer interaction</a> and <a href="http://seclab.stanford.edu/">computer security</a> labs.
+    I enjoy working on "mad science" &mdash; projects that make people say, "Whoa! I didn't know that was possible!". I frequently wins hackathons by crafting code that gives the kids with spectacles spectacular fits, like this recent <a href="https://github.com/feross/oculus-drone">virtual reality piloting</a> hack that lets you control a quadcopter with an Oculus Rift.
   </p>
   <p>
-    At Stanford, I taught computer science for 6 quarters to students in Stanford's <a href="http://cs198.stanford.edu">CS 198</a> program, and I organized lots of sweet computing-related events as president of Stanford's <a href="http://stanfordacm.com">Association for Computing Machinery</a> chapter.
+    At Stanford, I taught computer science for 6 quarters to students in Stanford's <a href="http://cs198.stanford.edu">CS 198</a> program, and TA'd <a href="http://cs107.stanford.edu">CS107: Computer Organization and Systems</a>. I organized lots of sweet computing-related events as president of Stanford's <a href="http://stanfordacm.com">Association for Computing Machinery</a> chapter.
   </p>
   <p>
     In September 2010, I built <a href="http://ytinstant.com">YouTube Instant</a> (a really fast way to search YouTube) in just 3 hours as a bet with my roommate. The site garnered immediate worldwide media attention &mdash; 1 million visitors in 10 days, and hundreds of news stories. Chad Hurley, CEO and co-founder of YouTube, was so impressed that he immediately offered me a job at YouTube (which I had to turn down in order to finish my degree).
   </p>
-  <p>My <a href="/resume/">resume</a> is also available. I currently live in Stanford, CA.</p>
-  <p>My current project is to <a href="http://www.apstudynotes.org" title="AP notes">help students study better</a>. For a sample, check out some <a href="http://www.apstudynotes.org/us-history/">AP US History notes</a>.</p>
+  <p>
+    In my free time, I work on <a href="http://www.apstudynotes.org" title="AP notes">StudyNotes</a>, a website to help students study better. I started it in high school and have been maintaining it ever since. For a sample, check out some <a href="http://www.apstudynotes.org/us-history/">AP US History notes</a> or <a href="http://www.apstudynotes.org/colleges/essays/">college essays</a>.
+  </p>
+  <p>
+    I like long-distance running, basketball, music (playing and listening), anime, and games (counter-strike is my favorite).
+  </p>
+  <p>
+    My <a href="/resume/">resume</a> is available if you want to be all "profesh" about things. I currently live in Mountain View, CA.
+  </p>
 
   <h3>Now, go read one of my best blog posts:</h3>
 
   <ul class="listing">
     {% for post in site.posts %}
-    {% if post.best %} 
+    {% if post.best %}
     <li>
       <a href="{{ post.url }}/">{{ post.title }}</a>
       <time datetime="{{post.date | date: "%Y-%m-%d"}}">
