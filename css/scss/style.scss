@@ -167,7 +167,7 @@ img {
 .carbonad {
   background: $adColor !important;
   border: 1px solid $adBorderColor !important;
-  
+
   img {
     margin: 0;
     max-width: none;
@@ -277,6 +277,7 @@ img {
   }
   a {
     #{$link} {
+      font-weight: normal;
       text-decoration: none;
     }
     #{$focus} {
@@ -418,12 +419,11 @@ img {
     margin-bottom: 0.5em;
     text-decoration: none;
     vertical-align: top;
-
   }
 
   // Dates
   li, h3 {
-    span { 
+    span {
       color: $gray;
       font-size: 0.8em;
       font-weight: normal;
@@ -438,7 +438,6 @@ img {
     h3 + p { margin: 0.3em 0; }
     ul { margin-top: 0.3em; }
   }
-
 }
 
 
@@ -457,6 +456,7 @@ a.next {
 a.prev, a.next {
   display: block;
   font-size: 1.1em;
+  font-weight: normal;
   opacity: 0.8;
   overflow: hidden;
   padding: 50px;
@@ -485,7 +485,6 @@ a.prev, a.next {
     top: 25px;
     width: 24px;
   }
-
 
   @media only screen and (max-width: $break4) {
     font-size: 1.0em;
