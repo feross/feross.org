@@ -9,12 +9,6 @@ tags:
 
 ![Stanford University](/images/stanford.jpg)
 
-**Update:** I posted my Stanford admissions essays on [StudyNotes](http://www.apstudynotes.org/colleges/) so you can learn from them. Here are the links:
-
-- [My World, My Dreams (Main Essay)](http://www.apstudynotes.org/stanford/my-world-my-dreams/)
-- [Stanford Supplement](http://www.apstudynotes.org/stanford/stanford-supplement-short-essays/)
-- [Stanford Short Responses](http://www.apstudynotes.org/stanford/short-responses/)
-
 About once a month, I get an email from a student in high school (and sometimes middle school) who wants advice about **how to get accepted at Stanford**.
 
 They want to know what they should be doing to prepare for college applications - what clubs they should join, what sports they should play, and what activities they should get involved in. They want to learn the "secrets" that will make themselves appealing to admissions officers.
@@ -75,8 +69,14 @@ So that's it. Those are my Stanford admissions tips and other assorted ramblings
 
 Now that I've written this up, I'll finally have a page to point people at when they ask for Stanford tips.
 
-## Update!
+## Update: Read sample college essays!
 
-I built a database of [college admissions essays](http://www.apstudynotes.org/colleges/) for top schools like Stanford, Harvard, Princeton, MIT, and more. It has dozens of successful essays (including my own!) which I collected from my friends who go to top schools.
+I built a database of [college admissions essays](http://www.apstudynotes.org/essays/) for top schools like Stanford, Harvard, Princeton, MIT, and more. It has dozens of successful essays (including my own!) which I collected from my friends who go to top schools.
 
-Please check it out and let me know if you find it useful in writing your own admissions essay. I wish you the best :)
+Here are the links to my essays:
+
+- [My World, My Dreams (Main Essay)](http://www.apstudynotes.org/stanford/my-world-my-dreams/)
+- [Stanford Supplement](http://www.apstudynotes.org/stanford/stanford-supplement-short-essays/)
+- [Stanford Short Responses](http://www.apstudynotes.org/stanford/short-responses/)
+
+Please check out the site and let me know if you find it useful in writing your own admissions essay. I wish you the best :)
