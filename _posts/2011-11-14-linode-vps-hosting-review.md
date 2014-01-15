@@ -12,7 +12,7 @@ The answer to both questions is [Linode](http://www.linode.com/?r=307513b509e8c0
 
 ## Linode = Awesome Hosting
 
-I've been using [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767) to host my websites for the past 2+ years and I'm thoroughly impressed by the service. I can't recommend them enough -- it is easily the best web hosting service I've used to date.
+I've been using [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767) to host my websites for the past 5+ years and I'm thoroughly impressed by the service. I can't recommend them enough -- it is easily the best web hosting service I've used to date.
 
 If you're coming from the shared hosting world, then let me tell you: **a virtual private server (VPS) is a whole new world**. A VPS means freedom, power, and total flexibility. You get access to everything from root, the kernel, and on up. All managed from the command line and, occasionally, the simple Linode control panel. Your Linode is completely and totally your machine.
 
@@ -36,7 +36,7 @@ Another advantage of using the command line is that you no longer need to buy ho
 
 ## Some things that make Linode awesome:
 
-1. **About once a year, Linode upgrades the storage and RAM for all users at no extra cost.** For example: when I first joined Linode in 2009, I hosted all my sites on their cheapest plan -- 360MB ram, 16GB storage, 200GB transfer -- for $20/month. Since then, they've upgraded this so the same server now comes with 512MB ram and 24GB storage -- _neat!_
+1. **About once a year, Linode upgrades the storage and RAM for all users at no extra cost.** For example: when I first joined Linode in 2009, I hosted all my sites on their cheapest plan -- 360MB ram, 16GB storage, 200GB transfer -- for $20/month. Since then, they've upgraded this so the same server now comes with 1GB ram, 48GB storage, and 2TB transfer -- _neat!_
 
 2. **Unlike most shared hosting providers, Linode does not oversell their hosting.** At a cheap shared host, if you get even close to using all the bandwidth and storage that you paid for, you'd get shut down for "misusing resources" and "unfairly affecting other users on the server". With Linode, your resources are actually yours -- Linode doesn't oversell.
 
@@ -44,13 +44,13 @@ Another advantage of using the command line is that you no longer need to buy ho
 
 If you're considering a Linode, I recommend you **start out with the smallest one and upgrade if/when you need to**.
 
-I currently host all my sites on the "Linode 768" plan -- 768MB ram, 30GB storage, and 300GB transfer. When one of my sites goes viral, like [YouTube Instant did](/youtube-instant-media-frenzy/#media) or [EmuSpin did](/my-recent-hacks/#emuspin), I just migrate to a bigger Linode. 
+I currently host all my sites on the "Linode 1GB" plan, which is probably overkill, but its nice to be able to handle random traffic spikes without much work. When a site goes viral, like [YouTube Instant did](/youtube-instant-media-frenzy/#media) or [EmuSpin did](/my-recent-hacks/#emuspin), I just migrate to a bigger Linode.
 
-For example, as [YouTube Instant](http://ytinstant.com) picked up steam, I upgraded the server several times, eventually ending up at the "Linode 4GB" plan -- 4GB ram, 160GB storage, and 1600GB transfer. Migrating plans takes about 15 minutes, and your sites will be inaccessible during that time.
+For example, as [YouTube Instant](http://ytinstant.com) picked up steam, I upgraded the server several times, eventually ending up at the "Linode 4GB" plan -- at the time, 4GB ram, 160GB storage, and 1600GB transfer. Migrating plans takes about 15 minutes, and your sites will be inaccessible during that time.
 
 ![Network Traffic to YouTube Instant](/images/My-Network-Traffic-Last-30-Days1.png)
 
-If I had more time, I would have switched from Apache to Nginx so that each new visitor wouldn't spawn a whole new 20MB process. As you'll quickly find out, the scarcest resource in a VPS hosting environment is RAM. Nginx -- and other high concurrency, low memory servers -- are a lifesaver here.
+If I had more time, I would have switched from Apache to Nginx so that each new visitor wouldn't spawn a whole new 20MB process. As you'll quickly find out, the scarcest resource in a VPS hosting environment is RAM. Nginx, node.js -- and other high concurrency, low memory servers -- are a lifesaver here.
 
 ## Linode rocks!
 
