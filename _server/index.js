@@ -28,6 +28,8 @@ function createConnection () {
   connection.on('error', function (err) {
     console.error('Database error: Well, this was really random.', err.message)
   })
+
+  return connection
 }
 
 // Increment the view count for a particular post and return
