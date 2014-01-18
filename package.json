@@ -1,0 +1,31 @@
+{
+  "name": "feross.org",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Pure concentrated awesome",
+  "homepage": "http://feross.org",
+  "main": "index.js",
+  "dependencies": {
+    "mysql": "2.0.0-alpha3",
+    "express": "3.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "compass watch & jekyll serve --watch --port 4000",
+    "compile": "compass compile --output-style compressed && jekyll build --lsi && npm install",
+    "publish": "rm -rf _site js/compiled css/compiled && npm run compile && rsync -a -v -e ssh --delete _site nginx.conf _server node_modules supervisor.conf feross@future:/home/feross/www/feross.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feross/feross.org.git"
+  },
+  "keywords": [
+    "Feross",
+    "blog"
+  ],
+  "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/feross/feross.org/issues"
+  }
+}
