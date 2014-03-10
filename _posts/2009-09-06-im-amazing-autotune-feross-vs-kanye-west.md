@@ -5,7 +5,6 @@ title: Feross vs. Kanye West
 tags:
 - music
 - my-code
-best: true
 ---
 
 I've long believed that modern hip-hop and R&B suffers from too much post-production. Average singers can wail away in front of the  microphone yet sound ***amazing*** on the radio, after the post-production techs have fixed all the mistakes. This is why all the music on the radio sounds so similar -- it's all pitch-perfect.

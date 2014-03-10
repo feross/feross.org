@@ -6,7 +6,6 @@ tags:
 - freedom
 - copyright
 - essay
-best: true
 ---
 
 The Internet is awesome.
@@ -81,7 +80,7 @@ The voice of the common man cannot be heard when the control of the press is con
 >Political freedom is a society's safety valve, allowing the passionately critical a nonviolent way to express their dissatisfaction with the status quo.
 >
 >-- David Cole, "Quotes on Democracy"
-  
+
 While the "diverse spectrum" of corporate news outlets has created the **illusion of a free and fair press**, the increasing trend of **media consolidation** over the last two centuries is even beginning to threaten this illusion. **Corporate media consolidation** – the majority of media outlets being owned by a small number of conglomerates and corporations – is an increasing problem that ***threatens free and fair political discourse in the United States***.
 
 Americans are increasingly realizing the negative implications that concentration of media ownership is having on free and fair political discourse. Former CBS News anchorman** Walter Cronkite**, who has lobbied the FCC against adopting relaxed media ownership guidelines, was quoted in [*BusinessWeek*](http://www.businessweek.com/) as saying, "The gathering of more and more outlets under one owner clearly can be an impediment to a free and independent press."

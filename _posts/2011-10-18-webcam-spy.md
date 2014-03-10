@@ -6,7 +6,6 @@ github: https://github.com/feross/webcam-spy
 tags:
 - my-code
 - security
-best: true
 ---
 
 I discovered a vulnerability in Adobe Flash that allows any website to turn on your webcam and microphone **without your knowledge or consent** to spy on you.
@@ -32,7 +31,7 @@ Source code: [Github](https://github.com/feross/webcam-spy). Video demo: [YouTub
 - **1/10/2012**: Another [similar clickjacking attack](http://blog.skepticfx.com/2012/01/adobe-flash-webcam-clickjacking.html?spref=twitter) was just discovered. Adobe has fixed it.
 
 - **5/9/2012:** FOX News in Cleveland [just ran a story](http://fox8.com/2012/05/09/hackers-gain-access-to-homes-through-webcams/) about this.
-  
+
   <iframe width="420" height="315" src="http://www.youtube.com/embed/loDFU-2eypk" frameborder="0" allowfullscreen></iframe>
 
 Read on for the original blog post.
@@ -65,7 +64,7 @@ I've seen a bunch of clickjacking attacks in the wild, but I've never seen any a
 
 
 > The problem here is the [Flash Player Setting Manager](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager06.html), this inheritance from Macromedia might be the Flash Player security Achilles heel.
-> 
+>
 > -- [Guy Aharonovsky](http://blog.guya.net/2008/10/07/malicious-camera-spying-using-clickjacking/)
 
 This is a screenshot of what the Settings Manager .SWF file looks like:

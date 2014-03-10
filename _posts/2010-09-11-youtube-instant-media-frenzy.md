@@ -5,7 +5,6 @@ title: YouTube Instant. The last two days…
 tags:
 - my-code
 - youtube-instant
-best: true
 ---
 
 The last two days of my life have been **amazing, insane, sleepless, and humbling!**

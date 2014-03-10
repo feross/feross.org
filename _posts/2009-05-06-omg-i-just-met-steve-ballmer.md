@@ -5,7 +5,6 @@ title: OMG, I just met Steve Ballmer!
 tags:
 - famous-people
 - stanford
-best: true
 ---
 
 In a really cool turn of events, I just got to shake hands with Steve Ballmer!
