@@ -49,7 +49,36 @@ script: >
     I currently live in Mountain View, CA.
   </p>
 
-  <h2>Sometimes I'm in the news:</h2>
+  <h2>Here are my newest 3 blog posts:</h2>
+
+  <ul class="listing">
+    <li>
+      <a href="{{ post.url }}/">{{ site.posts[0].title }}</a>
+      <time datetime="{{site.posts[0].date | date: "%Y-%m-%d"}}">
+        {{ site.posts[0].date | date: "%B %e, %Y" }}{% if site.posts[0].github %}.
+        Code on <a href="{{ site.posts[0].github }}">GitHub</a>.
+        {% endif %}
+      </time>
+    <li>
+    <li>
+      <a href="{{ post.url }}/">{{ site.posts[1].title }}</a>
+      <time datetime="{{site.posts[1].date | date: "%Y-%m-%d"}}">
+        {{ site.posts[1].date | date: "%B %e, %Y" }}{% if site.posts[1].github %}.
+        Code on <a href="{{ site.posts[1].github }}">GitHub</a>.
+        {% endif %}
+      </time>
+    <li>
+    <li>
+      <a href="{{ post.url }}/">{{ site.posts[2].title }}</a>
+      <time datetime="{{site.posts[2].date | date: "%Y-%m-%d"}}">
+        {{ site.posts[2].date | date: "%B %e, %Y" }}{% if site.posts[2].github %}.
+        Code on <a href="{{ site.posts[2].github }}">GitHub</a>.
+        {% endif %}
+      </time>
+    <li>
+  </ul>
+
+  <h2>Here are what people say about me:</h2>
 
   <ul class="listing">
     <li>
@@ -73,6 +102,7 @@ script: >
       <span>"2010 People of the Year". Jan 2011.</span>
     </li>
   </ul>
+
 </div>
 
 <div class="right">
