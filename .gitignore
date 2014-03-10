@@ -1,8 +1,4 @@
 _site
 _drafts
-
-.sass-cache
-css/compiled/*.css
-js/compiled/*.js
-
 secret.js
+css/main.css

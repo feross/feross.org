@@ -1,4 +1,49 @@
-@import "base";
+@import 'nib'
+@import 'base'
+
+// Variables
+
+// Fonts
+$serif = "Adobe Caslon Pro", Caslon,Baskerville, Palatino, "Palatino Linotype", "Hoefler Text", Garamond, "URW Palladio L", "Book Antiqua", Georgia, serif;
+$serif-caps = "gothic-open-shaded", $serif;
+$sans-serif = "proxima-nova", Helvetica, sans-serif;
+
+// Post width
+$fullWidth = 1000px;
+$postWidth = 700px;
+$postWidthSmall = 600px;
+
+// Media query break points
+$break1 = 480px;
+$break2 = 850px;
+$break3 = 950px;
+$break4 = 1100px;
+
+// Colors
+$red = #E22C29;
+
+$white = #FFF;
+$lightestGray = #EEE;
+$lighterGray = #CCC;
+$lightGray = #999;
+$gray = #666;
+$darkGray = #555;
+$darkerGray = #333;
+$black = #000;
+
+$bgColor = #FFFEFB;
+$adColor = desaturate(darken($bgColor, 3%), 60%);
+$adBorderColor = $lightestGray;
+
+.clearfix:before, .clearfix:after
+  content: ""
+  display: table
+
+.clearfix:after
+  clear: both
+
+$link = '&:link, &:visited';
+$focus = '&:hover, &:focus, &:active';
 
 // Page structure
 
@@ -65,11 +110,11 @@ body {
 // Typography
 
 a {
-  #{$link} {
+  {$link} {
     color: $red;
     text-decoration: underline;
   }
-  #{$focus} {
+  {$focus} {
     text-decoration: none;
   }
 }
@@ -80,10 +125,10 @@ h1, h2, h3, h4 {
   border-bottom: 1px solid $lighterGray;
 
   a {
-    #{$link} {
+    {$link} {
       text-decoration: none;
     }
-    #{$focus} {
+    {$focus} {
       text-decoration: underline;
     }
   }
@@ -95,7 +140,7 @@ h4 { font-size: 1.1em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
 
 // Links in h1 should not affect style
 .content h1 a {
-  #{$link} {
+  {$link} {
     color: $darkerGray;
     text-decoration: none;
   }
@@ -164,6 +209,18 @@ img {
    a media query)
 */
 
+horiz() {
+  height: 100px !important;
+  padding: 10px !important;
+  position: static !important;
+  margin: 15px auto !important;
+  width: 260px !important;
+  & img {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .carbonad {
   background: $adColor !important;
   border: 1px solid $adBorderColor !important;
@@ -175,19 +232,8 @@ img {
     border: 0;
   }
 
-  @mixin horiz() {
-    height: 100px !important;
-    padding: 10px !important;
-    position: static !important;
-    margin: 15px auto !important;
-    width: 260px !important;
-    & img {
-      margin: 0;
-      padding: 0;
-    }
-  }
   .home &, .about & {
-    @include horiz();
+    horiz();
   }
   .post & {
     position: absolute !important;
@@ -200,37 +246,33 @@ img {
     }
 
     @media only screen and (max-width: $break3) {
-      @include horiz();
+      horiz();
     }
   }
 }
 
 .carbonad-image {
-  @mixin horiz() {
+  .home &, .about & {
     margin: 0 10px 0 0 !important;
     padding: 0 !important;
   }
-  .home &, .about & {
-    @include horiz();
-  }
   .post & {
     @media only screen and (max-width: $break3) {
-      @include horiz();
+      margin: 0 10px 0 0 !important;
+      padding: 0 !important;
     }
   }
 }
 
 .carbonad-text, .carbonad-tag {
-  @mixin horiz() {
+  .home &, .about & {
     margin: 2px 0 0 0 !important;
     padding: 0 !important;
   }
-  .home &, .about & {
-    @include horiz();
-  }
   .post & {
     @media only screen and (max-width: $break3) {
-      @include horiz();
+      margin: 2px 0 0 0 !important;
+          padding: 0 !important;
     }
   }
 }
@@ -244,15 +286,12 @@ img {
   color: $lightGray !important;
   a { color: $lightGray !important; }
 
-  @mixin horiz() {
-    margin-top: 15px !important;
-  }
   .home &, .about & {
-    @include horiz();
+    margin-top: 15px !important;
   }
   .post & {
     @media only screen and (max-width: $break3) {
-      @include horiz();
+      margin-top: 15px !important;
     }
   }
 }
@@ -276,11 +315,11 @@ img {
     }
   }
   a {
-    #{$link} {
+    {$link} {
       font-weight: normal;
       text-decoration: none;
     }
-    #{$focus} {
+    {$focus} {
       border-bottom: 6px solid $red;
     }
   }
@@ -291,7 +330,7 @@ img {
   top: 50px;
   left: -75px;
 
-  @include rotate(-45deg);
+  transform: rotate(-45deg);
 
   background: lighten($red, 6%);
   color: #fff;
@@ -301,10 +340,10 @@ img {
   padding: 2px 80px;
   text-align: center;
   text-decoration: none;
-  @include text-shadow(10px, 10px, 10px, $darkerGray);
-  @include box-shadow(#999 1px 1px 4px);
+  text-shadow: 10px, 10px, 10px, $darkerGray;
+  box-shadow: #999 1px 1px 4px;
 
-  #{$focus} {
+  {$focus} {
     background: $red;
   }
 
@@ -371,11 +410,11 @@ img {
 
 // Make tag links subtle gray
 .byline a {
-  #{$link} {
+  {$link} {
     color: $lightGray;
     text-decoration: underline;
   }
-  #{$focus} {
+  {$focus} {
     color: $red;
     text-decoration: underline;
   }
@@ -445,12 +484,12 @@ img {
 
 a.prev {
   left: -120px;
-  @include rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 a.next {
   right: -120px;
-  @include rotate(90deg);
+  transform: rotate(90deg);
 }
 
 a.prev, a.next {
@@ -475,7 +514,7 @@ a.prev, a.next {
 
   &:before {
     content: "";
-    @include background(image-url('up.png'));
+    background: url('up.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 24px;
@@ -506,12 +545,12 @@ ul.listing {
     list-style: none;
     margin: 20px 0;
     > a {
-        #{$link} {
+        {$link} {
           font-size: 1.1em;
           font-weight: bold;
           text-decoration: none;
         }
-        #{$focus} {
+        {$focus} {
           text-decoration: underline;
         }
       }
@@ -522,11 +561,11 @@ ul.listing {
   }
   time {
     a {
-      #{$link} {
+      {$link} {
         color: $gray;
         text-decoration: underline;
       }
-      #{$focus} {
+      {$focus} {
         color: $red;
       }
       }
@@ -542,7 +581,7 @@ ul.listing {
   font-size: 13px;
   line-height: 1.4em;
   padding: 0px 15px;
-  @include border-radius(10px);
+  border-radius: 10px;
   overflow: hidden;
   color: $darkerGray;
 }
