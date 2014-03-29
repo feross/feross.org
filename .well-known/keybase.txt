@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/feross
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://feross.org
+  * I am feross (https://keybase.io/feross) on keybase.
+  * I have a public key with fingerprint 943C B6B5 0E7D 0C89 117B  D3BF 2561 DA99 9430 52BC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "943cb6b50e7d0c89117bd3bf2561da99943052bc",
+            "host": "keybase.io",
+            "key_id": "2561da99943052bc",
+            "uid": "a44561a91d88147b6089681e6b649c00",
+            "username": "feross"
+        },
+        "service": {
+            "hostname": "feross.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396052018,
+    "expire_in": 157680000,
+    "prev": "50afbb59d952a35deaf5a92bb2e2c8f2a2690efe4bc0499d2b5312c855b5b2ae",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.1
+Comment: https://keybase.io/crypto
+
+yMHiAnicbVFfSBRbGN8tddWQJBNvhC8TacVqM7Mzs3O2uHCvomiEXctQ3NjmzJxZ
+B7eZdWZ2VVbFbAWRqw+l6L1BDz4YCFc0a8sQ8paREmIPSSBco5RE0UqwG3gtPSO3
+h6Dz8nF+f8/hm0jZa0u2HxXm/ugiS8fsz8fXQrbzXCodIaAm1ROeCFGNdoesqH6k
+B3VFNQkPARiXCDnIksgtkSIPKMoNJReUaZajJAEAzJMsDUXCSVRphuXAMVAwUK6i
+YQxffIqE0R/oQ7uEwDCYEgAl8TzFuCFH8oDjKcRBjgEiSVpCA+mqcAVhtYx0zTCI
+RieBsbAiYiyyW/wdn6vpfuwL6pqpiVoA41WmGfRYNrM+aOlqEfT9n+CDiirhP2ND
+GOmGoqmEh8JK0VSsSMoFOPxikuKdBKoLKjryKZaCdXM8iY9Vg8I4kiUFGUIWSICl
+BRcrIUFmBUBDSCNa5GVaoDlAIhkxUCQZACQasi4KMywLWUgLCPcbqEbVCA9uMgU/
+jjQUvyqYIR0RjY/HvXE2e7ItIX6PtTVbclLqt10uZju2y0I//Zx1/GFB3yzzS1tC
+3ui9obLM+M/V59JPDT6JTM2MzV1cT2zKQPIJYzDQec0u/s70g+W835biRtXyvx/k
+VHj1nNuvA+a88+3JgVigtHNGZ7uLBlof/Xun79hhqX1p4VBvSmHzQkPxVLSi6EWg
+Y5te/q+kZ/hqwsHUr3pi66+3Lk1ub/a6iNGNxQs9H4YONFSG12uI8th1bl/3QEts
++q+pjZeb8tiN9i9zIyurXSNv3kl/ioWvikM3nXX7vZWOI7Ud0fy7H8f5aHg15vjU
+snymIi1jbStzPt4wnq1sTqZldxa0NU//s9U08X5mFl0eTvc6zj69n9Rf4j2dnxWF
+O1Z1E8s=
+=7Rt4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/feross
+
+==================================================================
