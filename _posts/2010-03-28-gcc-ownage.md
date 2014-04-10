@@ -17,7 +17,7 @@ execl("/usr/games/hack", "#pragma", 0); // try to run the game NetHack
 execl("/usr/games/rogue", "#pragma", 0); // try to run the game Rogue
 
 // try to run the Tower's of Hanoi simulation in Emacs.
-execl("/usr/new/emacs",  "-f","hanoi","9","-kill",0);
+execl("/usr/new/emacs", "-f","hanoi","9","-kill",0);
 
 execl("/usr/local/emacs","-f","hanoi","9","-kill",0); // same as above
 

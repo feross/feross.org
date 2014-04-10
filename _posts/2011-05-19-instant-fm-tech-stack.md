@@ -17,7 +17,7 @@ I've received a lot of emails asking about the technology stack of [Instant.fm](
 ### Playlist Creation
 
 - No login required.
-- Build your playlist **on site**, or upload a .m3u, .txt, or .pls file from iTunes, Windows Media Player, or WinAmp.
+- Build your playlist **on site**, or upload a .m3u, .txt, or .pls file from iTunes, Windows Media Player, or WinAmp.
 - Each playlist gets a unique, shareable, short URL.
 - Allow background image uploading. (TODO)
 
@@ -97,7 +97,7 @@ I've received a lot of emails asking about the technology stack of [Instant.fm](
 ### [Tornado Web Server](http://www.tornadoweb.org/)
 
 - Asynchronous non-blocking Python web server.
-- Modules (tornado.database, tornado.httpserver, tornado.web, tornado.auth, tornado.ioloop).
+- Modules (tornado.database, tornado.httpserver, tornado.web, tornado.auth, tornado.ioloop).
 
 ### [Nginx web server](http://nginx.org/)
 

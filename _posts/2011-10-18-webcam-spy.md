@@ -38,7 +38,7 @@ Read on for the original blog post.
 
 ## Clickjacking + Adobe Flash = Sad Times!
 
-This attack works by using a neat variation of the normal [clickjacking](http://en.wikipedia.org/wiki/Clickjacking) technique that spammers and other bad people are using in the wild right now. For the uninitiated:
+This attack works by using a neat variation of the normal [clickjacking](http://en.wikipedia.org/wiki/Clickjacking) technique that spammers and other bad people are using in the wild right now. For the uninitiated:
 
 > *Clickjacking* is a malicious technique of tricking Web users into revealing confidential information or taking control of their computer while clicking on seemingly innocuous web pages.
 >
@@ -49,9 +49,9 @@ Combine clickjacking with the [Adobe Flash Player Setting Manager page](http://w
 
 ## Background
 
-I took a computer security class (Stanford's [CS 155](http://cs155.stanford.edu)) last quarter and really enjoyed [this research paper](http://seclab.stanford.edu/websec/framebusting/framebust.pdf) on framebusting and clickjacking. After reading it, I checked out a few popular sites to see if it was possible to clickjack them. After a couple hours, I had no success.
+I took a computer security class (Stanford's [CS 155](http://cs155.stanford.edu)) last quarter and really enjoyed [this research paper](http://seclab.stanford.edu/websec/framebusting/framebust.pdf) on framebusting and clickjacking. After reading it, I checked out a few popular sites to see if it was possible to clickjack them. After a couple hours, I had no success.
 
-But, then I stumbled upon [this blog post](http://blog.guya.net/2008/10/07/malicious-camera-spying-using-clickjacking/) entitled "Malicious camera spying using ClickJacking" where the author shows how to clickjack the Adobe Flash Settings Manager page to enable users' webcams. He accomplishes this by putting the whole settings page into an iframe and making it invisible. Then, unsuspecting users play a little game and unwittingly enable their webcams. Adobe quickly added [framebusting](http://en.wikipedia.org/wiki/Framekiller) code to the Settings Manager page (why wasn't it there in the first place?), and the attack stopped working.
+But, then I stumbled upon [this blog post](http://blog.guya.net/2008/10/07/malicious-camera-spying-using-clickjacking/) entitled "Malicious camera spying using ClickJacking" where the author shows how to clickjack the Adobe Flash Settings Manager page to enable users' webcams. He accomplishes this by putting the whole settings page into an iframe and making it invisible. Then, unsuspecting users play a little game and unwittingly enable their webcams. Adobe quickly added [framebusting](http://en.wikipedia.org/wiki/Framekiller) code to the Settings Manager page (why wasn't it there in the first place?), and the attack stopped working.
 
 But alas, the same attack is actually still possible.
 
@@ -63,7 +63,7 @@ Instead of iframing the whole settings page (which contains the framebusting cod
 I've seen a bunch of clickjacking attacks in the wild, but I've never seen any attacks where the attacker iframes a SWF file from a remote domain to clickjack it -- let alone a .SWF file as important as one that controls access to your webcam and mic!
 
 
-> The problem here is the [Flash Player Setting Manager](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager06.html), this inheritance from Macromedia might be the Flash Player security Achilles heel.
+> The problem here is the [Flash Player Setting Manager](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager06.html), this inheritance from Macromedia might be the Flash Player security Achilles heel.
 >
 > -- [Guy Aharonovsky](http://blog.guya.net/2008/10/07/malicious-camera-spying-using-clickjacking/)
 
@@ -95,4 +95,4 @@ Although every browser and OS is theoretically susceptible to this attack, the p
 
 ## Further reading
 
-If you want to learn more about clickjacking and framebusting, you should read the excellent [Busting Frame Busting: a Study of Clickjacking Vulnerabilities on Popular Sites](http://seclab.stanford.edu/websec/framebusting/framebust.pdf) (PDF) paper by Gustav Rydstedt, Elie Bursztein, Dan Boneh, and Collin Jackson.
+If you want to learn more about clickjacking and framebusting, you should read the excellent [Busting Frame Busting: a Study of Clickjacking Vulnerabilities on Popular Sites](http://seclab.stanford.edu/websec/framebusting/framebust.pdf) (PDF) paper by Gustav Rydstedt, Elie Bursztein, Dan Boneh, and Collin Jackson.

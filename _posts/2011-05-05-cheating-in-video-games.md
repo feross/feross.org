@@ -7,9 +7,9 @@ tags:
 - games
 ---
 
-I recently received an out-of-the-blue email from the owner of [GameHacking.org](http://gamehacking.org/). He said that he enjoyed [an article I wrote](http://www.stanford.edu/group/ccr/blog/2009/04/cheating_and_hacking_in_video.html) about hacking video games for [Christine Alfano](http://www.stanford.edu/~steener/)'s "Rhetoric of Gaming class" at Stanford.
+I recently received an out-of-the-blue email from the owner of [GameHacking.org](http://gamehacking.org/). He said that he enjoyed [an article I wrote](http://www.stanford.edu/group/ccr/blog/2009/04/cheating_and_hacking_in_video.html) about hacking video games for [Christine Alfano](http://www.stanford.edu/~steener/)'s "Rhetoric of Gaming class" at Stanford.
 
-His email made me realize that I never posted the final version of that research paper here on my blog. My writing style has changed a lot since 2009 when I wrote this paper. I like to think I'm less verbose now. Still, it's a pretty cool paper and definitely a fun read -- especially if you're a gamer.
+His email made me realize that I never posted the final version of that research paper here on my blog. My writing style has changed a lot since 2009 when I wrote this paper. I like to think I'm less verbose now. Still, it's a pretty cool paper and definitely a fun read -- especially if you're a gamer.
 
 Without further ado, here it is:
 
@@ -30,7 +30,7 @@ However, despite the obvious negative effects of cheating, this paper will argue
 
 God-like immortality. Infinite ammunition. Really large heads.
 
-What do all these things have in common? They are all features that can be accessed -- or "unlocked" -- by using [cheat codes](http://en.wikipedia.org/wiki/Cheat_codes#Cheat_codes), [cheat devices](http://en.wikipedia.org/wiki/Cheat_cartridge), or [software hacks](http://en.wikipedia.org/wiki/Hack_\(computer_security)) in video games. Most players wouldn’t consider using a cheat code in a single player game to be cheating, but what about using a hardware add-on like a [Game Genie](http://en.wikipedia.org/wiki/Game_Genie) to make a game easier to beat?
+What do all these things have in common? They are all features that can be accessed -- or "unlocked" -- by using [cheat codes](http://en.wikipedia.org/wiki/Cheat_codes#Cheat_codes), [cheat devices](http://en.wikipedia.org/wiki/Cheat_cartridge), or [software hacks](http://en.wikipedia.org/wiki/Hack_\(computer_security)) in video games. Most players wouldn’t consider using a cheat code in a single player game to be cheating, but what about using a hardware add-on like a [Game Genie](http://en.wikipedia.org/wiki/Game_Genie) to make a game easier to beat?
 
 ![Cheat devices such as this Game Genie cheat cartridge allow NES players to alter the state of the game world from what the game developers intended](/images/game-genie.png)
 
@@ -88,7 +88,7 @@ Perhaps the best definition of cheating provided by the academic and research co
 
 ## Why Cheat?
 
-Not all cheaters are the same. It’s impossible to fit all cheaters -- or gamers, for that matter -- into a single stereotype or definition. The variety and differences among today’s gamer population is simply too great to allow such a blanket categorization. Everyone cheats for different reasons.
+Not all cheaters are the same. It’s impossible to fit all cheaters -- or gamers, for that matter -- into a single stereotype or definition. The variety and differences among today’s gamer population is simply too great to allow such a blanket categorization. Everyone cheats for different reasons.
 
 ### Cheat Codes &amp; Cheat Devices
 
@@ -172,7 +172,7 @@ As Wright put it:
 
 This creative behavior is the player’s way of getting more ownership over the gaming experience, of stepping outside the limits set by the game developer, of turning the game into a tool of self-expression. Developers should provide positive outlets for player creativity to assist players in expressing their creative desires. Tools like level editors, character skins, and cheat codes enhance the player’s creativity and help to make the player feel like she is playing with a *toy* rather than a *game*.
 
-### The Bartle Test of Gamer Psychology
+### The Bartle Test of Gamer Psychology
 
 According to the [Bartle Test of Gamer Psychology](http://www.gamerdna.com/quizzes/bartle-test-of-gamer-psychology), a significant chunk of the gaming population is looking for a free form gaming experience from their games, which might explain the prevalence of cheating, especially in rigidly structured and rule-driven games.
 
@@ -220,7 +220,7 @@ Could there perhaps be a better way to harness the creative energy of cheaters a
 
 Cheaters are often looked down upon in the gaming community as "spoil sports" and troublemakers because they dare to push the limits of the video games they play. But, it is essential to recognize that cheating is an integral part of the gamer psyche.
 
-> As game producer, Gordon Walton points out (with regard to The Sims Online): ‘If you leave a cheat long enough, it becomes part of the culture of the game’ . . . In other words, far from contributing to the ‘corruption’ of games, cheats are part of the definition of the game genre. (Kucklich)
+> As game producer, Gordon Walton points out (with regard to The Sims Online): ‘If you leave a cheat long enough, it becomes part of the culture of the game’ . . . In other words, far from contributing to the ‘corruption’ of games, cheats are part of the definition of the game genre. (Kucklich)
 
 Games should not be limited by the game developer’s creativity but instead by the creativity of each individual player. Research in this area is still ongoing, and the definition of gaming is still up for debate. Yet, I hope that one day in the not-too-distant-future cheaters might be looked up to as the most creative gamers of us all.
 

@@ -20,13 +20,13 @@ I decided to invite him to come to Stanford to [give a talk](http://stanfordacm.
 
 So, I got the [Stanford ACM](http://stanfordacm.com) to host a [public reception for RMS](http://stanfordacm.com/techtalks/) on the day before his talk, so that students from the community could meet him and ask questions. Some friends at [Yahoo](http://www.yahoo.com) even heard about the event and offered to sponsor it and pay for all our food, which was extremely kind.
 
-RMS is one of the most unique men I've ever met. Over thirty years after the decade of hackers, RMS still embodies the spirit of the 70's hacker culture. He's often criticized for being too extreme with his viewpoints. But, I think that's what makes him unique.
+RMS is one of the most unique men I've ever met. Over thirty years after the decade of hackers, RMS still embodies the spirit of the 70's hacker culture. He's often criticized for being too extreme with his viewpoints. But, I think that's what makes him unique.
 
 RMS is an extremist **in the cause of freedom**. And there aren't many people like that left in this world.
 
-## The spread of free software 
+## The spread of free software
 
-Free software is everywhere today. The popular operating system **GNU/Linux** (which Stallman wrote large parts of) powers so much of our computing today, nearly everyone has used it, whether they've heard of it or not.
+Free software is everywhere today. The popular operating system **GNU/Linux** (which Stallman wrote large parts of) powers so much of our computing today, nearly everyone has used it, whether they've heard of it or not.
 
 The majority of servers on the Internet are powered by Apache and GNU/Linux, major parts of the Internet and most networks in large corporations are powered by GNU/Linux, and even [95%](http://news.softpedia.com/news/Hollywood-Loves-Linux-45571.shtml) of the desktops and servers at major Hollywood movie studios like Disney, Pixar, DreamWorks, and Sony run GNU/Linux.
 
@@ -44,7 +44,7 @@ From Richard Stallman himself:
 > - The freedom to study how the program works, and change it to make it do what you wish. Access to the source code is a precondition for this.
 > - The freedom to redistribute copies so you can help your neighbor.
 > - The freedom to distribute copies of your modified versions to others. By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
-> 
+>
 > (from [The Free Software Definition](http://www.gnu.org/philosophy/free-sw.html))
 
 I recently watched an excellent documentary about early hacker culture called [Hackers: Wizards of the Electronic Age](http://www.amazon.com/gp/product/B0009RS0EM?ie=UTF8&amp;tag=eldoradohills-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0009RS0EM) which had several wonderful clips of RMS in his early years. I clipped a relevant clip out of the documentary and uploaded it to YouTube:
@@ -55,7 +55,7 @@ Again, in Stallman's own words:
 
 ## Proprietary Software
 
-So, free software sounds pretty good, right? I wish all software was free software.  Nearly all computer users, however, use the opposite of free software, called *proprietary software*, all the time in their daily lives. Mac OS X, Microsoft Windows, Microsoft Office, and many, many other programs are all proprietary software.
+So, free software sounds pretty good, right? I wish all software was free software.  Nearly all computer users, however, use the opposite of free software, called *proprietary software*, all the time in their daily lives. Mac OS X, Microsoft Windows, Microsoft Office, and many, many other programs are all proprietary software.
 
 With proprietary software, we users have no way to determine what our software is doing on our computers because *we can't examine the source code*. The software might be extremely insecure and exposing us to all sorts of security risks and we'd never know about it. Proprietary software may also send data about us back to the software company, or contain malware that allows the software company or even the government to gain remote access to our computers. Think these suggestions are far-fetched? *Think again.* This stuff has happened and continues to happen -- just do some research.
 

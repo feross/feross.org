@@ -15,9 +15,9 @@ I launched 3 sites recently ([Instant.fm](http://instant.fm), [Instant.IO](/hack
 
 I was planning a more elaborate blog post to announce this site, but it's been live for a while now and it's not a secret anymore (was it ever a secret?). [Instant.fm](http://instant.fm) is the culmination of a 3 month long collaboration with [Jake Becker](http://www.quora.com/Jake-Becker), a good friend (and fellow Stanford CS student).
 
-We both realized after [YouTube Instant](http://ytinstant.com) [went viral](/youtube-instant-media-frenzy/ "YouTube Instant. The last two days...") ([1 million visitors in 10 days!](/one-million-visitors-in-10-days/ "One Million Visitors in 10 Days")) that it was very handy for discovering music videos, and that's the basis for this new site.
+We both realized after [YouTube Instant](http://ytinstant.com) [went viral](/youtube-instant-media-frenzy/ "YouTube Instant. The last two days...") ([1 million visitors in 10 days!](/one-million-visitors-in-10-days/ "One Million Visitors in 10 Days")) that it was very handy for discovering music videos, and that's the basis for this new site.
 
-Here's an interview we did with All Things Digital. [Read the full article here](http://voices.allthingsd.com/20110422/early-adopter-from-the-hacker-who-brought-you-youtube-instant-instant-fm-launches-today/).
+Here's an interview we did with All Things Digital. [Read the full article here](http://voices.allthingsd.com/20110422/early-adopter-from-the-hacker-who-brought-you-youtube-instant-instant-fm-launches-today/).
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/jBGT2WTP_VA" frameborder="0" allowfullscreen></iframe>
 
@@ -27,17 +27,17 @@ The main idea is to make it **easy to publish and share music playlists with you
 
 We know that there are lots of sites out there that let you share playlists, but none make it as **simple and intuitive** as we think it should be.
 
-Now, since we launched the site we've learned that many of our core assumptions about how people share music weren't 100% correct, so we're planning** a revamped Instant.fm** that will be pretty different. I'll write another blog post in the future about what we've learned while building Instant.fm -- there's quite a lot we've taken away from this project.
+Now, since we launched the site we've learned that many of our core assumptions about how people share music weren't 100% correct, so we're planning** a revamped Instant.fm** that will be pretty different. I'll write another blog post in the future about what we've learned while building Instant.fm -- there's quite a lot we've taken away from this project.
 
 ## [Instant.IO](/hacks/instant.io/) (built in 8 hours)
 
 ![Stanford Hack Competition](/images/stanford-hack-competition-frosoco.jpg)
 
-Sheesh, I think I'm definitely obsessed with the word *instant*. I admit, the name "Instant.IO" doesn't tell you much about this site's purpose, but I had the domain name and I didn't want to let the $100 registration go to waste (yeah non-standard TLDs are pretty expensive).
+Sheesh, I think I'm definitely obsessed with the word *instant*. I admit, the name "Instant.IO" doesn't tell you much about this site's purpose, but I had the domain name and I didn't want to let the $100 registration go to waste (yeah non-standard TLDs are pretty expensive).
 
-Anyway, you have to [try Instant.IO](/hacks/instant.io/) for yourself. Trust me, it's worth doing once (and maybe *only* once). I built the site in 8 hours during the [Stanford Hack Competition](http://stanfordacm.com/hack-competition-results/) which I helped to organize. This was the first hack competition that my club, the [Stanford ACM](http://www.stanfordacm.com), organized.
+Anyway, you have to [try Instant.IO](/hacks/instant.io/) for yourself. Trust me, it's worth doing once (and maybe *only* once). I built the site in 8 hours during the [Stanford Hack Competition](http://stanfordacm.com/hack-competition-results/) which I helped to organize. This was the first hack competition that my club, the [Stanford ACM](http://www.stanfordacm.com), organized.
 
-We had [Adam D'Angelo](http://en.wikipedia.org/wiki/Adam_D'Angelo) (founder of [Quora](http://www.quora.com/)), [Andrew Bosworth](http://www.crunchbase.com/person/andrew-bosworth) (creator of Facebook News Feed), [Steve Bourne](http://en.wikipedia.org/wiki/Stephen_R._Bourne) (creator of [sh](http://en.wikipedia.org/wiki/Bourne_shell)), and [Steven Schlansker](http://www.facebook.com/stevenschlansker) (founder of [Trumpet Technologies](http://trumpet.io/)) judge the hacks. See the [results](http://stanfordacm.com/2011/05/hack-competition-results/).
+We had [Adam D'Angelo](http://en.wikipedia.org/wiki/Adam_D'Angelo) (founder of [Quora](http://www.quora.com/)), [Andrew Bosworth](http://www.crunchbase.com/person/andrew-bosworth) (creator of Facebook News Feed), [Steve Bourne](http://en.wikipedia.org/wiki/Stephen_R._Bourne) (creator of [sh](http://en.wikipedia.org/wiki/Bourne_shell)), and [Steven Schlansker](http://www.facebook.com/stevenschlansker) (founder of [Trumpet Technologies](http://trumpet.io/)) judge the hacks. See the [results](http://stanfordacm.com/2011/05/hack-competition-results/).
 
 The whole event went splendidly -- we're planning to do this every quarter from now on. Fun times.
 
@@ -61,9 +61,9 @@ I rotated the emu once when Jake stepped away from his computer, and I can only 
 
 ### EmuSpin on Reddit
 
-I didn't think anyone but Jake would enjoy the site, since it's an inside joke. **I suppose I should have known better.** An odd-looking animal spinning around for no reason = instant interweb lulz.
+I didn't think anyone but Jake would enjoy the site, since it's an inside joke. **I suppose I should have known better.** An odd-looking animal spinning around for no reason = instant interweb lulz.
 
-EmuSpin.com [made it to Reddit](http://www.reddit.com/r/WTF/comments/hbw59/emu_spin/). (should've guessed it). Here are a few of my favorite comments:
+EmuSpin.com [made it to Reddit](http://www.reddit.com/r/WTF/comments/hbw59/emu_spin/). (should've guessed it). Here are a few of my favorite comments:
 
 > I was *emu*sed.
 
@@ -89,6 +89,6 @@ Thanks for reading! Have you built anything cool recently? I'd love to check it 
 
 ## Update - This is my 100th blog post!
 
-I just realized this is my **100th blog post!** Woo hoo! It's been too much fun. My sincere thanks go out to all 251,003 visitors for reading my stuff 402,946 times since I started this thing in 2009.
+I just realized this is my **100th blog post!** Woo hoo! It's been too much fun. My sincere thanks go out to all 251,003 visitors for reading my stuff 402,946 times since I started this thing in 2009.
 
 Here's to the next 100 posts!

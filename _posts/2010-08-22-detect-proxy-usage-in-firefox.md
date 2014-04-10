@@ -8,7 +8,7 @@ tags:
 - my-code
 ---
 
-I recently read about an interesting browser information leak on [ha.ckers.org](http://ha.ckers.org/) and decided to code up a proof-of-concept.
+I recently read about an interesting browser information leak on [ha.ckers.org](http://ha.ckers.org/) and decided to code up a proof-of-concept.
 
 It allows a malicious website to **detect whether the user is browsing through a proxy or not** by using image tags. Proxies are often used by corporations, political dissidents, and privacy conscience Internet users because they can provide additional security or anonymous Internet browsing.
 
@@ -18,7 +18,7 @@ Firefox uses square brackets `[ ]` to denote IPv6 addresses, but this notation a
 
 So, if we embed an image with `src="http://[74.207.246.197]/pic.jpg"` into a page, Firefox automatically resolves `[74.207.246.197]` into the IP address `74.207.246.197`.
 
-However, if the user is browsing through a proxy, this automatic resolution doesn't happen. Instead, Firefox asks the proxy to do a DNS lookup for the "domain" `[74.207.246.197]`, which obviously fails since it's not a valid domain name.
+However, if the user is browsing through a proxy, this automatic resolution doesn't happen. Instead, Firefox asks the proxy to do a DNS lookup for the "domain" `[74.207.246.197]`, which obviously fails since it's not a valid domain name.
 
 Most proxies don't know how to handle the bracketed domain, so the DNS lookup fails. I've tested this on [Tor](http://www.torproject.org) (popular proxy for anonymous Internet browsing), [PHP Proxy](http://sourceforge.net/projects/php-proxy/) and [CGI Proxy](http://www.jmarshall.com/tools/cgiproxy/) (the top two web-based proxies), and [Proxify](http://www.proxify.com) (popular commercial web proxy).
 

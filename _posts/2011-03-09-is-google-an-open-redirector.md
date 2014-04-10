@@ -8,15 +8,15 @@ tags:
 
 I think I just discovered a security flaw in the way Google handles clicks on the `I'm Feeling Lucky` button. They allow what essentially amounts to an **open redirect**, which is bad, bad, bad.
 
-If you visit the following Google URL, you'll be redirected back to this site, **feross.org**. Check it out:
+If you visit the following Google URL, you'll be redirected back to this site, **feross.org**. Check it out:
 
 [http://www.google.com/search?hl=en&amp;q=site:feross.org&amp;btnI=1](http://www.google.com/search?hl=en&amp;q=site:feross.org&amp;btnI=1)
 
 Update 8/23/2012: This link does not appear to work anymore.
 
-As long as you pick a query (the part after &q= in the url) that you rank #1 for, this will always redirect you to your intended site. *That's not supposed to happen!*
+As long as you pick a query (the part after &q= in the url) that you rank #1 for, this will always redirect you to your intended site. *That's not supposed to happen!*
 
-It looks like Google should [follow their own advice](http://googlewebmastercentral.blogspot.com/2009/01/open-redirect-urls-is-your-site-being.html) and prevent open redirect abuse.
+It looks like Google should [follow their own advice](http://googlewebmastercentral.blogspot.com/2009/01/open-redirect-urls-is-your-site-being.html) and prevent open redirect abuse.
 
 ## Why are open redirects so bad, you ask?
 
@@ -26,16 +26,16 @@ From [OWASP](http://www.owasp.org/index.php/Open_redirect):
 
 ## Update
 
-I just reported it to Google. I suppose I should have done so before blogging about it... I figured that they either know about it, or it's just not a concern for them. Still, I'm curious about why they'd allow this. I'm hoping for a response.
+I just reported it to Google. I suppose I should have done so before blogging about it... I figured that they either know about it, or it's just not a concern for them. Still, I'm curious about why they'd allow this. I'm hoping for a response.
 
 ## Update 2
 
 They just responded. They know about the issue and claim it's not a security problem:
 
 > In this particular case, we believe the usability and security benefits of a well-implemented and carefully monitored URL redirector tend to** outweigh the perceived risks**.
-> 
-> For a more detailed explanation, check the "URL redirection" section on this page: [http://www.google.com/corporate/rewardprogram.html](http://www.google.com/corporate/rewardprogram.html" target="_blank)
-> 
+>
+> For a more detailed explanation, check the "URL redirection" section on this page: [http://www.google.com/corporate/rewardprogram.html](http://www.google.com/corporate/rewardprogram.html" target="_blank)
+>
 > Regards,
 > [Name Removed], Google Security Team
 

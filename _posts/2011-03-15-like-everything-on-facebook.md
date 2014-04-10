@@ -22,7 +22,7 @@ Some friends and I were playing around with Facebook's new comment-on-enter feat
 
 ## Source Code
 
-If you are curious how this works, here is the abbreviated source code:
+If you are curious how this works, here is the abbreviated source code:
 
 {% highlight javascript %}
 var sad = document.getElementsByTagName('button');

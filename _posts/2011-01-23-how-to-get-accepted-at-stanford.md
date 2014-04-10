@@ -79,4 +79,4 @@ Here are the links to my essays:
 - [Stanford Supplement](http://www.apstudynotes.org/stanford/stanford-supplement-short-essays/)
 - [Stanford Short Responses](http://www.apstudynotes.org/stanford/short-responses/)
 
-Please check out the site and let me know if you find it useful in writing your own admissions essay. I wish you the best :)
+Please check out the site and let me know if you find it useful in writing your own admissions essay. I wish you the best :)

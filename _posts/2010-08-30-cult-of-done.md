@@ -9,9 +9,9 @@ tags:
 This is so good, I have to post it here.
 
 > Dear Members of the Cult of Done,
-> 
-> I present to you a manifesto of done. This was written in collaboration with [Kio Stark](http://municipalarchive.wordpress.com/) in 20 minutes because we only had 20 minutes to get it done.
-> 
+>
+> I present to you a manifesto of done. This was written in collaboration with [Kio Stark](http://municipalarchive.wordpress.com/) in 20 minutes because we only had 20 minutes to get it done.
+>
 > **The Cult of Done Manifesto**
 >
 > - There are three states of being. Not knowing, action and completion.</li>

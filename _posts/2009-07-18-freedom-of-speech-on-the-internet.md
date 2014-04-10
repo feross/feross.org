@@ -43,7 +43,7 @@ These media conglomerates severely curtailed public discourse by controlling wha
 
 ![Satirical poster mocking the manner in which mass media often parrots the official government line – failing their journalistic duty.](/images/media-control-poster.png)
 
-*"So what?"* some observers might ask. *"What is wrong with corporations controlling the media? The various news outlets offer a diverse set of viewpoints and the public has the free choice to consume whichever news source they want, right?"* Unfortunately, there is growing body of academic work confirming that corporate media is ***not* offering a diverse set of viewpoints**, despite how it may look on the surface. ** **
+*"So what?"* some observers might ask. *"What is wrong with corporations controlling the media? The various news outlets offer a diverse set of viewpoints and the public has the free choice to consume whichever news source they want, right?"* Unfortunately, there is growing body of academic work confirming that corporate media is ***not* offering a diverse set of viewpoints**, despite how it may look on the surface. ** **
 
 **Noam Chomsky**, American linguist and U.S. media and foreign policy critic wrote, "The media serves the interests of **state and corporate power**, which are closely interlinked, framing their reporting and analysis in a manner supportive of established privilege and **limiting debate and discussion **accordingly." Other academics and industry experts agree that freedom of speech has suffered throughout the corporate media era.
 
@@ -231,7 +231,7 @@ And this time we have the ideal copyright scenario, after Lessig’s suggested r
 
 He produces many [blog posts](http://www.lessig.org/blog/), [podcasts](http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=272091509), and [speeches](http://www.lessig.org/content/av/) arguing in great detail his reasons for proposing reduced copyright restrictions. Lessig argues that one of the most important triumphs of the Internet is its "remix culture" – a phrase that he coined to describe the widespread acceptance and encouragement of derivative works (works that include copyright protected elements of other works).
 
-A mainstream example of **"remix culture"** is hip-hop culture, which makes heavy use of [music sampling](http://en.wikipedia.org/wiki/Music_sampling) (taking part of a song and reusing it in a different song). The Internet, Lessig argues, has also developed a remix culture; hundreds of examples of Internet videos come to mind that substantiate this claim (see the videos at the bottom of this post for some popular examples).
+A mainstream example of **"remix culture"** is hip-hop culture, which makes heavy use of [music sampling](http://en.wikipedia.org/wiki/Music_sampling) (taking part of a song and reusing it in a different song). The Internet, Lessig argues, has also developed a remix culture; hundreds of examples of Internet videos come to mind that substantiate this claim (see the videos at the bottom of this post for some popular examples).
 
 Remixing and reusing previous work – with or without the permission of the author – is central to **Internet culture**. This raises obvious questions:
 
@@ -251,7 +251,7 @@ For example, I regularly quote short snippets of copyrighted work for use in aca
 
 **Why is this basic academic freedom not translated to the digital realm?**
 
-The law is out of sync with the technology.  Copyright law must be reformed so that amateurs have the freedom to exercise their creativity and free speech, even when this involves "copying" (by the old-fashioned definition) of copyrighted work.
+The law is out of sync with the technology.  Copyright law must be reformed so that amateurs have the freedom to exercise their creativity and free speech, even when this involves "copying" (by the old-fashioned definition) of copyrighted work.
 
 <strong>For some classic examples of "remix culture" the early days of the Internets, just move your eyes ever so slightly below this text and keep moving them downward until you reach the comments section. While you are there, leave some comments and let me know what you think!
 </strong>

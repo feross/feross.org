@@ -10,4 +10,4 @@ tags:
 
 [![YouTube Instant](/images/youtube-instant-searchbox.png)](http://ytinstant.com)
 
-Check it out: [YouTube Instant](http://ytinstant.com)
+Check it out: [YouTube Instant](http://ytinstant.com)

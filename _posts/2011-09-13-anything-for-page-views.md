@@ -28,4 +28,4 @@ Employees even make bets, joke, or play pranks on the CEO, hence the "Ohhhh, Zuc
 
 These news outlets are doing their readers a disservice by twisting this quote out of context.
 
-**Lesson learned:** I need to be more careful about what I say to the media. Even though they've been really good to me, they're not always going to be on my side. Glad I learned this lesson now, rather than later.
+**Lesson learned:** I need to be more careful about what I say to the media. Even though they've been really good to me, they're not always going to be on my side. Glad I learned this lesson now, rather than later.

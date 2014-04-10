@@ -25,7 +25,7 @@ But occasionally, I stumble on a particularly **humorous** or **profound** bumpe
 
 > If you still think they hate us because we are free, perhaps you should read instead of watching TV.
 
-> War is Peace.  Freedom is Slavery.  Ignorance is Strength.
+> War is Peace.  Freedom is Slavery.  Ignorance is Strength.
 
 > DON'T STEAL: The government hates competition.
 

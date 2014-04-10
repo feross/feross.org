@@ -13,9 +13,9 @@ The last ten days of my life have been sleepless, surreal, and an amazing advent
 
 ## This is what's new with [YouTube Instant](http://ytinstant.com)
 
-- [YTinstant.com](http://ytinstant.com) hit ***one million visitors*** on Monday -- just 10 days since I launched it!
+- [YTinstant.com](http://ytinstant.com) hit ***one million visitors*** on Monday -- just 10 days since I launched it!
 - **28,000** Facebook Likes, **20,000** Tweets, and **14,000** Stumbles!
-- Press coverage in [New York Times](http://www.nytimes.com/external/venturebeat/2010/09/10/10venturebeat-stanford-student-creates-youtube-instant-get-38618.html?ref=technology), [Wall Street Journal](http://mediamemo.allthingsd.com/20100911/youtube-instant-dude-cant-go-to-work-for-chad-hurley-because-hes-already-working-for-mark-zuckerberg/), [CNN](http://edition.cnn.com/2010/TECH/web/09/14/cnet.youtube.instant.creator/index.html), [NBC](http://www.nbcsandiego.com/news/tech/YouTube_Instant__Instant_Success_San_Diego.html), and [hundreds more](/youtube-instant-media-frenzy/#media).
+- Press coverage in [New York Times](http://www.nytimes.com/external/venturebeat/2010/09/10/10venturebeat-stanford-student-creates-youtube-instant-get-38618.html?ref=technology), [Wall Street Journal](http://mediamemo.allthingsd.com/20100911/youtube-instant-dude-cant-go-to-work-for-chad-hurley-because-hes-already-working-for-mark-zuckerberg/), [CNN](http://edition.cnn.com/2010/TECH/web/09/14/cnet.youtube.instant.creator/index.html), [NBC](http://www.nbcsandiego.com/news/tech/YouTube_Instant__Instant_Success_San_Diego.html), and [hundreds more](/youtube-instant-media-frenzy/#media).
 
 ## The answers to the questions everyone have been asking me:
 
@@ -33,7 +33,7 @@ The last ten days of my life have been sleepless, surreal, and an amazing advent
 - Video Controls - Play, pause, and video scrubbing controls
 - Autoplay - when one video finishes, the next plays automatically
 - Keyboard Controls - Use arrows keys to go to next video, Enter to pause
-- Shareable URLs - Example: [http://ytinstant.com/#8-bit](http://ytinstant.com/#8-bit)
+- Shareable URLs - Example: [http://ytinstant.com/#8-bit](http://ytinstant.com/#8-bit)
 
 And I'm not going to stop there. I'm currently working on adding awesome Facebook integration, on-the-fly playlist creation, and custom ajax-updating AdSense units.
 
@@ -53,7 +53,7 @@ Check it out: I'm in a Chinese newspaper (Oriental Morning Post) (click for full
 
 ## Television Interview
 
-**NBC San Diego** even wanted to do a [TV interview](http://www.nbcsandiego.com/news/tech/YouTube_Instant__Instant_Success_San_Diego.html) with me over Skype. I couldn't believe it! This was my first time being interviewed on TV!
+**NBC San Diego** even wanted to do a [TV interview](http://www.nbcsandiego.com/news/tech/YouTube_Instant__Instant_Success_San_Diego.html) with me over Skype. I couldn't believe it! This was my first time being interviewed on TV!
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/ON4DmrczWuU" frameborder="0" allowfullscreen></iframe>
 
@@ -90,7 +90,7 @@ I've also seen about 20 different "Instant search" [spinoffs](http://instantise.
 
 A few companies even sent me offers to buy YTinstant.com along with all my code! While it would certainly be nice to have free tuition for a few years, money is not why I built this.
 
-I did it because I like to build cool stuff and see it improve people's lives. I did it for the love of hacking. And most of all, I did it because it was fun.
+I did it because I like to build cool stuff and see it improve people's lives. I did it for the love of hacking. And most of all, I did it because it was fun.
 
 ## The Real Challenge
 

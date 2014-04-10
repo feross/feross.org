@@ -11,7 +11,7 @@ The last two days of my life have been **amazing, insane, sleepless, and humblin
 
 [![Front Page of VentureBeat](/images/ytinstant-venture-beat-frontpage-small.png)](http://venturebeat.com/2010/09/10/youtube-instant-job/)
 
-After the [Google Instant](http://www.google.com/instant/) announcement on Wednesday, I decided to build [**YouTube Instant**](http://ytinstant.com), a site that lets you search across the vast YouTube video database in real-time.
+After the [Google Instant](http://www.google.com/instant/) announcement on Wednesday, I decided to build [**YouTube Instant**](http://ytinstant.com), a site that lets you search across the vast YouTube video database in real-time.
 
 **[Visit YouTube Instant](http://ytinstant.com)**
 
@@ -23,7 +23,7 @@ Before going to sleep on Thursday night, I posted this status update to my 700 F
 
 After updating my status, I went to sleep. I awoke Friday morning to an inbox full of people congratulating me on **YouTube Instant**, sending me links to press coverage, and sharing it by the **tens of thousands** on Twitter and Facebook.
 
-The **Washington Post** called to do an [interview](http://voices.washingtonpost.com/blog-post/2010/09/youtube_instant_trumps_google.html), **Venture Beat** put [my picture on their front page](/images/venturebeat-frontpage.png), and **Mashable** wrote a [front page story](/images/mashable_homepage_1.png) ...[twice](/images/mashable_homepage_2.png). YouTube Instant also made it to the **All Things Digital** [front page](/images/all_things_digital_homepage.png) and the **Hacker News** home page [three times](/images/Hacker_News_homepage.png).
+The **Washington Post** called to do an [interview](http://voices.washingtonpost.com/blog-post/2010/09/youtube_instant_trumps_google.html), **Venture Beat** put [my picture on their front page](/images/venturebeat-frontpage.png), and **Mashable** wrote a [front page story](/images/mashable_homepage_1.png) ...[twice](/images/mashable_homepage_2.png). YouTube Instant also made it to the **All Things Digital** [front page](/images/all_things_digital_homepage.png) and the **Hacker News** home page [three times](/images/Hacker_News_homepage.png).
 
 [YouTube CEO](http://en.wikipedia.org/wiki/Chad_Hurley) **Chad Hurley** even [asked me if I wanted a job](http://twitter.com/Chad_Hurley/status/24129459657) ...over Twitter!
 
@@ -110,7 +110,7 @@ Here's a list of the media outlets that have covered YouTube Instant so far:
 
 <iframe src="http://player.vimeo.com/video/34233172?portrait=0" width="601" height="443" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Needless to say, ***YouTube Instant has gone viral.*** Without pausing to worry about what caused this magical event to transpire, I set about upgrading my under-powered server to a much beefier configuration capable of handling the [Slashdot effect](http://en.wikipedia.org/wiki/Slashdot_effect). For most of Friday morning, my server was visibly struggling to serve the flood of web traffic.
+Needless to say, ***YouTube Instant has gone viral.*** Without pausing to worry about what caused this magical event to transpire, I set about upgrading my under-powered server to a much beefier configuration capable of handling the [Slashdot effect](http://en.wikipedia.org/wiki/Slashdot_effect). For most of Friday morning, my server was visibly struggling to serve the flood of web traffic.
 
 After several nerve-racking minutes with the site offline, I finished the upgrade and got the site back online. I had to keep tweaking the Apache server settings *on the live site* to keep memory usage from spiking and [locking up the server](http://en.wikipedia.org/wiki/Thrashing_(computer_science\)). Things eventually stabilized.
 
