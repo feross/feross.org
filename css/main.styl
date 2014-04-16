@@ -13,10 +13,10 @@ $postWidth = 700px;
 $postWidthSmall = 600px;
 
 // Media query break points
-$break1 = 480px;
-$break2 = 850px;
-$break3 = 950px;
-$break4 = 1100px;
+PHONE = 'only screen and (max-width: 479px)'
+TABLET = 'only screen and (min-width: 480px) and (max-width: 800px)'
+PHONE_AND_TABLET = 'only screen and (max-width: 800px)'
+SMALL_DESKTOP = 'only screen and (min-width: 801px) and (max-width: 1100px)'
 
 // Colors
 $red = #E22C29;
@@ -62,10 +62,10 @@ body {
   margin: 0;
   padding: 0;
 
-  @media only screen and (max-width: $break4) {
+  @media SMALL_DESKTOP {
     font-size: 16px;
   }
-  @media only screen and (max-width: $break1) {
+  @media PHONE_AND_TABLET {
     font-size: 15px;
   }
 }
@@ -76,11 +76,11 @@ body {
   padding: 0 2%;
   width: 92%;
 
-  @media only screen and (max-width: $break4) {
+  @media SMALL_DESKTOP {
     max-width: $postWidthSmall;
   }
 
-  @media only screen and (max-width: $break2) {
+  @media PHONE_AND_TABLET {
     max-width: $postWidth;
   }
 
@@ -99,7 +99,7 @@ body {
   overflow-x: hidden;
 }
 .left, .right {
-  @media only screen and (max-width: $break1 + 200) {
+  @media PHONE_AND_TABLET {
     float: none;
     width: 100%;
   }
@@ -244,11 +244,11 @@ horiz() {
     margin-left: ($postWidth + 30px) !important;
     z-index: 5;
 
-    @media only screen and (max-width: $break4) {
+    @media SMALL_DESKTOP {
       margin-left: ($postWidthSmall + 25px) !important;
     }
 
-    @media only screen and (max-width: $break3) {
+    @media PHONE_AND_TABLET {
       horiz();
     }
   }
@@ -260,7 +260,7 @@ horiz() {
     padding: 0 !important;
   }
   .post & {
-    @media only screen and (max-width: $break3) {
+    @media PHONE_AND_TABLET {
       margin: 0 10px 0 0 !important;
       padding: 0 !important;
     }
@@ -273,7 +273,7 @@ horiz() {
     padding: 0 !important;
   }
   .post & {
-    @media only screen and (max-width: $break3) {
+    @media PHONE_AND_TABLET {
       margin: 2px 0 0 0 !important;
           padding: 0 !important;
     }
@@ -293,7 +293,7 @@ horiz() {
     margin-top: 15px !important;
   }
   .post & {
-    @media only screen and (max-width: $break3) {
+    @media PHONE_AND_TABLET {
       margin-top: 15px !important;
     }
   }
@@ -310,9 +310,9 @@ horiz() {
     font-size: 4em;
     font-weight: normal;
     line-height: 1.5em;
-    margin: 40px 0 0 0;
+    margin: 40px 0 20px 0;
 
-    @media only screen and (max-width: $break1) {
+    @media PHONE {
       font-size: 3em;
       margin: 10px 0 0 0;
     }
@@ -350,7 +350,7 @@ horiz() {
     background: $red;
   }
 
-  @media only screen and (max-width: $break2) {
+  @media PHONE_AND_TABLET {
     display: none;
   }
 
@@ -362,7 +362,7 @@ horiz() {
 .home {
   h2 {
     position: relative;
-    margin-top: 1.2em;
+    margin-top: 0.4em;
   }
 
   small {
@@ -529,11 +529,11 @@ a.prev, a.next {
     width: 24px;
   }
 
-  @media only screen and (max-width: $break4) {
+  @media SMALL_DESKTOP {
     font-size: 1.0em;
   }
 
-  @media only screen and (max-width: $break2) {
+  @media PHONE_AND_TABLET {
     display: none;
   }
 }
