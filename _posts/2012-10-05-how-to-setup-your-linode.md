@@ -373,13 +373,15 @@ Now, you should get an email anytime someone uses `sudo`!
 
 ## Improve Server Stability
 
-VPS servers can easily run out of memory during traffic spikes.
+VPS servers can easily run out of memory during traffic spikes. It's very important to configure your applications so memory swapping does not occur.
 
-For example, most people don't change Apache's default setting which allows 150 clients to connect simultaneously. This is way too large a number for a typical VPS server. Let's do the math. Apache's processes are typically ~25MB each. If our website gets a temporary traffic spike and 150 processes launch, we'll need 3750MB of memory on our server. If we don't have this much (and we don't!), then the OS will grind to a halt as it swaps memory to disk to make room for new processes, but then immediately swaps the stuff on disk back into memory.
+For example, in Apache 2.2.x, the default settings allow 150 clients to connect simultaneously. This is way too large a number for a typical VPS server. Let's do the math. Apache's processes are typically ~25MB each. If our website gets a temporary traffic spike and 150 processes launch, we'll need 3750MB of memory on our server. If we don't have this much (and we don't!), then the OS will grind to a halt as it swaps memory to disk to make room for new processes, but then immediately swaps the stuff on disk back into memory.
 
 No useful work gets done once swapping happens. The server can be stuck in this state for hours, even after the traffic rush has subsided. During this time, very few web requests will get serviced.
 
-It's very important to configure your applications so memory swapping does not occur. If you use Apache, you should set `MaxClients` to something more reasonable like 20 or 30. There are many other optimizations to make, too. Linode has a Library article with [optimizations](http://library.linode.com/hosting-website) for Apache, MySQL, and PHP.
+If you use Apache 2.2, you should set `MaxClients` to something more reasonable like 20 or 30. There are many other optimizations to make, too. Linode has a Library article with [optimizations](http://library.linode.com/hosting-website) for Apache, MySQL, and PHP.
+
+Or better, simply use Apache 2.4 (the current stable version of Apache as of this writing) which uses an "event based mpm" instead of Apache 2.2 ineffecient "prefork" approach. This is far less of a problem with the improved approach.
 
 
 ### Reboot server on out-of-memory condition
