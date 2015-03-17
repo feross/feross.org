@@ -12,7 +12,7 @@ Well, more specifically, I just called my congressional representative, [Tom McC
 
 I started off the phone conversation by urging my support for the [Internet Freedom Preservation Act](http://www.opencongress.org/bill/111-h3458/show) [H.R. 3458] which is currently in the House Committee on Energy and Commerce. I prepared a high-level schpiel about how Net Neutrality is the principle that protects a free and open Internet, yada yada... And then I gave some concrete examples of how Net Neutrality ensures that economic innovation, democratic participation, and free speech will continue to flourish on the Internet.
 
-To illustrate why Net Neutrality is good for the economy, I used my [two](http://www.apstudynotes.org) [websites](http://www.freetheflash.com) as an example. Because of the principle of neutrality, my websites have a fair opportunity to compete with all the websites on the Internet for the attention of Internet users. That is to say, Internet users (the public) get to decide **if** they want to use my sites, **when** to use them, **how often** to use them, all without the interference of their Internet Service Provider (Comcast, Verizon, AT&T).
+To illustrate why Net Neutrality is good for the economy, I used my [two](https://www.apstudynotes.org) [websites](http://www.freetheflash.com) as an example. Because of the principle of neutrality, my websites have a fair opportunity to compete with all the websites on the Internet for the attention of Internet users. That is to say, Internet users (the public) get to decide **if** they want to use my sites, **when** to use them, **how often** to use them, all without the interference of their Internet Service Provider (Comcast, Verizon, AT&T).
 
 If Comcast had its way, companies would be able to pay for premium access to [the pipes](http://en.wikipedia.org/wiki/Series_of_tubes). Companies with premium access would have their sites load faster for Internet users. Companies who refused to pay Comcast's premiums fees, or couldn't afford to pay them could have their sites artifically slowed down -- and theoretically [even blocked](http://www.msnbc.msn.com/id/21376597/). So, big companies like Google, Microsoft, Facebook, Time Warner, and News Corporation (the incumbents, so to speak) that can afford to pay this premium fee are favored over smaller competitors like Twitter, Lala ...*and me!*
 
@@ -43,7 +43,7 @@ If you're interested, here is the official summary of the [Internet Freedom Pres
 > 5. not provide or sell to any content, application, or service provider any offering that prioritizes traffic over that of other such providers; and
 >
 > 6. not install or use network features, functions, or capabilities that impede or hinder compliance with these duties. Requires the Federal Communications Commission (FCC) to promulgate related rules. Prohibits construing this Act to prohibit an Internet access provider from engaging in reasonable network management. Requires the FCC to:
->   
+>
 >    1. promulgate rules to ensure that an Internet access service provider does not require a consumer, as a condition on the purchase of any Internet access service, to purchase any other service or offering; and
 >
 >    2. take certain actions, including regarding private transmission capacity services.

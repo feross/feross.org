@@ -10,7 +10,7 @@ Hey everyone. I'm working on a couple of cool new projects that I want to let yo
 
 ## AP Study Notes
 
-I'm planning to completely rehaul my [AP notes site](http://www.apstudynotes.org/), APstudynotes.org, and ***rebuild it from the ground up***. Right now, it has a bunch of awesome notes for 3 popular AP classes ([US history](http://www.apstudynotes.org/us-history/ "AP US history notes"), [US government](http://www.apstudynotes.org/us-government/ "AP US government notes"), and [English Language/Literature](http://www.apstudynotes.org/english/ "AP english notes")), but it's still lacking in quite a few areas.
+I'm planning to completely rehaul my [AP notes site](https://www.apstudynotes.org/), APstudynotes.org, and ***rebuild it from the ground up***. Right now, it has a bunch of awesome notes for 3 popular AP classes ([US history](https://www.apstudynotes.org/us-history/ "AP US history notes"), [US government](https://www.apstudynotes.org/us-government/ "AP US government notes"), and [English Language/Literature](https://www.apstudynotes.org/english/ "AP english notes")), but it's still lacking in quite a few areas.
 
 The site is still in development, and I've got a lot of work to do on it, but it's already been extraordinarily popular. Right now, it's getting 1,200,000 page views and 520,000 unique visitors annually! I haven't advertised it at all, but the feedback has been overwhelming. I get emails every week from thankful students, and even some from eager students asking why the notes for a particular AP class aren't posted yet!
 

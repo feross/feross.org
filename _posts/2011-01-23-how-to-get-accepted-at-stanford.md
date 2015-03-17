@@ -45,7 +45,7 @@ The best advice I can give you about essays is to let your voice shine through i
 
 Remember to **make it interesting**. You need to tell a story about your life. It should be **compelling** and **genuine**. The admissions officers need to feel like you are a **real person** that they would want to meet and even hang out with.
 
-In [my own essay](http://www.apstudynotes.org/stanford/my-world-my-dreams/), I talked about how I've always been fascinated by technology and computers ever since I was a kid. I give a lot of credit to my parents and talk a little bit about my childhood. I also talked about my goals and dreams.
+In [my own essay](https://www.apstudynotes.org/stanford/my-world-my-dreams/), I talked about how I've always been fascinated by technology and computers ever since I was a kid. I give a lot of credit to my parents and talk a little bit about my childhood. I also talked about my goals and dreams.
 
 Be careful here, though. If you spend too much time talking about your goals and dreams without justifying how you've already started taking steps to achieve these dreams, then you'll seem like you're all talk. For example, I wouldn't say "I want to end world hunger and poverty" unless you've already done stuff in high school that **works towards achieving these goals**. If you've got the goods to back what you're saying, then you're in good shape.
 
@@ -71,12 +71,12 @@ Now that I've written this up, I'll finally have a page to point people at when 
 
 ## Update: Read sample college essays!
 
-I built a database of [college admissions essays](http://www.apstudynotes.org/essays/) for top schools like Stanford, Harvard, Princeton, MIT, and more. It has dozens of successful essays (including my own!) which I collected from my friends who go to top schools.
+I built a database of [college admissions essays](https://www.apstudynotes.org/essays/) for top schools like Stanford, Harvard, Princeton, MIT, and more. It has dozens of successful essays (including my own!) which I collected from my friends who go to top schools.
 
 Here are the links to my essays:
 
-- [My World, My Dreams (Main Essay)](http://www.apstudynotes.org/stanford/my-world-my-dreams/)
-- [Stanford Supplement](http://www.apstudynotes.org/stanford/stanford-supplement-short-essays/)
-- [Stanford Short Responses](http://www.apstudynotes.org/stanford/short-responses/)
+- [My World, My Dreams (Main Essay)](https://www.apstudynotes.org/stanford/my-world-my-dreams/)
+- [Stanford Supplement](https://www.apstudynotes.org/stanford/stanford-supplement-short-essays/)
+- [Stanford Short Responses](https://www.apstudynotes.org/stanford/short-responses/)
 
 Please check out the site and let me know if you find it useful in writing your own admissions essay. I wish you the best :)
