@@ -218,62 +218,68 @@ horiz() {
   position: static !important;
   margin: 15px auto !important;
   width: 260px !important;
+  max-width: 260px
   & img {
     margin: 0;
     padding: 0;
   }
 }
 
-#carbonads {
-
+#carbonads
   background: $adColor !important;
   border: 1px solid $adBorderColor !important;
 
-  img {
-    margin: 0;
-    max-width: none;
-    padding: 11px 0 0 11px;
-    border: 0;
-  }
+  img
+    padding: 0
+    margin: 0
 
-  .home &, .about & {
+  .home &, .about &
     horiz();
-  }
-  .post & {
+
+  .post &
     position: absolute !important;
+    padding: 10px !important;
     margin-top: -30px !important;
     margin-left: ($postWidth + 30px) !important;
     z-index: 5;
+    max-width: 130px
 
-    @media SMALL_DESKTOP {
+    @media SMALL_DESKTOP
       margin-left: ($postWidthSmall + 25px) !important;
-    }
 
-    @media PHONE_AND_TABLET {
+    @media PHONE_AND_TABLET
       horiz();
-    }
-  }
-}
 
-.carbon-img {
-  float: left
-  margin-right: 10px
-}
+  @media PHONE_AND_TABLET
+    text-align: left
 
-a.carbon-text {
+.carbon-img
+  display: block
+  border: 0
+
+  .post &
+    float: none
+    margin-bottom: 10px
+
+  .home &, .about &
+    float: left
+    margin-right: 10px
+
+  @media PHONE_AND_TABLET
+    float: left !important
+    margin-right: 10px !important
+
+a.carbon-text
   display: block
   font-size: 12px
-  margin-left: 10px !important
   color: $gray !important
-  line-height: 1.2em
+  line-height: 1.1em
   text-decoration: none
-}
 
-a.carbon-poweredby {
+a.carbon-poweredby
   font-size: 12px
   color: $lightGray !important
   text-decoration: none
-}
 
 
 // Header
