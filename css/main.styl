@@ -224,7 +224,8 @@ horiz() {
   }
 }
 
-.carbonad {
+#carbonads {
+
   background: $adColor !important;
   border: 1px solid $adBorderColor !important;
 
@@ -254,49 +255,24 @@ horiz() {
   }
 }
 
-.carbonad-image {
-  .home &, .about & {
-    margin: 0 10px 0 0 !important;
-    padding: 0 !important;
-  }
-  .post & {
-    @media PHONE_AND_TABLET {
-      margin: 0 10px 0 0 !important;
-      padding: 0 !important;
-    }
-  }
+.carbon-img {
+  float: left
+  margin-right: 10px
 }
 
-.carbonad-text, .carbonad-tag {
-  .home &, .about & {
-    margin: 2px 0 0 0 !important;
-    padding: 0 !important;
-  }
-  .post & {
-    @media PHONE_AND_TABLET {
-      margin: 2px 0 0 0 !important;
-          padding: 0 !important;
-    }
-  }
+a.carbon-text {
+  display: block
+  font-size: 12px
+  margin-left: 10px !important
+  color: $gray !important
+  line-height: 1.2em
+  text-decoration: none
 }
 
-.carbonad-text {
-  color: $lightGray !important;
-  a { color: $gray !important; }
-}
-
-.carbonad-tag {
-  color: $lightGray !important;
-  a { color: $lightGray !important; }
-
-  .home &, .about & {
-    margin-top: 15px !important;
-  }
-  .post & {
-    @media PHONE_AND_TABLET {
-      margin-top: 15px !important;
-    }
-  }
+a.carbon-poweredby {
+  font-size: 12px
+  color: $lightGray !important
+  text-decoration: none
 }
 
 
