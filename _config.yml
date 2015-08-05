@@ -1,6 +1,6 @@
 exclude: [config.rb, nginx.conf, node_modules, package.json, project.sublime-project, project.sublime-workspace, README.md, supervisor.conf]
 markdown: rdiscount
-pygments: true
+highlighter: true
 permalink: /:title
 rdiscount:
   extensions: [smart]
