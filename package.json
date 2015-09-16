@@ -7,7 +7,8 @@
   "main": "index.js",
   "dependencies": {
     "mysql": "2.0.0-alpha3",
-    "express": "3.x"
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
   },
   "devDependencies": {
     "nib": "^1.0.2",

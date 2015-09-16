@@ -1,3 +1,4 @@
+var bodyParser = require('body-parser')
 var express = require('express')
 var mysql = require('mysql')
 var secret = require('./secret')
@@ -14,7 +15,12 @@ if (port) {
 console.log ('Using port ' + port)
 
 var app = express()
-app.use(express.bodyParser())
+
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
+
+// parse application/json
+app.use(bodyParser.json())
 
 function createConnection () {
   // Set up a connection for each request
@@ -91,7 +97,7 @@ app.get('/views/total', function (req, res) {
       'SELECT sum(views) AS views FROM views',
       function (err, results) {
     if (err) {
-      console.erorr(err.message)
+      console.error(err.message)
       res.send({ err: 'Error: db error while getting total view count' })
     } else if (results.length > 0) {
       res.send(results[0])
