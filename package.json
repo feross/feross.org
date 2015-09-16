@@ -6,9 +6,9 @@
   "homepage": "http://feross.org",
   "main": "index.js",
   "dependencies": {
-    "mysql": "2.0.0-alpha3",
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
+    "mysql": "^2.9.0"
   },
   "devDependencies": {
     "nib": "^1.0.2",
