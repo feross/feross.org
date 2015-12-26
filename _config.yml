@@ -1,4 +1,4 @@
-exclude: [config.rb, nginx.conf, node_modules, package.json, project.sublime-project, project.sublime-workspace, README.md, supervisor.conf]
+exclude: [config.rb, nginx.conf, node_modules, package.json, README.md, supervisor.conf]
 markdown: rdiscount
 highlighter: true
 permalink: /:title
