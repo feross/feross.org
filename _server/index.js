@@ -3,16 +3,9 @@ var express = require('express')
 var mysql = require('mysql')
 var secret = require('./secret')
 
-var isProduction = false
 var port = process.argv[2]
-
-if (port) {
-  isProduction = true
-} else {
-  isProduction = false
-  port = 3000
-}
-console.log ('Using port ' + port)
+if (!port) port = 3000
+console.log('Using port ' + port)
 
 var app = express()
 
@@ -41,11 +34,9 @@ function createConnection () {
 // Increment the view count for a particular post and return
 // the current view count.
 app.post('/views', function (req, res) {
-
   var slug = req.param('slug')
 
-  if (!slug)
-    return res.send('Missing `slug` param')
+  if (!slug) return res.send('Missing `slug` param')
 
   var connection = createConnection()
 
@@ -61,24 +52,22 @@ app.post('/views', function (req, res) {
     }
 
     // Asyncronously update the view count
-    connection.query(
-        'UPDATE views SET views=views+1 WHERE slug = ?', [slug],
-        function (err, results) {
+    var query = 'UPDATE views SET views=views+1 WHERE slug = ?'
+    connection.query(query, [ slug ], function (err, results) {
       if (err) {
         console.error(err.message)
         connection.end()
       } else if (results.affectedRows === 0) {
         // If no rows were affected, then this is a new post, so add it
-        connection.query(
-            'INSERT INTO views (slug, views) VALUES (?, ?)', [slug, 1],
-            function (err, results) {
-          if (err)
+        var query = 'INSERT INTO views (slug, views) VALUES (?, ?)'
+        connection.query(query, [ slug, 1 ], function (err, results) {
+          if (err) {
             console.error(err.message)
-          else if (results.affectedRows !== 1)
+          } else if (results.affectedRows !== 1) {
             console.error('ERROR: Inserting new slug failed')
-          else
+          } else {
             console.error('Added new slug ' + slug)
-
+          }
           connection.end()
         })
       } else {
@@ -90,12 +79,10 @@ app.post('/views', function (req, res) {
 
 // Get the total view count for all posts
 app.get('/views/total', function (req, res) {
-
   var connection = createConnection()
 
-  connection.query(
-      'SELECT sum(views) AS views FROM views',
-      function (err, results) {
+  var query = 'SELECT sum(views) AS views FROM views'
+  connection.query(query, function (err, results) {
     if (err) {
       console.error(err.message)
       res.send({ err: 'Error: db error while getting total view count' })
@@ -111,4 +98,3 @@ app.get('/views/total', function (req, res) {
 
 // Start server
 app.listen(port)
-

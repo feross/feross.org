@@ -13,7 +13,8 @@
   },
   "devDependencies": {
     "nib": "^1.0.2",
-    "stylus": "^0.52.4"
+    "stylus": "^0.52.4",
+    "standard": "^5.0.0"
   },
   "homepage": "http://feross.org",
   "keywords": [
@@ -31,8 +32,9 @@
     "build": "rm -rf _site && npm run build-html && npm run build-css",
     "build-html": "jekyll build --lsi && cp -r .well-known _site",
     "build-css": "stylus -u nib css/main.styl -o css/ -c",
-    "push": "npm run build && rsync -a -v -e ssh --delete _site nginx.conf _server node_modules supervisor.conf feross@future:/home/feross/www/feross.org/",
+    "push": "npm test && npm run build && rsync -a -v -e ssh --delete _site nginx.conf _server node_modules supervisor.conf feross@future:/home/feross/www/feross.org/",
     "start": "npm run build && jekyll serve --port 4000",
+    "test": "standard",
     "watch": "npm run watch-html & npm run watch-css",
     "watch-html": "jekyll serve --watch --port 4000",
     "watch-css": "stylus -u nib css/main.styl -o css/ -w"
