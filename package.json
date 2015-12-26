@@ -1,10 +1,11 @@
 {
   "name": "feross.org",
-  "private": true,
-  "version": "1.0.0",
   "description": "Pure concentrated awesome",
-  "homepage": "http://feross.org",
-  "main": "index.js",
+  "version": "1.0.0",
+  "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org)",
+  "bugs": {
+    "url": "https://github.com/feross/feross.org/issues"
+  },
   "dependencies": {
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
@@ -14,27 +15,26 @@
     "nib": "^1.0.2",
     "stylus": "^0.52.4"
   },
-  "scripts": {
-    "build": "npm run build-blog && npm run build-css",
-    "build-blog": "jekyll build --lsi && cp -r .well-known _site",
-    "build-css": "stylus -u nib css/main.styl -o css/ -c",
-    "push": "rm -rf _site && npm run build && rsync -a -v -e ssh --delete _site nginx.conf _server node_modules supervisor.conf .well-known feross@future:/home/feross/www/feross.org/",
-    "start": "npm run build && jekyll serve --port 4000",
-    "watch": "npm run watch-blog & npm run watch-css",
-    "watch-blog": "jekyll serve --watch --port 4000",
-    "watch-css": "stylus -u nib css/main.styl -o css/ -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/feross/feross.org.git"
-  },
+  "homepage": "http://feross.org",
   "keywords": [
     "Feross",
     "blog"
   ],
-  "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
   "license": "GPLv3",
-  "bugs": {
-    "url": "https://github.com/feross/feross.org/issues"
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feross/feross.org.git"
+  },
+  "scripts": {
+    "build": "rm -rf _site && npm run build-html && npm run build-css",
+    "build-html": "jekyll build --lsi && cp -r .well-known _site",
+    "build-css": "stylus -u nib css/main.styl -o css/ -c",
+    "push": "npm run build && rsync -a -v -e ssh --delete _site nginx.conf _server node_modules supervisor.conf .well-known feross@future:/home/feross/www/feross.org/",
+    "start": "npm run build && jekyll serve --port 4000",
+    "watch": "npm run watch-html & npm run watch-css",
+    "watch-html": "jekyll serve --watch --port 4000",
+    "watch-css": "stylus -u nib css/main.styl -o css/ -w"
   }
 }
