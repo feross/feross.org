@@ -28,8 +28,8 @@ class: post
 <article>
 
   {{ content }}
-
-  {% if site.related_posts %}<p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}/">{{ site.related_posts[0].title }}</a>.)</p>{% endif %}
+  {{ not page.no_related }}
+  {% if page.no_related != true && site.related_posts %}<p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}/">{{ site.related_posts[0].title }}</a>.)</p>{% endif %}
 
 </article>
 
