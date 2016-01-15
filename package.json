@@ -34,7 +34,6 @@
     "build-html": "jekyll build --lsi && cp -r .well-known _site",
     "push": "npm test && npm run build && rsync -a -v -e ssh --delete _site nginx.conf _server node_modules supervisor.conf feross@future:/home/feross/www/feross.org/",
     "start": "npm run build && jekyll serve --port 4000",
-    "test": "standard",
     "watch": "npm run watch-html & npm run watch-css",
     "watch-css": "stylus -u nib css/main.styl -o css/ -w",
     "watch-html": "jekyll serve --watch --port 4000"
