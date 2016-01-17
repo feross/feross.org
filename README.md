@@ -1,6 +1,9 @@
-# [Feross.org](http://feross.org) Blog
+# [Home of Feross Aboukhadijeh](http://feross.org) [![travis][travis-image]][travis-url]
 
-Copyright (c) 2012 Feross Aboukhadijeh
+[travis-image]: https://img.shields.io/travis/feross/feross.org/master.svg?style=flat
+[travis-url]: https://travis-ci.org/feross/feross.org
+
+Copyright (c) Feross Aboukhadijeh
 
 Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [http://feross.org](http://feross.org). Feel free to browse the source, fork, and [ask me questions](https://twitter.com/feross).
 
