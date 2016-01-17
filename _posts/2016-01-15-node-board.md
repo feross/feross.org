@@ -3,8 +3,8 @@ layout: post
 title: "I'm running for the Node.js Board of Directors"
 summary: "I'm running for a seat on the Node.js Board of Directors"
 tags:
-- web-dev
-- my-code
+- me
+- node.js
 no_related: true
 ---
 
