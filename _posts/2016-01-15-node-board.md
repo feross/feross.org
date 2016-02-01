@@ -39,3 +39,9 @@ I'll do my best to keep Node.js awesome. Thank you for your consideration.
 Yours humbly,
 
 Feross
+
+**UPDATE:** I will be representing the community on the Node Foundation board for a one-year term! Thanks to those who supported me and all who voted!
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey everyone. <a href="https://twitter.com/ag_dubs">@ag_dubs</a> and I will be representing the community on the Node.js board! I&#39;m honored and humbled. Will do my best!</p>&mdash; Feross (@feross) <a href="https://twitter.com/feross/status/693931766780973056">January 31, 2016</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">hey <a href="https://twitter.com/nodejs">@nodejs</a> community, <a href="https://twitter.com/feross">@feross</a> and I are your Individual Membership Directors<br><br>✨😳✨=&gt; <a href="https://t.co/bUoH5Fb5dY">https://t.co/bUoH5Fb5dY</a></p>&mdash; ashley williams (@ag_dubs) <a href="https://twitter.com/ag_dubs/status/693881397694570496">January 31, 2016</a></blockquote>
