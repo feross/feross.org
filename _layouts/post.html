@@ -81,17 +81,15 @@ class: post
 
 
   <div id="disqus_thread"></div>
-  <script type="text/javascript">
-      var disqus_shortname = 'feross-org';
-      var disqus_developer = (window.location.hostname == 'localhost') ? 1 : 0;
-      var disqus_url = 'http://feross.org{{ page.url }}/';
-
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'http://feross.org{{ page.url }}/'
+      this.page.title = '{{ page.title }}'
+    }
+    window.addEventListener('orientationchange', function () {
+      DISQUS.reset({ reload: true })
+    }, false)
   </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  <script async src="//feross-org.disqus.com/embed.js"></script>
 </section>
