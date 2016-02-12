@@ -36,6 +36,13 @@ $(document).ready(function () {
       }
     })
   }
+
+  if ($('body').hasClass('about')) {
+    var ageInDays = Math.floor((new Date() - new Date('1990-10-29T00:00:01.000Z')) / 1000 / 60 / 60 / 24)
+    var ageInYears = Math.floor(ageInDays / 365)
+    $('#ageInDays').html(' &mdash; that\'s ' + ageInDays + ' days to be exact!')
+    $('#ageInYears').text(ageInYears)
+  }
 })
 
 // Fade prev/next post links on scroll
