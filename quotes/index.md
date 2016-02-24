@@ -8,6 +8,14 @@ Here are <strong>my favorite quotes</strong> from programmers, athletes, and rev
 <blockquote>This is the true joy in life, the being used for a purpose recognized by yourself as a mighty one; the being a force of nature instead of a feverish, selfish little clod of ailments and grievances complaining that the world will not devote itself to making you happy. I am of the opinion that my life belongs to the whole community, and as long as I live it is my privilege to do for it whatever I can. I want to be thoroughly used up when I die, for the harder I work the more I live. I rejoice in life for its own sake. Life is no “brief candle” for me. It is a sort of splendid torch which I have got hold of for the moment, and I want to make it burn as brightly as possible before handing it on to future generations.
 -- George Bernard Shaw</blockquote>
 
+<blockquote>"I discovered these common, self imposed restrictions are rather insidious, though they start out simple enough. We begin by worrying we aren’t good enough, smart enough or talented enough to get what we want, then we voluntarily live in this paralyzing mental framework, rather than confront our own role in this paralysis. Just the possibility of failing turns into a dutiful self-fulfilling prophecy. We begin to believe that these personal restrictions are, in fact, the fixed limitations of the world. We go on to live our lives, all the while wondering what we can change and how we can change it, and we calculate and re-calculate when we will be ready to do the thing s we want to do. And we dream. If only. If only. One day. Some day.
+<br><br>
+Every once in a while — often when we least expect it — we encounter someone more courageous, someone who choose to strive for that which (to us) seemed unrealistically unattainable, even elusive. And we marvel. We swoon. We gape. Often , we are in awe. I think we look at these people as lucky, when in fact, luck has nothing to do with it. It is really about the strength of their imagination; it is about how they constructed the possibilities for their Life. In short, unlike me, they didn’t determine what was impossible before it was even possible.
+<br><br>
+If you imagine less, less will be what you undoubtedly deserve. Do what you love, and don’t stop until you get what you love. Work as hard as you can, imagine immensities, don’t compromise, and don’t waste time. Start now. Not 20 years from now, not two weeks from now. Now."
+-- Debbie Millman
+</blockquote>
+
 <h2>Computers</h2>
 <blockquote>The only legitimate use of a computer is to play games.
 -- Eugene Jarvis</blockquote>
