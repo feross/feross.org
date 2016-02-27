@@ -39,7 +39,7 @@
     "build-css": "stylus -u nib css/main.styl -o css/ -c",
     "build-html": "jekyll build --lsi && cp -r .well-known _site",
     "build-js": "browserify client | uglifyjs -c warnings=false -m > client/bundle.js",
-    "push": "npm test && npm run build && rsync -a -v -e ssh --delete _site nginx.conf _server node_modules supervisor.conf feross@future:/home/feross/www/feross.org/",
+    "push": "npm test && npm run build && rsync -a -v -e ssh --delete _server _site nginx.conf node_modules supervisor.conf feross@future:/home/feross/www/feross.org/",
     "test": "standard",
     "start": "npm run build && jekyll serve --port 4000",
     "watch": "npm run watch-css & npm run watch-html & npm run watch-js",
