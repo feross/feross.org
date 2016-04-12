@@ -2,6 +2,9 @@ var $ = require('jquery')
 var addCommas = require('add-commas')
 var throttle = require('throttleit')
 
+// The global jQuery instance is used by some posts
+window.$ = window.jQuery = $
+
 $(document).ready(function () {
   // If this is homepage, get view count for all posts
   if ($('body').hasClass('home')) {
