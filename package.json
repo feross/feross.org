@@ -17,8 +17,8 @@
   "devDependencies": {
     "browserify": "^13.0.0",
     "nib": "^1.0.2",
-    "stylus": "^0.52.4",
     "standard": "^6.0.8",
+    "stylus": "^0.54.3",
     "uglify-js": "^2.6.1",
     "watchify": "^3.7.0"
   },
