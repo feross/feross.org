@@ -29,6 +29,14 @@ I serve the site with nginx and run the Node.js app using Supervisord (in case t
 
 That's pretty much it.
 
+## Install prerequisites
+
+```bash
+npm install
+brew install gsl
+sudo gem install jekyll
+sudo gem install gsl
+```
 
 ## The blog design
 
