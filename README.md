@@ -35,6 +35,7 @@ That's pretty much it.
 npm install
 brew install gsl
 sudo gem install jekyll
+sudo gem install narray
 sudo gem install gsl
 ```
 
