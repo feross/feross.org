@@ -6,7 +6,6 @@ title: Academic Citations
 Here are all the **academic research papers** that cite my work. If there's something
 missing from the list, [send me an email](/about/).
 
-
 - ACM: [Integrating WebRTC and X3DOM: bridging the gap between communications and graphics](https://dl.acm.org/citation.cfm?id=2775316)
 - ACM: [Security assessment of clickjacking risks in web applications: metrics based approach](https://dl.acm.org/citation.cfm?id=2695946)
 - ACM: [ProClick: a framework for testing clickjacking attacks in web applications](https://dl.acm.org/citation.cfm?id=2523538)
