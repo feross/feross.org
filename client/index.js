@@ -30,7 +30,7 @@ $(document).ready(function () {
     $.ajax({
       type: 'POST',
       url: '/views',
-      data: {slug: slug},
+      data: { slug: slug },
       dataType: 'json',
       success: function (data) {
         var views = addCommas(data.views)
