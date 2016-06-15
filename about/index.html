@@ -45,7 +45,7 @@ class: about
 
   <ul class="listing">
     <li>
-      <a href="{{ post.url }}/">{{ site.posts[0].title }}</a>
+      <a href="{{ post.url }}">{{ site.posts[0].title }}</a>
       <time datetime="{{site.posts[0].date | date: "%Y-%m-%d"}}">
         {{ site.posts[0].date | date: "%B %e, %Y" }}{% if site.posts[0].github %}.
         Code on <a href="{{ site.posts[0].github }}">GitHub</a>.
@@ -53,7 +53,7 @@ class: about
       </time>
     <li>
     <li>
-      <a href="{{ post.url }}/">{{ site.posts[1].title }}</a>
+      <a href="{{ post.url }}">{{ site.posts[1].title }}</a>
       <time datetime="{{site.posts[1].date | date: "%Y-%m-%d"}}">
         {{ site.posts[1].date | date: "%B %e, %Y" }}{% if site.posts[1].github %}.
         Code on <a href="{{ site.posts[1].github }}">GitHub</a>.
@@ -61,7 +61,7 @@ class: about
       </time>
     <li>
     <li>
-      <a href="{{ post.url }}/">{{ site.posts[2].title }}</a>
+      <a href="{{ post.url }}">{{ site.posts[2].title }}</a>
       <time datetime="{{site.posts[2].date | date: "%Y-%m-%d"}}">
         {{ site.posts[2].date | date: "%B %e, %Y" }}{% if site.posts[2].github %}.
         Code on <a href="{{ site.posts[2].github }}">GitHub</a>.

@@ -12,7 +12,7 @@ class: home
   <ul class="listing">
     {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}/">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
       <time datetime="{{post.date | date: "%Y-%m-%d"}}">
         {{ post.date | date: "%B %e, %Y" }}{% if post.github %}.
         Code on <a href="{{ post.github }}">GitHub</a>.

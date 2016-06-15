@@ -25,11 +25,11 @@ layout: null
       <name>Feross Aboukhadijeh</name>
       <uri>http://feross.org</uri>
     </author>
-    <link rel="alternate" type="text/html" href="http://feross.org{{ post.url }}/"/>
+    <link rel="alternate" type="text/html" href="http://feross.org{{ post.url }}"/>
     <id>http://feross.org{{ post.id }}</id>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <summary type="html"><![CDATA[{{ summary }}]]></summary>
-    <content type="html" xml:base="http://feross.org{{ post.url }}/"><![CDATA[{% if post.dynamic || post.script %}<p><em><strong>This blog post contains JavaScript and other dynamic content that will not display correctly in most RSS readers. I recommend <a href="http://feross.org{{ post.url }}/">reading this post</a> directly in your web browser.</strong></em></p>{% endif %}{{ post.content }}]]></content>
+    <content type="html" xml:base="http://feross.org{{ post.url }}"><![CDATA[{% if post.dynamic || post.script %}<p><em><strong>This blog post contains JavaScript and other dynamic content that will not display correctly in most RSS readers. I recommend <a href="http://feross.org{{ post.url }}">reading this post</a> directly in your web browser.</strong></em></p>{% endif %}{{ post.content }}]]></content>
   </entry>
   {% endfor %}
 
