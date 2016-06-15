@@ -25,6 +25,8 @@ $(document).ready(function () {
   // If this is a post, get post view count
   if ($('body').hasClass('post')) {
     var slug = $('.views').data('slug')
+    if (!slug) return console.error('missing view slug')
+    if (slug[slug.length - 1] === '/') slug = slug.slice(0, slug.length - 1)
     $.ajax({
       type: 'POST',
       url: '/views',
