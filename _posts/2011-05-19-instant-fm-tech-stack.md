@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Instant.fm Tech Stack
 github: https://github.com/feross/Instant.fm
 tags:

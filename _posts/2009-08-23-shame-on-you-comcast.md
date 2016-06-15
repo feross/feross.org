@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Shame on You, Comcast!
 tags:
 - freedom

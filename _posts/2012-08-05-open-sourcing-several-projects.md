@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Open sourcing several projects
 tags:
 - my-code

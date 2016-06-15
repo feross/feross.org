@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Poem About the Halting Problem
 tags:
 - random

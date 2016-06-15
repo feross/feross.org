@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Mixing the Old and the New
 tags:
 - random

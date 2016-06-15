@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: 2011 .Net Magazine Awards
 tags:
 - youtube-instant

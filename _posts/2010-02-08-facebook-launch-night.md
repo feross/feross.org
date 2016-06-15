@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: I just met Mark Zuckerberg at Facebook Launch Night
 tags:
 - facebook

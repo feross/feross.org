@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: I met Condoleezza Rice Today
 tags:
 - famous-people

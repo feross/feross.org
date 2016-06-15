@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: MC Frontalot comes to Stanford!
 tags:
 - music

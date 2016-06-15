@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: How I Learned to Program Computers
 tags:
 - essay

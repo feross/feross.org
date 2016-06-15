@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Learning a lesson the hard way
 tags:
 - famous-people

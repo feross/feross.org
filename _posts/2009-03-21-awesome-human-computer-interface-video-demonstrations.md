@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Awesome Human-Computer Interface Video Demonstrations
 tags:
 - inspiration

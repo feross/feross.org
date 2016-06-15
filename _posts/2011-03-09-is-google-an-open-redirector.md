@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Is Google an Open Redirector?
 tags:
 - security

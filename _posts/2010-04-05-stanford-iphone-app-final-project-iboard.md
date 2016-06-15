@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Stanford iPhone App Final Project - iBoard
 tags:
 - my-code

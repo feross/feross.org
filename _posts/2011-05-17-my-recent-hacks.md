@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Announcing Instant.fm, Instant.io, and EmuSpin.com
 tags:
 - my-code

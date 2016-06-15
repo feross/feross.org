@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Net Neutrality – Adventures in Calling Congress
 tags:
 - freedom

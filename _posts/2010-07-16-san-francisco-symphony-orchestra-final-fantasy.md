@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: San Francisco Symphony Orchestra plays Final Fantasy
 tags:
 - music

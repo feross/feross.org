@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: How Many Feross's Can Fit in One URL?
 tags:
 - my-code

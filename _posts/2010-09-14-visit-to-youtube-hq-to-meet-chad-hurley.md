@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: I just met Chad Hurley at YouTube HQ
 tags:
 - famous-people

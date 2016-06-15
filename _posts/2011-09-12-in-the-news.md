@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: In the news again...
 tags:
 - me

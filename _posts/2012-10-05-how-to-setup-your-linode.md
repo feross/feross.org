@@ -1,5 +1,6 @@
 ---
 layout: post
+class: post
 title: "How To Set Up Your Linode For Maximum Awesomeness"
 tags:
 - web-dev

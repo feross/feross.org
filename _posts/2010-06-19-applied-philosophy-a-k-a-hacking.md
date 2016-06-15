@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Applied Philosophy a.k.a. "Hacking"
 tags:
 - philosophy

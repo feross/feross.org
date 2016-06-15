@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: The Cake Is A Lie
 tags:
 - games

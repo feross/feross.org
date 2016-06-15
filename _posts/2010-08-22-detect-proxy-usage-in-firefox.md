@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Detect Proxy Usage in Firefox
 github: https://github.com/feross/detect-proxy
 tags:

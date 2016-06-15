@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Post to Tweetie from Google Reader
 tags:
 - my-code

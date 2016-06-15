@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Cult of Done
 tags:
 - inspiration

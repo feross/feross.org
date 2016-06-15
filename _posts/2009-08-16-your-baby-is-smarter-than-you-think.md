@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: How Babies Learn Differently
 tags:
 - science

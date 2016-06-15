@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Linode VPS Hosting Review
 tags:
 - web-dev

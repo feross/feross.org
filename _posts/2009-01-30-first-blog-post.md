@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: First blog post
 tags:
 - me

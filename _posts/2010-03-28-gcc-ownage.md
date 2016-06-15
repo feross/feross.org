@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: "GCC Easter Egg: C++ Undefined Defined Behavior"
 tags:
 - programming

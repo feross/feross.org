@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Cheating in Video Games
 tags:
 - essay

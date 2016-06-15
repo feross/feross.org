@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Search Engine Rap Battle
 tags:
 - random

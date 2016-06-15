@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: What’s been happening in my life
 tags:
 - me

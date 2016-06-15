@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: How To Get Accepted Into Stanford
 tags:
 - essay

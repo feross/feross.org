@@ -1,5 +1,6 @@
 ---
 layout: post
+class: post
 title: "Using the HTML5 Fullscreen API for Phishing Attacks"
 tags:
 - web-dev

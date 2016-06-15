@@ -1,5 +1,6 @@
 ---
 layout: post
+class: post
 title: "I'm running for the Node.js Board of Directors"
 summary: "I'm running for a seat on the Node.js Board of Directors"
 tags:

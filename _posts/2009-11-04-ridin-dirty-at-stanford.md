@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Ridin' Dirty with Chamillionare at Stanford
 tags:
 - music

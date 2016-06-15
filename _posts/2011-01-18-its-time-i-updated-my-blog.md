@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: It's time I updated my blog
 tags:
 - me

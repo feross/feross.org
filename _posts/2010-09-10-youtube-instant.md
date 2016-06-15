@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Psh… Google Instant? I built YouTube Instant.
 github: https://github.com/feross/YouTube-Instant
 tags:

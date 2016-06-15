@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: 3 Smart Things About Sleeping Late
 summary: Proof that being a night-owl is a good thing.
 tags:

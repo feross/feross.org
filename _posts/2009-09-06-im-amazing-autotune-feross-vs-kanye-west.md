@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Feross vs. Kanye West
 tags:
 - music

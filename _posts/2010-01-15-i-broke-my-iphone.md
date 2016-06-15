@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: I broke my iPhone
 tags:
 - random

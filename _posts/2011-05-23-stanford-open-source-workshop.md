@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Stanford Open Source Workshop
 tags:
 - programming

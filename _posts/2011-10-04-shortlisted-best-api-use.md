@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: YouTube Instant Shortlisted for Best API Use in .Net Magazine Awards
 tags:
 - me

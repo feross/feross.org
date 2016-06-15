@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Thoughts on free will
 tags:
 - essay

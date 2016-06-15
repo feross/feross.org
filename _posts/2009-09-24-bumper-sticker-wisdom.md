@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Bumper Sticker Wisdom
 tags:
 - random

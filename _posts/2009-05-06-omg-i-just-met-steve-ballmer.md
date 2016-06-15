@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: OMG, I just met Steve Ballmer!
 tags:
 - famous-people

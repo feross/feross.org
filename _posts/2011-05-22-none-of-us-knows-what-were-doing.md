@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: None of Us Knows What We're Doing
 tags:
 - essay

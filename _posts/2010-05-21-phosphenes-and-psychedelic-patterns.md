@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Phosphenes and Psychedelic Patterns
 tags:
 - random

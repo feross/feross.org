@@ -1,6 +1,7 @@
 ---
 old: true
 layout: post
+class: post
 title: Stanford Entrepreneurs Nike T-Shirt (Just Start Up)
 tags:
 - me
