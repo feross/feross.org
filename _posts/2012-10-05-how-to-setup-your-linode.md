@@ -35,7 +35,7 @@ Let's get started!
 
 ### Provision a New Linode
 
-First, you need to provision a new [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Using Linode's web UI, it's quite easy. Select your desired Linode size. If you're unsure, choose the smallest size. You can always resize it later. Select "Ubuntu 12.04 LTS" as your OS. You'll be asked to create a password for the `root` user.
+First, you need to provision a new [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Using Linode's web UI, it's quite easy. Select your desired Linode size. If you're unsure, choose the smallest size. You can always resize it later. Select "Ubuntu 16.04 LTS" as your OS. You'll be asked to create a password for the `root` user.
 
 After a few minutes, your server will be ready. Now, it's time to connect to it!
 
@@ -114,8 +114,8 @@ date
 Check for updates and install:
 
 {% highlight bash %}
-aptitude update
-aptitude upgrade
+apt update
+apt upgrade
 {% endhighlight %}
 
 
@@ -229,7 +229,7 @@ Update: Someone posted this useful note about choosing an SSH port on Hacker New
 Install Fail2Ban:
 
 {% highlight bash %}
-sudo aptitude install fail2ban
+sudo apt install fail2ban
 {% endhighlight %}
 
 Configure Fail2Ban:
@@ -366,7 +366,7 @@ sudo chmod 0440 /etc/sudoers.d/my_sudoers
 This is isn't mentioned anywhere on the web, as far as I know, but in order for the "mail on sudo use" feature to work, you need to install an MTA server. `sendmail` is a good choice:
 
 {% highlight bash %}
-sudo aptitude install sendmail
+sudo apt install sendmail
 {% endhighlight %}
 
 Now, you should get an email anytime someone uses `sudo`!
@@ -453,7 +453,7 @@ Of course, adjust the IP addresses to reflect your own addresses from the Remote
 Then, restart your Linode and remove DHCP since we're using static networking now:
 
 {% highlight bash %}
-sudo aptitude remove isc-dhcp-client dhcp3-client dhcpcd
+sudo apt remove isc-dhcp-client dhcp3-client dhcpcd
 {% endhighlight %}
 
 More info about this on Linode's website: [Linux Static IP Configuration](http://library.linode.com/networking/configuring-static-ip-interfaces#sph_static-ip-configuration)
@@ -471,7 +471,7 @@ At this point, you have a pretty nice server setup. Congrats! But, your server s
 A compiler is often required to install Python packages and other software, so let's just install one up-front.
 
 {% highlight bash %}
-sudo aptitude install build-essential
+sudo apt install build-essential
 {% endhighlight %}
 
 
@@ -480,7 +480,7 @@ sudo aptitude install build-essential
 Install MySQL:
 
 {% highlight bash %}
-sudo aptitude install mysql-server libmysqlclient-dev
+sudo apt install mysql-server libmysqlclient-dev
 {% endhighlight %}
 
 Set root password when prompt asks you.
@@ -530,7 +530,7 @@ The excellent `automysqlbackup` utility can automatically make daily, weekly, an
 Install it:
 
 {% highlight bash %}
-sudo aptitude install automysqlbackup
+sudo apt install automysqlbackup
 {% endhighlight %}
 
 Now, let's configure it. Open the configuration file:
@@ -551,7 +551,7 @@ Close and save the file. That's it!
 Install Python environment:
 
 {% highlight bash %}
-sudo aptitude install python-pip python-dev
+sudo apt install python-pip python-dev
 sudo pip install virtualenv
 {% endhighlight %}
 
@@ -585,21 +585,21 @@ This is the best Python workflow that I've found. Let me know if you know of a b
 ### Install Nginx
 
 {% highlight bash %}
-sudo aptitude install nginx
+sudo apt install nginx
 {% endhighlight %}
 
 
 ### Install Apache
 
 {% highlight bash %}
-sudo aptitude install apache2
+sudo apt install apache2
 {% endhighlight %}
 
 
 ### Install PHP5
 
 {% highlight bash %}
-sudo aptitude install php5 libapache2-mod-php5 php5-mysql
+sudo apt install php5 libapache2-mod-php5 php5-mysql
 sudo service apache2 restart
 {% endhighlight %}
 
@@ -623,7 +623,7 @@ Follow instructions on 10gen's site: [Install MongoDB on Ubuntu](http://docs.mon
 ### Install Redis
 
 {% highlight bash %}
-sudo aptitude install redis-server
+sudo apt install redis-server
 {% endhighlight %}
 
 
