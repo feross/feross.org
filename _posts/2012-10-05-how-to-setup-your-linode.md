@@ -424,7 +424,7 @@ It's easy to set up. On the Remote Access tab, click Add a Private IP.
 
 Then, edit the file `/etc/network/interfaces` to contain:
 
-{% highlight bash %}
+```
 # The loopback interface
 auto lo
 iface lo inet loopback
@@ -446,7 +446,7 @@ iface eth0 inet static
 iface eth0:0 inet static
  address 192.168.133.234
  netmask 255.255.128.0
-{% endhighlight %}
+```
 
 Of course, adjust the IP addresses to reflect your own addresses from the Remote acess tab.
 
