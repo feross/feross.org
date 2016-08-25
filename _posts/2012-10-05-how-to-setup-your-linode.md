@@ -80,9 +80,9 @@ hostname
 Set the <abbr title="Fully-qualified domain name">FQDN</abbr> of the server by making sure the following text is in the `/etc/hosts` file:
 
 {% highlight bash %}
-    127.0.0.1          localhost.localdomain   localhost
-    127.0.1.1          ubuntu
-    <your server ip>   future.<your domain>.net       future
+127.0.0.1          localhost.localdomain   localhost
+127.0.1.1          ubuntu
+<your server ip>   future.<your domain>.net       future
 {% endhighlight %}
 
 It is useful if you add an A record that points from some domain you control (in this case I used "future.&lt;your domain&gt;.net") to your server IP address. This way, you can easily reference the IP address of your server when you SSH into it, like so:
@@ -268,7 +268,7 @@ The following firewall rules will allow HTTP (80), HTTPS (443), SSH (44444), pin
 
 Paste the following into `/etc/iptables.firewall.rules`:
 
-{% highlight bash %}
+```
 *filter
 
 #  Allow all loopback (lo0) traffic and drop all traffic to 127/8 that doesn't use lo0
@@ -306,7 +306,7 @@ Paste the following into `/etc/iptables.firewall.rules`:
 -A FORWARD -j REJECT
 
 COMMIT
-{% endhighlight %}
+```
 
 Activate the firewall rules now:
 

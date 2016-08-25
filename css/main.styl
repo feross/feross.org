@@ -562,19 +562,23 @@ ul.listing {
 // Pygments syntax highlighting
 
 .highlight {
-  margin: 1.2em 0;
+  margin: 0;
+}
+
+pre {
+  padding: 0.9em 1.3em;
+  margin: 1em 0;
   background-color: $lightestGray;
   font-size: 13px;
   line-height: 1.4em;
-  padding: 0px 15px;
   border-radius: 10px;
   overflow: hidden;
   color: $darkerGray;
 }
-.hightlight code{
+pre code{
   float: left;
 }
-.highlight:hover {
+pre:hover {
   overflow: auto;
 }
 .highlight .hll { background-color: #ffffcc }
