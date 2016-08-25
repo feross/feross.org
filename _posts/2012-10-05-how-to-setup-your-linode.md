@@ -606,13 +606,7 @@ sudo service apache2 restart
 
 ### Install Node.js
 
-{% highlight bash %}
-sudo aptitude update
-sudo aptitude install python-software-properties python g++ make
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo aptitude update
-sudo aptitude install nodejs
-{% endhighlight %}
+Follow the instructions to [install the NodeSource Node.js PPA](https://github.com/nodesource/distributions#installation-instructions).
 
 
 ### Install MongoDB
