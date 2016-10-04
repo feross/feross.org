@@ -354,7 +354,7 @@ Add this to the file:
 
 {% highlight bash %}
 Defaults    mail_always
-Defaults    mailto="feross@feross.org"
+Defaults    mailto="your@email.com"
 {% endhighlight %}
 
 Set permissions on the file:
