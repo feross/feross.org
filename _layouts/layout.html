@@ -86,15 +86,6 @@
 
   <script src="/client/bundle.js"></script>
 
-  {% if page.script %}
-    <!-- Page-specific script -->
-    <script>
-      $(function() {
-        {{ page.script }}
-      });
-    </script>
-  {% endif %}
-
   {% if page.demo %}
     <!-- Page-specific demo code -->
     {{ page.demo }}
