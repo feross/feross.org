@@ -596,10 +596,10 @@ sudo apt install apache2
 {% endhighlight %}
 
 
-### Install PHP5
+### Install PHP
 
 {% highlight bash %}
-sudo apt install php5 libapache2-mod-php5 php5-mysql
+sudo apt install php7.0 libapache2-mod-php php-mysql
 sudo service apache2 restart
 {% endhighlight %}
 
