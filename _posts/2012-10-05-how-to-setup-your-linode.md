@@ -7,6 +7,8 @@ tags:
 hn: "http://news.ycombinator.com/item?id=4618808"
 ---
 
+*This guide was last updated in 2017. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
+
 So, you followed the advice in my [Linode Hosting Review](/linode-vps-hosting-review/) and decided to host your website with [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Excellent choice!
 
 But, if you're new to the command line (perhaps you are familiar with CPanel or Plesk?) or you've never setup a server from scratch before, you may be wondering what dark magic vudu is required to get up and running.
@@ -652,5 +654,3 @@ That's it!
 If, after reading this, you want to sign up for Linode, use [this link](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767) and I'll get a couple weeks of free hosting. If you prefer not to, here's the plain link: [Linode.com](http://www.linode.com)
 
 Happy hacking!
-
-(View [this post's changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md) on Github)
