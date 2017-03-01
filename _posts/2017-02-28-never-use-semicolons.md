@@ -38,9 +38,9 @@ function foo () {
 
 So, it’s misleading to tell people that if they just “always use semicolons” their code is safe from surprising ASI behavior.
 
-ASI is fully-specified in the ECMAScript language standard, and all browsers implement it exactly the same way. **ASI will be with us forever. It's about time you learned how it works.**
+**ASI will be with us forever. It's about time you [learned how it works](http://inimino.org/~inimino/blog/javascript_semicolons).** Not to worry: ASI is fully-specified in the ECMAScript language standard and all browsers implement it exactly the same way.
 
-Or at the very least, **consider using a linter that checks for unexpected ASI behavior**. ESLint has a rule called [`no-unexpected-multiline`](http://eslint.org/docs/rules/no-unexpected-multiline) which catches unexpected ASI behavior. And once you’re using a linter, it doesn’t matter whether you use or omit semicolons since **the linter keeps you safe**.
+At the very least, **consider using a linter that checks for unexpected ASI behavior**. ESLint has a rule called [`no-unexpected-multiline`](http://eslint.org/docs/rules/no-unexpected-multiline) which catches unexpected ASI behavior. And once you’re using a linter, it doesn’t matter whether you use or omit semicolons since **the linter keeps you safe**.
 
 ### The argument for "never use semicolons"
 
