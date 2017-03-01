@@ -98,3 +98,4 @@ And if you use a linter like [`standard`](http://standardjs.com/), then you don'
 - [An Open Letter to JavaScript Leaders Regarding Semicolons](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding)
 - [JavaScript Semicolon Insertion: Everything you need to know](http://inimino.org/~inimino/blog/javascript_semicolons)
 - [Are Semicolons Necessary in JavaScript? [YouTube]](https://www.youtube.com/watch?v=gsfbh17Ax9I)
+- [ESLint rule: `no-unexpected-multiline`](http://eslint.org/docs/rules/no-unexpected-multiline)
