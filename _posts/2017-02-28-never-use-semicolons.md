@@ -18,8 +18,8 @@ All JavaScript developers absolutely must understand ASI, even those who "always
 function foo () {
   return
     {
-      a: 1,
-      b: 2
+      bar: 1,
+      baz: 2
     };
 }
 {% endhighlight %}
@@ -28,10 +28,10 @@ Woops, you remembered to put a semicolon, but *doesn’t matter*. ASI kicked in 
 
 {% highlight js %}
 function foo () {
-  return; // <-- ASI adds a semicolon here, adding a bug!
+  return; // <-- ASI adds a semicolon here. You now have a bug!
     {
-      a: 1,
-      b: 2
+      bar: 1,
+      baz: 2
     };
 }
 {% endhighlight %}
