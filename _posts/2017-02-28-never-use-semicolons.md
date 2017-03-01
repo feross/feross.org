@@ -38,15 +38,13 @@ function foo () {
 
 So, it’s misleading to tell people that if they just “always use semicolons” their code is safe from surprising ASI behavior.
 
-ASI is fully-specified in the ECMAScript language standard, and all browsers implement it exactly the same way.
+ASI is fully-specified in the ECMAScript language standard, and all browsers implement it exactly the same way. **ASI will be with us forever. It's about time you learned how it works.**
 
-**ASI will be with us forever. It's about time you learned how it works.**
+Or at the very least, **consider using a linter that checks for unexpected ASI behavior**. ESLint has a rule called [`no-unexpected-multiline`](http://eslint.org/docs/rules/no-unexpected-multiline) which catches unexpected ASI behavior. And once you’re using a linter, it doesn’t matter whether you use or omit semicolons since **the linter keeps you safe**.
 
-The safest thing to do is to **use a linter that checks for unexpected ASI behavior**. ESLint has a rule for this called [`no-unexpected-multiline`](http://eslint.org/docs/rules/no-unexpected-multiline). And once you’re using a linter, it doesn’t matter whether you use or omit semicolons since **the linter keeps you safe**.
+### The argument for "never use semicolons"
 
-### Why this whole line of reasoning is silly
-
-And finally, even if you “always use semicolons”, there are arguably even more “edge cases” that if you “never use semicolons”. For example:
+It's not actually that simple to “always use semicolons”. There are actually many edge cases where you still aren't supposed to use a semicolon! For example:
 
 {% highlight js %}
 function foo () {
@@ -72,28 +70,27 @@ class Foo {
 };               // <-- AVOID!
 {% endhighlight %}
 
-This is why "always use semicolons" isn't the "magic bullet" that it's often made
-out to be.
+There are actually many more “edge cases” to keep in mind with "always use semicolons" than with “never use semicolons”.
 
-### The alternative
+If you “never use semicolons”, there's only one rule: **Never start a line with `[`, `(`, or `` ` ``**
 
-There are actually **fewer rules to remember** if you just “never use semicolons”.
-
-There's actually just one: **never start a line with `[` or `(`**.
-
-In those cases, you prepend a `;`. Simple.
+In those cases, you simply prepend a `;` like this:
 
 {% highlight js %}
 ;[1, 2, 3].forEach(bar)
 {% endhighlight %}
 
-However, if you frequently write code like this, you may be trying to be too clever
-for your own good. This is better:
+However, if you frequently write code like this, you may be trying to be needlessly
+clever. This is actually much simpler:
 
 {% highlight js %}
 const nums = [1, 2, 3]
 nums.forEach(bar)
 {% endhighlight %}
+
+And if you use a linter like [`standard`](http://standardjs.com/), then you don't need to remember anything as unexpected ASI is reported as an error.
+
+**The full list also includes some additional characters which would never actually appear at the start of an expression in real-world code: `+`, `*`, `/`, `-`, `,`, `.`*
 
 ### Further reading
 
