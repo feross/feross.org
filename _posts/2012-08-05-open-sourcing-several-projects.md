@@ -21,7 +21,7 @@ I released the code for these projects a while ago but never posted about it:
 
 * **[CMSploit](/cmsploit/)**, a security scanner to find temporary config files that contain passwords on public websites. [[github](https://github.com/feross/CMSploit)]
 * **WireSheep**, shows you each user on the network and all the HTTP requests they're making. [[github](https://github.com/feross/WireSheep)]
-* **[Selective Attention Test](http://feross.org/hacks/selective-attention-test/)**, a new version of the famous [gorilla video](http://www.youtube.com/watch?v=vJG698U2Mvo). [[github](https://github.com/feross/Selective-Attention-Test)]
+* **[Selective Attention Test](https://feross.org/hacks/selective-attention-test/)**, a new version of the famous [gorilla video](http://www.youtube.com/watch?v=vJG698U2Mvo). [[github](https://github.com/feross/Selective-Attention-Test)]
 
 ## Your turn!
 

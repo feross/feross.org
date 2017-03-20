@@ -1,11 +1,11 @@
-# [Home of Feross Aboukhadijeh](http://feross.org) [![travis][travis-image]][travis-url]
+# [Home of Feross Aboukhadijeh](https://feross.org) [![travis][travis-image]][travis-url]
 
 [travis-image]: https://img.shields.io/travis/feross/feross.org/master.svg?style=flat
 [travis-url]: https://travis-ci.org/feross/feross.org
 
 Copyright (c) Feross Aboukhadijeh
 
-Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [http://feross.org](http://feross.org). Feel free to browse the source, fork, and [ask me questions](https://twitter.com/feross).
+Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [https://feross.org](https://feross.org). Feel free to browse the source, fork, and [ask me questions](https://twitter.com/feross).
 
 
 ## How it's built

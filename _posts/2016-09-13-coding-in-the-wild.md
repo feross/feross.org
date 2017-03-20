@@ -15,7 +15,7 @@ The goal is to get people to write just a few paragraphs showing how coding is
 used across different industries in different ways. Here's my contribution, which
 focuses on my involvement in the open source community.*
 
-I'm [Feross](http://feross.org) and I write open source software.
+I'm [Feross](https://feross.org) and I write open source software.
 
 ## What is open source?
 

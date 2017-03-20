@@ -8,13 +8,13 @@ layout: null
 
   <updated>{{ site.time | date_to_xmlschema }}</updated>
 
-  <link rel="alternate" type="text/html" href="http://feross.org" />
-  <id>http://feross.org</id>
-  <link rel="self" type="application/atom+xml" href="http://feross.org/atom.xml" />
+  <link rel="alternate" type="text/html" href="https://feross.org" />
+  <id>https://feross.org</id>
+  <link rel="self" type="application/atom+xml" href="https://feross.org/atom.xml" />
 
   <author>
     <name>Feross Aboukhadijeh</name>
-    <uri>http://feross.org</uri>
+    <uri>https://feross.org</uri>
   </author>
 
   {% for post in site.posts limit: 20 %}
@@ -23,13 +23,13 @@ layout: null
     <title>{{ post.title | xml_escape }}</title>
     <author>
       <name>Feross Aboukhadijeh</name>
-      <uri>http://feross.org</uri>
+      <uri>https://feross.org</uri>
     </author>
-    <link rel="alternate" type="text/html" href="http://feross.org{{ post.url }}"/>
-    <id>http://feross.org{{ post.id }}</id>
+    <link rel="alternate" type="text/html" href="https://feross.org{{ post.url }}"/>
+    <id>https://feross.org{{ post.id }}</id>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <summary type="html"><![CDATA[{{ summary }}]]></summary>
-    <content type="html" xml:base="http://feross.org{{ post.url }}"><![CDATA[{% if post.dynamic or post.demo %}<p><em><strong>This blog post contains JavaScript and other dynamic content that will not display correctly in most RSS readers. I recommend <a href="http://feross.org{{ post.url }}">reading this post</a> directly in your web browser.</strong></em></p>{% endif %}{{ post.content }}]]></content>
+    <content type="html" xml:base="https://feross.org{{ post.url }}"><![CDATA[{% if post.dynamic or post.demo %}<p><em><strong>This blog post contains JavaScript and other dynamic content that will not display correctly in most RSS readers. I recommend <a href="https://feross.org{{ post.url }}">reading this post</a> directly in your web browser.</strong></em></p>{% endif %}{{ post.content }}]]></content>
   </entry>
   {% endfor %}
 

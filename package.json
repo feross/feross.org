@@ -2,7 +2,7 @@
   "name": "feross.org",
   "description": "Pure concentrated awesome",
   "version": "1.0.0",
-  "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org)",
+  "author": "Feross Aboukhadijeh <feross@feross.org> (https://feross.org)",
   "bugs": {
     "url": "https://github.com/feross/feross.org/issues"
   },
@@ -22,7 +22,7 @@
     "uglify-js": "^2.6.1",
     "watchify": "^3.7.0"
   },
-  "homepage": "http://feross.org",
+  "homepage": "https://feross.org",
   "keywords": [
     "Feross",
     "blog"
