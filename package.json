@@ -37,7 +37,7 @@
     "url": "https://github.com/feross/feross.org.git"
   },
   "scripts": {
-    "build": "rm -rf _site && npm run build-css && npm run build-js && npm run build-html",
+    "build": "rm -rf _site && npm run build-css && npm run build-js && npm run build-hacks && npm run build-html",
     "build-css": "stylus -u nib css/main.styl -o css/ -c",
     "build-html": "jekyll build --lsi && cp -r .well-known _site",
     "build-hacks": "node _bin/build-hacks.js",
