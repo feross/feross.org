@@ -1,5 +1,9 @@
+# Jekyll
 _site
 _drafts
+.jekyll-metadata
+
+# Feross.org
+hacks/
 secret.js
 css/main.css
-hacks/
