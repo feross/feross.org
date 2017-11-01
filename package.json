@@ -48,7 +48,7 @@
     "test": "standard",
     "watch": "npm run watch-css & npm run watch-html & npm run watch-js",
     "watch-css": "stylus -u nib css/main.styl -o css/ -w",
-    "watch-html": "jekyll serve --watch --port 4000",
+    "watch-html": "jekyll serve --watch --incremental --port 4000",
     "watch-js": "watchify client -o client/bundle.js -dv"
   },
   "standard": {
