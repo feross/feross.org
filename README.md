@@ -29,6 +29,7 @@ I host the actual site on my own server, since I have a Jekyll plugin (and GitHu
 
 ```bash
 npm install
+npm run install-system-deps # macOS only
 ```
 
 ### Build site
