@@ -7,6 +7,9 @@ Copyright (c) Feross Aboukhadijeh
 
 Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [https://feross.org](https://feross.org). Feel free to browse the source, fork, and [ask me questions](https://twitter.com/feross).
 
+## Blog design
+
+If you fork this, **please create your own blog design**, don't use mine. I don't want to see fifty other blogs that look the same as mine. Thanks for understanding!
 
 ## How it's built
 
@@ -20,26 +23,44 @@ I also wrote a simple Node.js/MySQL app to track the number of page views on eac
 
 I host the actual site on my own server, since I have a Jekyll plugin (and GitHub Pages doesn't support Jekyll plugins). Also, GitHub isn't going to run that Node.js app for me. Also, I like being in control of my website hosting (seriously, being a [sharecropper](http://www.tbray.org/ongoing/When/200x/2003/07/12/WebsThePlace) sucks).
 
+## Run it
 
-## Deploying
-
-I wrote a few simple rake tasks for deploying. Take a look at the `Rakefile` -- it's pretty self-explanatory.
-
-I serve the site with nginx and run the Node.js app using Supervisord (in case the app decides to crash).
-
-That's pretty much it.
-
-## Install prerequisites
+### Install dependencies
 
 ```bash
 npm install
-brew install gsl
-sudo gem install jekyll
-sudo gem install narray
-sudo gem install gsl
 ```
 
-## The blog design
+### Build site
 
-If you decided to fork, please create your own blog design, don't use mine. I don't want to see fifty other blogs that look the same as mine. Thanks for understanding!
+```bash
+npm run build
+```
 
+### Start server
+
+```bash
+npm start
+```
+
+### Start development server
+
+```bash
+npm run watch
+```
+
+### Run tests
+
+```bash
+npm test
+```
+
+### Publish site
+
+```bash
+npm run publish
+```
+
+On the server, I serve the generated files with `nginx` and run the Node.js app using `Supervisord` (to restart the app if it crashes).
+
+That's pretty much it.
