@@ -13,7 +13,7 @@ With that, comes a generation of people who can find information on the Internet
 
 At this stage, these people will probably throw away their "broken" iPod and buy a new one, or bring their computer into the shop for costly repairs. Even if they realize that the problem is fixable, they **lack the vocabulary to express the problem clearly** and so they find themselves unable to coax Google into giving them useful search results that help them to fix their problem.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/o4MwTvtyrUQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o4MwTvtyrUQ" frameborder="0" allowfullscreen></iframe>
 
 Here are some highlights from the article, but I recommend [reading it for yourself](http://db.tidbits.com/article/10493):
 
@@ -31,4 +31,4 @@ Here are some highlights from the article, but I recommend [reading it for yours
 
 I just stumbled upon a cool video from Google that attempts to explain what a web browser is to non-techies. Props to Google for mentioning Chrome competitors Firefox, Safari, and even Internet Explorer in the video! I love Google!
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/BrXPcaRlBqo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BrXPcaRlBqo" frameborder="0" allowfullscreen></iframe>

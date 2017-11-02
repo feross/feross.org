@@ -20,10 +20,10 @@ Why am I ranting about this? Well, I just [stumbled upon](http://questioncopyrig
 
 ## Nina Paley singing "Copying isn't theft"
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/gTyWS-tuoWk" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gTyWS-tuoWk" frameborder="0" allowfullscreen></iframe>
 
 And there's a cute little cartoon that goes along with it.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/IeTybKL1pM4" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IeTybKL1pM4" frameborder="0" allowfullscreen></iframe>
 
-Unsurprisingly, there [have](http://www.youtube.com/watch?v=coFRLYZPvDI) [been](http://www.youtube.com/watch?v=GU7axyrHWDQ) [a](http://www.youtube.com/watch?v=Rx5ThHINfYg) [ton](http://www.youtube.com/watch?v=O3bmP5MOwaI﻿) [of](http://www.youtube.com/watch?v=H-_uxRPBydc) [people](http://www.youtube.com/watch?v=SRA8YWGe3Sk) who have remixed [the original cartoon](http://www.youtube.com/watch?v=djVaJN0f0VQ), adding their own creativity to the original author's work to create something new and different. This is an awesome example of the good that can come from the **freedom to remix copyrighted works** (although in this case, Nina released her work under a Creative Commons license).
+Unsurprisingly, there [have](https://www.youtube.com/watch?v=coFRLYZPvDI) [been](https://www.youtube.com/watch?v=GU7axyrHWDQ) [a](https://www.youtube.com/watch?v=Rx5ThHINfYg) [ton](https://www.youtube.com/watch?v=O3bmP5MOwaI) [of](https://www.youtube.com/watch?v=H-_uxRPBydc) [people](https://www.youtube.com/watch?v=SRA8YWGe3Sk) who have remixed [the original cartoon](https://www.youtube.com/watch?v=djVaJN0f0VQ), adding their own creativity to the original author's work to create something new and different. This is an awesome example of the good that can come from the **freedom to remix copyrighted works** (although in this case, Nina released her work under a Creative Commons license).

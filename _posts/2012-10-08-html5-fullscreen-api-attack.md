@@ -58,7 +58,7 @@ Also, **note the green lock** in the location bar, which indicates that TLS (i.e
 
 ## The "Fullscreen API" explained
 
-The **Fullscreen API** (see [W3C docs](http://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html) and [MDN docs](https://developer.mozilla.org/en-US/docs/DOM/Using_full-screen_mode)) allows web developers show web content that fills up the user's screen completely. You've seen this functionality in action whenever you watch a fullscreen video on YouTube (if you use their [new HTML5 player](http://www.youtube.com/html5), which you should do!) or look at a fullscreen photo on Facebook.
+The **Fullscreen API** (see [W3C docs](http://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html) and [MDN docs](https://developer.mozilla.org/en-US/docs/DOM/Using_full-screen_mode)) allows web developers show web content that fills up the user's screen completely. You've seen this functionality in action whenever you watch a fullscreen video on YouTube (if you use their [new HTML5 player](https://www.youtube.com/html5), which you should do!) or look at a fullscreen photo on Facebook.
 
 <div style="text-align: center;">
   <img style="display: inline; padding-right: 20px;" alt="YouTube Video Fullscreen Button" src="/images/fullscreen-yt-video.png" />
@@ -156,7 +156,7 @@ Despite all these apparent shortcomings, this remains a very serious attack beca
 
 Check out this excellent video from the psychology study where "change blindness" was first proven outside the lab:
 
-<iframe width="640" height="480" src="http://www.youtube.com/embed/FWSxSQsspiQ#t=11s" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/FWSxSQsspiQ#t=11s" frameborder="0" allowfullscreen></iframe>
 
 Read more about [change blindness](http://en.wikipedia.org/wiki/Change_blindness) on Wikipedia.
 

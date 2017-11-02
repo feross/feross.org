@@ -52,7 +52,7 @@ AutoTune works by analyzing a music track's pitches *over time*. It compares eve
 
 However, the plugin does much more than pitch correction. It can be also used to deliberately distort vocals. When you crank up the settings to the max, you get the famous **T-Pain vocal effect**. ** **
 
-**Sidenote:** T-Pain wasn't actually the first artist to use AutoTune for all his vocals, although he is certainly the most famous. AutoTune was first used by **Eiffel 65** for their 1999 hit single [Blue Da-Ba-Dee](http://www.youtube.com/watch?v=H25lz7gchaw). (I loved this song as a kid. :-))
+**Sidenote:** T-Pain wasn't actually the first artist to use AutoTune for all his vocals, although he is certainly the most famous. AutoTune was first used by **Eiffel 65** for their 1999 hit single [Blue Da-Ba-Dee](https://www.youtube.com/watch?v=H25lz7gchaw). (I loved this song as a kid. :-))
 
 These are the Auto-Tune settings in Garageband to make the Kanye West & T-Pain audio effect:
 
@@ -66,7 +66,7 @@ Yet, I was able to produce a decent-sounding R&amp;B vocal track. This experimen
 
 - [Auto-Tune: Why Pop Music Sounds Perfect](http://www.time.com/time/magazine/article/0,9171,1877372,00.html) (Time Magazine)
 - [Auto-Tune Abuse in Pop Music - 10 Examples](http://www.hometracked.com/2008/02/05/auto-tune-abuse-in-pop-music-10-examples/) (Hometracked)
-- [Smoking Lettuce: Auto Tune the News #5](http://www.youtube.com/watch?v=1dqTrUpmwPg) (YouTube)
+- [Smoking Lettuce: Auto Tune the News #5](https://www.youtube.com/watch?v=1dqTrUpmwPg) (YouTube)
 
 ## I hope you enjoyed my song! Leave a comment!
 

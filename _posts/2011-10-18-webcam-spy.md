@@ -15,9 +15,9 @@ I discovered a vulnerability in Adobe Flash that allows any website to turn on y
 
 ## Video demo of the attack
 
-<iframe width="600" height="370" src="http://www.youtube.com/embed/-LbvglVj8Ho?hd=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="370" src="https://www.youtube.com/embed/-LbvglVj8Ho?hd=1" frameborder="0" allowfullscreen></iframe>
 
-Source code: [Github](https://github.com/feross/webcam-spy). Video demo: [YouTube](http://www.youtube.com/watch?v=-LbvglVj8Ho)
+Source code: [Github](https://github.com/feross/webcam-spy). Video demo: [YouTube](https://www.youtube.com/watch?v=-LbvglVj8Ho)
 
 ## Updates about the vulnerabilty
 
@@ -33,7 +33,7 @@ Source code: [Github](https://github.com/feross/webcam-spy). Video demo: [YouTub
 
 - **5/9/2012:** FOX News in Cleveland [just ran a story](http://fox8.com/2012/05/09/hackers-gain-access-to-homes-through-webcams/) about this.
 
-  <iframe width="420" height="315" src="http://www.youtube.com/embed/loDFU-2eypk" frameborder="0" allowfullscreen></iframe>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/loDFU-2eypk" frameborder="0" allowfullscreen></iframe>
 
 Read on for the original blog post.
 

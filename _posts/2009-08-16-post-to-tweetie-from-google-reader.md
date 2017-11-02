@@ -9,7 +9,7 @@ tags:
 
 ![Google Reader Logo](/images/reader_logo.gif)
 
-I recently decided to ditch [NetNewsWire](http://www.newsgator.com/INDIVIDUALS/NETNEWSWIRE/) and use [Google Reader](http://reader.google.com/) as my main RSS reader. **Google Reader** helps me keep up on the latest tech news and [important internet trends](http://www.youtube.com/watch?v=dQw4w9WgXcQ "Sorry, I couldn't resist!"). As I cave in to using yet another Google service, Google gets one step closer to becoming a hive mind.
+I recently decided to ditch [NetNewsWire](http://www.newsgator.com/INDIVIDUALS/NETNEWSWIRE/) and use [Google Reader](http://reader.google.com/) as my main RSS reader. **Google Reader** helps me keep up on the latest tech news and [important internet trends](https://www.youtube.com/watch?v=dQw4w9WgXcQ "Sorry, I couldn't resist!"). As I cave in to using yet another Google service, Google gets one step closer to becoming a hive mind.
 
 I've been really happy with Google Reader so far, except for one thing.
 

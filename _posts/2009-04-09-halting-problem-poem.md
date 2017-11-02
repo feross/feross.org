@@ -12,7 +12,7 @@ tags:
 
 Last quarter, I took a class called [CS103: Mathematical Foundations of Computing](http://www.stanford.edu/class/cs103/). The TAs sent us a wonderful little poem about the [Halting Problem](http://en.wikipedia.org/wiki/Halting_problem) that was pretty clever and funny. It helps to clarify what can be quite a difficult concept for many students to wrap their heads around.
 
-I realize this won't make sense for anyone who's not a computer science person, so if that's you then please enjoy this [hamster eating a carrot](http://www.youtube.com/watch?v=LY7ji99QJ4I).
+I realize this won't make sense for anyone who's not a computer science person, so if that's you then please enjoy this [hamster eating a carrot](https://www.youtube.com/watch?v=LY7ji99QJ4I).
 
 Ok, if you're still here, then enjoy:
 

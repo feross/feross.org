@@ -207,7 +207,7 @@ Most online gaming companies -- Valve included -- have a no tolerance policy tow
 
 Today, most Counter-Strike gamers who play on VAC-protected servers are essentially guaranteed a cheater-free gaming experience. From my own investigation, I discovered that over 90% of Counter-Strike servers are protected by VAC, so most players are assured a cheater-free experience.
 
-Valve’s automated cheat detection system will catch anyone using [aimbots](http://en.wikipedia.org/wiki/Aimbots), [nospread](http://www.youtube.com/watch?v=ACGy_EudMog), [norecoil](http://www.youtube.com/watch?v=756CjFuLXKg), [wallhacks](http://www.youtube.com/watch?v=jR6Nq4sj7BA), [speedhacks](http://www.youtube.com/watch?v=ubvG0xFyh1s), and an array of other unauthorized cheat aids [[ref](http://web.archive.org/web/20070701045109/http://wiki.counter-hack.net/CategoryCSCheatingHist)]. Cheaters will receive a permanent ban and will be greeted with the [following error](https://support.steampowered.com/kb_article.php?p_faqid=589) when connecting to a server:
+Valve’s automated cheat detection system will catch anyone using [aimbots](http://en.wikipedia.org/wiki/Aimbots), [nospread](https://www.youtube.com/watch?v=ACGy_EudMog), [norecoil](https://www.youtube.com/watch?v=756CjFuLXKg), [wallhacks](https://www.youtube.com/watch?v=jR6Nq4sj7BA), [speedhacks](https://www.youtube.com/watch?v=ubvG0xFyh1s), and an array of other unauthorized cheat aids [[ref](http://web.archive.org/web/20070701045109/http://wiki.counter-hack.net/CategoryCSCheatingHist)]. Cheaters will receive a permanent ban and will be greeted with the [following error](https://support.steampowered.com/kb_article.php?p_faqid=589) when connecting to a server:
 
 > Your connection to this secure server has been rejected. Because of past cheating violations, you have been banned from playing on all secure servers.
 
@@ -225,4 +225,4 @@ Cheaters are often looked down upon in the gaming community as "spoil sports" an
 
 Games should not be limited by the game developer’s creativity but instead by the creativity of each individual player. Research in this area is still ongoing, and the definition of gaming is still up for debate. Yet, I hope that one day in the not-too-distant-future cheaters might be looked up to as the most creative gamers of us all.
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/bcu8ZdJ2dQo" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/bcu8ZdJ2dQo" frameborder="0" allowfullscreen></iframe>

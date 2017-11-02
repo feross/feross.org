@@ -32,4 +32,4 @@ From: [Paul Buchheit's blog](http://paulbuchheit.blogspot.com/2009/10/applied-ph
 >
 > Or at least that's how I see it. Maybe I'll change my mind later.
 >
-> See also: "[The Knack](http://www.youtube.com/watch?v=qOtoujYOWw0)" (and the need to disassemble things)
+> See also: "[The Knack](https://www.youtube.com/watch?v=qOtoujYOWw0)" (and the need to disassemble things)

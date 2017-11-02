@@ -36,8 +36,8 @@
  *  Supports:
  *
  *      Youtube
- *          http://www.youtube.com/watch?v=opj24KnzrWo
- *          http://www.youtube.com/embed/opj24KnzrWo
+ *          https://www.youtube.com/watch?v=opj24KnzrWo
+ *          https://www.youtube.com/embed/opj24KnzrWo
  *          http://youtu.be/opj24KnzrWo
  *      Vimeo
  *          http://vimeo.com/40648169

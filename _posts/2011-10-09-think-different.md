@@ -16,9 +16,9 @@ One of my favorite quotes:
 
 One of my favorite ads:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/8rwsuXHA7RA" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/8rwsuXHA7RA" frameborder="0" allowfullscreen></iframe>
 
 Really gets the blood pumping, huh?
 
-Interesting story about this video. Steve Jobs narrated the very first version of this Think Different commercial "Here's to the Crazy Ones" (shown above). Sadly, this version never aired. Richard Dreyfuss did the voiceover in [the version that aired](http://www.youtube.com/watch?v=4oAB83Z1ydE).
+Interesting story about this video. Steve Jobs narrated the very first version of this Think Different commercial "Here's to the Crazy Ones" (shown above). Sadly, this version never aired. Richard Dreyfuss did the voiceover in [the version that aired](https://www.youtube.com/watch?v=4oAB83Z1ydE).
 

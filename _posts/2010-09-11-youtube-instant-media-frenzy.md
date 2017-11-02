@@ -119,7 +119,7 @@ My Network Traffic - Last 30 Days:
 
 [![My Network Traffic - Last 30 Days](/images/My-Network-Traffic-Last-30-Days.png)](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767)
 
-I built [YouTube Instant](http://ytinstant.com) using a combination of the [YouTube API](http://www.youtube.com/dev) and YouTube search suggestions. I initially ran into some issues when Google automatically blocked my server for making too many repeated requests.
+I built [YouTube Instant](http://ytinstant.com) using a combination of the [YouTube API](https://www.youtube.com/dev) and YouTube search suggestions. I initially ran into some issues when Google automatically blocked my server for making too many repeated requests.
 
 However, it took me 5 minutes to rewrite the site to query YouTube directly for search suggestions, eliminating the round-trip to my server. Now, all the magic happens in each visitor’s browser, so it’s faster than ever. (Thanks to Jake Becker for reminding me that &lt;script&gt; tags don't have cross-domain restrictions!)
 

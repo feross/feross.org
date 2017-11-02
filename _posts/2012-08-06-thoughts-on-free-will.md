@@ -18,7 +18,7 @@ These results are shocking. They imply that all decisions are out of our control
 
 ![Pinnocchio](/images/pinocchio.jpg)
 
-I spent a lot of time thinking about this (always [a dangerous pastime](http://www.youtube.com/watch?v=PK3x2DOoJIc#t=234s), hehe). I came up with a programming metaphor that makes a pretty convincing argument against the existence of free will. I thought it was interesting enough to be worth sharing, so here we go:
+I spent a lot of time thinking about this (always [a dangerous pastime](https://www.youtube.com/watch?v=PK3x2DOoJIc#t=234s), hehe). I came up with a programming metaphor that makes a pretty convincing argument against the existence of free will. I thought it was interesting enough to be worth sharing, so here we go:
 
 ## The human mind is a self-modifying function
 
@@ -66,9 +66,9 @@ I don't think that believing or disbelieving in free will should change your beh
 
 ## More on this subject
 
-If you want to think about this stuff more, I highly recommend this talk: [Sam Harris on "Free Will"](http://www.youtube.com/watch?v=pCofmZlC72g#t=1m50s). It is brilliant. Sam lays out all the main arguments against the existence of free will in a clear, persuasive manner.
+If you want to think about this stuff more, I highly recommend this talk: [Sam Harris on "Free Will"](https://www.youtube.com/watch?v=pCofmZlC72g#t=1m50s). It is brilliant. Sam lays out all the main arguments against the existence of free will in a clear, persuasive manner.
 
-Also, I recently watched a Google Tech Talk that contained a lot of great information on how brains in young children work. It's called [Think faster, focus better, and remember more](http://www.youtube.com/watch?v=UyPrL0cmJRs). It only strengthens my belief in this self-modifying function hypothesis.
+Also, I recently watched a Google Tech Talk that contained a lot of great information on how brains in young children work. It's called [Think faster, focus better, and remember more](https://www.youtube.com/watch?v=UyPrL0cmJRs). It only strengthens my belief in this self-modifying function hypothesis.
 
 Lastly, the New York Times recently published this: [Neuroscience and Moral Responsibility](http://www.nytimes.com/2012/07/29/opinion/sunday/neuroscience-and-moral-responsibility.html).
 
@@ -78,4 +78,4 @@ If you have any thoughts on this post, please leave a comment. I'm interested to
 
 My friend Mikee Nguyen sent me this excellent, relevant clip from the film [Waking Life](http://www.imdb.com/title/tt0243017/):
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/veqkUUOlLLE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/veqkUUOlLLE" frameborder="0" allowfullscreen></iframe>

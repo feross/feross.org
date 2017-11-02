@@ -22,9 +22,9 @@ To me, it's a giant lesson about the power of programming for the Web. It's also
 
 ## CNN News - "Hiring Spree in Silicon Valley"
 
-**May 18, 2011.** Companies are waging fierce competition to hire the best talent. CNN's Dan Simon reports. Watch [the video](http://www.youtube.com/watch?v=dECfaTxJ9Yo):
+**May 18, 2011.** Companies are waging fierce competition to hire the best talent. CNN's Dan Simon reports. Watch [the video](https://www.youtube.com/watch?v=dECfaTxJ9Yo):
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/dECfaTxJ9Yo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dECfaTxJ9Yo" frameborder="0" allowfullscreen></iframe>
 
 ## Older news stories
 
@@ -40,14 +40,14 @@ And, for completeness, here are a few older news stories that I haven't blogged 
 
 ## All Things Digital - "Instant.fm Launches"
 
-**April 22, 2011.** The idea is simple: drag a playlist from someplace, iTunes included, and Instant.fm queues up YouTube videos of the songs in the list, playing them in the playlist’s order. [Read the story][http://allthingsd.com/20110422/early-adopter-from-the-hacker-who-brought-you-youtube-instant-instant-fm-launches-today/] or watch [the video](http://www.youtube.com/watch?v=jBGT2WTP_VA):
+**April 22, 2011.** The idea is simple: drag a playlist from someplace, iTunes included, and Instant.fm queues up YouTube videos of the songs in the list, playing them in the playlist’s order. [Read the story][http://allthingsd.com/20110422/early-adopter-from-the-hacker-who-brought-you-youtube-instant-instant-fm-launches-today/] or watch [the video](https://www.youtube.com/watch?v=jBGT2WTP_VA):
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/jBGT2WTP_VA" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jBGT2WTP_VA" frameborder="0" allowfullscreen></iframe>
 
 
 ## And a few more...
 
 * [The Next Web - "Instant.fm is a super slick way to share playlists of music"](http://thenextweb.com/apps/2011/05/17/instant-fm-is-a-super-slick-way-to-share-playlists-of-music/)
-* [Configurar Equipos - YouTube (in Spanish)](http://www.youtube.com/watch?v=zQvJX9OWQn8#t=2m30s)
+* [Configurar Equipos - YouTube (in Spanish)](https://www.youtube.com/watch?v=zQvJX9OWQn8#t=2m30s)
 
 That's all for now!

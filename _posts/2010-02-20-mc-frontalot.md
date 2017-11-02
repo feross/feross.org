@@ -15,13 +15,13 @@ Nerdcore! Aww yeah!
 
 Last Tuesday, I got to hang out with "the world's 579th greatest rapper," [MC Frontalot](http://en.wikipedia.org/wiki/MC_Frontalot). He is best-known for coining the term [nerdcore](http://en.wikipedia.org/wiki/Nerdcore_hip_hop) and basically defining the whole *nerdcore hip-hop* musical genre. As you can tell by picture above, I dressed appropriately for the occasion. ;-)
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/4nigRT2KmCE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4nigRT2KmCE" frameborder="0" allowfullscreen></iframe>
 
 When a visiting grad student told me about his plans to host an MC Frontalot concert at Stanford, I was ecstatic! I pledged some money of behalf of my club, the [Stanford ACM](http://stanfordacm.com), to help pay for the concert costs. Nerdcore culture is computer science related, *right?*
 
 A bunch of other Stanford clubs also made contributions, including the IEEE, GSPB, CCRMA, Audio Engineering Society, and Hip Hop Congress.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/Wmx6Q0YLH8A" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wmx6Q0YLH8A" frameborder="0" allowfullscreen></iframe>
 
 MC Frontalot is the nerdcorest of the core. Just a sampling:
 
@@ -31,7 +31,7 @@ MC Frontalot is the nerdcorest of the core. Just a sampling:
 > And now the heezy we’s off don’t babble 300 baud.
 > I get no error while compiling my rhyme.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/z8rqdEahBos" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z8rqdEahBos" frameborder="0" allowfullscreen></iframe>
 
 ## Pictures!
 

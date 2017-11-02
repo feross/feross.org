@@ -8,7 +8,7 @@ tags:
 - stanford
 ---
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/JQGtbX9pBbI" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/JQGtbX9pBbI" frameborder="0" allowfullscreen></iframe>
 
 This is the iPhone app that I'm  working on with my friend John Hiesey. iBoard is a networked drawing app that allows multiple users from around the world to draw together on  the same drawing canvas in real-time. Use it to share your ideas -- diagram, brainstorm, sketch, or doodle with your friends from around the  world in real-time.
 

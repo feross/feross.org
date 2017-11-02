@@ -10,7 +10,7 @@ tags:
 
 The Internet is awesome.
 
-One of the **coolest innovations** of the Internet is the **mash-up culture** that brings us video gems like [Bush Lip-Syncing With Blair](http://www.freetheflash.com/videos/bush-lipsyncing-with-blair.php), [Star Wars Kid](http://www.youtube.com/watch?v=3GJOVPjhXMY), and the [Yes We Can](http://yeswecan.dipdive.com/#/~/videoplayer/0/169/2207/~/) song which helped Obama win the election.
+One of the **coolest innovations** of the Internet is the **mash-up culture** that brings us video gems like [Bush Lip-Syncing With Blair](http://www.freetheflash.com/videos/bush-lipsyncing-with-blair.php), [Star Wars Kid](https://www.youtube.com/watch?v=3GJOVPjhXMY), and the [Yes We Can](http://yeswecan.dipdive.com/#/~/videoplayer/0/169/2207/~/) song which helped Obama win the election.
 
 [Lawrence Lessig](http://lessig.org), a former Stanford Law Professor and copyright reformer has a neat term for the phenomenon. He calls it **"remix culture"** and claims that it is a **bastion of free speech** for the American masses -- essential for the expression of free thought, political ideas, and of course, all-important [LOLcats](http://icanhascheezburger.com/).
 
@@ -58,15 +58,15 @@ A quick tangent. Here are a few video clips from the film ***Network*** for you 
 
 ### I'm Mad As Hell, and I Won't Take No For an Answer!
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/QMBZDwf9dok" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QMBZDwf9dok" frameborder="0" allowfullscreen></iframe>
 
 ### The Most Awesome God-Damned Propaganda Force in the Whole Godless World
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/MTN3s2iVKKI" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/MTN3s2iVKKI" frameborder="0" allowfullscreen></iframe>
 
 ### The Death of the Individual. The World is Run By Corporations.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/zI5hrcwU7Dk" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zI5hrcwU7Dk" frameborder="0" allowfullscreen></iframe>
 
 Thanks to my friend Lekan Wang for recommending that last clip!
 
@@ -94,7 +94,7 @@ Short answer: they cannot; they have no voice, no free speech.
 
 ## The Media Elite's Control
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/bq7uqWPnh-U" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/bq7uqWPnh-U" frameborder="0" allowfullscreen></iframe>
 
 
 ## The Internet Revolution: Diversification Via Citizen Media
@@ -131,7 +131,7 @@ According to Technorati's [State of the Blogosphere](http://technorati.com/blogg
 
 ## Remix Culture: The Early Years
 
-**One of the most exciting** – albeit unintended – developments to arise from the Internet revolution is the development of [cyberculture](http://en.wikipedia.org/wiki/Cyberculture): social networks, online games, chat, USENET, bulletin board systems, e-commerce, peer to peer networks, and virtual worlds. With these new technologies, people are creating new forms of social expression, mash-ups, and cultural conversations. These social expressions and Internet conversations were made possible by the convergence of technologies like [YouTube](http://www.youtube.com), cheap video cameras, and the [free video editing software](http://www.microsoft.com/windowsxp/downloads/updates/moviemaker2.mspx) that comes included with most computers.
+**One of the most exciting** – albeit unintended – developments to arise from the Internet revolution is the development of [cyberculture](http://en.wikipedia.org/wiki/Cyberculture): social networks, online games, chat, USENET, bulletin board systems, e-commerce, peer to peer networks, and virtual worlds. With these new technologies, people are creating new forms of social expression, mash-ups, and cultural conversations. These social expressions and Internet conversations were made possible by the convergence of technologies like [YouTube](https://www.youtube.com), cheap video cameras, and the [free video editing software](http://www.microsoft.com/windowsxp/downloads/updates/moviemaker2.mspx) that comes included with most computers.
 
 **Anyone with access to a $300 computer and camera can now take sounds and images from the culture around them and *remix* them to express ideas in an extremely powerful way.** The techniques of video production, once only available to movie studios and TV networks, has been democratized and unleashed for use by the masses.
 
@@ -139,7 +139,7 @@ The Internet enables people from around the world to engage in this new form of 
 
 This video has some great examples of remix culture:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/j3jovQ4eKqE" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/j3jovQ4eKqE" frameborder="0" allowfullscreen></iframe>
 
 Appropriately, it is also a remix. :)
 
@@ -148,7 +148,7 @@ Appropriately, it is also a remix. :)
 
 ![Internet Censorship - First Amendement Error](/images/internet-censorship.png)
 
-Despite the [universally recognized benefits of the Internet revolution](http://www.youtube.com/watch?v=Yu_moia-oVI) by academics and millions of Internet users everywhere, some *special interests* seek to undermine the core feature that has made the Internet so successful: its **freedom**.
+Despite the [universally recognized benefits of the Internet revolution](https://www.youtube.com/watch?v=Yu_moia-oVI) by academics and millions of Internet users everywhere, some *special interests* seek to undermine the core feature that has made the Internet so successful: its **freedom**.
 
 There are **two main threats** to freedom of speech on the Internet today.
 
@@ -215,7 +215,7 @@ Lessig and van Schewick realize that the open, dynamic Internet – the **last b
 >
 > -- Lawrence Lessig, Stanford Professor of Law
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/jjXyqcx-mYY" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jjXyqcx-mYY" frameborder="0" allowfullscreen></iframe>
 
 Besides the **threat of Internet censorship**, [Stanford](http://www.stanford.edu) Professor [Lawrence Lessig](http://lessig.org) also recognizes [copyright law](http://www.copyright.gov/) as another threat to **free expression on the Internet**.
 
@@ -256,9 +256,9 @@ The law is out of sync with the technology.  Copyright law must be reformed so t
 <strong>For some classic examples of "remix culture" the early days of the Internets, just move your eyes ever so slightly below this text and keep moving them downward until you reach the comments section. While you are there, leave some comments and let me know what you think!
 </strong>
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/3GJOVPjhXMY" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/3GJOVPjhXMY" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/gNqiSkd1M6k" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/gNqiSkd1M6k" frameborder="0" allowfullscreen></iframe>
 
 
 ## Lawrence Lessig = Awesome
@@ -378,6 +378,6 @@ If you'd like further reading, then check out [SaveTheInternet.com](http://www.s
 
 <span style="color: #333333;">You Write What You're Told! Digital image. <span style="text-decoration: underline;">Propaganda and War</span>. 18 May 2009 &lt;http://www.media-studies.ca/articles/war_propaganda.htm&gt;.</span>
 
-<span style="color: #333333;"><span style="text-decoration: underline;">YouTube.com</span>. 18 May 2009 &lt;http://www.youtube.com&gt;.</span>
+<span style="color: #333333;"><span style="text-decoration: underline;">YouTube.com</span>. 18 May 2009 &lt;https://www.youtube.com&gt;.</span>
 
 

@@ -13,7 +13,7 @@ If you fork this, **please create your own blog design**, don't use mine. I don'
 
 ## How it's built
 
-All my posts are written in Markdown. The blog is powered by [Jekyll](http://github.com/mojombo/jekyll), a static site generator that takes Markdown blog posts and converts them into HTML files. The benefit of this approach are many:
+All my posts are written in Markdown. The blog is powered by [Jekyll](https://github.com/mojombo/jekyll), a static site generator that takes Markdown blog posts and converts them into HTML files. The benefit of this approach are many:
 
 - The blog can be served with almost any web server, since the output of Jekyll is just flat HTML files.
 - The whole blog can easily be version controlled.

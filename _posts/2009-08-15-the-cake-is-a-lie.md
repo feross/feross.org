@@ -7,7 +7,7 @@ tags:
 - games
 ---
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/Y6ljFaKRTrI" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Y6ljFaKRTrI" frameborder="0" allowfullscreen></iframe>
 
 Last weekend, I finished playing [Portal](http://en.wikipedia.org/wiki/Portal_%28video_game%29) for the third time. After the third play, the game still amazes me. My respect for [Valve](http://www.valvesoftware.com/) has only grown as I play more of their games.
 

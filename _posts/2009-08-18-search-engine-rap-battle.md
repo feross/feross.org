@@ -13,12 +13,12 @@ Now that **Yahoo Search** is [officially dead](http://arstechnica.com/web/news/2
 
 ### MSN vs. Yahoo
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/W9d3zEBIzB4" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/W9d3zEBIzB4" frameborder="0" allowfullscreen></iframe>
 
 ### Google vs. Yahoo
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/910fLzws7Jo" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/910fLzws7Jo" frameborder="0" allowfullscreen></iframe>
 
 ### MSN vs. Google
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/_w688s-AURE" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/_w688s-AURE" frameborder="0" allowfullscreen></iframe>

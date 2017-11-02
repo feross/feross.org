@@ -30,17 +30,17 @@ And now, for your amusement, here are some videos of his more popular shenanigan
 
 ### The Microsoft Dance
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/EHCRimwRGLs" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/EHCRimwRGLs" frameborder="0" allowfullscreen></iframe>
 
 ### Developers chant
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/8To-6VIJZRE" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/8To-6VIJZRE" frameborder="0" allowfullscreen></iframe>
 
 ### Selling Windows 1.0
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/tGvHNNOLnCk" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/tGvHNNOLnCk" frameborder="0" allowfullscreen></iframe>
 
 ### Laughing at the iPhone
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/eywi0h_Y5_U" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/eywi0h_Y5_U" frameborder="0" allowfullscreen></iframe>
 

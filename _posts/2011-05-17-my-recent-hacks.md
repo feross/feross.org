@@ -20,7 +20,7 @@ We both realized after [YouTube Instant](http://ytinstant.com) [went viral](/you
 
 Here's an interview we did with All Things Digital. [Read the full article here](http://voices.allthingsd.com/20110422/early-adopter-from-the-hacker-who-brought-you-youtube-instant-instant-fm-launches-today/).
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/jBGT2WTP_VA" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jBGT2WTP_VA" frameborder="0" allowfullscreen></iframe>
 
 The main idea is to make it **easy to publish and share music playlists with your friends** using YouTube music videos as the source of the audio.
 

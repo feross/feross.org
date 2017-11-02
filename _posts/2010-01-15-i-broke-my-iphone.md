@@ -53,4 +53,4 @@ All in all, it took me about **2 hours** to disassemble the phone, remove the sh
 
 There are handy [step-by-step instructions](http://www.ifixit.com/Guide/Repair/Installing-iPhone-3G-Front-Panel/587/1) that were useful for me -- although the instructions suddenly end at the point where the iPhone is completely disassembled, with the hilarious note "Now just do the same thing, but in reverse," which might not be so nice for newbies.
 
-If you're curious to see more about the iPhone 3G screen repair, there's [a video of someone doing what I did](http://www.youtube.com/watch?v=lsFTlVTSeIA) on YouTube.
+If you're curious to see more about the iPhone 3G screen repair, there's [a video of someone doing what I did](https://www.youtube.com/watch?v=lsFTlVTSeIA) on YouTube.

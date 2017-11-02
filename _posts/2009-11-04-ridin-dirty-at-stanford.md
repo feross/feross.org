@@ -15,7 +15,7 @@ Photobomb!
 
 I just saw **Chamillionaire** and **Quincy Jones III **talk about entrepreneurship at **Stanford**!
 
-**Chamillionaire** is most famous for his single [Ridin' Dirty](http://www.youtube.com/watch?v=P8-UiXotuXE) and the Weird Al [parody](http://www.youtube.com/watch?v=-xEzGIuY7kw) that followed it. Unfortunately, he didn't rap for us -- instead, he gave us a bit of hustlin advice. Ahhhh YEEEAH...
+**Chamillionaire** is most famous for his single [Ridin' Dirty](https://www.youtube.com/watch?v=P8-UiXotuXE) and the Weird Al [parody](https://www.youtube.com/watch?v=-xEzGIuY7kw) that followed it. Unfortunately, he didn't rap for us -- instead, he gave us a bit of hustlin advice. Ahhhh YEEEAH...
 
 My favorite part of the event was when Stanford president [John Hennessey](http://www.stanford.edu/dept/president/biography/) asked the audience "How can we change the world?" and someone in the audience yelled ***"By ridin' dirty!"*** Anonymity for the win.
 

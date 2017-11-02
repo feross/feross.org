@@ -56,7 +56,7 @@ Check it out: I'm in a Chinese newspaper (Oriental Morning Post) (click for full
 
 **NBC San Diego** even wanted to do a [TV interview](http://www.nbcsandiego.com/news/tech/YouTube_Instant__Instant_Success_San_Diego.html) with me over Skype. I couldn't believe it! This was my first time being interviewed on TV!
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/ON4DmrczWuU" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/ON4DmrczWuU" frameborder="0" allowfullscreen></iframe>
 
 ## Radio Interviews
 
