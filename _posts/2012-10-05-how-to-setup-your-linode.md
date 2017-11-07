@@ -290,9 +290,6 @@ Paste the following into `/etc/iptables.firewall.rules`:
 #  Allow ports for testing
 -A INPUT -p tcp --dport 8080:8090 -j ACCEPT
 
-#  Allow ports for MOSH (mobile shell)
--A INPUT -p udp --dport 60000:61000 -j ACCEPT
-
 #  Allow SSH connections
 #  The -dport number should be the same port number you set in sshd_config
 -A INPUT -p tcp -m state --state NEW --dport 44444 -j ACCEPT
