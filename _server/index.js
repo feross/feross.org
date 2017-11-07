@@ -4,7 +4,7 @@ var mysql = require('mysql')
 var secret = require('./secret')
 
 var port = process.argv[2]
-if (!port) port = 7200
+if (!port) port = 4001
 console.log('Using port ' + port)
 
 var app = express()
