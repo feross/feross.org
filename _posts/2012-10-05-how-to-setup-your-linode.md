@@ -226,7 +226,7 @@ Update: Someone posted this useful note about choosing an SSH port on Hacker New
 
 ### Prevent repeated login attempts with Fail2Ban
 
-[Fail2Ban](http://www.fail2ban.org/) is a security tool to prevent dictionary attacks. It works by monitoring important services (like SSH) and blocking IP addresses which appear to be malicious (i.e. they are failing too many login attempts because they are guessing passwords).
+[Fail2Ban](http://www.fail2ban.org/) is a security tool to prevent repeated failed login attempts from attackers. It works by monitoring important services (like SSH) and blocking IP addresses which appear to be malicious (i.e. they are failing too many login attempts because they are guessing passwords).
 
 Install Fail2Ban:
 
@@ -236,12 +236,29 @@ sudo apt install fail2ban
 
 Configure Fail2Ban:
 
+Setup configuration in a new file (will overwrite defaults in `/etc/fail2ban/jail.conf`):
+
 {% highlight bash %}
-sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo nano /etc/fail2ban/jail.local
 {% endhighlight %}
 
-**Set "enabled" to "true" in the \[ssh-ddos\] section. Also, set "port" to "44444" in the \[ssh\] and \[ssh-ddos\] sections.** (Change the port number to match whatever you used as your SSH port).
+Paste the following into `/etc/fail2ban/jail.local`:
+
+{% highlight bash %}
+[DEFAULT]
+destemail = your@email.com
+sendername = Fail2Ban
+
+[sshd]
+enabled = true
+port = 44444
+
+[sshd-ddos]
+enabled = true
+port = 44444
+{% endhighlight %}
+
+(Change the port number to match whatever you used as your SSH port).
 
 Save the file and restart Fail2Ban to put the new rules into effect:
 
