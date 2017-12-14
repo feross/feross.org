@@ -33,6 +33,7 @@ benefit of all.
 
 - Thomas  Watson
 - Abimanyu  Raja
+- Charlie Cheever
 
 ## Supporters <small>[$10/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
 
