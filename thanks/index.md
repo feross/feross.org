@@ -13,7 +13,9 @@ benefit of all.
 
 ## Platinum Sponsors <small>[$1,000/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
-- [You](https://www.patreon.com/feross) could be the first!
+<a href='https://popchest.com/' rel='nofollow' target='_blank'>
+  <img src='/images/patreon/popchest.png' alt='Popchest' />
+</a>
 
 ## Gold Sponsors <small>[$500/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
 
