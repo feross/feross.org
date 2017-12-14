@@ -39,11 +39,11 @@
   "scripts": {
     "build": "rm -rf _site && npm run build-css && npm run build-js && npm run build-hacks && npm run build-html",
     "build-css": "stylus -u nib css/main.styl -o css/ -c",
-    "build-html": "jekyll build --lsi && cp -r .well-known _site",
     "build-hacks": "node _bin/build-hacks.js",
+    "build-html": "jekyll build --lsi && cp -r .well-known _site",
     "build-js": "browserify client | uglifyjs -c warnings=false -m > client/bundle.js",
+    "deploy": "npm test && git push && npm run build && rsync -a -v -e ssh --delete _server _site nginx.conf node_modules supervisor.conf package.json feross@future:/home/feross/www/feross.org/",
     "install-system-deps": "brew install gsl && sudo gem install jekyll bundler rdiscount narray gsl classifier-reborn && rbenv rehash",
-    "publish": "npm test && git push && npm run build && rsync -a -v -e ssh --delete _server _site nginx.conf node_modules supervisor.conf package.json feross@future:/home/feross/www/feross.org/",
     "start": "npm run build && jekyll serve",
     "test": "standard",
     "watch": "npm run watch-css & npm run watch-html & npm run watch-js",
