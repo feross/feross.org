@@ -11,30 +11,29 @@ enables me to build free and open source software like
 [WebTorrent](https://webtorrent.io) and [Standard](https://standardjs.com) for the
 benefit of all.
 
-## Platinum Sponsor <small>[$2,000/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
+## Platinum Sponsors <small>[$1,000/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
 - [You](https://www.patreon.com/feross) could be the first!
 
-## Gold Sponsors <small>[$1,000/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
+## Gold Sponsors <small>[$500/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
 
 - [You](https://www.patreon.com/feross) could be the first!
 
-## Silver Sponsors <small>[$500/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
+## Silver Sponsors <small>[$200/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
 
 - [You](https://www.patreon.com/feross) could be the first!
 
-## Bronze Sponsors <small>[$300/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
-
-- [You](https://www.patreon.com/feross) could be the first!
-
-## Top Supporters <small>[$100/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
+## Bronze Sponsors <small>[$100/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
 
 - Browserling
 
-## Supporters <small>[$10/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
+## Top Supporters <small>[$50/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
 
 - Thomas  Watson
 - Abimanyu  Raja
+
+## Supporters <small>[$10/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
+
 - Eugene  Chen
 - James Young
 - Daniel  Supernault
