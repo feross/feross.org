@@ -57,4 +57,12 @@ Thank you!
 
 <a href="https://www.patreon.com/bePatron?u=8375109" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 
+Some folks have asked me if it's possible to do a one-time donation, or if I accept cryptocurrency. Yes, and yes!
+
+- Bitcoin (BTC) - 1GJjdX1Qkf9ZLmn13zjg8ske7uho6tSJxf
+- Ether (ETH) - 0x0c0Ca4d20103Ce6AdA43e04dEdEC88a018f136E9
+- Litecoin (LTC) - LVcmhXKTgijpwNpxv7d5SWtyUusedjTZ2F
+
+I also accept [PayPal](https://www.paypal.me/feross), if you insist. 😁
+
 *This page will be updated monthly on the first of the month. Last updated December 8, 2017.*
