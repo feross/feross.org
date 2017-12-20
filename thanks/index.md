@@ -37,22 +37,27 @@ benefit of all.
 
 ## Supporters <small>[$10/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
 
-- Eugene  Chen
+- Geoffrey Bonneville
+- Eugene Chen
 - James Young
-- Daniel  Supernault
-- Alex
-- Paul Jensen
-- Julian  Gruber
+- Daniel Supernault
+- Zohaib Rauf
+- Paras Narang
+- Tony Gorez
+- Axel Navarro
+- Julian Gruber
 - William Hilton
-- Florin  Onciu
-- Andrej  Hronco
+- Florin Onciu
+- Andrej Hronco
 - Ajain
 - Alex
-- Paul  Jensen
-- Evan  Tahler
-- Pierre  Ozoux
+- Paul Jensen
+- Sara Vieira
+- Ben Williams
+- Evan Tahler
+- Pierre Ozoux
 - Jason Miller
-- Matt  Bell
+- Matt Bell
 - Chris Ball
 
 You can become a patron by visiting [my Patreon page](https://patreon.com/feross).
@@ -68,4 +73,4 @@ Some folks have asked me if it's possible to do a one-time donation, or if I acc
 
 I also accept [PayPal](https://www.paypal.me/feross), if you insist. 😁
 
-*This page will be updated monthly on the first of the month. Last updated December 8, 2017.*
+*This page will be updated monthly on the first of the month. Last updated December 19, 2017.*
