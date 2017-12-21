@@ -13,7 +13,10 @@ benefit of all.
 
 ## Platinum Sponsors <small>[$1,000/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
-<a href='https://popchest.com/' rel='nofollow' target='_blank'>
+<a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor'>
+  <img src='/images/patreon/brave.png' alt='Brave Software' />
+</a>
+<a href='https://popchest.com' rel='nofollow' target='_blank' class='sponsor'>
   <img src='/images/patreon/popchest.png' alt='Popchest' />
 </a>
 
