@@ -13,10 +13,10 @@ benefit of all.
 
 ## Platinum Sponsors <small>[$1,000/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
-<a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor'>
+<a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
   <img src='/images/supporters/brave.png' alt='Brave Software' />
 </a>
-<a href='https://popchest.com' rel='nofollow' target='_blank' class='sponsor'>
+<a href='https://popchest.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
   <img src='/images/supporters/popchest.png' alt='Popchest' />
 </a>
 
@@ -26,7 +26,9 @@ benefit of all.
 
 ## Silver Sponsors <small>[$200/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
 
-- [You](https://www.patreon.com/feross) could be the first!
+<a href='https://sparkpo.st/feross' rel='nofollow' target='_blank' class='sponsor sponsor-silver'>
+  <img src='/images/supporters/sparkpost.png' alt='Sparkpost' />
+</a>
 
 ## Bronze Sponsors <small>[$100/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
 
@@ -34,8 +36,8 @@ benefit of all.
 
 ## Top Supporters <small>[$50/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
 
-- Thomas  Watson
-- Abimanyu  Raja
+- Thomas Watson
+- Abimanyu Raja
 - Charlie Cheever
 
 ## Supporters <small>[$10/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
