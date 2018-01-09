@@ -30,6 +30,10 @@ benefit of all.
   <img src='/images/supporters/sparkpost.png' alt='Sparkpost' />
 </a>
 
+- Mark Mayo
+- Benjamin Van Pelt
+- JP Richardson
+
 ## Bronze Sponsors <small>[$100/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
 
 - <a href='https://www.browserling.com/' rel='nofollow' target='_blank'>Browserling</a>
@@ -37,7 +41,6 @@ benefit of all.
 ## Top Supporters <small>[$50/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
 
 - Thomas Watson
-- Abimanyu Raja
 - Charlie Cheever
 
 ## Supporters <small>[$10/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
@@ -46,6 +49,7 @@ benefit of all.
 - Eugene Chen
 - James Young
 - Daniel Supernault
+- Stephan Seidt
 - Zohaib Rauf
 - Paras Narang
 - Tony Gorez
@@ -63,6 +67,8 @@ benefit of all.
 - Pierre Ozoux
 - Jason Miller
 - Matt Bell
+- Michael Plasmeier
+- Sindre Sorhus
 - Chris Ball
 
 # Become a Patron
