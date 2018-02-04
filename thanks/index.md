@@ -42,33 +42,35 @@ benefit of all.
 
 - Thomas Watson
 - Charlie Cheever
+- John Dvorak
 
 ## Supporters <small>[$10/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
 
-- Geoffrey Bonneville
-- Eugene Chen
+- Russell Daly
+- geoffrey  bonneville
+- Eugene  Chen
 - James Young
-- Daniel Supernault
+- Daniel  Supernault
 - Stephan Seidt
-- Zohaib Rauf
+- Zohaib  Rauf
 - Paras Narang
-- Tony Gorez
-- Axel Navarro
-- Julian Gruber
+- Tony  Gorez
+- Axel  Navarro
+- Julian  Gruber
 - William Hilton
-- Florin Onciu
-- Andrej Hronco
+- Florin  Onciu
+- Andrej  Hronco
 - Ajain
-- Alex
-- Paul Jensen
-- Sara Vieira
+- Paul  Jensen
+- Maythee Anegboonlap
+- Jens  Lind
+- Sara  Vieira
 - Ben Williams
-- Evan Tahler
-- Pierre Ozoux
+- Evan  Tahler
+- Pierre  Ozoux
 - Jason Miller
-- Matt Bell
-- Michael Plasmeier
-- Sindre Sorhus
+- Matt  Bell
+- Sindre  Sorhus
 - Chris Ball
 
 # Become a Patron
