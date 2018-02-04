@@ -13,6 +13,9 @@ benefit of all.
 
 ## Platinum Sponsors <small>[$1,000/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
+<a href='https://stdlib.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
+  <img src='/images/supporters/stdlib.png' alt='Stdlib' />
+</a>
 <a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
   <img src='/images/supporters/brave.png' alt='Brave Software' />
 </a>
