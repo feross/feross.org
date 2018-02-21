@@ -45,3 +45,15 @@ Happy hacking!
 - #3 trending repo on GitHub for the day (#2 in JavaScript)
 - Made it to homepage of [Hacker News](https://news.ycombinator.com/item?id=16336575)
 - Made it to homepage of [Product Hunt](https://www.producthunt.com/posts/thanks) (#2 product of the day)
+
+### Forks
+
+A few folks made versions for other languages:
+
+- [Python](https://twitter.com/phildini/status/962412326266785792)
+- [Ruby](https://twitter.com/DPritchett/status/962495535847526401)
+- [Go](https://github.com/Southclaws/thanks)
+
+### Thoughts
+
+Overall, much better response that I expected. In the future, I should try building out more ideas like this one where (1) I have a good gut feeling that there's an unmet need, (2) it's timely (current event or lots of ppl on twitter talking about it) and (3) it's pretty quick to build. These are the most fun types of projects to work on :)
