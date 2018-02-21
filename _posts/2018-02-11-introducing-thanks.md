@@ -32,3 +32,16 @@ We have a lot more work to do. [`thanks`](https://github.com/feross/thanks) is j
 For now, take a look and see if any of the software you depend has authors who are seeking donations to continue their work.
 
 Happy hacking!
+
+## Update 2018-02-14: Post-mortem
+
+- Built in 2-3 days
+- Live streamed myself working on it on [Twitch](https://twitch.tv/ferossity).
+
+### Response
+
+- 1,100 retweets, 2,500 likes on the [announcement tweet](https://twitter.com/feross/status/961745970080792576)
+- 1,100 [GitHub stars](https://github.com/feross/thanks)
+- #3 trending repo on GitHub for the day (#2 in JavaScript)
+- Made it to homepage of [Hacker News](https://news.ycombinator.com/item?id=16336575)
+- Made it to homepage of [Product Hunt](https://www.producthunt.com/posts/thanks) (#2 product of the day)
