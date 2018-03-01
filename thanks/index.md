@@ -49,6 +49,10 @@ benefit of all.
 
 ## Supporters <small>[$10/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
 
+- Jaycen Horton
+- Maythee Anegboonlap
+- Luis Del Águila
+- CodePilot.ai Team
 - Russell Daly
 - geoffrey  bonneville
 - Eugene  Chen
