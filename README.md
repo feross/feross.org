@@ -1,7 +1,5 @@
 # [Home of Feross Aboukhadijeh](https://feross.org) [![travis][travis-image]][travis-url]
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/feross/feross.org.svg)](https://greenkeeper.io/)
-
 [travis-image]: https://img.shields.io/travis/feross/feross.org/master.svg?style=flat
 [travis-url]: https://travis-ci.org/feross/feross.org
 
