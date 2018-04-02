@@ -11,7 +11,7 @@ enables me to build free and open source software like
 [WebTorrent](https://webtorrent.io) and [Standard](https://standardjs.com) for the
 benefit of all.
 
-## Platinum Sponsors <small>[$1,000/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
+## Platinum Sponsors <small>[$1,000/month](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
 <a href='https://stdlib.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
   <img src='/images/supporters/stdlib.png' alt='Stdlib' />
@@ -23,11 +23,11 @@ benefit of all.
   <img src='/images/supporters/popchest.png' alt='Popchest' />
 </a>
 
-## Gold Sponsors <small>[$500/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
+## Gold Sponsors <small>[$500/month](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
 
 - [You](https://www.patreon.com/feross) could be the first!
 
-## Silver Sponsors <small>[$200/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
+## Silver Sponsors <small>[$200/month](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
 
 <a href='https://sparkpo.st/feross' rel='nofollow' target='_blank' class='sponsor sponsor-silver'>
   <img src='/images/supporters/sparkpost.png' alt='Sparkpost' />
@@ -37,20 +37,20 @@ benefit of all.
 - Benjamin Van Pelt
 - JP Richardson
 
-## Bronze Sponsors <small>[$100/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
+## Bronze Sponsors <small>[$100/month](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
 
 - <a href='https://www.browserling.com/' rel='nofollow' target='_blank'>Browserling</a>
   <a href='https://www.browserling.com' rel='nofollow' target='_blank' class='sponsor sponsor-bronze'>
     <img src='/images/supporters/browserling.png' alt='Browserling' />
   </a>
 
-## Top Supporters <small>[$50/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
+## Top Supporters <small>[$50/month](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
 
 - Thomas Watson
 - Charlie Cheever
 - John Dvorak
 
-## Supporters <small>[$10/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
+## Supporters <small>[$10/month](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
 
 - Jaycen Horton
 - Maythee Anegboonlap
