@@ -40,6 +40,9 @@ benefit of all.
 ## Bronze Sponsors <small>[$100/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
 
 - <a href='https://www.browserling.com/' rel='nofollow' target='_blank'>Browserling</a>
+  <a href='https://www.browserling.com' rel='nofollow' target='_blank' class='sponsor sponsor-bronze'>
+    <img src='/images/supporters/browserling.png' alt='Browserling' />
+  </a>
 
 ## Top Supporters <small>[$50/month or more](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
 
