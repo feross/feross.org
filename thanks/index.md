@@ -27,7 +27,11 @@ benefit of all.
 
 ## Gold Sponsors <small>[$500/month](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
 
-- [You](https://www.patreon.com/feross) could be the first!
+<div class='sponsor-container'>
+  <a href='https://nodesource.com' rel='nofollow' target='_blank' class='sponsor sponsor-gold'>
+    <img src='/images/supporters/nodesource.png' alt='NodeSource' />
+  </a>
+</div>
 
 ## Silver Sponsors <small>[$200/month](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
 
