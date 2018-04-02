@@ -13,15 +13,17 @@ benefit of all.
 
 ## Platinum Sponsors <small>[$1,000/month](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
-<a href='https://stdlib.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
-  <img src='/images/supporters/stdlib.png' alt='Stdlib' />
-</a>
-<a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
-  <img src='/images/supporters/brave.png' alt='Brave Software' />
-</a>
-<a href='https://popchest.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
-  <img src='/images/supporters/popchest.png' alt='Popchest' />
-</a>
+<div class='sponsor-container'>
+  <a href='https://stdlib.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
+    <img src='/images/supporters/stdlib.png' alt='Stdlib' />
+  </a>
+  <a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
+    <img src='/images/supporters/brave.png' alt='Brave Software' />
+  </a>
+  <a href='https://popchest.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
+    <img src='/images/supporters/popchest.png' alt='Popchest' />
+  </a>
+</div>
 
 ## Gold Sponsors <small>[$500/month](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
 
@@ -29,9 +31,11 @@ benefit of all.
 
 ## Silver Sponsors <small>[$200/month](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
 
-<a href='https://sparkpo.st/feross' rel='nofollow' target='_blank' class='sponsor sponsor-silver'>
-  <img src='/images/supporters/sparkpost.png' alt='Sparkpost' />
-</a>
+<div class='sponsor-container'>
+  <a href='https://sparkpo.st/feross' rel='nofollow' target='_blank' class='sponsor sponsor-silver'>
+    <img src='/images/supporters/sparkpost.png' alt='Sparkpost' />
+  </a>
+</div>
 
 - Mark Mayo
 - Benjamin Van Pelt
@@ -39,10 +43,11 @@ benefit of all.
 
 ## Bronze Sponsors <small>[$100/month](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
 
-- <a href='https://www.browserling.com/' rel='nofollow' target='_blank'>Browserling</a>
+<div class='sponsor-container'>
   <a href='https://www.browserling.com' rel='nofollow' target='_blank' class='sponsor sponsor-bronze'>
     <img src='/images/supporters/browserling.png' alt='Browserling' />
   </a>
+</div>
 
 ## Top Supporters <small>[$50/month](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
 
