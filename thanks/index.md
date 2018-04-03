@@ -58,19 +58,18 @@ benefit of all.
 - Thomas Watson
 - Charlie Cheever
 - John Dvorak
+- CodePilot.ai Team
+- Timothy Oxley
 
 ## Supporters <small>[$10/month](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
 
 - Jaycen Horton
 - Maythee Anegboonlap
 - Luis Del Águila
-- CodePilot.ai Team
-- Russell Daly
 - geoffrey  bonneville
 - Eugene  Chen
 - James Young
 - Daniel  Supernault
-- Stephan Seidt
 - Zohaib  Rauf
 - Paras Narang
 - Tony  Gorez
@@ -91,6 +90,7 @@ benefit of all.
 - Matt  Bell
 - Sindre  Sorhus
 - Chris Ball
+- Donald Fischer
 
 # Become a Patron
 
