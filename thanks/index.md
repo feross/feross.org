@@ -20,6 +20,9 @@ benefit of all.
   <a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
     <img src='/images/supporters/brave.png' alt='Brave Software' />
   </a>
+  <a href='https://archive.org' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
+    <img src='/images/supporters/internetarchive.png' alt='Internet Archive' />
+  </a>
   <a href='https://popchest.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
     <img src='/images/supporters/popchest.png' alt='Popchest' />
   </a>
