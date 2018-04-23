@@ -11,7 +11,7 @@ enables me to build free and open source software like
 [WebTorrent](https://webtorrent.io) and [Standard](https://standardjs.com) for the
 benefit of all.
 
-## Platinum Sponsors <small>[$1,000/month](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
+## Platinum Sponsors <small>[$1,000+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
 <div class='sponsor-container'>
   <a href='https://stdlib.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
@@ -28,7 +28,7 @@ benefit of all.
   </a>
 </div>
 
-## Gold Sponsors <small>[$500/month](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
+## Gold Sponsors <small>[$500+/month](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
 
 <div class='sponsor-container'>
   <a href='https://nsrc.io/oss-feross' rel='nofollow' target='_blank' class='sponsor sponsor-gold'>
@@ -36,7 +36,7 @@ benefit of all.
   </a>
 </div>
 
-## Silver Sponsors <small>[$200/month](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
+## Silver Sponsors <small>[$200+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
 
 <div class='sponsor-container'>
   <a href='https://sparkpo.st/feross' rel='nofollow' target='_blank' class='sponsor sponsor-silver'>
@@ -48,7 +48,7 @@ benefit of all.
 - Benjamin Van Pelt
 - JP Richardson
 
-## Bronze Sponsors <small>[$100/month](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
+## Bronze Sponsors <small>[$100+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
 
 <div class='sponsor-container'>
   <a href='https://www.browserling.com' rel='nofollow' target='_blank' class='sponsor sponsor-bronze'>
@@ -56,7 +56,7 @@ benefit of all.
   </a>
 </div>
 
-## Top Supporters <small>[$50/month](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
+## Top Supporters <small>[$50+/month](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
 
 - Thomas Watson
 - Charlie Cheever
@@ -64,7 +64,7 @@ benefit of all.
 - CodePilot.ai Team
 - Timothy Oxley
 
-## Supporters <small>[$10/month](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
+## Supporters <small>[$10+/month](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
 
 - Jaycen Horton
 - Maythee Anegboonlap
