@@ -58,42 +58,39 @@ benefit of all.
 
 ## Top Supporters <small>[$50+/month](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
 
-- Thomas Watson
 - Charlie Cheever
-- John Dvorak
 - CodePilot.ai Team
 - Timothy Oxley
 
 ## Supporters <small>[$10+/month](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
 
-- Jaycen Horton
-- Maythee Anegboonlap
-- Luis Del Águila
-- geoffrey  bonneville
-- Eugene  Chen
-- James Young
-- Daniel  Supernault
-- Zohaib  Rauf
-- Paras Narang
-- Tony  Gorez
-- Axel  Navarro
-- Julian  Gruber
-- William Hilton
-- Florin  Onciu
-- Andrej  Hronco
 - Ajain
-- Paul  Jensen
-- Maythee Anegboonlap
-- Jens  Lind
-- Sara  Vieira
+- Andrej Hronco
+- Axel Navarro
 - Ben Williams
-- Evan  Tahler
-- Pierre  Ozoux
-- Jason Miller
-- Matt  Bell
-- Sindre  Sorhus
 - Chris Ball
+- Dan Pastusek
+- Daniel Supernault
 - Donald Fischer
+- Evan Tahler
+- Geoffrey Bonneville
+- James Young
+- Jason Miller
+- Jaycen Horton
+- Jens Lind
+- Julian Gruber
+- Luis Del Águila
+- Matt Bell
+- Maythee Anegboonlap
+- Maythee Anegboonlap
+- Paras Narang
+- Paul Jensen
+- Pierre Ozoux
+- Sara Vieira
+- Sindre Sorhus
+- Tyler Hall
+- William Hilton
+- Zohaib Rauf
 
 # Become a Patron
 
