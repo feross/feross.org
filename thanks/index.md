@@ -104,7 +104,7 @@ Thank you!
 Some folks have asked me if it's possible to do a one-time donation, or if I accept cryptocurrency. Yes, and yes!
 
 - **Bitcoin (BTC):** 1GJjdX1Qkf9ZLmn13zjg8ske7uho6tSJxf
-- **Bitcoin Cash (BCH):** 1D9vsCqCJFRFkxigNHpLHtt7cyfNiNjVkX
+- **Bitcoin Cash (BCH):** qr4dzfukzwad47zsjxp2nsnvnw3dtd4uuv4jfch706
 - **Ether (ETH):** 0x0c0Ca4d20103Ce6AdA43e04dEdEC88a018f136E9
 - **Litecoin (LTC):** LVcmhXKTgijpwNpxv7d5SWtyUusedjTZ2F
 
