@@ -42,7 +42,7 @@ Happy hacking!
 
 - 1,100 retweets, 2,500 likes on the [announcement tweet](https://twitter.com/feross/status/961745970080792576)
 - 1,100 [GitHub stars](https://github.com/feross/thanks)
-- #3 trending repo on GitHub for the day (#2 in JavaScript)
+- \#3 trending repo on GitHub for the day (\#2 in JavaScript)
 - Made it to homepage of [Hacker News](https://news.ycombinator.com/item?id=16336575)
 - Made it to homepage of [Product Hunt](https://www.producthunt.com/posts/thanks) (#2 product of the day)
 
