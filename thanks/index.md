@@ -81,7 +81,6 @@ benefit of all.
 - Jaycen Horton
 - Jens Lind
 - Julian Gruber
-- Luis Del Águila
 - Matt Bell
 - Maythee Anegboonlap
 - Maythee Anegboonlap
