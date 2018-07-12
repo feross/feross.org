@@ -5,11 +5,11 @@
 
 Copyright (c) Feross Aboukhadijeh
 
-Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [https://feross.org](https://feross.org). Feel free to browse the source, fork, and [ask me questions](https://twitter.com/feross).
+Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [https://feross.org](https://feross.org). Feel free to browse the source and [ask me questions](https://twitter.com/feross).
 
 ## Blog design
 
-If you fork this, **please create your own blog design**, don't use mine. I don't want to see fifty other blogs that look the same as mine. Thanks for understanding!
+If you fork this, **please create your own blog design**. Don't use mine! I don't want to see fifty other blogs that look the same as mine. Thanks for understanding!
 
 ## How it's built
 
@@ -65,3 +65,7 @@ npm run publish
 On the server, I serve the generated files with `nginx` and run the Node.js app using `Supervisord` (to restart the app if it crashes).
 
 That's pretty much it.
+
+# License
+
+Copyright (c) [Feross Aboukhadijeh](https://feross.org/)

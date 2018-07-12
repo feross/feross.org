@@ -29,7 +29,7 @@
     "Feross",
     "blog"
   ],
-  "license": "GPLv3",
+  "license": "-",
   "main": "index.js",
   "private": true,
   "repository": {
