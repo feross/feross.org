@@ -11,7 +11,9 @@ enables me to build free and open source software like
 [WebTorrent](https://webtorrent.io) and [Standard](https://standardjs.com) for the
 benefit of all.
 
-<a href="https://www.patreon.com/bePatron?u=8375109" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<a href="https://www.patreon.com/feross" class="patreon">
+  <img src="/images/supporters/patreon.png" />
+</a>
 
 ## Platinum Sponsors <small>[$1,000+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
@@ -99,7 +101,9 @@ benefit of all.
 You can become a patron by visiting [my Patreon page](https://patreon.com/feross).
 Thank you!
 
-<a href="https://www.patreon.com/bePatron?u=8375109" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<a href="https://www.patreon.com/feross" class="patreon">
+  <img src="/images/supporters/patreon.png" />
+</a>
 
 ## One-time Donations
 
