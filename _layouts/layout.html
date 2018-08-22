@@ -57,7 +57,6 @@
 
   <script type="text/javascript" src="//use.typekit.net/lvb8hht.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
 </head>
 <body class="{{ page.class }}">
   <div id="container">
@@ -96,14 +95,14 @@
 
   <!-- Google Analytics -->
   <script>
-    window.ga = window.ga || function () {
-      (ga.q = ga.q || []).push(arguments)
-    }
-    ga.l = +new Date
-    ga('create', 'UA-3898076-5', 'auto')
-    ga('send', 'pageview')
+    window.GoogleAnalyticsObject = 'ga'
+    function ga () { window.ga.q.push(arguments) }
+    window.ga.q = window.ga.q || []
+    window.ga.l = Date.now()
+    window.ga('create', 'UA-3898076-5', 'auto')
+    window.ga('send', 'pageview')
   </script>
-  <script async src="//www.google-analytics.com/analytics.js"></script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
 
   <!-- StatCounter -->
   <script>
