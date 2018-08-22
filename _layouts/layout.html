@@ -16,6 +16,9 @@
 
   -->
   {% capture meta_desc %}{% if page.summary %}{{ page.summary }}{% else %}Feross Aboukhadijeh is a computer security researcher, teacher, web developer, designer, long distance runner, gamer, music lover, and builder of websites that (sometimes) go viral.{% endif %}{% endcapture %}
+
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+
   <title>{{ page.title }} &raquo; Feross.org</title>
   <meta property="og:title" content="{{ page.title }} &raquo; Feross.org" />
 
@@ -38,8 +41,6 @@
   <link rel="canonical" href="https://feross.org/" />
   <meta property="og:url" content="https://feross.org/" />
   {% endif %}
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
