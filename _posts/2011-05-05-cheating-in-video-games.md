@@ -185,7 +185,7 @@ Since the test was launched in 1996, over 570,000 players have taken the test an
 
 ### Explorers = Cheaters?
 
-Explorers like to dig around and explore the details of a game, searching for game glitches and hidden surprises left by developers, known as "[easter eggs](http://en.wikipedia.org/wiki/Easter_egg_\(media\)#Software-based)." In especially restrictive games, Explorers like to see if they can "get the game to do something its programmers probably didn’t intend for it to do".
+Explorers like to dig around and explore the details of a game, searching for game glitches and hidden surprises left by developers, known as "[easter eggs](http://en.wikipedia.org/wiki/Easter_egg_(media\)#Software-based)." In especially restrictive games, Explorers like to see if they can "get the game to do something its programmers probably didn’t intend for it to do".
 
 Explorers are looking for free exploration and creative play from their game experience.  If developers don’t provide positive creative outlets and opportunities for free exploration within their games -- and sometimes even if they do -- uber fans will still manage to express their latent creativity, often through cheats, exploits, and hacks.
 
