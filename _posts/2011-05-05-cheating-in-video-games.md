@@ -31,7 +31,7 @@ However, despite the obvious negative effects of cheating, this paper will argue
 
 God-like immortality. Infinite ammunition. Really large heads.
 
-What do all these things have in common? They are all features that can be accessed -- or "unlocked" -- by using [cheat codes](http://en.wikipedia.org/wiki/Cheat_codes#Cheat_codes), [cheat devices](http://en.wikipedia.org/wiki/Cheat_cartridge), or [software hacks](http://en.wikipedia.org/wiki/Hack_\(computer_security)) in video games. Most players wouldn’t consider using a cheat code in a single player game to be cheating, but what about using a hardware add-on like a [Game Genie](http://en.wikipedia.org/wiki/Game_Genie) to make a game easier to beat?
+What do all these things have in common? They are all features that can be accessed -- or "unlocked" -- by using [cheat codes](http://en.wikipedia.org/wiki/Cheat_codes#Cheat_codes), [cheat devices](http://en.wikipedia.org/wiki/Cheat_cartridge), or [software hacks](http://en.wikipedia.org/wiki/Hack_\(computer_security\)) in video games. Most players wouldn’t consider using a cheat code in a single player game to be cheating, but what about using a hardware add-on like a [Game Genie](http://en.wikipedia.org/wiki/Game_Genie) to make a game easier to beat?
 
 ![Cheat devices such as this Game Genie cheat cartridge allow NES players to alter the state of the game world from what the game developers intended](/images/game-genie.png)
 
@@ -57,7 +57,7 @@ Mia Consalvo, author of *[Cheating: Gaining Advantage in Videogames](http://www.
 
 - "Code is Law" Perspective: This group of players sees walkthroughs and strategy guides as acceptable game aids since they don’t involve modifying any of the game code. They believe that the game should not be modified from what the developers intended players to experience, so cheat codes and hacking are not allowed.
 
-- "You can only cheat another player" Perspective: This group believes that cheating "only exists in relation to another player." In other words, it is not the act of using cheat codes or hacking which is unethical, but rather the act of stealing from or deceiving other players in the game world. Thus, the purpose and intent of the cheating are important for these players [[ref](http://www.amazon.com/gp/product/0262033658?linkCode=shr&amp;camp=213733&amp;creative=393173&amp;tag=eldoradohills-20)].
+- "You can only cheat another player" Perspective: This group believes that cheating "only exists in relation to another player." In other words, it is not the act of using cheat codes or hacking which is unethical, but rather the act of stealing from or deceiving other players in the game world. Thus, the purpose and intent of the cheating are important for these players [[ref](http://www.amazon.com/gp/product/0262033658/ref=as_li_ss_tl?ie=UTF8&amp;tag=feross-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399349&amp;creativeASIN=0262033658)].
 
 ![Doom, produced by ID Software, was one of the first games with a "God mode" cheat code.](/images/doom.png)
 
@@ -119,7 +119,7 @@ In fact, they argued that playing with a game's technical features marks the dev
 
 ### Games that Require Cheating
 
-The phenomenon of cheating in video games is not new. Some of the earliest games, like *[Contra](http://en.wikipedia.org/wiki/Contra_\(video_game))* for the [NES](http://en.wikipedia.org/wiki/NES), actually *required* cheating to beat, because the game was so difficult. The game designers recognized this, and programmed cheat codes into the game to assist players with the difficult task of making it through the entire game.
+The phenomenon of cheating in video games is not new. Some of the earliest games, like *[Contra](http://en.wikipedia.org/wiki/Contra_\(video_game\))* for the [NES](http://en.wikipedia.org/wiki/NES), actually *required* cheating to beat, because the game was so difficult. The game designers recognized this, and programmed cheat codes into the game to assist players with the difficult task of making it through the entire game.
 
 Cheat codes are unique because unlike other methods of cheating they are knowingly created and inserted into games by the developers themselves. Developers use these cheat codes to [playtest](http://en.wikipedia.org/wiki/Playtest) certain aspects of games more easily, but often "forget" to take the cheat codes out of the final game, much to the delight of video game fans.
 
@@ -143,7 +143,7 @@ Cheating has been ingrained in gaming culture since the very beginning -- gamers
 
 ### Will Wright
 
-Will Wright, creator of [SimCity](http://en.wikipedia.org/wiki/SimCity), [The Sims](http://en.wikipedia.org/wiki/The_Sims_\(series)), and [Spore](http://en.wikipedia.org/wiki/Spore_\(2008_video_game)) -- more than any other game producer in the industry today -- recognizes that cheating and hacking can be positive outlets for creativity and self-expression.
+Will Wright, creator of [SimCity](http://en.wikipedia.org/wiki/SimCity), [The Sims](http://en.wikipedia.org/wiki/The_Sims_\(series\)), and [Spore](http://en.wikipedia.org/wiki/Spore_\(2008_video_game\)) -- more than any other game producer in the industry today -- recognizes that cheating and hacking can be positive outlets for creativity and self-expression.
 
 Wright recently visited Stanford University on May 22, 2009, to discuss [Human-Computer Interaction](http://hci.stanford.edu/) and the design process of Spore. During his presentation, Wright discussed the importance of user-generated content to the Spore universe -- a universe populated by over 100 million unique, user-generated creatures.
 
@@ -185,13 +185,13 @@ Since the test was launched in 1996, over 570,000 players have taken the test an
 
 ### Explorers = Cheaters?
 
-Explorers like to dig around and explore the details of a game, searching for game glitches and hidden surprises left by developers, known as "[easter eggs](http://en.wikipedia.org/wiki/Easter_egg_\(media)#Software-based)." In especially restrictive games, Explorers like to see if they can "get the game to do something its programmers probably didn’t intend for it to do".
+Explorers like to dig around and explore the details of a game, searching for game glitches and hidden surprises left by developers, known as "[easter eggs](http://en.wikipedia.org/wiki/Easter_egg_\(media\)#Software-based)." In especially restrictive games, Explorers like to see if they can "get the game to do something its programmers probably didn’t intend for it to do".
 
 Explorers are looking for free exploration and creative play from their game experience.  If developers don’t provide positive creative outlets and opportunities for free exploration within their games -- and sometimes even if they do -- uber fans will still manage to express their latent creativity, often through cheats, exploits, and hacks.
 
 ## Anti-cheat efforts
 
-Some gaming companies like [Valve](http://www.valvesoftware.com/), creator of [Counter-Strike](http://en.wikipedia.org/wiki/Counter-Strike), [Half-Life](http://en.wikipedia.org/wiki/Half-Life_\(video_game)), and [Portal](http://en.wikipedia.org/wiki/Portal_\(video_game)), spend millions of dollars each year to combating cheating -- resources that would certainly be better spent developing new games.
+Some gaming companies like [Valve](http://www.valvesoftware.com/), creator of [Counter-Strike](http://en.wikipedia.org/wiki/Counter-Strike), [Half-Life](http://en.wikipedia.org/wiki/Half-Life_\(video_game\)), and [Portal](http://en.wikipedia.org/wiki/Portal_\(video_game\)), spend millions of dollars each year to combating cheating -- resources that would certainly be better spent developing new games.
 
 ### Since When Were Rules Fun?
 
