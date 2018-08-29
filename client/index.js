@@ -91,7 +91,7 @@ if ($('body').hasClass('post')) {
       opacity = maxOpacity
     }
 
-    $navLinks.css({opacity: opacity})
+    $navLinks.css({ opacity: opacity })
 
     // if next link is overlapping with ad, hide it
     if ($nextLink.length && windowWidth > 950 && windowWidth < 1225) {
