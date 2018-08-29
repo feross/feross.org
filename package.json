@@ -19,7 +19,7 @@
     "git-pull-or-clone": "^1.0.0",
     "nib": "^1.0.2",
     "run-series": "^1.1.4",
-    "standard": "*",
+    "standard": "11.0.1",
     "stylus": "^0.54.3",
     "uglify-js": "^3.3.12",
     "watchify": "^3.7.0"
