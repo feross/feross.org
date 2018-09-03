@@ -572,41 +572,6 @@ You also want to get an email if an error occurs, so you'll know if automatic ba
 Close and save the file. That's it!
 
 
-### Install Python
-
-Install Python environment:
-
-{% highlight bash %}
-sudo apt install python-pip python-dev
-sudo pip install virtualenv
-{% endhighlight %}
-
-This creates a global "pip" command to install Python packages. Don't use it, because packages will be installed globally. Instead, use virtualenv.
-
-Create a new virtualenv Python environment with:
-
-{% highlight bash %}
-virtualenv --distribute <environment_name>
-{% endhighlight %}
-
-Switch to the new environment with:
-
-{% highlight bash %}
-cd <environment_name>
-source bin/activate
-{% endhighlight %}
-
-Note that the name of your environment is added to your command prompt.
-
-Install Python packages with "pip" inside of virtualenv:
-
-{% highlight bash %}
-pip search <package_name>
-pip install <package_name>
-{% endhighlight %}
-
-This is the best Python workflow that I've found. Let me know if you know of a better way to manage Python packages and Python installations.
-
 
 ### Install Nginx
 
