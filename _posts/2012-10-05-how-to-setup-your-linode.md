@@ -30,16 +30,20 @@ In this guide, I will demonstrate how to set up a fresh Ubuntu server from scrat
 
 ### A Note About This Guide
 
-I originally compiled this guide as a .txt file of notes for myself, but decided to share it in case anyone finds it useful. If you're looking for something straight from the horse's mouth, Linode [offers guides](http://library.linode.com/) that cover how to set up a new server, but some of the info is out of date.
+I originally compiled this guide as a .txt file of notes for myself, but decided to share it in case anyone finds it useful. If you're looking for something straight from the horse's mouth, Linode also [offers guides](http://library.linode.com/) that cover how to set up a new server.
 
 Let's get started!
 
 
 ### Provision a New Linode
 
-First, you need to provision a new [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Using Linode's web UI, it's quite easy. Select your desired Linode size. If you're unsure, choose the smallest size. You can always resize it later. Select "Ubuntu 16.04 LTS" as your OS. You'll be asked to create a password for the `root` user.
+First, you need to provision a new [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Using Linode's web UI, it's quite easy. Select your desired Linode size. If you're unsure, choose the smallest size. You can always resize it later. You also need to select a location for the server. I usually select "Fremont, CA" since that is closest to my location and the location of most of my users (United States, west coast).
 
-After a few minutes, your server will be ready. Now, it's time to connect to it!
+Next, let's install an OS. Select the "Rebuild" tab. Pick "Ubuntu 18.04 LTS" for the OS image. Use 256MB as the swap disk size (it is default). You'll be asked to create a password for the `root` user.
+
+After a few minutes, your server will be ready. Now, click "Boot" to get things started!
+
+Next, let's connect to the server.
 
 
 ### Connecting to Your Server
@@ -79,11 +83,9 @@ hostname
 
 ### Set the fully-qualified domain name
 
-Set the <abbr title="Fully-qualified domain name">FQDN</abbr> of the server by making sure the following text is in the `/etc/hosts` file:
+Set the <abbr title="Fully-qualified domain name">FQDN</abbr> of the server by making sure the following line is in the `/etc/hosts` file (after anything that's in there by default):
 
 {% highlight bash %}
-127.0.0.1          localhost.localdomain   localhost
-127.0.1.1          ubuntu
 <your server ip>   future.<your domain>.net       future
 {% endhighlight %}
 
