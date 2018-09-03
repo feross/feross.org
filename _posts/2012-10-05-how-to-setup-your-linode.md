@@ -392,22 +392,26 @@ Now, you should get an email anytime someone uses `sudo`!
 
 ## Improve Server Stability
 
-VPS servers can easily run out of memory during traffic spikes. It's very important to configure your applications so memory swapping does not occur.
+VPS servers can run out of memory during traffic spikes or other system events. In this situation, the server might go into "swap hell". It's important to configure your applications so memory swapping does not occur.
 
-For example, in Apache 2.2.x, the default settings allow 150 clients to connect simultaneously. This is way too large a number for a typical VPS server. Let's do the math. Apache's processes are typically ~25MB each. If our website gets a temporary traffic spike and 150 processes launch, we'll need 3750MB of memory on our server. If we don't have this much (and we don't!), then the OS will grind to a halt as it swaps memory to disk to make room for new processes, but then immediately swaps the stuff on disk back into memory.
+Modern servers like Nginx or Node.js use a single process to handle multiple simulateous connections, so this is less of a problem than in the past.
 
-No useful work gets done once swapping happens. The server can be stuck in this state for hours, even after the traffic rush has subsided. During this time, very few web requests will get serviced.
+For example, in Apache 2.2.x (quite old), the default settings allowed 150 clients to connect simultaneously. This was way too large a number for a typical small VPS server. Let's do the math. Apache's processes were typically ~25MB each. If the website got a temporary traffic spike and 150 processes launched, we'd need 3750MB of memory on the server. If we don't have this much, then the OS will grind to a halt as it swaps memory to disk to make room for new processes, but then immediately swaps the stuff on disk back into memory. This is also known as "swap hell".
 
-If you use Apache 2.2, you should set `MaxClients` to something more reasonable like 20 or 30. There are many other optimizations to make, too. Linode has a Library article with [optimizations](http://library.linode.com/hosting-website) for Apache, MySQL, and PHP.
+No useful work gets done once "swap hell" occurs. The server can be stuck in this state for hours, even after the traffic rush has subsided. During this time, very few web requests will get serviced.
 
-Or better, simply use Apache 2.4 (the current stable version of Apache as of this writing) which uses an "event based mpm" instead of Apache 2.2 ineffecient "prefork" approach. This is far less of a problem with the improved approach.
+If you're still using the ancient Apache 2.2.x for some reason, you could set `MaxClients` to something more reasonable like 20 or 30 clients. There are many other optimizations to make, too. Linode has a Library article with [optimizations](http://library.linode.com/hosting-website) for various server types.
+
+Newer version of Apache (2.4 and up) use an "event based mpm" instead of Apache 2.2 ineffecient "prefork" approach. This is far less of a problem with the improved approach.
+
+And of course, servers like Nginx and Node.js handle thousands of connections without making a new process for each connection.
 
 
 ### Reboot server on out-of-memory condition
 
-Still, in cases where something goes awry, it is good to automatically **reboot your server when it runs out of memory**. This will cause a minute or two of downtime, but it's better than languishing in the swapping state for potentially hours or days.
+In cases where something goes awry, it is good to automatically **reboot your server when it runs out of memory**. This will cause a minute or two of downtime, but it's better than languishing in the swapping state for potentially hours or days.
 
-You can leverage a couple kernel settings and Lassie to make this happen on Linode.
+You can leverage a couple kernel settings and [Lassie](https://blog.linode.com/2007/10/26/lassie-the-shutdown-watchdog/) to make this happen on Linode.
 
 Adding the following two lines to your `/etc/sysctl.conf` will cause it to reboot after running out of memory:
 
