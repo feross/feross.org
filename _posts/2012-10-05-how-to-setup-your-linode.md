@@ -201,7 +201,7 @@ We can make things substantially more difficult for automated attackers by preve
 Disable remote root login and change SSH port:
 
 {% highlight bash %}
-sudo nano /etc/ssh/sshd_config
+sudo vim /etc/ssh/sshd_config
 {% endhighlight %}
 
 **Set "Port" to "44444" and "PermitRootLogin" to "no".** Save the file and restart the SSH service:
@@ -239,7 +239,7 @@ Configure Fail2Ban:
 Setup configuration in a new file (will overwrite defaults in `/etc/fail2ban/jail.conf`):
 
 {% highlight bash %}
-sudo nano /etc/fail2ban/jail.local
+sudo vim /etc/fail2ban/jail.local
 {% endhighlight %}
 
 Paste the following into `/etc/fail2ban/jail.local`:
@@ -280,7 +280,7 @@ sudo iptables -L
 Setup firewall rules in a new file:
 
 {% highlight bash %}
-sudo nano /etc/iptables.firewall.rules
+sudo vim /etc/iptables.firewall.rules
 {% endhighlight %}
 
 The following firewall rules will allow HTTP (80), HTTPS (443), SSH (44444), ping, and some other ports for testing. All other ports will be blocked.
@@ -339,7 +339,7 @@ sudo iptables -L
 Activate the firewall rules on startup:
 
 {% highlight bash %}
-sudo nano /etc/network/if-pre-up.d/firewall
+sudo vim /etc/network/if-pre-up.d/firewall
 {% endhighlight %}
 
 Paste this into the `/etc/network/if-pre-up.d/firewall` file:
@@ -363,7 +363,7 @@ I like to get an email anytime someone uses sudo. This way, I have a "paper trai
 Create a new file for the sudo settings:
 
 {% highlight bash %}
-sudo nano /etc/sudoers.d/my_sudoers
+sudo vim /etc/sudoers.d/my_sudoers
 {% endhighlight %}
 
 Add this to the file:
@@ -552,7 +552,7 @@ sudo apt install automysqlbackup
 Now, let's configure it. Open the configuration file:
 
 {% highlight bash %}
-sudo nano /etc/default/automysqlbackup
+sudo vim /etc/default/automysqlbackup
 {% endhighlight %}
 
 By default, your database backups get stored in `/var/lib/automysqlbackup` which isn't very intuitive. I recommend changing it to a folder within your home directory. To do this, find the line that begins with `BACKUPDIR=` and change it to `BACKUPDIR="/home/<your username>/backups/mysql"`
