@@ -7,7 +7,7 @@ tags:
 hn: "http://news.ycombinator.com/item?id=4618808"
 ---
 
-*This guide was last updated in 2017. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
+*This guide was last updated in 2018. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
 
 So, you followed the advice in my [Linode Hosting Review](/linode-vps-hosting-review/) and decided to host your website with [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Excellent choice!
 
