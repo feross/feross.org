@@ -164,14 +164,14 @@ Generate SSH keys with the following command:
 (NOTE: Be sure to run this on your local computer -- not your server!)
 
 {% highlight bash %}
-ssh-keygen -t rsa -C "<your email address>"
+ssh-keygen -t rsa -b 4096 -C "<your email address>"
 {% endhighlight %}
 
 When prompted, just accept the default locations for the keyfiles. Also, you'll want to choose a nice, strong password for your key. If you're on Mac, you can save the password in your keychain so you won't have to type it in repeatedly.
 
 Now you should have two keyfiles, one public and one private, in the `~/.ssh` folder.
 
-If you want more information about SSH keys, GitHub has a [great guide](https://help.github.com/articles/generating-ssh-keys).
+If you want more information about SSH keys, GitHub has a [great guide](https://help.github.com/articles/connecting-to-github-with-ssh/).
 
 #### Copy the public key to server
 
