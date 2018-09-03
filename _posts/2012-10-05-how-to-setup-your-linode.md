@@ -248,13 +248,17 @@ Paste the following into `/etc/fail2ban/jail.local`:
 
 {% highlight bash %}
 [DEFAULT]
-destemail = your@email.com
+destemail = <your email address>
 sendername = Fail2Ban
+{% endhighlight %}
 
+{% highlight bash %}
 [sshd]
 enabled = true
 port = 44444
+{% endhighlight %}
 
+{% highlight bash %}
 [sshd-ddos]
 enabled = true
 port = 44444
