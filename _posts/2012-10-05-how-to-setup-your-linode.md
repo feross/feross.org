@@ -83,7 +83,13 @@ hostname
 
 ### Set the fully-qualified domain name
 
-Set the <abbr title="Fully-qualified domain name">FQDN</abbr> of the server by making sure the following line is in the `/etc/hosts` file (after anything that's in there by default):
+Set the <abbr title="Fully-qualified domain name">FQDN</abbr> of the server by editing the `/etc/hosts` file:
+
+{% highlight bash %}
+sudo vim /etc/hosts
+{% endhighlight %}
+
+Make sure the following line is in the `/etc/hosts` file (after anything that's in there by default):
 
 {% highlight bash %}
 <your server ip>   future.<your domain>.net       future
@@ -376,7 +382,7 @@ Add this to the file:
 
 {% highlight bash %}
 Defaults    mail_always
-Defaults    mailto="your@email.com"
+Defaults    mailto="<your email address>"
 {% endhighlight %}
 
 Set permissions on the file:
@@ -448,41 +454,7 @@ I currently put my database server on it's own Linode, so that I can scale it in
 
 It's easy to set up. On the Remote Access tab, click Add a Private IP.
 
-Then, edit the file `/etc/network/interfaces` to contain:
-
-```
-# The loopback interface
-auto lo
-iface lo inet loopback
-
-# Configuration for eth0 and aliases
-
-# This line ensures that the interface will be brought up during boot.
-auto eth0 eth0:0
-
-# eth0 - This is the main IP address that will be used for most outbound connections.
-# The address, netmask and gateway are all necessary.
-iface eth0 inet static
- address 12.34.56.78
- netmask 255.255.255.0
- gateway 12.34.56.1
-
-# eth0:0 - Private IPs have no gateway (they are not publicly routable) so all you need to
-# specify is the address and netmask.
-iface eth0:0 inet static
- address 192.168.133.234
- netmask 255.255.128.0
-```
-
-Of course, adjust the IP addresses to reflect your own addresses from the Remote acess tab.
-
-Then, restart your Linode and remove DHCP since we're using static networking now:
-
-{% highlight bash %}
-sudo apt remove isc-dhcp-client dhcp3-client dhcpcd
-{% endhighlight %}
-
-More info about this on Linode's website: [Linux Static IP Configuration](http://library.linode.com/networking/configuring-static-ip-interfaces#sph_static-ip-configuration)
+Then, just restart the Linode and the new IP address will become available thanks to [Linode Network Helper](https://www.linode.com/docs/platform/network-helper/) which automatically deposits a static networking configuration in to your Linode at boot.
 
 Configuring your applications and your database to route traffic over the local network is another issue, not covered here.
 
@@ -499,6 +471,18 @@ A compiler is often required to install Python packages and other software, so l
 {% highlight bash %}
 sudo apt install build-essential
 {% endhighlight %}
+
+
+### Install Nginx
+
+{% highlight bash %}
+sudo apt install nginx
+{% endhighlight %}
+
+
+### Install Node.js
+
+Follow the instructions to [install the NodeSource Node.js PPA](https://github.com/nodesource/distributions#installation-instructions).
 
 
 ### Install MySQL
@@ -572,15 +556,6 @@ You also want to get an email if an error occurs, so you'll know if automatic ba
 Close and save the file. That's it!
 
 
-
-### Install Nginx
-
-{% highlight bash %}
-sudo apt install nginx
-{% endhighlight %}
-### Install Node.js
-
-Follow the instructions to [install the NodeSource Node.js PPA](https://github.com/nodesource/distributions#installation-instructions).
 ## Setup Automatic Backups
 
 Backups are really important. [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767) offers a paid backup service that's really convenient if you accidentally destroy something and need to restore your Linode quickly. It's $5 per month for the smallest Linode. I enable it on all my Linodes.
