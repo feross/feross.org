@@ -218,7 +218,7 @@ In this example, we changed the port to 44444. So, now to connect to the server,
 ssh <your username>@future.<your domain>.net -p 44444
 {% endhighlight %}
 
-Update: Someone posted this useful note about choosing an SSH port on Hacker News:
+Update: Somone posted this useful thought about choosing an SSH port on Hacker News:
 
 > Make sure your SSH port is below 1024 (but still not 22). Reason being if your Linode is ever compromised a bad user may be able to crash sshd and run their own rogue sshd as a non root user since your original port is configured >1024. (More info [here](http://unix.stackexchange.com/questions/16564/why-are-the-first-1024-ports-restricted-to-the-root-user-only))
 
@@ -431,7 +431,7 @@ The vm.panic_on_oom=1 line enables panic on OOM; the kernel.panic=10 line tells 
 
 ## Miscellaneous nice-to-haves
 
-These next things are not required (in fact, nothing in this guide really is), but are nice to do.
+These next things are not required but are nice to do.
 
 ### Set up reverse DNS
 
