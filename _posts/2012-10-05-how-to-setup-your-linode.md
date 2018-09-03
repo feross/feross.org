@@ -209,7 +209,7 @@ sudo vim /etc/ssh/sshd_config
 **Set "Port" to "44444" and "PermitRootLogin" to "no".** Save the file and restart the SSH service:
 
 {% highlight bash %}
-sudo service ssh restart
+sudo systemctl restart ssh
 {% endhighlight %}
 
 In this example, we changed the port to 44444. So, now to connect to the server, we need to run:
@@ -265,7 +265,7 @@ port = 44444
 Save the file and restart Fail2Ban to put the new rules into effect:
 
 {% highlight bash %}
-sudo service fail2ban restart
+sudo systemctl restart fail2ban
 {% endhighlight %}
 
 
@@ -618,7 +618,7 @@ sudo apt install apache2
 
 {% highlight bash %}
 sudo apt install php7.0 libapache2-mod-php php-mysql
-sudo service apache2 restart
+sudo systemctl restart apache2
 {% endhighlight %}
 
 
