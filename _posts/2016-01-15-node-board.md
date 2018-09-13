@@ -17,7 +17,7 @@ Why I'm a good fit:
 - I help maintain [Browserify](http://browserify.org/), and wrote the [buffer](https://npmjs.com/package/buffer) package for it.
 - I'm a pragmatist. I care a lot about getting things done.
 - I've built companies with Node.js:
-  - [PeerCDN](https://web.archive.org/web/20150810065820/https://peercdn.com/), sold to Yahoo in 2013.
+  - [PeerCDN](/peercdn), sold to Yahoo in 2013.
   - [Study Notes](http://apstudynotes.org/), gets 1-2 million page views per month. This is still a solo project.
 - I frequently help at [NodeSchool](http://nodeschool.io/) events and co-founded a [Stanford chapter](https://github.com/nodeschool/stanford).
 - I'm not affiliated with any company, so I'm free to be an independent voice on the board.
