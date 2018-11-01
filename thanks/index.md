@@ -18,14 +18,8 @@ benefit of all.
 ## Platinum Sponsors <small>[$1,000+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
 <div class='sponsor-container'>
-  <a href='https://stdlib.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
-    <img src='/images/supporters/stdlib.png' alt='Stdlib' />
-  </a>
   <a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
     <img src='/images/supporters/brave.png' alt='Brave Software' />
-  </a>
-  <a href='https://archive.org' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
-    <img src='/images/supporters/internetarchive.png' alt='Internet Archive' />
   </a>
   <a href='https://popchest.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
     <img src='/images/supporters/popchest.png' alt='Popchest' />
@@ -34,19 +28,7 @@ benefit of all.
 
 ## Gold Sponsors <small>[$500+/month](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
 
-<div class='sponsor-container'>
-  <a href='https://nsrc.io/oss-feross' rel='nofollow' target='_blank' class='sponsor sponsor-gold'>
-    <img src='/images/supporters/nodesource.png' alt='NodeSource' />
-  </a>
-</div>
-
 ## Silver Sponsors <small>[$200+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
-
-<div class='sponsor-container'>
-  <a href='https://sparkpo.st/feross' rel='nofollow' target='_blank' class='sponsor sponsor-silver'>
-    <img src='/images/supporters/sparkpost.png' alt='Sparkpost' />
-  </a>
-</div>
 
 - Mark Mayo
 - Benjamin Van Pelt
@@ -58,12 +40,14 @@ benefit of all.
   <a href='https://www.browserling.com' rel='nofollow' target='_blank' class='sponsor sponsor-bronze'>
     <img src='/images/supporters/browserling.png' alt='Browserling' />
   </a>
+  <a href='https://library.files.fm/' rel='nofollow' target='_blank' class='sponsor sponsor-bronze'>
+    <img src='/images/supporters/filesfm.png' alt='Files.fm' />
+  </a>
 </div>
 
 ## Top Supporters <small>[$50+/month](https://www.patreon.com/bePatron?c=1335510&rid=2188674)</small>
 
 - Charlie Cheever
-- CodePilot.ai Team
 - Timothy Oxley
 
 ## Supporters <small>[$10+/month](https://www.patreon.com/bePatron?c=1335510&rid=2179762)</small>
@@ -74,7 +58,6 @@ benefit of all.
 - Axel Navarro
 - Ben Williams
 - Chris Ball
-- Dan Pastusek
 - Daniel Supernault
 - Donald Fischer
 - Evan Tahler
