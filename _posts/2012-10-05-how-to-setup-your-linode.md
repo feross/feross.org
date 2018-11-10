@@ -48,7 +48,7 @@ Next, let's connect to the server.
 
 ### Connecting to Your Server
 
-First, open Terminal on your Mac. On Windows, you'll want to use [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html), since Windows doesn't come with a proper terminal.
+First, open Terminal on your Mac. On Windows, you'll want to use [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) or install the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to get a proper Terminal.
 
 To connect to your server, type this into your terminal and hit Enter:
 
