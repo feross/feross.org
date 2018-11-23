@@ -30,6 +30,12 @@ benefit of all.
 
 ## Silver Sponsors <small>[$200+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
 
+<div class='sponsor-container'>
+  <a href='https://tidelift.com/subscription/pkg/npm-standard?utm_source=npm-standard&utm_medium=readme' rel='nofollow' target='_blank' class='sponsor sponsor-silver'>
+    <img src='/images/supporters/tidelift.png' alt='Tidelift' />
+  </a>
+</div>
+
 - Mark Mayo
 - Benjamin Van Pelt
 - JP Richardson
