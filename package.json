@@ -45,7 +45,6 @@
     "build-js": "browserify client | uglifyjs -c warnings=false -m > client/bundle.js",
     "deploy": "npm test && git push && npm run build && rsync -a -v -e ssh --delete _server _site nginx.conf node_modules supervisor.conf package.json feross@future:/home/feross/www/feross.org/",
     "install-system-deps": "brew install gsl && sudo gem install narray && sudo gem install jekyll bundler rdiscount gsl classifier-reborn rouge",
-    "prepush": "npm test",
     "start": "npm run build && jekyll serve",
     "test": "standard",
     "watch": "npm run watch-css & npm run watch-html & npm run watch-js",
@@ -58,5 +57,10 @@
       "hacks/",
       "images/fancybox"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
   }
 }
