@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+	<center>
+		<h3 class='fail'>EPIC FAIL!</h3>
+		<h3 class='success'>You found the secret page.</h3>
+		<img class='success2' src="shhh_logo.gif" /><br />
+	</center>
+	<script>
+		if (window.location.search === '?feross=feross' &&
+				window.location.hash === '#feross') {
+			document.querySelector('.fail').remove()
+		} else {
+			document.querySelector('.success').remove()
+			document.querySelector('.success2').remove()
+		}
+	</script>
+</body>
+</html>
