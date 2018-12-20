@@ -12,7 +12,6 @@ const MODULES = [
   ['git@github.com:feross/Fullscreen-API-Attack.git', 'fullscreen-api-attack'],
   ['git@github.com:feross/md5-password-cracker.js.git', 'md5-password-cracker.js'],
   ['git@github.com:feross/Nim.js.git', 'nim.js'],
-  ['git@github.com:feross/orhskeyclub.com.git', 'orhskeyclub.com'],
   ['git@github.com:feross/Selective-Attention-Test.git', 'selective-attention-test'],
   ['git@github.com:feross/SuperTranslate.git', 'instant.io'],
   ['git@github.com:feross/webcam-spy.git', 'webcam-spy']
