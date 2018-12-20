@@ -42,7 +42,7 @@ We had [Adam D'Angelo](http://en.wikipedia.org/wiki/Adam_D'Angelo) (founder of [
 
 The whole event went splendidly -- we're planning to do this every quarter from now on. Fun times.
 
-[Instant.IO](/hacks/instant.io/) re-uses the [Google text-to-speech API](http://techcrunch.com/2009/12/14/the-unofficial-google-text-to-speech-api/) scraper I built when I made [Brain Grinder](http://braingrinder.com) last month. I'm planning to open source the code for this (and more) sometime soon.
+[Instant.IO](/hacks/instant.io/) re-uses the [Google text-to-speech API](http://techcrunch.com/2009/12/14/the-unofficial-google-text-to-speech-api/) scraper I built when I made [Brain Grinder](/hacks/braingrinder) last month. I'm planning to open source the code for this (and more) sometime soon.
 
 <span class="red">**Update Sep 1:**</span> Source code for both [Instant.io](https://github.com/feross/Instant.io) and [BrainGrinder](https://github.com/feross/BrainGrinder.com) is now available on Github.
 
