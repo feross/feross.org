@@ -6,6 +6,7 @@ const series = require('run-series')
 
 const MODULES = [
   ['git@github.com:feross/ahh-windows.git', 'ahh-windows'],
+  ['git@github.com:feross/braingrinder.com.git', 'braingrinder.com'],
   ['git@github.com:feross/caught-in-a-web-of-apis.git', 'caught-in-a-web-of-apis'],
   ['git@github.com:feross/detect-proxy.git', 'detect-proxy'],
   ['git@github.com:feross/Facebook-Like-Everything.git', 'facebook-like-everything'],
