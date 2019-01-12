@@ -70,16 +70,12 @@ benefit of all.
 - James Young
 - Jason Miller
 - Jaycen Horton
-- Jens Lind
 - Julian Gruber
 - Matt Bell
 - Maythee Anegboonlap
 - Maythee Anegboonlap
 - Paras Narang
-- Paul Jensen
 - Pierre Ozoux
-- Sindre Sorhus
-- Tyler Hall
 - William Hilton
 - Zohaib Rauf
 
