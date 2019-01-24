@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: feross.org
+Token: ca994daefd7960a34ccb5d417148d7ad7cd6dce001756fc237fb802d01bbefe1
