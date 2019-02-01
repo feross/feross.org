@@ -36,7 +36,6 @@ benefit of all.
   </a>
 </div>
 
-- Mark Mayo
 - Benjamin Van Pelt
 - JP Richardson
 
@@ -76,6 +75,7 @@ benefit of all.
 - Maythee Anegboonlap
 - Paras Narang
 - Pierre Ozoux
+- Victor Nizeyimana
 - William Hilton
 - Zohaib Rauf
 
