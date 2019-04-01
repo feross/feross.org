@@ -64,6 +64,7 @@ benefit of all.
 - Ben Williams
 - Chris Ball
 - Daniel Supernault
+- David Passarelli
 - Donald Fischer
 - Evan Tahler
 - James Young
