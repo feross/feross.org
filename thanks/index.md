@@ -66,7 +66,6 @@ benefit of all.
 - Daniel Supernault
 - David Passarelli
 - Donald Fischer
-- Evan Tahler
 - James Young
 - Jason Miller
 - Jaycen Horton
