@@ -474,23 +474,23 @@ a.carbon-poweredby
     margin-bottom: 15px;
   }
 
-  .sponsor-container {
+  .sponsors {
     text-align: center
   }
 
-  .sponsor-platinum {
+  .sponsors-platinum .sponsor {
     width: 49%;
   }
 
-  .sponsor-gold {
+  .sponsors-gold .sponsor {
     width: 40%;
   }
 
-  .sponsor-silver {
+  .sponsors-silver .sponsor {
     width: 33%;
   }
 
-  .sponsor-bronze {
+  .sponsors-bronze .sponsor {
     width: 25%;
   }
 
@@ -704,8 +704,31 @@ pre:hover {
   }
 }
 
-.patreon img {
-  width: 200px;
-  display: block;
-  margin: 30px auto;
+.sponsor-buttons {
+  text-align: center;
+}
+
+.sponsor-buttons .sponsor-button {
+  width: calc(50% - 50px);
+  vertical-align: middle;
+  max-width: 200px;
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.grow {
+  -moz-osx-font-smoothing:grayscale
+  backface-visibility:hidden
+  transform:translateZ(0)
+  transition:transform 0.25s ease-out
+}
+
+.grow:hover,
+.grow:focus, {
+  opacity: 0.9;
+  transform:scale(1.05);
+}
+
+.grow:active {
+  transform:scale(.90);
 }

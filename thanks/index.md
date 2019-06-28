@@ -11,41 +11,45 @@ enables me to build free and open source software like
 [WebTorrent](https://webtorrent.io) and [Standard](https://standardjs.com) for the
 benefit of all.
 
-<a href="https://www.patreon.com/feross" class="patreon">
-  <img src="/images/supporters/patreon.png" />
-</a>
+<div class='sponsor-buttons'>
+  <a href='https://github.com/users/feross/sponsorship' target='_blank' class='sponsor-button grow'>
+    <img src='/images/supporters/githubsponsors.png' />
+  </a>
+  <a href='https://www.patreon.com/feross' target='_blank' class='sponsor-button grow'>
+    <img src='/images/supporters/patreon.png' />
+  </a>
+</div>
 
 ## Platinum Sponsors <small>[$1,000+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201589)</small>
 
-<div class='sponsor-container'>
-  <a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
+<div class='sponsors sponsors-platinum'>
+  <a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/brave.png' alt='Brave Software' />
-  </a>
-  <a href='https://popchest.com' rel='nofollow' target='_blank' class='sponsor sponsor-platinum'>
-    <img src='/images/supporters/popchest.png' alt='Popchest' />
   </a>
 </div>
 
 ## Gold Sponsors <small>[$500+/month](https://www.patreon.com/bePatron?c=1335510&rid=2175327)</small>
 
-## Silver Sponsors <small>[$200+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
-
-<div class='sponsor-container'>
-  <a href='https://tidelift.com/subscription/pkg/npm-standard?utm_source=npm-standard&utm_medium=readme' rel='nofollow' target='_blank' class='sponsor sponsor-silver'>
+<div class='sponsors sponsors-gold'>
+  <a href='https://tidelift.com/subscription/pkg/npm-standard?utm_source=npm-standard&utm_medium=readme' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/tidelift.png' alt='Tidelift' />
   </a>
 </div>
 
-- Benjamin Van Pelt
-- JP Richardson
+## Silver Sponsors <small>[$200+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201567)</small>
+
+<div class='sponsors sponsors-silver'>
+  <span class='sponsor grow'>Benjamin Van Pelt</span>
+  <span class='sponsor grow'>JP Richardson</span>
+</div>
 
 ## Bronze Sponsors <small>[$100+/month](https://www.patreon.com/bePatron?c=1335510&rid=2201570)</small>
 
-<div class='sponsor-container'>
-  <a href='https://www.browserling.com' rel='nofollow' target='_blank' class='sponsor sponsor-bronze'>
+<div class='sponsors sponsors-bronze'>
+  <a href='https://www.browserling.com' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/browserling.png' alt='Browserling' />
   </a>
-  <a href='https://library.files.fm/' rel='nofollow' target='_blank' class='sponsor sponsor-bronze'>
+  <a href='https://library.files.fm/' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/filesfm.png' alt='Files.fm' />
   </a>
 </div>
