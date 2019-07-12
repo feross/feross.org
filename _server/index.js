@@ -53,14 +53,14 @@ app.post('/views', function (req, res) {
 
     // Asyncronously update the view count
     var query = 'UPDATE views SET views=views+1 WHERE slug = ?'
-    connection.query(query, [ slug ], function (err, results) {
+    connection.query(query, [slug], function (err, results) {
       if (err) {
         console.error(err.message)
         connection.end()
       } else if (results.affectedRows === 0) {
         // If no rows were affected, then this is a new post, so add it
         var query = 'INSERT INTO views (slug, views) VALUES (?, ?)'
-        connection.query(query, [ slug, 1 ], function (err, results) {
+        connection.query(query, [slug, 1], function (err, results) {
           if (err) {
             console.error(err.message)
           } else if (results.affectedRows !== 1) {
