@@ -16,6 +16,7 @@ the benefit of all.
   <a href='https://www.patreon.com/feross' target='_blank' class='sponsor-button grow'>
     <img src='/images/supporters/patreon.png' />
   </a>
+  <a href='#onetime' class='sponsor-button grow'>One-Time Contribution</a>
 </div>
 
 ## Platinum Sponsors
@@ -37,8 +38,9 @@ the benefit of all.
 ## Silver Sponsors
 
 <div class='sponsors sponsors-silver'>
-  <span class='sponsor grow'>Benjamin Van Pelt</span>
-  <span class='sponsor grow'>JP Richardson</span>
+  <a href='#' rel='nofollow' target='_blank' class='sponsor grow'>
+    Your logo here
+  </a>
 </div>
 
 ## Bronze Sponsors
@@ -59,27 +61,16 @@ the benefit of all.
 
 ## Supporters
 
-- Ajain
-- Andrej Hronco
 - Anthony Estebe
-- Axel Navarro
-- Ben Williams
+- Andrej Hronco
 - Chris Ball
-- Daniel Supernault
 - David Passarelli
 - Donald Fischer
-- James Young
-- Jason Miller
-- Jaycen Horton
 - Julian Gruber
 - Matt Bell
 - Maythee Anegboonlap
-- Maythee Anegboonlap
 - Paras Narang
-- Pierre Ozoux
-- Victor Nizeyimana
 - William Hilton
-- Zohaib Rauf
 
 ## Become a Supporter
 
@@ -94,9 +85,11 @@ You can become a supporter by visiting GitHub or Patreon.
   </a>
 </div>
 
-## One-time Donations
+<a name='onetime' />
 
-Some folks have asked if it's possible to do a one-time donation. Yes!
+## One-Time Contribution
+
+Some folks have asked if it's possible to do a one-time contribution. Yes!
 
 Here is my [PayPal](https://www.paypal.me/feross) and my crypto addresses:
 
@@ -110,4 +103,4 @@ Here is my [PayPal](https://www.paypal.me/feross) and my crypto addresses:
 
 <br><br>
 
-*This page will be updated monthly, on the first of the month.*
+<center><em>This page will be updated monthly, on the first of the month.</em></center>
