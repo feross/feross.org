@@ -12,6 +12,8 @@ I maintain <strong><a href="https://www.npmjs.com/~feross">100+ packages on npm<
 
 I now offer an open source support contract, for companies and teams who want dedicated support, advice, and direct assistance with JavaScript, Node.js, security, or open source issues.
 
+I specialize in making computers (and especially browsers) do things they’re not supposed to do. Bring me your trickiest, most difficult challenges and I’ll help solve them. I'm an expert in JavaScript, Node.js, security, computer networking, WebRTC, P2P, browser APIs, and open source.
+
 If you want to chat about getting a support contract for your company or team, email me at <a href="mailto:">[my first name]@feross.org</a>.
 
 ## Support Contract ($3,000/mo)
