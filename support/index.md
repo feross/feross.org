@@ -35,4 +35,4 @@ If you want to chat about getting a support contract for your company or team, e
 
 If you want to chat about getting a support contract for your company or team, email me at <a href="mailto:">[my first name]@feross.org</a>.
 
-A minimum contract length of 6 months is required.
+A minimum contract length of 3 months is required.
