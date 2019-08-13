@@ -4,7 +4,7 @@ title: Support Contracts
 class: support
 ---
 
-# Buy a Support Contract
+# Get a Support Contract
 
 I'm <strong>Feross</strong>, a prolific open source author and maintainer.
 
