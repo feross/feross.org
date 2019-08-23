@@ -61,16 +61,26 @@ the benefit of all.
 
 ## Supporters
 
-- Anthony Estebe
 - Andrej Hronco
+- Anthony Estebe
 - Chris Ball
 - David Passarelli
+- Devon Zuegel
 - Donald Fischer
 - Julian Gruber
+- LitoMore
+- Marius Tîrcă
 - Matt Bell
 - Maythee Anegboonlap
+- Nat Friedman
+- Ondrej Sika
 - Paras Narang
+- Patrick Collison
+- Pelle Wessman
+- Seth Vincent
+- Tierney Cyren
 - William Hilton
+- Zeke Sikelianos
 
 ## Become a Supporter
 
