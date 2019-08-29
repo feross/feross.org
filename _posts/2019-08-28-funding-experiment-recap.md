@@ -6,6 +6,7 @@ tags:
 - node.js
 - javascript
 ad: false
+no_related: true
 ---
 
 I'm ending the `funding` experiment I [introduced](/npm-install-funding/) a few days ago.
