@@ -48,6 +48,8 @@ I like what Kyle Mitchell wrote in [Profit for Us, Sustainability for You](https
 
 We should set our goals higher than *subsistence*. Folks who work on open source have a right to *thrive* and to be fairly compensated for our labor.
 
+Remember: most open source maintainers can get a six-figure job relatively easily (in the SF bay area) where they're just helping one company instead of helping the public. The opportunity cost is huge. They should be able to do what they want and help the public without making such a difficult choice.
+
 ### Do we dare to hope for something better?
 
 As long as significant personal sacrifice is a prerequisite for open source participation, we'll continue to exclude a lot of smart and talented folks. This isn't good for anyone.
@@ -196,7 +198,7 @@ It's possible that the idea of terminal ads still has some legs. But this isn't 
 
 Approximately 100% of the Fortune 500 use open source code. Maintainers are just starting to wake up to our own power. Expect lots more experiments in the future. Expect to be surprised. This certainly won't be the last open source funding experiment.
 
-There is an effort underway to replace post-install scripts with a [unified format](https://github.com/npm/cli/pull/187) for soliciting donations. This will likely lead to the silencing of non-error install script output, which is honestly not a bad idea. The days of free-form post-install solicitations seem numbered. It's important that this change is coupled with automatic reporting of funding calls-to-action on `npm install`, or else the change merely silences yet another avenue for maintainers to reach their users.
+There is an effort underway to replace post-install scripts with a [unified format](https://github.com/npm/cli/pull/187) for soliciting donations. This will likely lead to the silencing of non-error install script output, which is honestly not a bad idea. The days of free-form post-install solicitations seem numbered. It's important that this change is coupled with automatic reporting of funding calls-to-action on `npm install` or else the change merely removes one of the few avenues maintainers have to reach their users.
 
 Despite all the personal attacks against me, I’m really glad I ran this experiment. I think it was worthwhile because it seems to have moved the conversation forward, at least among the more thoughtful folks in the wider community.
 
