@@ -212,3 +212,8 @@ Approximately 100% of the Fortune 500 use open source code. Maintainers are just
 Despite all the personal attacks against me, I’m really glad I ran this experiment. I think it was worthwhile because it seems to have moved the conversation forward, at least among the more thoughtful folks in the wider community.
 
 I really appreciate the support that folks have shown for experimentation, and all the useful discussions that have resulted! Also, a huge thank you for the words of encouragement and support in the midst of all the harassment. Thank you everyone 🥰 🥰 🥰
+
+**Update:** If you want to read more thoughts about `funding` from someone who's a much better writer than me, I recommend these posts from Kyle Mitchell:
+
+- [Process of Elimination](https://blog.licensezero.com/2019/08/24/Process-of-Elimination.html)
+- [But You Said I Could](https://blog.licensezero.com/2019/08/26/but-you-said.html)
