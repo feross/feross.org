@@ -10,9 +10,15 @@ ad: false
 
 I'm ending the `funding` experiment I [introduced](/npm-install-funding/) a few days ago.
 
+The idea was this: whenever users install open source software, the `funding` package would display a message from a company that supports open source. The sponsorship would pay directly for maintainer time. That is, writing new features, fixing bugs, answering user questions, and improving documentation.
+
+![npm install funding](/images/funding-screenshot.png)
+
 I appreciate the thoughtful discussion and feedback from the community. I'd like to share some thoughts about how the experiment went from my perspective.
 
 ## The problem
+
+Open source maintainers need income to fund their work.
 
 ### Where did this start?
 

@@ -24,6 +24,8 @@ This is an open source funding experiment! ✨
 
 Whenever users install open source software, this package will display a message from a company that supports open source. The sponsorship pays directly for maintainer time. That is, writing new features, fixing bugs, answering user questions, and improving documentation.
 
+![npm install funding](/images/funding-screenshot.png)
+
 The goal is to make sure that packages are well-maintained now and for the foreseeable future, with regular releases, improved reliability, and timely security patches. Healthy open source packages benefit users and maintainers alike.
 
 ## What does this code do?
