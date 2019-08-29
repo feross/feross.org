@@ -57,7 +57,7 @@ I like what Kyle Mitchell wrote in [Profit for Us, Sustainability for You](https
 
 We should set our goals higher than *subsistence*. Folks who work on open source have a right to *thrive* and to be fairly compensated for our labor.
 
-Remember: most open source maintainers can get a six-figure job relatively easily (in the SF bay area) where they're just helping one company instead of helping the public. The opportunity cost is huge. They should be able to do what they want and help the public without making such a difficult choice.
+Remember: most open source maintainers can get a six-figure job relatively easily (in the SF bay area) where they're just helping one company instead of helping the public. The opportunity cost is huge. We should be able to do what we want to help the public without making such a difficult choice.
 
 ### Do we dare to hope for something better?
 
