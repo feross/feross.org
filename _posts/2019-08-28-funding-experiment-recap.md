@@ -101,9 +101,7 @@ I'm hopeful that [GitHub Sponsors](https://github.com/sponsors) will make giving
 
 The most common funding models – donations, README sponsors, or paid consulting – only work if a maintainer can get their appeal in front of users. This [usually](https://github.com/zloirock/core-js/issues/548) goes in a README or on a website.
 
-But reliable, error-free transitive dependencies are invisible. Therefore, the maintainers are invisible, too. And, the better these maintainers do their job, the more invisible they are.
-
-No one ever visits a GitHub repository for a transitive dependency that works perfectly. There's no reason to do so. But a developer investigating an error stack trace might actually visit the GitHub repository, if for no other reason than to file an issue. At least then there's a chance they'll see the maintainer's plea in the README.
+But reliable, error-free transitive dependencies are invisible. Therefore, the maintainers are invisible, too. And, the better these maintainers do their job, the more invisible they are. No one ever visits a GitHub repository for a transitive dependency that works perfectly – there's no reason to do so. But a developer investigating an error stack trace might visit the repository if for no other reason than to file an issue. At least then there's a small chance they'll see the maintainer's plea in the README.
 
 We need solutions that work for these folks too.
 
