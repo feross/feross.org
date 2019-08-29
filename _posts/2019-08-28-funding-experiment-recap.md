@@ -22,7 +22,9 @@ Open source maintainers need income to fund their work.
 
 ### Where did this start?
 
-My objective was to start a conversation about how to change cultural norms around open source consumption.
+My objective was to try a new way to fund open source beyond just asking for donations. I've spent over 3,000 unpaid hours over the last four years maintaining some popular open source packages.
+
+More broadly, I wanted to start a conversation about cultural norms around open source consumption.
 
 Right now, the status quo is that **maintainers create massive amounts of value and then for-profit companies and SaaS startups [capture almost all of it](https://gravitational.com/blog/open-core-vs-saas-intro/).**
 
