@@ -195,19 +195,21 @@ Folks who contribute nothing don't get a seat at the table.
 
 > A new idea is delicate. It can be killed by a sneer or a yawn; it can be stabbed to death by a quip and worried to death by a frown on the right man's brow. – Ovid
 
-Since it seems clear this isn’t going to be the solution that saves us all, I’m ending the experiment. (In fact, it’s already been paused since Saturday when the sponsors backed out.)
+Since it seems clear this isn’t going to be the solution that saves us all, I’m ending the experiment. (In fact, it’s already been paused since Saturday when the initial two sponsors backed out.)
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">We reconsidered after reflecting on the developer community&#39;s reaction. We still passionately support open source software along with <a href="https://twitter.com/feross?ref_src=twsrc%5Etfw">@feross</a>, but we&#39;ll be more careful about experimenting in the future while continuing to innovate. On that note:<a href="https://t.co/WFrHBFGzul">https://t.co/WFrHBFGzul</a></p>&mdash; Linode (@linode) <a href="https://twitter.com/linode/status/1166095174516297728?ref_src=twsrc%5Etfw">August 26, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Both Linode and LogRocket are supportive of exploring new ways to support open source. It's a bummer this didn't work out, but I don't hold it against either of them.
 
-It's possible that the idea of terminal ads still has some legs. But this isn't the hill I want to die on. **I have other experiments in the works that I'm way more excited to try out.**
-
 ### The future
 
-Approximately 100% of the Fortune 500 use open source code. Maintainers are just starting to wake up to our own power. Expect lots more experiments in the future. Expect to be surprised. This certainly won't be the last open source funding experiment.
+I have plenty of interest from other sponsors and could keep working on `funding` with them onboard. One sponsor is particularly eager to start running their own terminal ad ASAP.
 
-There is an effort underway to replace post-install scripts with a [unified format](https://github.com/npm/cli/pull/187) for soliciting donations. This will likely lead to the silencing of non-error install script output, which is honestly not a bad idea. The days of free-form post-install solicitations seem numbered. It's important that this change is coupled with automatic reporting of funding calls-to-action on `npm install` or else the change merely removes one of the few avenues maintainers have to reach their users.
+**But I have other experiments in the works that I'm way more excited to try out.** Terminal ads seem like they have a limited lifetime. There is an effort underway to replace post-install scripts with a [unified format](https://github.com/npm/cli/pull/187) for soliciting donations. This will likely lead to the silencing of non-error install script output, which is honestly not a bad idea. So, the days of free-form post-install solicitations seem numbered. It's important that if npm makes this change, it is coupled with automatic reporting of funding calls-to-action on `npm install` or else the change would merely removes one of the few avenues maintainers have to reach users.
+
+So it is possible that terminal ads likely still shelf life. But this isn't the hill I want to die on. Onward!
+
+Approximately 100% of the Fortune 500 use open source code. Maintainers are just starting to wake up to our own power. Expect lots more experiments in the future. Expect to be surprised. This certainly won't be the last open source funding experiment.
 
 Despite all the personal attacks against me, I’m really glad I ran this experiment. I think it was worthwhile because it seems to have moved the conversation forward, at least among the more thoughtful folks in the wider community.
 
