@@ -207,7 +207,7 @@ I have plenty of interest from other sponsors and could keep working on `funding
 
 So it is possible that terminal ads likely still shelf life. But this isn't the hill I want to die on. Onward!
 
-Approximately 100% of the Fortune 500 use open source code. Maintainers are just starting to wake up to our own power. Expect lots more experiments in the future. Expect to be surprised. This certainly won't be the last open source funding experiment.
+Approximately 100% of the Fortune 500 use open source code. Maintainers are just starting to wake up to our own power. Expect to be surprised. This certainly won't be the last open source funding experiment.
 
 Despite all the personal attacks against me, I’m really glad I ran this experiment. I think it was worthwhile because it seems to have moved the conversation forward, at least among the more thoughtful folks in the wider community.
 
