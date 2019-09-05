@@ -2,6 +2,7 @@
 _site
 _drafts
 .jekyll-metadata
+.jekyll-cache
 
 # Feross.org
 hacks/
