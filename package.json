@@ -15,6 +15,7 @@
     "throttleit": "^1.0.0"
   },
   "devDependencies": {
+    "babel-minify": "^0.5.1",
     "browserify": "^16.5.0",
     "git-pull-or-clone": "^2.0.0",
     "husky": "^3.0.5",
@@ -22,7 +23,6 @@
     "run-series": "^1.1.8",
     "standard": "*",
     "stylus": "^0.54.7",
-    "uglify-js": "^3.6.0",
     "watchify": "^3.11.1"
   },
   "homepage": "https://feross.org",
@@ -42,7 +42,7 @@
     "build-css": "stylus -u nib css/main.styl -o css/ -c",
     "build-hacks": "node _bin/build-hacks.js",
     "build-html": "jekyll build --lsi && cp -r .well-known _site",
-    "build-js": "browserify client | uglifyjs -c warnings=false -m > client/bundle.js",
+    "build-js": "browserify client | minify > client/bundle.js",
     "deploy": "npm test && git push && npm run build && rsync -a -v -e ssh --delete _server _site nginx.conf node_modules supervisor.conf package.json feross@future:/home/feross/www/feross.org/",
     "install-system-deps": "brew install gsl && sudo gem install narray && sudo gem install jekyll bundler rdiscount gsl classifier-reborn rouge",
     "start": "npm run build && jekyll serve",
