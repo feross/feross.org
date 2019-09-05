@@ -57,6 +57,7 @@ the benefit of all.
 ## Top Supporters
 
 - Charlie Cheever
+- JP Richardson <!-- Leave here until December 2022 -->
 - Timothy Oxley
 
 ## Supporters
