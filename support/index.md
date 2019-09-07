@@ -12,20 +12,20 @@ Does your company or team need dedicated support, advice, and direct assistance 
 
 I specialize in making computers (and especially browsers) do things they’re not supposed to do. Bring me your trickiest, most difficult challenges and I’ll help solve them. I'm an expert in JavaScript, Node.js, security, computer networking, WebRTC, P2P, browser APIs, and open source.
 
-I offer a **one-time consultation** as well as a **support contract** to help solve your problems.
+I offer **one hour consultations** as well as **support contracts** to help solve your problems.
 
 ## One Hour Consultation ($500 one-time)
 
 - **Get support and advice** on JavaScript, Node.js, or open source issues
 - **One hour** of dedicated time with an expert
 - Secure one-time payment through Stripe (invoice provided)
-- **[Book a consultation](https://feross.org/consult)** – it's quick and easy!
+- **[Book a consultation](/consult/)** – it's quick and easy!
 
 ## Support Contract ($3,000 per month)
 
 - **48 hours of consulting services per year** (development, support, etc.)
 - **Email support** for any JavaScript, Node.js, or open source issue
-- **Large company logo** and link on the official website and readme of [StandardJS](https://standardjs.com) or [WebTorrent](https://webtorrent.io), and [feross.org/thanks](https://feross.org/thanks), which get 180K page views per month
+- **Large company logo** and link on the official website and readme of [StandardJS](https://standardjs.com) or [WebTorrent](https://webtorrent.io), and [feross.org/thanks](/thanks/), which get 180K page views per month
 - **Priority GitHub issues**, so your issues are addressed first
 - Thank you tweet from [@feross](https://twitter.com/feross) Twitter account
 
