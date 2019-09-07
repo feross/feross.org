@@ -6,35 +6,31 @@ class: support
 
 # Get a Support Contract
 
-I'm <strong>Feross</strong>, a prolific open source author and maintainer.
+I'm <strong>Feross</strong>, a prolific open source author. I maintain <a href="https://www.npmjs.com/~feross">100+ open source packages</a> which are downloaded 100+ million times per month.
 
-I maintain <strong><a href="https://www.npmjs.com/~feross">100+ packages on npm</a></strong> which are <strong>downloaded 100+ million times per month</strong>. All my code is freely accessible on <a href="https://github.com/feross">GitHub</a> and funded by <a href="/thanks/">my supporters</a>.
-
-I now offer an open source support contract, for companies and teams who want dedicated support, advice, and direct assistance with JavaScript, Node.js, security, or open source issues.
+Does your company or team need dedicated support, advice, and direct assistance with JavaScript, Node.js, security, or open source issues?
 
 I specialize in making computers (and especially browsers) do things they’re not supposed to do. Bring me your trickiest, most difficult challenges and I’ll help solve them. I'm an expert in JavaScript, Node.js, security, computer networking, WebRTC, P2P, browser APIs, and open source.
 
-If you want to chat about getting a support contract for your company or team, email me at <a href="mailto:">[my first name]@feross.org</a>.
+I offer a **one-time consultation** as well as a **support contract** to help solve your problems.
 
-## Support Contract ($3,000/mo)
+## One Hour Consultation ($500 one-time)
 
-- **4 hours of consulting services** (development, bug fixes, etc.) per month
-- **Email support** for the 100+ packages I maintain as well as general issues about JavaScript/Node.js/security topics
-- Large **company logo** and link on the **official website** and **readme** of [StandardJS](https://standardjs.com) or [WebTorrent](https://webtorrent.io), and [feross.org/thanks](https://feross.org/thanks) (~180K page views in the last 30 days)
-- **Priority GitHub issues** (I will look at your GitHub issues first)
-- Thank you tweet from [@feross](https://twitter.com/feross) Twitter account (17K followers)
+- **Get support and advice** on JavaScript, Node.js, or open source issues
+- **One hour** of dedicated time with an expert
+- Secure one-time payment through Stripe (invoice provided)
+- **[Book a consultation](https://feross.org/consult)** – it's quick and easy!
 
-## Premium Support Contract ($6,000/mo)
+## Support Contract ($3,000 per month)
 
-- **10 hours of consulting services** (development, bug fixes, etc.) per month
-- **Email support** for the 100+ packages I maintain as well as general issues about JavaScript/Node.js/security topics
-- Large **company logo** and link on the **official website** and **readme** of [StandardJS](https://standardjs.com) or [WebTorrent](https://webtorrent.io), and [feross.org/thanks](https://feross.org/thanks) (~180K page views in the last 30 days)
-- **Priority GitHub issues** (I will look at your GitHub issues first)
-- Thank you tweet from [@feross](https://twitter.com/feross) Twitter account (17K followers)
-
+- **48 hours of consulting services per year** (development, support, etc.)
+- **Email support** for any JavaScript, Node.js, or open source issue
+- **Large company logo** and link on the official website and readme of [StandardJS](https://standardjs.com) or [WebTorrent](https://webtorrent.io), and [feross.org/thanks](https://feross.org/thanks), which get 180K page views per month
+- **Priority GitHub issues**, so your issues are addressed first
+- Thank you tweet from [@feross](https://twitter.com/feross) Twitter account
 
 ## Get in touch!
 
 If you want to chat about getting a support contract for your company or team, email me at <a href="mailto:">[my first name]@feross.org</a>.
 
-A minimum contract length of 3 months is required.
+**At this time, I have availability for one additional client**.
