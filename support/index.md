@@ -6,9 +6,9 @@ class: support
 
 # Get a Support Contract
 
-I'm <strong>Feross</strong>, a prolific open source author. I maintain <a href="https://www.npmjs.com/~feross">100+ open source packages</a> which are downloaded 100+ million times per month.
-
 Does your company or team need dedicated support, advice, and direct assistance with JavaScript, Node.js, security, or open source issues?
+
+I'm Feross, a prolific open source author. I maintain <a href="https://www.npmjs.com/~feross">100+ open source packages</a> which are downloaded 100+ million times per month. All my work is [freely available](https://github.com/feross) on GitHub.
 
 I specialize in making computers (and especially browsers) do things they’re not supposed to do. Bring me your trickiest, most difficult challenges and I’ll help solve them. I'm an expert in JavaScript, Node.js, security, computer networking, WebRTC, P2P, browser APIs, and open source.
 
