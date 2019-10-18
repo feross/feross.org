@@ -86,7 +86,7 @@ Here are a few of the things I tried:
 - [`thanks`](/introducing-thanks/)
 - [Patreon](https://www.patreon.com/feross)
 - [Tidelift](https://tidelift.com/subscription/pkg/npm-standard?utm_source=npm-standard&utm_medium=readme)
-- [GitHub Sponsors](https://github.com/users/feross/sponsorship)
+- [GitHub Sponsors](https://github.com/sponsors/feross)
 - Paid consulting
 
 With all these put together, I can make it work. But it still feels like a precarious solution. If even I – with my fortunate position – can't make a *comfortable* living working on open source, then how is anyone else supposed to make it work?

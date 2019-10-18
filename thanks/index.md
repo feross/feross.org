@@ -10,7 +10,7 @@ support which enables me to build free and open source software like
 the benefit of all.
 
 <div class='sponsor-buttons'>
-  <a href='https://github.com/users/feross/sponsorship' target='_blank' class='sponsor-button grow'>
+  <a href='https://github.com/sponsors/feross' target='_blank' class='sponsor-button grow'>
     <img src='/images/supporters/githubsponsors.png' />
   </a>
   <a href='https://www.patreon.com/feross' target='_blank' class='sponsor-button grow'>
@@ -88,7 +88,7 @@ the benefit of all.
 You can become a supporter by visiting GitHub or Patreon.
 
 <div class='sponsor-buttons'>
-  <a href='https://github.com/users/feross/sponsorship' target='_blank' class='sponsor-button grow'>
+  <a href='https://github.com/sponsors/feross' target='_blank' class='sponsor-button grow'>
     <img src='/images/supporters/githubsponsors.png' />
   </a>
   <a href='https://www.patreon.com/feross' target='_blank' class='sponsor-button grow'>
