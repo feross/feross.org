@@ -19,14 +19,19 @@ the benefit of all.
   <a href='#onetime' class='sponsor-button grow'>One-Time Contribution</a>
 </div>
 
+<!-- $1000+ -->
 ## Platinum Sponsors
 
 <div class='sponsors sponsors-platinum'>
   <a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/brave.png' alt='Brave Software' />
   </a>
+  <a href='https://codefund.io/properties/454/visit-sponsor' rel='nofollow' target='_blank' class='sponsor grow'>
+    <img src='https://codefund.io/properties/454/sponsor' />
+  </a>
 </div>
 
+<!-- $500+ -->
 ## Gold Sponsors
 
 <div class='sponsors sponsors-gold'>
@@ -35,6 +40,7 @@ the benefit of all.
   </a>
 </div>
 
+<!-- $200+ -->
 ## Silver Sponsors
 
 <div class='sponsors sponsors-silver'>
@@ -43,6 +49,7 @@ the benefit of all.
   </a>
 </div>
 
+<!-- $100+ -->
 ## Bronze Sponsors
 
 <div class='sponsors sponsors-bronze'>
@@ -54,12 +61,14 @@ the benefit of all.
   </a>
 </div>
 
+<!-- $50+ -->
 ## Top Supporters
 
 - Charlie Cheever
 - JP Richardson <!-- Leave here until December 2022 -->
 - Timothy Oxley
 
+<!-- $10+ -->
 ## Supporters
 
 - Andrej Hronco
@@ -68,18 +77,27 @@ the benefit of all.
 - David Passarelli
 - Devon Zuegel
 - Donald Fischer
+- Francis Plaza
+- Hannan Ali
 - Julian Gruber
 - LitoMore
 - Marius Tîrcă
+- Mark Waldron
 - Matt Bell
-- Maythee Anegboonlap
+- Matt McCormick
 - Nat Friedman
 - Ondrej Sika
 - Paras Narang
 - Patrick Collison
 - Pelle Wessman
 - Seth Vincent
+- Spencer Alger
+- Tara Z. Manicsic
+- Thomas Reto Strub
 - Tierney Cyren
+- Tyler Hall
+- Vincent Weevers
+- Visnu Pitiyanuvath
 - William Hilton
 - Zeke Sikelianos
 
