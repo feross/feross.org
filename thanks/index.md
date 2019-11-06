@@ -90,6 +90,7 @@ the benefit of all.
 - Paras Narang
 - Patrick Collison
 - Pelle Wessman
+- Rubens Mesquita
 - Seth Vincent
 - Spencer Alger
 - Tara Z. Manicsic
