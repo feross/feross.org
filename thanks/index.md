@@ -80,6 +80,7 @@ the benefit of all.
 - Francis Plaza
 - Hannan Ali
 - Julian Gruber
+- Józef Sokołowski
 - LitoMore
 - Marius Tîrcă
 - Mark Waldron
