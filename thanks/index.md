@@ -68,40 +68,72 @@ the benefit of all.
 - JP Richardson <!-- Leave here until December 2022 -->
 - Timothy Oxley
 
-<!-- $10+ -->
 ## Supporters
 
+- Adrian L Flanagan
 - Andrej Hronco
+- Andrew Collins
 - Anthony Estebe
+- Ayodele Akingbule
+- Benjamin Blackwood
+- Brandon Dees
+- Bryce Neal
+- Charles Naut
 - Chris Ball
+- Christian Fei
+- Christian Schröter
+- Daniel Cassidy
+- Daniel Minshew
 - David Passarelli
+- Devon Govett
 - Devon Zuegel
 - Donald Fischer
 - Francis Plaza
 - Hannan Ali
+- Huỳnh Đăng
 - Julian Gruber
 - Józef Sokołowski
+- Leo Globerman
 - LitoMore
+- Manuel Araoz
 - Marius Tîrcă
 - Mark Waldron
 - Matt Bell
 - Matt McCormick
+- Matt McKegg
+- Mike King
+- Mike Sugarbaker
+- Mikey
+- Nadia Eghbal
 - Nat Friedman
+- Nazar Mokrynskyi
 - Ondrej Sika
+- PablO
 - Paras Narang
 - Patrick Collison
 - Pelle Wessman
+- Robert Feie
 - Rubens Mesquita
+- Samuel Maddock
+- Say Yup
+- Sean Byrne
 - Seth Vincent
+- Soares
 - Spencer Alger
+- Szmozsánszky István "Flaki"
 - Tara Z. Manicsic
+- Terin Stock
 - Thomas Reto Strub
 - Tierney Cyren
 - Tyler Hall
+- Vincent Van Ghelue
 - Vincent Weevers
 - Visnu Pitiyanuvath
+- Waldir Pimenta
 - William Hilton
+- Winnie
 - Zeke Sikelianos
+- Ēriks Remess
 
 ## Become a Supporter
 
