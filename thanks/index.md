@@ -126,6 +126,7 @@ the benefit of all.
 - Thomas Reto Strub
 - Tierney Cyren
 - Tyler Hall
+- Victor Pontis
 - Vincent Van Ghelue
 - Vincent Weevers
 - Visnu Pitiyanuvath
