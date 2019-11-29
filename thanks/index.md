@@ -38,14 +38,17 @@ the benefit of all.
   <a href='https://tidelift.com/subscription/pkg/npm-standard?utm_source=npm-standard&utm_medium=readme' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/tidelift.png' alt='Tidelift' />
   </a>
+  <a href='https://handshake.org/' rel='nofollow' target='_blank' class='sponsor grow'>
+    <img src='/images/supporters/handshake.png' />
+  </a>
 </div>
 
 <!-- $200+ -->
 ## Silver Sponsors
 
 <div class='sponsors sponsors-silver'>
-  <a href='#' rel='nofollow' target='_blank' class='sponsor grow'>
-    Your logo here
+  <a href='https://botpress.io/?utm_source=standardjs&utm_medium=referral&utm_campaign=feross' rel='nofollow' target='_blank' class='sponsor grow'>
+    <img src='/images/supporters/botpress.png' alt='Botpress' />
   </a>
 </div>
 
