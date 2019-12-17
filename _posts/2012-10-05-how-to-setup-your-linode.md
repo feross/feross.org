@@ -7,7 +7,7 @@ tags:
 hn: "http://news.ycombinator.com/item?id=4618808"
 ---
 
-*This guide was last updated in 2018. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
+*This guide was last updated in December 2019. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
 
 So, you followed the advice in my [Linode Hosting Review](/linode-vps-hosting-review/) and decided to host your website with [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Excellent choice!
 
@@ -86,7 +86,7 @@ hostname
 Set the <abbr title="Fully-qualified domain name">FQDN</abbr> of the server by editing the `/etc/hosts` file:
 
 {% highlight bash %}
-sudo vim /etc/hosts
+vim /etc/hosts
 {% endhighlight %}
 
 Make sure the following line is in the `/etc/hosts` file (after anything that's in there by default):
@@ -147,7 +147,7 @@ Add the user to the `sudo` group:
 usermod -a -G sudo <your username>
 {% endhighlight %}
 
-This allows you to perform actions that require `root` priveledge by simply prepending the word `sudo` to the command. You may need to type your password to confirm your intentions.
+This allows you to perform actions that require `root` privilege by simply prepending the word `sudo` to the command. You may need to type your password to confirm your intentions.
 
 Login with new user:
 
@@ -289,15 +289,23 @@ The firewall has no rules yet. Check it out:
 sudo iptables -L
 {% endhighlight %}
 
-Setup firewall rules in a new file:
+Next, we'll install a package which enables persistent firewall rules. This means that the firewall rules will get automatically applied at server startup:
 
 {% highlight bash %}
-sudo vim /etc/iptables.firewall.rules
+sudo apt install iptables-persistent
+{% endhighlight %}
+
+When prompted, agree to have the current rules installed into `/etc/iptables/rules.v4` and `/etc/iptables/rules.v6`.
+
+Setup the IPv4 firewall rules in `/etc/iptables/rules.v4`:
+
+{% highlight bash %}
+sudo vim /etc/iptables/rules.v4
 {% endhighlight %}
 
 The following firewall rules will allow HTTP (80), HTTPS (443), SSH (44444), ping, and some other ports for testing. All other ports will be blocked.
 
-Paste the following into `/etc/iptables.firewall.rules`:
+Paste the following into `/etc/iptables/rules.v4`:
 
 ```
 *filter
@@ -336,10 +344,18 @@ Paste the following into `/etc/iptables.firewall.rules`:
 COMMIT
 ```
 
+Setup the IPv6 firewall rules in `/etc/iptables/rules.v6`:
+
+{% highlight bash %}
+sudo vim /etc/iptables/rules.v6
+{% endhighlight %}
+
+At this time, I don't run any IPv6 services, so I recommend just deleting the contents of `/etc/iptables/rules.v6` entirely.
+
 Activate the firewall rules now:
 
 {% highlight bash %}
-sudo iptables-restore < /etc/iptables.firewall.rules
+sudo iptables-restore < /etc/iptables/rules.v4
 {% endhighlight %}
 
 Verify that the rules were installed correctly:
@@ -348,25 +364,15 @@ Verify that the rules were installed correctly:
 sudo iptables -L
 {% endhighlight %}
 
-Activate the firewall rules on startup:
+Restart the server and confirm that the rules are still in place.
 
 {% highlight bash %}
-sudo vim /etc/network/if-pre-up.d/firewall
+reboot
 {% endhighlight %}
-
-Paste this into the `/etc/network/if-pre-up.d/firewall` file:
 
 {% highlight bash %}
-#!/bin/sh
-/sbin/iptables-restore < /etc/iptables.firewall.rules
+sudo iptables -L
 {% endhighlight %}
-
-Set the script permissions:
-
-{% highlight bash %}
-sudo chmod +x /etc/network/if-pre-up.d/firewall
-{% endhighlight %}
-
 
 ### Get an email anytime a user uses `sudo`
 
