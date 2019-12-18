@@ -34,7 +34,7 @@ function createConnection () {
 // Increment the view count for a particular post and return
 // the current view count.
 app.post('/views', function (req, res) {
-  var slug = req.param('slug')
+  var slug = req.body.slug
 
   if (!slug) return res.send('Missing `slug` param')
 
