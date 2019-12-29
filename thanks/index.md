@@ -26,9 +26,6 @@ the benefit of all.
   <a href='https://brave.com' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/brave.png' alt='Brave Software' />
   </a>
-  <a href='https://codefund.io/properties/454/visit-sponsor' rel='nofollow' target='_blank' class='sponsor grow'>
-    <img src='https://codefund.io/properties/454/sponsor' />
-  </a>
 </div>
 
 <!-- $500+ -->
