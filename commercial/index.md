@@ -11,39 +11,34 @@ Some of my work is available under a commercial license. You can instantly obtai
 <script src="https://js.stripe.com/v3"></script>
 
 <div class='stripe-container'>
-  <button id='checkout-button-sku_GS0baNR0QEWHbC' role='link'>Buy a commercial license</button>
+  <!-- <button class='checkout-button' role='link' data-sku='sku_GS3kyfGgM0krXi'>Buy a commercial license (last-fm)</button> -->
+  <button class='checkout-button' role='link' data-sku='sku_GS0baNR0QEWHbC'>Buy a commercial license (reddit)</button>
   <div id='error-message'></div>
 </div>
 
 <script>
-(function () {
-  var stripe = Stripe('pk_live_rfGbMbP1lWTcHmOoA8n9hNY70020URHP1A')
+  const stripe = Stripe('pk_live_rfGbMbP1lWTcHmOoA8n9hNY70020URHP1A')
 
-  var checkoutButton = document.getElementById('checkout-button-sku_GS0baNR0QEWHbC')
-  checkoutButton.addEventListener('click', function () {
-    // When the customer clicks on the button, redirect
-    // them to Checkout.
-    stripe.redirectToCheckout({
-      items: [{ sku: 'sku_GS0baNR0QEWHbC', quantity: 1 }],
+  const $checkoutButtons = document.querySelectorAll('.checkout-button')
 
-      // Do not rely on the redirect to the successUrl for fulfilling
-      // purchases, customers may not always reach the success_url after
-      // a successful payment.
-      // Instead use one of the strategies described in
-      // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://feross.org/commercial/success',
-      cancelUrl: 'https://feross.org/commercial/cancel'
+  $checkoutButtons.forEach($checkoutButton => {
+    $checkoutButton.addEventListener('click', () => {
+      const opts = {
+        items: [{ sku: $checkoutButton.dataset.sku, quantity: 1 }],
+        successUrl: 'https://feross.org/commercial/success',
+        cancelUrl: 'https://feross.org/commercial/cancel'
+      }
+
+      stripe
+        .redirectToCheckout(opts)
+        .then(result => {
+          if (result.error) {
+            var displayError = document.getElementById('error-message')
+            displayError.textContent = result.error.message
+          }
+        })
     })
-      .then(function (result) {
-        if (result.error) {
-          // If `redirectToCheckout` fails due to a browser or network
-          // error, display the localized error message to your customer.
-          var displayError = document.getElementById('error-message')
-          displayError.textContent = result.error.message
-        }
-      })
   })
-})()
 </script>
 
 You will see a charge from "WebTorrent Open Source" on your credit card statement.
