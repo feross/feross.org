@@ -1,7 +1,7 @@
 ---
 layout: layout
 title: Cancel – Buy a Commercial License
-class: commercial-cancel
+class: commercial
 ---
 
 # Do you have questions?

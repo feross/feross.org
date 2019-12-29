@@ -1,7 +1,7 @@
 ---
 layout: layout
 title: Success – Buy a Commercial License
-class: commercial-success
+class: commercial
 ---
 
 # Thank you for buying a commercial license!
