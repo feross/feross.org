@@ -50,4 +50,4 @@ You will see a charge from "WebTorrent Open Source" on your credit card statemen
 
 If you have questions about how this works, or want to chat about obtaining a commercial license for your company or team, email me at <a href="mailto:">[my first name]@feross.org</a>.
 
-If you already [support my open source work](/support/) via other means, send me an email and I'll give you a commercial license for free.
+If you already [support my open source work](/thanks/) or have a [support contract](/support/), email me at <a href="mailto:">[my first name]@feross.org</a> and I'll give you a commercial license for free.
