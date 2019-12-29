@@ -8,18 +8,12 @@ class: commercial
 
 Some of my work is available under a commercial license. You can instantly obtain a commercial license for this work by paying a one-time fee of $99.
 
+<script src="https://js.stripe.com/v3"></script>
+
 <div class='stripe-container'>
   <button id='checkout-button-sku_GS0baNR0QEWHbC' role='link'>Buy a commercial license</button>
   <div id='error-message'></div>
 </div>
-
-You will see a charge from "WebTorrent Open Source" on your credit card statement.
-
-If you have questions about how this works, or want to chat about obtaining a commercial license for your company or team, email me at <a href="mailto:">[my first name]@feross.org</a>.
-
-If you already [support my open source work](/support/) via other means, send me an email and I'll give you a commercial license for free.
-
-<script src="https://js.stripe.com/v3"></script>
 
 <script>
 (function () {
@@ -52,3 +46,8 @@ If you already [support my open source work](/support/) via other means, send me
 })()
 </script>
 
+You will see a charge from "WebTorrent Open Source" on your credit card statement.
+
+If you have questions about how this works, or want to chat about obtaining a commercial license for your company or team, email me at <a href="mailto:">[my first name]@feross.org</a>.
+
+If you already [support my open source work](/support/) via other means, send me an email and I'll give you a commercial license for free.
