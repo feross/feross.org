@@ -97,4 +97,4 @@ app.get('/views/total', function (req, res) {
 })
 
 // Start server
-app.listen(port)
+app.listen(port, '127.0.0.1')
