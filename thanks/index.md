@@ -95,6 +95,7 @@ the benefit of all.
 - Józef Sokołowski
 - Leo Globerman
 - LitoMore
+- Luke Childs
 - Manuel Araoz
 - Marius Tîrcă
 - Mark Waldron
@@ -112,6 +113,7 @@ the benefit of all.
 - Paras Narang
 - Patrick Collison
 - Pelle Wessman
+- Per Guth
 - Robert Feie
 - Rubens Mesquita
 - Samuel Maddock
