@@ -38,7 +38,7 @@ the benefit of all.
   <a href='https://handshake.org/' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/handshake.png' alt='Handshake' />
   </a>
-  <a href='https://enya.ai/' rel='nofollow' target='_blank' class='sponsor grow'>
+  <a href='https://www.enya.ai/?utm_source=feross.org&utm_medium=web' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/enya.png' alt='Enya' />
   </a>
 </div>
