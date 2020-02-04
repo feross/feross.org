@@ -36,10 +36,10 @@ the benefit of all.
     <img src='/images/supporters/tidelift.png' alt='Tidelift' />
   </a>
   <a href='https://handshake.org/' rel='nofollow' target='_blank' class='sponsor grow'>
-    <img src='/images/supporters/handshake.png' />
+    <img src='/images/supporters/handshake.png' alt='Handshake' />
   </a>
   <a href='https://enya.ai/' rel='nofollow' target='_blank' class='sponsor grow'>
-    <img src='/images/supporters/enya.png' />
+    <img src='/images/supporters/enya.png' alt='Enya' />
   </a>
 </div>
 
