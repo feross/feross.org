@@ -38,6 +38,9 @@ the benefit of all.
   <a href='https://handshake.org/' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/handshake.png' />
   </a>
+  <a href='https://enya.ai/' rel='nofollow' target='_blank' class='sponsor grow'>
+    <img src='/images/supporters/enya.png' />
+  </a>
 </div>
 
 <!-- $200+ -->
