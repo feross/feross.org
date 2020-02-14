@@ -47,9 +47,6 @@ the benefit of all.
 ## Silver Sponsors
 
 <div class='sponsors sponsors-silver'>
-  <a href='https://botpress.io/?utm_source=standardjs&utm_medium=referral&utm_campaign=feross' rel='nofollow' target='_blank' class='sponsor grow'>
-    <img src='/images/supporters/botpress.png' alt='Botpress' />
-  </a>
 </div>
 
 <!-- $100+ -->
