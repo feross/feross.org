@@ -95,7 +95,6 @@ the benefit of all.
 - Józef Sokołowski
 - Leo Globerman
 - LitoMore
-- Luke Childs
 - Manuel Araoz
 - Marius Tîrcă
 - Mark Waldron
@@ -115,7 +114,6 @@ the benefit of all.
 - Pelle Wessman
 - Per Guth
 - Robert Feie
-- Rubens Mesquita
 - Samuel Maddock
 - Say Yup
 - Sean Byrne
@@ -123,7 +121,6 @@ the benefit of all.
 - Soares
 - Spencer Alger
 - Szmozsánszky István "Flaki"
-- Tara Z. Manicsic
 - Terin Stock
 - Thomas Reto Strub
 - Tierney Cyren
