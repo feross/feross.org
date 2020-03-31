@@ -7,7 +7,7 @@ tags:
 hn: "http://news.ycombinator.com/item?id=4618808"
 ---
 
-*This guide was last updated in December 2019. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
+*This guide was last updated in March 2020. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
 
 So, you followed the advice in my [Linode Hosting Review](/linode-vps-hosting-review/) and decided to host your website with [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Excellent choice!
 
@@ -212,16 +212,16 @@ Disable remote root login and change SSH port:
 sudo vim /etc/ssh/sshd_config
 {% endhighlight %}
 
-**Set "Port" to "44444" and "PermitRootLogin" to "no".** Save the file and restart the SSH service:
+**Set "Port" to "444" and "PermitRootLogin" to "no".** Save the file and restart the SSH service:
 
 {% highlight bash %}
 sudo systemctl restart ssh
 {% endhighlight %}
 
-In this example, we changed the port to 44444. So, now to connect to the server, we need to run:
+In this example, we changed the port to 444. So, now to connect to the server, we need to run:
 
 {% highlight bash %}
-ssh <your username>@future.<your domain>.net -p 44444
+ssh <your username>@future.<your domain>.net -p 444
 {% endhighlight %}
 
 Update: Somone posted this useful thought about choosing an SSH port on Hacker News:
@@ -261,13 +261,13 @@ sendername = Fail2Ban
 {% highlight bash %}
 [sshd]
 enabled = true
-port = 44444
+port = 444
 {% endhighlight %}
 
 {% highlight bash %}
 [sshd-ddos]
 enabled = true
-port = 44444
+port = 444
 {% endhighlight %}
 
 (Change the port number to match whatever you used as your SSH port).
@@ -303,7 +303,7 @@ Setup the IPv4 firewall rules in `/etc/iptables/rules.v4`:
 sudo vim /etc/iptables/rules.v4
 {% endhighlight %}
 
-The following firewall rules will allow HTTP (80), HTTPS (443), SSH (44444), ping, and some other ports for testing. All other ports will be blocked.
+The following firewall rules will allow HTTP (80), HTTPS (443), SSH (444 (our custom SSH port)), ping, and some other ports for testing. All other ports will be blocked.
 
 Paste the following into `/etc/iptables/rules.v4`:
 
@@ -329,7 +329,7 @@ Paste the following into `/etc/iptables/rules.v4`:
 
 #  Allow SSH connections
 #  The -dport number should be the same port number you set in sshd_config
--A INPUT -p tcp -m state --state NEW --dport 44444 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW --dport 444 -j ACCEPT
 
 #  Allow ping
 -A INPUT -p icmp -m icmp --icmp-type 8 -j ACCEPT
@@ -367,10 +367,8 @@ sudo iptables -L
 Restart the server and confirm that the rules are still in place.
 
 {% highlight bash %}
-reboot
-{% endhighlight %}
-
-{% highlight bash %}
+sudo shutdown -r -h +0
+ssh <your username>@future.<your domain>.net -p 444
 sudo iptables -L
 {% endhighlight %}
 
