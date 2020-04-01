@@ -66,6 +66,7 @@ the benefit of all.
 
 - Charlie Cheever
 - JP Richardson <!-- Leave here until December 2022 -->
+- Per Guth
 - Timothy Oxley
 
 ## Supporters
@@ -76,9 +77,7 @@ the benefit of all.
 - Anthony Estebe
 - Benjamin Blackwood
 - Brandon Dees
-- Charles Naut
 - Chris Ball
-- Christian Fei
 - Christian Schröter
 - Daniel Cassidy
 - Daniel Minshew
@@ -110,7 +109,6 @@ the benefit of all.
 - Paras Narang
 - Patrick Collison
 - Pelle Wessman
-- Per Guth
 - Robert Feie
 - Samuel Maddock
 - Say Yup
@@ -124,7 +122,6 @@ the benefit of all.
 - Victor Pontis
 - Vincent Van Ghelue
 - Vincent Weevers
-- Visnu Pitiyanuvath
 - William Hilton
 - Winnie
 - Zeke Sikelianos
