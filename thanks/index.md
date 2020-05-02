@@ -67,7 +67,6 @@ the benefit of all.
 - Charlie Cheever
 - JP Richardson <!-- Leave here until December 2022 -->
 - Per Guth
-- Timothy Oxley
 
 ## Supporters
 
@@ -85,7 +84,7 @@ the benefit of all.
 - Devon Govett
 - Devon Zuegel
 - Donald Fischer
-- Francis Plaza
+- Elifenne Eliasin
 - Hannan Ali
 - Huỳnh Đăng
 - Julian Gruber
@@ -113,6 +112,7 @@ the benefit of all.
 - Samuel Maddock
 - Say Yup
 - Seth Vincent
+- Shawn Harmsen
 - Soares
 - Spencer Alger
 - Szmozsánszky István "Flaki"
@@ -120,6 +120,7 @@ the benefit of all.
 - Tierney Cyren
 - Tyler Hall
 - Victor Pontis
+- Viktor Fonic
 - Vincent Van Ghelue
 - Vincent Weevers
 - William Hilton
