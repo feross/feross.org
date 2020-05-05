@@ -7,7 +7,7 @@ tags:
 hn: "http://news.ycombinator.com/item?id=4618808"
 ---
 
-*This guide was last updated in March 2020. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
+*This guide was last updated in May 2020. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
 
 So, you followed the advice in my [Linode Hosting Review](/linode-vps-hosting-review/) and decided to host your website with [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Excellent choice!
 
@@ -287,6 +287,7 @@ The firewall has no rules yet. Check it out:
 
 {% highlight bash %}
 sudo iptables -L
+sudo ip6tables -L
 {% endhighlight %}
 
 Next, we'll install a package which enables persistent firewall rules. This means that the firewall rules will get automatically applied at server startup:
@@ -303,41 +304,42 @@ Setup the IPv4 firewall rules in `/etc/iptables/rules.v4`:
 sudo vim /etc/iptables/rules.v4
 {% endhighlight %}
 
-The following firewall rules will allow HTTP (80), HTTPS (443), SSH (444 (our custom SSH port)), ping, and some other ports for testing. All other ports will be blocked.
+The following firewall rules will allow HTTP (80), HTTPS (443), SSH (444 (our custom SSH port)), ping, and some ports for testing. All other ports will be blocked.
 
 Paste the following into `/etc/iptables/rules.v4`:
 
 ```
 *filter
 
-#  Allow all loopback (lo0) traffic and drop all traffic to 127/8 that doesn't use lo0
--A INPUT -i lo -j ACCEPT
--A INPUT ! -i lo -d 127.0.0.0/8 -j REJECT
-
-#  Accept all established inbound connections
+# Accept established inbound connections
 -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 
-#  Allow all outbound traffic - you can modify this to only allow certain traffic
+# Allow loopback interface traffic
+-A INPUT -i lo -j ACCEPT
+
+# Reject non-loopback interface traffic to loopback IP addresses
+-A INPUT ! -i lo -d 127.0.0.0/8 -j REJECT
+
+# Allow outbound traffic
 -A OUTPUT -j ACCEPT
 
-#  Allow HTTP and HTTPS connections from anywhere (the normal ports for websites and SSL).
+# Allow HTTP and HTTPS traffic
 -A INPUT -p tcp --dport 80 -j ACCEPT
 -A INPUT -p tcp --dport 443 -j ACCEPT
 
-#  Allow ports for testing
--A INPUT -p tcp --dport 8080:8090 -j ACCEPT
-
-#  Allow SSH connections
-#  The -dport number should be the same port number you set in sshd_config
+# Allow SSH connections (Note: --dport should match the port in sshd_config)
 -A INPUT -p tcp -m state --state NEW --dport 444 -j ACCEPT
 
-#  Allow ping
+# Allow ping
 -A INPUT -p icmp -m icmp --icmp-type 8 -j ACCEPT
 
-#  Log iptables denied calls
+# Allow test ports
+-A INPUT -p tcp --dport 8080:8090 -j ACCEPT
+
+# Log denied connections
 -A INPUT -m limit --limit 5/min -j LOG --log-prefix "iptables denied: " --log-level 7
 
-#  Reject all other inbound - default deny unless explicitly allowed policy
+# Reject all other inbound and forward traffic (default deny unless explicitly allowed)
 -A INPUT -j REJECT
 -A FORWARD -j REJECT
 
@@ -350,18 +352,48 @@ Setup the IPv6 firewall rules in `/etc/iptables/rules.v6`:
 sudo vim /etc/iptables/rules.v6
 {% endhighlight %}
 
-At this time, I don't run any IPv6 services, so I recommend just deleting the contents of `/etc/iptables/rules.v6` entirely.
+Paste the following into `/etc/iptables/rules.v6`:
+
+```
+*filter
+
+# Accept established inbound connections
+-A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+# Allow loopback interface traffic
+-A INPUT -i lo -j ACCEPT
+
+# Reject non-loopback interface traffic to loopback IP addresses
+-A INPUT ! -i lo -d ::1/128 -j REJECT
+
+# Allow outbound traffic
+-A OUTPUT -j ACCEPT
+
+# Allow ping
+-A INPUT -p icmpv6 -m icmpv6 --icmpv6-type 8 -j ACCEPT
+
+# Log denied connections
+-A INPUT -m limit --limit 5/min -j LOG --log-prefix "iptables denied: " --log-level 7
+
+# Reject all other inbound and forward traffic (default deny unless explicitly allowed)
+-A INPUT -j REJECT
+-A FORWARD -j REJECT
+
+COMMIT
+```
 
 Activate the firewall rules now:
 
 {% highlight bash %}
 sudo iptables-restore < /etc/iptables/rules.v4
+sudo ip6tables-restore < /etc/iptables/rules.v6
 {% endhighlight %}
 
 Verify that the rules were installed correctly:
 
 {% highlight bash %}
 sudo iptables -L
+sudo ip6tables -L
 {% endhighlight %}
 
 Restart the server and confirm that the rules are still in place.
@@ -370,6 +402,7 @@ Restart the server and confirm that the rules are still in place.
 sudo shutdown -r -h +0
 ssh <your username>@future.<your domain>.net -p 444
 sudo iptables -L
+sudo ip6tables -L
 {% endhighlight %}
 
 ### Get an email anytime a user uses `sudo`
