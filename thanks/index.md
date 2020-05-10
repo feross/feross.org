@@ -159,4 +159,4 @@ Here is my [PayPal](https://www.paypal.me/feross) and my crypto addresses:
 
 <br><br>
 
-<center><em>This page will be updated monthly, on the first of the month.</em></center>
+<center><em>This page is updated monthly.</em></center>
