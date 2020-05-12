@@ -47,6 +47,9 @@ the benefit of all.
 ## Silver Sponsors
 
 <div class='sponsors sponsors-silver'>
+  <a href='https://www.xvbelink.com/?a_fid=wt' rel='nofollow' target='_blank' class='sponsor grow'>
+    <img src='/images/supporters/expressvpn.png' alt='ExpressVPN' />
+  </a>
 </div>
 
 <!-- $100+ -->
