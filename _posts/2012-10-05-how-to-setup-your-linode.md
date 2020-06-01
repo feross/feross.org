@@ -7,7 +7,7 @@ tags:
 hn: "http://news.ycombinator.com/item?id=4618808"
 ---
 
-*This guide was last updated in May 2020. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
+*This guide was last updated in June 2020. View [the full changelog](https://github.com/feross/feross.org/commits/master/_posts/2012-10-05-how-to-setup-your-linode.md).*
 
 So, you followed the advice in my [Linode Hosting Review](/linode-vps-hosting-review/) and decided to host your website with [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Excellent choice!
 
@@ -324,17 +324,17 @@ Paste the following into `/etc/iptables/rules.v4`:
 -A OUTPUT -j ACCEPT
 
 # Allow HTTP and HTTPS traffic
--A INPUT -p tcp --dport 80 -j ACCEPT
--A INPUT -p tcp --dport 443 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW --dport 80 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW --dport 443 -j ACCEPT
 
 # Allow SSH connections (Note: --dport should match the port in sshd_config)
 -A INPUT -p tcp -m state --state NEW --dport 444 -j ACCEPT
 
 # Allow ping
--A INPUT -p icmp -m icmp --icmp-type 8 -j ACCEPT
+-A INPUT -p icmp -m state --state NEW -m icmp --icmp-type 8 -j ACCEPT
 
 # Allow test ports
--A INPUT -p tcp --dport 8080:8090 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW --dport 8080:8090 -j ACCEPT
 
 # Log denied connections
 -A INPUT -m limit --limit 5/min -j LOG --log-prefix "iptables denied: " --log-level 7
@@ -370,7 +370,7 @@ Paste the following into `/etc/iptables/rules.v6`:
 -A OUTPUT -j ACCEPT
 
 # Allow ping
--A INPUT -p icmpv6 -m icmpv6 --icmpv6-type 8 -j ACCEPT
+-A INPUT -p icmpv6 -m state --state NEW -m icmpv6 --icmpv6-type 8 -j ACCEPT
 
 # Log denied connections
 -A INPUT -m limit --limit 5/min -j LOG --log-prefix "iptables denied: " --log-level 7
