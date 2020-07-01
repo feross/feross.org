@@ -100,13 +100,12 @@ the benefit of all.
 - Matt Bell
 - Matt McCormick
 - Matt McKegg
+- Mihaiav
 - Mike King
-- Mike Sugarbaker
 - Mikey
 - Nadia Eghbal
 - Nat Friedman
 - Nazar Mokrynskyi
-- Ondrej Sika
 - PablO
 - Paras Narang
 - Patrick Collison
@@ -116,7 +115,6 @@ the benefit of all.
 - Say Yup
 - Seth Vincent
 - Shawn Harmsen
-- Soares
 - Spencer Alger
 - Szmozsánszky István "Flaki"
 - Thomas Reto Strub
@@ -142,6 +140,7 @@ You can become a supporter by visiting GitHub or Patreon.
   <a href='https://www.patreon.com/feross' target='_blank' class='sponsor-button grow'>
     <img src='/images/supporters/patreon.png' />
   </a>
+  <iframe class='grow' src="https://github.com/sponsors/feross/card" title="Sponsor feross" height="225" width="600" style="border: 0;"></iframe>
 </div>
 
 <a name='onetime' />
