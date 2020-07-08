@@ -57,7 +57,7 @@
     "test": "standard",
     "watch": "npm run watch-css & npm run watch-html & npm run watch-js",
     "watch-css": "stylus -u nib css/main.styl -o css/ -w",
-    "watch-html": "jekyll serve --watch",
+    "watch-html": "jekyll clean && jekyll serve --watch",
     "watch-js": "watchify client -o client/bundle.js -dv"
   },
   "standard": {
