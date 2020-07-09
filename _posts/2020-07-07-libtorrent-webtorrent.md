@@ -9,15 +9,15 @@ tags:
 
 The vision of the [WebTorrent project](https://webtorrent.io) is to extend the BitTorrent protocol so that it becomes more web-friendly, allowing any browser to become a peer in the torrent network.
 
-That's why I'm super excited to see [`libtorrent`](https://www.libtorrent.org/) add [support for the WebTorrent protocol](https://github.com/arvidn/libtorrent/pull/4123). The `libtorrent` engine powers many of the most popular torrent clients, including [qBittorrent](https://www.qbittorrent.org/), [Deluge](https://deluge-torrent.org/), [rTorrent](https://github.com/rakshasa/rtorrent), and [many more](https://www.libtorrent.org/projects.html).
+That's why I'm super excited that [`libtorrent`](https://www.libtorrent.org/) – the engine that powers many of the most popular torrent clients including [qBittorrent](https://www.qbittorrent.org/), [Deluge](https://deluge-torrent.org/), [rTorrent](https://github.com/rakshasa/rtorrent), and [many more](https://www.libtorrent.org/projects.html) – has [added support for the WebTorrent protocol](https://github.com/arvidn/libtorrent/pull/4123).
 
-The `libtorrent` news opens the door for many more torrent clients to support connecting to browser peers. Browser peers (which must use WebRTC) will now be able to access a huge trove of torrents currently only available to TCP/UDP peers.
+WebTorrent support in `libtorrent` opens the door for many more torrent clients to connect to browser peers. Browser peers (which must use WebRTC) will now be able to access a huge trove of torrents currently only available to TCP/UDP peers.
 
-The WebTorrent protocol allows peers to connect over WebRTC in addition to the widely supported TCP and UDP transports. In fact, UDP support itself was added to the BitTorrent protocol after-the-fact (see the [μTP](https://en.wikipedia.org/wiki/Micro_Transport_Protocol) protocol) so there's precedent for adding additional transports to BitTorrent.
+The WebTorrent protocol allows peers to connect over WebRTC in addition to the widely supported TCP and UDP transports. In fact, UDP support itself was added to the BitTorrent protocol in a protocol extension (see the [μTP](https://en.wikipedia.org/wiki/Micro_Transport_Protocol) protocol) and now UDP is the primary transport used by BitTorrent clients.
 
-We're one step closer to the vision of browser-based torrents. One day soon, I hope you'll be able to navigate your web browser to a site like [Instant.io](https://instant.io/) or [βTorrent](https://btorrent.xyz/) and be able to torrent anything available in the normal torrent network.
+With this big news, we're one step closer to the vision of browser-based torrents. One day soon, you'll be able to navigate your web browser to any site with a JavaScript torrent implmentation embedded – like [Instant.io](https://instant.io/) or [βTorrent](https://btorrent.xyz/) – and be able to torrent anything available in the normal torrent network.
 
-Desktop torrent clients aren't going anywhere, but now the web browser becomes a viable alternative to an app for users who can't install native apps, or users who are less technical and feel safer using a website. The WebTorrent protocol offers more options and more ways to connect.
+While desktop torrent clients aren't going anywhere anytime soon, now the web browser will become a viable alternative to an installed torrent client. This is huge for less-technical users, users who can't install native apps, or users who just feel safer using a website. WebTorrent offers more options and more ways to connect.
 
 [![](/images/webtorrent-network.png)](https://webtorrent.io/faq)
 
