@@ -27,13 +27,13 @@ Torrent clients that can speak to both traditional TCP/UDP peers (orange) as wel
 
 WebTorrent is more than a protocol extension to BitTorrent.
 
-We also built a popular desktop torrent client, [WebTorrent Desktop](https://webtorrent.io/desktop) which supports powerful features like instant video streaming.
+We build a popular desktop torrent client, [WebTorrent Desktop](https://webtorrent.io/desktop), which supports powerful features like instant video streaming.
 
 [![](https://webtorrent.io/img/screenshot-player.png)](https://webtorrent.io/desktop)
 
-We also built the [`webtorrent`](https://github.com/webtorrent/webtorrent) JavaScript package which implements the full BitTorrent/WebTorrent protocol in JavaScript, the language of the web. This implementation uses TCP, UDP, and/or WebRTC for flexible peer-to-peer transport in any environment, whether Node.js (TCP/UDP), Electron (TCP/UDP/WebRTC), or the web browser (WebRTC). In the browser, WebTorrent doesn't require a browser plugin, extension, or any kind of installation to work.
+We also build a [`webtorrent`](https://github.com/webtorrent/webtorrent) JavaScript package which implements the full BitTorrent/WebTorrent protocol in JavaScript, the language of the web. This implementation uses TCP, UDP, and/or WebRTC for peer-to-peer transport in any environment – whether Node.js (TCP/UDP), Electron (TCP/UDP/WebRTC), or the web browser (WebRTC). In the browser, the `webtorrent` package uses WebRTC which doesn't require a browser plugin, extension, or any kind of installation to work.
 
-If you're building a website and want to fetch files from a torrent, you can use [`webtorrent`](https://www.npmjs.com/package/webtorrent) to do so directly from the client-side in a decentralized manner. Our recently released [WebTorrent Workshop](https://webtorrent.github.io/workshop/) is really helpful for getting started and teaches you torrent download and stream a torrent into an HTML page [in 10 lines of code](https://codepen.io/ferossity/pen/NWGVZVL?editors=1010).
+If you're building a website and want to fetch files from a torrent, you can use `webtorrent` to do that directly client-side, in a decentralized manner. Our recently released [WebTorrent Workshop](https://webtorrent.github.io/workshop/) is helpful for getting started and teaches you how to download and stream a torrent into an HTML page *in just 10 lines of code*.
 
 ```js
 const client = new WebTorrent()
@@ -50,10 +50,12 @@ torrent.on('ready', () => {
 })
 ```
 
-With support for the WebTorrent protocol in libtorrent-based torrent clients, you'll soon be able to connect to more peers which means faster, more reliable downloads.
+[See this code in action on CodePen.](https://codepen.io/ferossity/pen/NWGVZVL?editors=1010)
 
 Also, I want to remind everyone that WebTorrent has been [built into](https://support.brave.com/hc/en-us/articles/360035025231-What-extensions-are-built-into-Brave-) the popular, privacy-focused [Brave](https://brave.com) browser since 2016. Just click on `.torrent` files or magnet links and they'll magically work. And that's all powered by WebTorrent.
 
 [![](/images/brave.webp)](https://brave.com)
+
+With support for the WebTorrent protocol in `libtorrent`-based torrent clients, you'll soon be able to connect to more peers which means faster, more reliable downloads.
 
 The future is bright for WebTorrent!
