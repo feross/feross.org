@@ -11,13 +11,13 @@ The vision of the [WebTorrent project](https://webtorrent.io) is to extend the B
 
 That's why I'm super excited to see [`libtorrent`](https://www.libtorrent.org/) add [support for the WebTorrent protocol](https://github.com/arvidn/libtorrent/pull/4123). The `libtorrent` engine powers many of the most popular torrent clients, including [qBittorrent](https://www.qbittorrent.org/), [Deluge](https://deluge-torrent.org/), [rTorrent](https://github.com/rakshasa/rtorrent), and [many more](https://www.libtorrent.org/projects.html).
 
-The `libtorrent` news opens the door for many more torrent clients to support connecting to browser peers. Browser peers (which must use WebRTC) will now be able to access a huge trove of torrents currently only available to TCP/UDP peers. This change to libtorrent teaches existing desktop torrent clients to speak WebRTC so they can talk to browser peers.
+The `libtorrent` news opens the door for many more torrent clients to support connecting to browser peers. Browser peers (which must use WebRTC) will now be able to access a huge trove of torrents currently only available to TCP/UDP peers.
 
-The WebTorrent protocol allows peers to connect over WebRTC in addition to the widely supported TCP and UDP transports. In fact, UDP support was added to the BitTorrent protocol after-the-fact as well (see the [μTP](https://en.wikipedia.org/wiki/Micro_Transport_Protocol) protocol), just like we're adding WebRTC today via the WebTorrent protocol.
+The WebTorrent protocol allows peers to connect over WebRTC in addition to the widely supported TCP and UDP transports. In fact, UDP support itself was added to the BitTorrent protocol after-the-fact (see the [μTP](https://en.wikipedia.org/wiki/Micro_Transport_Protocol) protocol) so there's precedent for adding additional transports to BitTorrent.
 
 We're one step closer to the vision of browser-based torrents. One day soon, I hope you'll be able to navigate your web browser to a site like [Instant.io](https://instant.io/) or [βTorrent](https://btorrent.xyz/) and be able to torrent anything available in the normal torrent network.
 
-Desktop torrent clients aren't going anywhere, but now the web browser becomes a viable alternative to an installed app for users in restrictive environments who can't install native apps, or users who are less technically savvy and feel safer using a website. The WebTorrent protocol offers more options and more ways to connect.
+Desktop torrent clients aren't going anywhere, but now the web browser becomes a viable alternative to an app for users who can't install native apps, or users who are less technical and feel safer using a website. The WebTorrent protocol offers more options and more ways to connect.
 
 [![](/images/webtorrent-network.png)](https://webtorrent.io/faq)
 
