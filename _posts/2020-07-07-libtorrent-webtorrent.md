@@ -9,7 +9,7 @@ tags:
 
 The vision of the [WebTorrent project](https://webtorrent.io) is to extend the BitTorrent protocol so that it becomes more web-friendly, allowing any browser to become a peer in the torrent network.
 
-That's why I'm super excited to see [`libtorrent`](https://www.libtorrent.org/) add [support for the WebTorrent protocol](https://github.com/arvidn/libtorrent/pull/4123). The `libtorrent` engine powers many of the most popular torrent clients, including [qBittorrent](https://www.qbittorrent.org/), [Deluge](https://deluge-torrent.org/), and [many more](https://www.libtorrent.org/projects.html).
+That's why I'm super excited to see [`libtorrent`](https://www.libtorrent.org/) add [support for the WebTorrent protocol](https://github.com/arvidn/libtorrent/pull/4123). The `libtorrent` engine powers many of the most popular torrent clients, including [qBittorrent](https://www.qbittorrent.org/), [Deluge](https://deluge-torrent.org/), [rTorrent](https://github.com/rakshasa/rtorrent), and [many more](https://www.libtorrent.org/projects.html).
 
 The `libtorrent` news opens the door for many more torrent clients to support connecting to browser peers. Browser peers (which must use WebRTC) will now be able to access a huge trove of torrents currently only available to TCP/UDP peers. This change to libtorrent teaches existing desktop torrent clients to speak WebRTC so they can talk to browser peers.
 
