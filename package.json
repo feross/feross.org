@@ -21,7 +21,7 @@
     "nib": "^1.1.2",
     "run-series": "^1.1.8",
     "standard": "*",
-    "stylus": "^0.54.7",
+    "stylus": "^0.54.8",
     "tinyify": "^2.5.2",
     "watchify": "^3.11.1"
   },
