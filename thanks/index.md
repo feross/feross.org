@@ -92,7 +92,6 @@ the benefit of all.
 - Huỳnh Đăng
 - Julian Gruber
 - Józef Sokołowski
-- Leo Globerman
 - LitoMore
 - Manuel Araoz
 - Marius Tîrcă
@@ -100,7 +99,6 @@ the benefit of all.
 - Matt Bell
 - Matt McCormick
 - Matt McKegg
-- Mihaiav
 - Mike King
 - Mikey
 - Nadia Eghbal
@@ -113,6 +111,7 @@ the benefit of all.
 - Robert Feie
 - Samuel Maddock
 - Say Yup
+- Sergey Ponomarev
 - Seth Vincent
 - Shawn Harmsen
 - Spencer Alger
