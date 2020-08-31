@@ -33,7 +33,4 @@ If you want to chat about getting a support contract for your company or team, e
 - **One hour** of dedicated time with an expert
 - **$500** secure one-time payment through Stripe (invoice provided)
 
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/ferossity/consult?hide_event_type_details=1" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-<!-- Calendly inline widget end -->
+[Book a consultation](/consult/).
