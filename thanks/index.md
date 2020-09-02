@@ -114,7 +114,6 @@ the benefit of all.
 - Robert Feie
 - Samuel Maddock
 - Say Yup
-- Sergey Ponomarev
 - Seth Vincent
 - Shawn Harmsen
 - Spencer Alger
