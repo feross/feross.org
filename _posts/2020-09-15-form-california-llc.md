@@ -1,7 +1,7 @@
 ---
 layout: post
 class: post
-title: How to Form a California LLC
+title: How to Form a California LLC (without a lawyer)
 summary: Follow these steps to start an LLC in California
 tags:
 - business
