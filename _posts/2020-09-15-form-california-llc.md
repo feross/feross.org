@@ -71,22 +71,22 @@ Congrats, you have an LLC!
 
 **Generally, it's also a good idea to do the following recommended steps:**
 
-## Step 4 - (recommended)
+## Step 4 - Get a Federal EIN Number (recommended)
 
 Apply for a Federal EIN number online. An EIN number is like a social security number (SSN) for your company. It's most useful for opening a bank account. You should use the EIN instead of your SSN whenever possible.
 
 - [Apply for a Federal EIN number online](https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online)
 - **Cost: FREE, one-time**
 
-## Step 5 (recommended)
+## Step 5 Open a Business Checking Account (recommended)
 
 Open a business checkout account. Use your new EIN number instead of your SSN to open the account. Going forward, you're going to want to use your business checking account (or an attached credit account) to pay for all business expenses.
 
-## Step 6 (recommended)
+## Step 6 Capitalize the Business (recommended)
 
 Capitalize the business. That means putting some initial capital into the business. Transfer $1,000 - $5,000 of your own money into the business bank account to get the business started. This makes the business "real" and gives it some funds to start using to pay for expenses.
 
-## Step 7 (recommended)
+## Step 7 Create a Capital Contribution agreement (recommended)
 
 Draft and sign a "Capital Contribution" to document which personal assets you want to transfer into the business. It's important to document this so it's very clear in case there's ever a question about which assets are yours vs. the business's.
 
@@ -119,13 +119,13 @@ Here's a simple Captial Contribution template you can use:
 > INSERT_INDIVIDUAL_NAME (Member, acting on behalf of INSERT_COMPANY_NAME)
 >
 
-## Step 8 (recommended)
+## Step 8 Keep Personal and Business Expenses Separate (recommended)
 
 Be diligent about keeping personal vs. business expenses separate. Or else, someone could claim your business is not really separate from you personally and attempt to sue you personally for the debts of your business. This is known as "[piercing the corporate veil](https://en.wikipedia.org/wiki/Piercing_the_corporate_veil)".
 
 Limited liability protection is one of the most important reasons for starting an LLC, so you don't want to lose this protection by careless bookeeping.
 
-## Step 9 (recommended)
+## Step 9 File One Tax Return (recommended)
 
 When filing your personal taxes at the end of the year, your LLC's income and expenses can be included with your own personal income/deductions. This is because a "single-member LLC" (an LLC owned by a single individual) is considered a "[disregarded entity](https://www.irs.gov/businesses/small-businesses-self-employed/single-member-limited-liability-companies)" for tax purposes. That means that it doesn't have the obligation to file taxes separately. The tax obligations just pass straight through the LLC to you. This is nice, because it keeps things simple.
 
