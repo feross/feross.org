@@ -33,8 +33,8 @@ Make sure that the company name you'd like to use is available for use.
 
 To establish your LLC in California, you need to file Articles of Organization with the California Secretary of State.
 
-- File **Articles of Organization ([Form LLC-1](https://bpd.cdn.sos.ca.gov/llc/forms/llc-1.pdf))**.
-- **Cost: $70, one-time**
+- File **Articles of Organization** ([Form LLC-1](https://bpd.cdn.sos.ca.gov/llc/forms/llc-1.pdf)).
+- Cost: **$70**, one-time
 
 Wait for LLC-1 to be returned, which confirms your LLC is active, before completing the following steps.
 
@@ -42,9 +42,9 @@ Wait for LLC-1 to be returned, which confirms your LLC is active, before complet
 
 The next step is to file a Statement of Information with the California Secretary of State. This lets California know some basic information about who is operating the LLC.
 
-- File **Statement of Information ([Form LLC-12](https://bpd.cdn.sos.ca.gov/llc/forms/llc-12.pdf))**. This step can be completed online [here](https://llcbizfile.sos.ca.gov).
+- File **Statement of Information** ([Form LLC-12](https://bpd.cdn.sos.ca.gov/llc/forms/llc-12.pdf)). This step can be completed online [here](https://llcbizfile.sos.ca.gov).
 - If your contact info has not changed since the last filing of LLC-12, file **Statement of Information No Change ([Form LLC-12NC](https://bpd.cdn.sos.ca.gov/llc/forms/llc-12nc.pdf))** to save time. This step can be completed online [here](https://llcbizfile.sos.ca.gov).
-- **Cost: $20, repeat every 2 years**
+- Cost: **$20**, repeat every 2 years
 - Complete this step **within 90 days of filing LLC-1**
 
 Certain tasks must be completed on an ongoing basis to keep your company in good standing. Filing a statement of information is one such task.
@@ -55,8 +55,8 @@ Certain tasks must be completed on an ongoing basis to keep your company in good
 
 The next step is to pay taxes. Every LLC in California has to pay an "LLC Fee" of $800 per year, even if the LLC has no profits. Since you now have an active LLC, you must pay the current year's LLC Fee even though it may be part-way through the year. The exact due date is technically **the 15th day of the 4th month after the founding of the LLC**.
 
-- File **Annual Tax ([Form 3522](https://www.ftb.ca.gov/forms/2018/18_3522.pdf))** This step can be completed online [here](https://www.ftb.ca.gov/) (select "Web Pay (Business)" and then "Annual Tax (Form 3522)").
-- **Cost: $800, repeat every year**
+- File **Annual Tax** ([Form 3522](https://www.ftb.ca.gov/forms/2018/18_3522.pdf)). This step can be completed online [here](https://www.ftb.ca.gov/) (select "Web Pay (Business)" and then "Annual Tax (Form 3522)").
+- Cost: **$800**, repeat every year
 - Complete this step **within approx. 4 months of filing LLC-1**
 
 In future years, the due date is April 15. For example: the 2019 LLC Fee is due on April 15, 2019. (Note: This is different than peronal taxes which are due the following year, i.e. for personal taxes, the 2019 taxes are due on April 15, 2020. But for an LLC the 2019 taxes are due on April 15, 2019)
@@ -76,7 +76,7 @@ Congrats, you have an LLC!
 Apply for a Federal EIN number online. An EIN number is like a social security number (SSN) for your company. It's most useful for opening a bank account. You should use the EIN instead of your SSN whenever possible.
 
 - [Apply for a Federal EIN number online](https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online)
-- **Cost: FREE, one-time**
+- Cost: **FREE**, one-time
 
 ## Step 5 - Open a business checking account
 
