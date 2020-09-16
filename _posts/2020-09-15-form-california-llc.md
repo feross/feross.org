@@ -5,6 +5,7 @@ title: How to Form a California LLC (without a lawyer)
 summary: Follow these steps to start an LLC in California
 tags:
 - business
+hn: https://news.ycombinator.com/item?id=24487937
 ---
 
 Here's the process I've used to start several California LLCs. I hope it's helpful if you're considering starting a business.
@@ -123,7 +124,7 @@ Here's a simple Captial Contribution template you can use:
 
 Be diligent about keeping personal vs. business expenses separate. Or else, someone could claim your business is not really separate from you personally and attempt to sue you personally for the debts of your business. This is known as "[piercing the corporate veil](https://en.wikipedia.org/wiki/Piercing_the_corporate_veil)".
 
-Limited liability protection is one of the most important reasons for starting an LLC, so you don't want to lose this protection by careless bookeeping.
+Limited liability protection is one of the most important reasons for starting an LLC, so you don't want to lose this protection by careless bookkeeping.
 
 ## Step 9 - File a single tax return
 

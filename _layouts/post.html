@@ -27,7 +27,12 @@ layout: layout
 <article>
 
   {{ content }}
-  {% if page.no_related != true and site.related_posts %}<p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}">{{ site.related_posts[0].title }}</a>.)</p>{% endif %}
+
+  {% if page.hn %}<br /><br />You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker
+    News</a>.{% endif %}
+
+  {% if page.no_related != true and site.related_posts %}<p>(If you liked this, you might like <a
+      href="{{ site.related_posts[0].url }}">{{ site.related_posts[0].title }}</a>.)</p>{% endif %}
 
 </article>
 
@@ -40,51 +45,56 @@ layout: layout
   </h3>
 
   <section class="copy">
-    <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=feross', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+    <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow"
+      onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=feross', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
       <p>
 
         <a href="https://twitter.com/feross" class="avatar">
           <img src="/images/feross-cat.jpg" width="250" alt="Feross Aboukhadijeh" />
         </a>
 
-        <p>
-          I'm <a href="/about/">Feross</a>, an entrepreneur, programmer, open source author, and mad scientist.
-        </p>
-        <p>
-          I maintain <a href="https://www.npmjs.com/~feross">100+ packages on npm</a>. All my code is freely accessible on <a href="https://github.com/feross">GitHub</a> and funded by <a href="/thanks/">my supporters</a>. I now offer a <a href="/support/">support contract</a> for companies and teams.
-        </p>
-        <p>
-          I build innovative projects like <a href="https://webtorrent.io">WebTorrent</a>, a streaming torrent client for the web, <a href="https://webtorrent.io/desktop">WebTorrent Desktop</a>, a slick torrent app for Mac/Windows/Linux, and <a href="https://standardjs.com">StandardJS</a>, a JavaScript style guide, linter, and automatic code fixer.
-        </p>
-        <p>I also work on fun projects like <a href="https://bitmidi.com" title="Free MIDI files">BitMidi</a>, a free MIDI file database, <a href="https://play.cash">Play</a>, a music video app, and <a href="https://www.apstudynotes.org/" title="AP Notes">Study Notes</a>, a study tool with <a href="https://www.apstudynotes.org/essays/" title="College Essays">college essay examples</a>.
-        </p>
+      <p>
+        I'm <a href="/about/">Feross</a>, an entrepreneur, programmer, open source author, and mad scientist.
+      </p>
+      <p>
+        I maintain <a href="https://www.npmjs.com/~feross">100+ packages on npm</a>. All my code is freely accessible on
+        <a href="https://github.com/feross">GitHub</a> and funded by <a href="/thanks/">my supporters</a>. I now offer a
+        <a href="/support/">support contract</a> for companies and teams.
+      </p>
+      <p>
+        I build innovative projects like <a href="https://webtorrent.io">WebTorrent</a>, a streaming torrent client for
+        the web, <a href="https://webtorrent.io/desktop">WebTorrent Desktop</a>, a slick torrent app for
+        Mac/Windows/Linux, and <a href="https://standardjs.com">StandardJS</a>, a JavaScript style guide, linter, and
+        automatic code fixer.
+      </p>
+      <p>I also work on fun projects like <a href="https://bitmidi.com" title="Free MIDI files">BitMidi</a>, a free MIDI
+        file database, <a href="https://play.cash">Play</a>, a music video app, and <a
+          href="https://www.apstudynotes.org/" title="AP Notes">Study Notes</a>, a study tool with <a
+          href="https://www.apstudynotes.org/essays/" title="College Essays">college essay examples</a>.
+      </p>
 
-        {% if page.hn %}<br /><br />You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.{% endif %}
+      If you enjoyed this post, you should <a href="https://twitter.com/feross">follow me on Twitter</a>.
 
-        <br />
-        <br />
+      <br />
+      <br />
 
-        If you enjoyed this post, you should <a href="https://twitter.com/feross">follow me on Twitter</a>.
+      Or, sign up to get an email whenever I write a post:
 
-        <br />
-        <br />
-
-        Or, sign up to get an email whenever I write a post:
-
-        <input type="email" name="email" placeholder="email@email.com"/>
-        <input type="hidden" value="feross" name="uri"/>
-        <input type="hidden" name="loc" value="en_US"/>
-        <input type="submit" value="Subscribe" />
+      <input type="email" name="email" placeholder="email@email.com" />
+      <input type="hidden" value="feross" name="uri" />
+      <input type="hidden" name="loc" value="en_US" />
+      <input type="submit" value="Subscribe" />
       </p>
     </form>
   </section>
 
 
   {% if page.previous.url %}
-    <a class="prev" href="{{ page.previous.url }}" title="Previous Post: {{ page.previous.title }}">{{ page.previous.title }}</a>
+  <a class="prev" href="{{ page.previous.url }}"
+    title="Previous Post: {{ page.previous.title }}">{{ page.previous.title }}</a>
   {% endif %}
   {% if page.next.url %}
-    <a class="next" href="{{ page.next.url }}" title="Next Post: {{ page.next.title }}">{{ page.next.title }}</a>
+  <a class="next" href="{{ page.next.url }}" title="Next Post: {{ page.next.title }}">{{ page.next.title }}</a>
   {% endif %}
 
 
