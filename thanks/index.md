@@ -71,6 +71,7 @@ the benefit of all.
 ## Top Supporters
 
 - Charlie Cheever
+- harshalpat12
 - JP Richardson <!-- Leave here until December 2022 -->
 - Per Guth
 
