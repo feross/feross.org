@@ -50,9 +50,6 @@ the benefit of all.
   <a href='https://webtorrent.io/expressvpn2' rel='nofollow' target='_blank' class='sponsor grow'>
     <img src='/images/supporters/expressvpn.png' alt='ExpressVPN' />
   </a>
-  <a href='https://www.remote.io/?utm_source=feross.org&utm_medium=sponsorship&utm_campaign=feross&utm_term=standardjs' rel='nofollow' target='_blank' class='sponsor grow'>
-    <img src='/images/supporters/remoteio.png' alt='Remote.io' />
-  </a>
 </div>
 
 <!-- $100+ -->
