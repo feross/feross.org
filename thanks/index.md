@@ -75,6 +75,7 @@ the benefit of all.
 ## Supporters
 
 - Adrian L Flanagan
+- Akinobu Fukuzaki
 - Andrej Hronco
 - Andrew Collins
 - Anthony Estebe
@@ -89,10 +90,11 @@ the benefit of all.
 - Devon Zuegel
 - Donald Fischer
 - Elifenne Eliasin
+- Ēriks Remess
 - Hannan Ali
 - Huỳnh Đăng
-- Julian Gruber
 - Józef Sokołowski
+- Julian Gruber
 - LitoMore
 - Manuel Araoz
 - Marius Tîrcă
@@ -126,7 +128,6 @@ the benefit of all.
 - William Hilton
 - Winnie
 - Zeke Sikelianos
-- Ēriks Remess
 
 ## Become a Supporter
 
