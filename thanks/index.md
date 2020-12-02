@@ -109,6 +109,7 @@ the benefit of all.
 - Robert Feie
 - Samuel Maddock
 - Say Yup
+- Sergey Ponomarev
 - Shawn Harmsen
 - Spencer Alger
 - Szmozsánszky István "Flaki"
