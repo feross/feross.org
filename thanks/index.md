@@ -68,6 +68,7 @@ the benefit of all.
 ## Top Supporters
 
 - Charlie Cheever
+- Fission
 - harshalpat12
 - JP Richardson <!-- Leave here until December 2022 -->
 - Per Guth
@@ -93,6 +94,7 @@ the benefit of all.
 - Ēriks Remess
 - Hannan Ali
 - Huỳnh Đăng
+- ILPT GmbH
 - Julian Gruber
 - Marius Tîrcă
 - Matt Bell
