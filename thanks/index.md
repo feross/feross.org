@@ -82,6 +82,8 @@ the benefit of all.
 - Anthony Estebe
 - Benjamin Blackwood
 - Brandon Dees
+- Carlos Rufo
+- Cezar Augusto
 - Chris Ball
 - Christian Schröter
 - Daniel Cassidy
@@ -95,8 +97,10 @@ the benefit of all.
 - Hannan Ali
 - Huỳnh Đăng
 - ILPT GmbH
+- In7egral
 - Julian Gruber
 - Marius Tîrcă
+- Mark Vasile
 - Matt Bell
 - Matt McCormick
 - Matt McKegg
@@ -108,12 +112,14 @@ the benefit of all.
 - PablO
 - Paras Narang
 - Patrick Collison
+- Rob Cheung
 - Robert Feie
 - Samuel Maddock
 - Say Yup
 - Sergey Ponomarev
 - Shawn Harmsen
 - Spencer Alger
+- Springworks
 - Szmozsánszky István "Flaki"
 - Thomas Reto Strub
 - Tierney Cyren
@@ -122,7 +128,6 @@ the benefit of all.
 - Victor Pontis
 - Vincent Van Ghelue
 - Vincent Weevers
-- William Hilton
 - Winnie
 - Zeke Sikelianos
 
