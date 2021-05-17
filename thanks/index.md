@@ -77,39 +77,49 @@ the benefit of all.
 
 - Adrian L Flanagan
 - Akinobu Fukuzaki
+- Ali Almohaya
 - Andrej Hronco
 - Andrew Collins
-- Anthony Estebe
 - Benjamin Blackwood
 - Brandon Dees
 - Carlos Rufo
 - Cezar Augusto
 - Chris Ball
 - Christian Schröter
+- Christoph Bartschat
 - Daniel Cassidy
 - Daniel Minshew
+- Darcy Clarke
 - David Passarelli
 - Devon Govett
 - Devon Zuegel
 - Donald Fischer
 - Elifenne Eliasin
+- Enrique Benitez
 - Ēriks Remess
+- Faraz A
 - Hannan Ali
 - Huỳnh Đăng
 - ILPT GmbH
 - In7egral
+- Joël Galeran
+- Jonathan Underwood
 - Julian Gruber
+- Julien Bouquillon
+- LitoMore
 - Marius Tîrcă
 - Mark Vasile
 - Matt Bell
 - Matt McCormick
 - Matt McKegg
+- Melanie Sumner
 - Mike King
 - Mikey
 - Nadia Eghbal
 - Nat Friedman
 - Nazar Mokrynskyi
 - PablO
+- Paolo Moretti
 - Paras Narang
 - Patrick Collison
 - Rob Cheung
@@ -121,10 +131,12 @@ the benefit of all.
 - Spencer Alger
 - Springworks
 - Szmozsánszky István "Flaki"
+- The GraphQL Guide
 - Thomas Reto Strub
 - Tierney Cyren
 - Tom Hummel
 - Tyler Hall
+- Victor Ingman
 - Victor Pontis
 - Vincent Van Ghelue
 - Vincent Weevers
