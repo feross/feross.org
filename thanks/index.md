@@ -96,6 +96,7 @@ the benefit of all.
 - Devon Zuegel
 - Donald Fischer
 - Elifenne Eliasin
+- Emerithe Cantanine
 - Enrique Benitez
 - Ēriks Remess
 - Faraz A
@@ -103,6 +104,7 @@ the benefit of all.
 - Huỳnh Đăng
 - ILPT GmbH
 - In7egral
+- Jack
 - Jack Laurence
 - Joël Galeran
 - Johannes Maron
