@@ -70,6 +70,7 @@ the benefit of all.
 - Charlie Cheever
 - Fission
 - harshalpat12
+- Indeed Engineering
 - JP Richardson <!-- Leave here until December 2022 -->
 - Per Guth
 
@@ -102,7 +103,9 @@ the benefit of all.
 - Huỳnh Đăng
 - ILPT GmbH
 - In7egral
+- Jack Laurence
 - Joël Galeran
+- Johannes Maron
 - Jonathan Underwood
 - Julian Gruber
 - Julien Bouquillon
