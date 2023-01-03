@@ -71,6 +71,8 @@ the benefit of all.
 - Fission
 - harshalpat12
 - Indeed Engineering
+- Justin Watson
+- Scout APM
 - JP Richardson <!-- Leave here until December 2022 -->
 - Per Guth
 
@@ -84,7 +86,7 @@ the benefit of all.
 - Benjamin Blackwood
 - Brandon Dees
 - Carlos Rufo
-- Cezar Augusto
+- Charles Severance
 - Chris Ball
 - Christian Schröter
 - Christoph Bartschat
@@ -96,21 +98,21 @@ the benefit of all.
 - Devon Zuegel
 - Donald Fischer
 - Elifenne Eliasin
-- Emerithe Cantanine
 - Enrique Benitez
 - Ēriks Remess
 - Faraz A
+- Gaëtan Bloch
 - Hannan Ali
 - Huỳnh Đăng
 - ILPT GmbH
 - In7egral
 - Jack
 - Jack Laurence
+- Jake Jarvis
 - Joël Galeran
 - Johannes Maron
 - Jonathan Underwood
 - Julian Gruber
-- Julien Bouquillon
 - LitoMore
 - Marius Tîrcă
 - Mark Vasile
