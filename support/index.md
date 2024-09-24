@@ -23,7 +23,7 @@ I offer **support contracts** and **one hour consultations** to help solve your 
 - Thank you tweet from [@feross](https://twitter.com/feross) Twitter account
 - **$3,000 per month**
 
-**At this time, I have availability for one additional client**.
+**At this time, I have no availability for clients.**.
 
 If you want to chat about getting a support contract for your company or team, email me at <a href="mailto:">[my first name]@feross.org</a>.
 
@@ -31,6 +31,6 @@ If you want to chat about getting a support contract for your company or team, e
 
 - **Get support and advice** on JavaScript, Node.js, or open source issues
 - **One hour** of dedicated time with an expert
-- **$500** secure one-time payment through Stripe (invoice provided)
+- **$1,000** secure one-time payment through Stripe (invoice provided)
 
 [Book a consultation](/consult/).
