@@ -4,6 +4,8 @@ title: Support Contracts
 class: support
 ---
 
+# NOTE: This is on hold while I built [Socket](http://socket.dev).
+
 # Get a Support Contract
 
 Does your company or team need dedicated support, advice, and direct assistance with JavaScript, Node.js, security, or open source issues?

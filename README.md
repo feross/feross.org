@@ -5,7 +5,7 @@
 
 Copyright (c) Feross Aboukhadijeh
 
-Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [https://feross.org](https://feross.org). Feel free to browse the source and [ask me questions](https://twitter.com/feross).
+Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [https://feross.org](https://feross.org). Feel free to browse the source and [ask me questions](https://x.com/feross).
 
 ## Blog design
 
