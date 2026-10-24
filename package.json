@@ -11,7 +11,7 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
-    "mysql": "^2.18.1",
+    "mysql2": "^3.24.6",
     "throttleit": "^1.0.0"
   },
   "devDependencies": {

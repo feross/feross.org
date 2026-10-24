@@ -1,6 +1,6 @@
 var bodyParser = require('body-parser')
 var express = require('express')
-var mysql = require('mysql')
+var mysql = require('mysql2')
 var secret = require('./secret')
 
 var port = process.argv[2]
@@ -17,7 +17,8 @@ app.use(bodyParser.json())
 
 function createConnection () {
   // Set up a connection for each request
-  var connection = mysql.createConnection(secret.db)
+  // decimalNumbers: return SUM() results as numbers, like the old mysql driver
+  var connection = mysql.createConnection(Object.assign({ decimalNumbers: true }, secret.db))
 
   // If there's an error, just print it out. Views aren't that important.
   connection.connect(function (err) {
